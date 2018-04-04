@@ -1,0 +1,50 @@
+Wed Mar  2 10:57:16 CST 2016
+/usr/local/lib/nicad/txl/c-extract-blocks.x ALL.c >> /cmpt816/tmp_blocks.xml
+[/cmpt816/tmp/kernel/pid.c.ifdefed, c-extract-blocks.txl] : TXL0127E input file '/cmpt816/tmp/kernel/pid.c.ifdefed' - Parse time limit (161000000 cycles) exceeded
+[/cmpt816/tmp/kernel/pid.c.ifdefed, c-extract-blocks.txl] : TXL0192E line 144 of /cmpt816/tmp/kernel/pid.c.ifdefed - Syntax error at or near:
+	) return pid ; } >>> return <<< NULL ; } int fastcall 
+[/cmpt816/tmp/arch/i386/pci/irq.c.ifdefed, c-extract-blocks.txl] : TXL0127E input file '/cmpt816/tmp/arch/i386/pci/irq.c.ifdefed' - Parse time limit (161000000 cycles) exceeded
+[/cmpt816/tmp/arch/i386/pci/irq.c.ifdefed, c-extract-blocks.txl] : TXL0192E line 811 of /cmpt816/tmp/arch/i386/pci/irq.c.ifdefed - Syntax error at or near:
+	irq = newirq ; } >>> } <<< if ( ! irq ) 
+
+Wed Mar  2 10:57:46 CST 2016
+
+Wed Mar  2 10:57:46 CST 2016
+/usr/local/lib/nicad/tools/clonepairs.x /cmpt816/tmp_blocks.xml 0.30 10 2500 > /cmpt816/tmp_blocks-clones/tmp_blocks-clones-0.30.xml
+Processing /cmpt816/tmp_blocks.xml with difference threshold 30%, clone size 10 .. 2500 lines
+Reading pcs ......................................... done.
+Total 40596/7500000 potential clones of 10 lines or more
+Used 395570/125000000 total pc lines
+Used 9116473/750000000 unique line text chars
+ and 176359/15000000 unique lines
+Sorting pcs ......................................... done.
+Finding clones ........................................ done.
+Total 38315569 pc comparisons
+Pruning embedded clone pairs .. done.
+Pruned 223 embedded clone pairs
+Found 826 clone pairs
+Generating XML output ......... done.
+
+
+real	0m17.733s
+user	0m17.704s
+sys	0m0.016s
+
+Wed Mar  2 10:58:04 CST 2016
+
+Wed Mar  2 10:58:04 CST 2016
+/usr/local/lib/nicad/tools/cloneclasses.x /cmpt816/tmp_blocks-clones/tmp_blocks-clones-0.30.xml > /cmpt816/tmp_blocks-clones/tmp_blocks-clones-0.30-classes.xml
+Processing /cmpt816/tmp_blocks-clones/tmp_blocks-clones-0.30.xml
+Reading clone pairs . done.
+Total 826 pairs
+Computing classes  done.
+Clustered clone pairs into 462 classes
+Generating XML output ..... done.
+
+
+real	0m0.021s
+user	0m0.012s
+sys	0m0.008s
+
+Wed Mar  2 10:58:04 CST 2016
+

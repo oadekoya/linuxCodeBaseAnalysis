@@ -1,0 +1,2 @@
+filename,commentLines,functionCount,functionLines,includeLines,totalLines,whitespaceLines
+/cmpt816/linux/scripts/mod/empty.c,1,0,0,0,2,1

@@ -1,0 +1,126 @@
+<clones>
+<systeminfo processor="nicad3" system="tmp" granularity="blocks" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="2956" npairs="24"/>
+<runinfo ncompares="195588" cputime="105959"/>
+
+<clone nlines="51" similarity="80">
+<source file="/cmpt816/tmp/arch/x86/kernel/mpparse.c.ifdefed" startline="847" endline="972" pcid="1702"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/mpparse.c.ifdefed" startline="327" endline="394" pcid="1674"></source>
+</clone>
+
+<clone nlines="41" similarity="85">
+<source file="/cmpt816/tmp/arch/x86/kernel/traps_64.c.ifdefed" startline="973" endline="1034" pcid="741"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/traps_64.c.ifdefed" startline="1042" endline="1093" pcid="744"></source>
+</clone>
+
+<clone nlines="35" similarity="74">
+<source file="/cmpt816/tmp/arch/x86/kernel/io_apic_64.c.ifdefed" startline="623" endline="662" pcid="1333"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/io_apic_64.c.ifdefed" startline="581" endline="620" pcid="1327"></source>
+</clone>
+
+<clone nlines="26" similarity="92">
+<source file="/cmpt816/tmp/arch/x86/mm/gup.c.ifdefed" startline="110" endline="138" pcid="2558"></source>
+<source file="/cmpt816/tmp/arch/x86/mm/gup.c.ifdefed" startline="167" endline="195" pcid="2564"></source>
+</clone>
+
+<clone nlines="25" similarity="76">
+<source file="/cmpt816/tmp/arch/x86/kernel/msr.c.ifdefed" startline="101" endline="128" pcid="1517"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/msr.c.ifdefed" startline="70" endline="97" pcid="1513"></source>
+</clone>
+
+<clone nlines="25" similarity="80">
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="955" endline="981" pcid="2292"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="987" endline="1014" pcid="2294"></source>
+</clone>
+
+<clone nlines="21" similarity="71">
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="429" endline="454" pcid="2255"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="481" endline="505" pcid="2260"></source>
+</clone>
+
+<clone nlines="20" similarity="70">
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/perfctr-watchdog.c.ifdefed" startline="361" endline="390" pcid="1964"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/perfctr-watchdog.c.ifdefed" startline="280" endline="306" pcid="1958"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/cmpt816/tmp/arch/x86/kernel/msr.c.ifdefed" startline="47" endline="66" pcid="1511"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/cpuid.c.ifdefed" startline="64" endline="83" pcid="449"></source>
+</clone>
+
+<clone nlines="18" similarity="72">
+<source file="/cmpt816/tmp/arch/x86/kernel/pci-calgary_64.c.ifdefed" startline="1223" endline="1242" pcid="1027"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/pci-calgary_64.c.ifdefed" startline="1189" endline="1208" pcid="1024"></source>
+</clone>
+
+<clone nlines="17" similarity="82">
+<source file="/cmpt816/tmp/arch/x86/kernel/cpuid.c.ifdefed" startline="117" endline="135" pcid="454"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/msr.c.ifdefed" startline="131" endline="149" pcid="1521"></source>
+</clone>
+
+<clone nlines="16" similarity="75">
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/perfctr-watchdog.c.ifdefed" startline="89" endline="107" pcid="1942"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/perfctr-watchdog.c.ifdefed" startline="65" endline="82" pcid="1939"></source>
+</clone>
+
+<clone nlines="16" similarity="81">
+<source file="/cmpt816/tmp/arch/x86/kernel/tlb_64.c.ifdefed" startline="246" endline="265" pcid="1633"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/tlb_64.c.ifdefed" startline="226" endline="243" pcid="1631"></source>
+</clone>
+
+<clone nlines="15" similarity="86">
+<source file="/cmpt816/tmp/arch/x86/kernel/cpuid.c.ifdefed" startline="164" endline="179" pcid="458"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/msr.c.ifdefed" startline="178" endline="193" pcid="1525"></source>
+</clone>
+
+<clone nlines="15" similarity="73">
+<source file="/cmpt816/tmp/arch/x86/kernel/ptrace.c.ifdefed" startline="312" endline="361" pcid="1774"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/ptrace.c.ifdefed" startline="364" endline="410" pcid="1776"></source>
+</clone>
+
+<clone nlines="15" similarity="73">
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c.ifdefed" startline="429" endline="443" pcid="1908"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c.ifdefed" startline="222" endline="235" pcid="1894"></source>
+</clone>
+
+<clone nlines="15" similarity="80">
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="83" endline="108" pcid="2231"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/e820.c.ifdefed" startline="60" endline="73" pcid="2229"></source>
+</clone>
+
+<clone nlines="14" similarity="78">
+<source file="/cmpt816/tmp/arch/x86/kernel/aperture_64.c.ifdefed" startline="341" endline="357" pcid="1604"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/aperture_64.c.ifdefed" startline="484" endline="501" pcid="1622"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="/cmpt816/tmp/arch/x86/kernel/acpi/boot.c.ifdefed" startline="1406" endline="1417" pcid="839"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/acpi/boot.c.ifdefed" startline="1391" endline="1400" pcid="836"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="/cmpt816/tmp/arch/x86/kernel/i8259.c.ifdefed" startline="68" endline="79" pcid="2518"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/i8259.c.ifdefed" startline="82" endline="93" pcid="2519"></source>
+</clone>
+
+<clone nlines="10" similarity="80">
+<source file="/cmpt816/tmp/arch/x86/kernel/acpi/boot.c.ifdefed" startline="1846" endline="1854" pcid="860"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/acpi/boot.c.ifdefed" startline="1857" endline="1865" pcid="862"></source>
+</clone>
+
+<clone nlines="10" similarity="90">
+<source file="/cmpt816/tmp/arch/x86/mm/init_64.c.ifdefed" startline="694" endline="705" pcid="2754"></source>
+<source file="/cmpt816/tmp/arch/x86/mm/numa_64.c.ifdefed" startline="570" endline="582" pcid="2682"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="/cmpt816/tmp/init/calibrate.c.ifdefed" startline="143" endline="154" pcid="151"></source>
+<source file="/cmpt816/tmp/init/calibrate.c.ifdefed" startline="162" endline="171" pcid="152"></source>
+</clone>
+
+<clone nlines="10" similarity="90">
+<source file="/cmpt816/tmp/arch/x86/kernel/efi.c.ifdefed" startline="543" endline="555" pcid="444"></source>
+<source file="/cmpt816/tmp/arch/x86/kernel/efi.c.ifdefed" startline="558" endline="570" pcid="446"></source>
+</clone>
+
+</clones>

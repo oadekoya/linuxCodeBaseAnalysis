@@ -1,0 +1,38 @@
+CCF-V1-L
+@	3
+/cmpt816/tmp/arch/x86/kernel/early_printk.c	329	353
+/cmpt816/tmp/arch/x86/kernel/early_printk.c	358	381
+@	3
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/main.c	1227	1246
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/main.c	1574	1592
+@	3
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/main.c	1319	1338
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/main.c	1387	1404
+@	3
+/cmpt816/tmp/arch/x86/kernel/traps.c	674	722
+/cmpt816/tmp/arch/x86/kernel/traps.c	750	785
+@	2
+/cmpt816/tmp/arch/x86/kernel/io_apic.c	3036	3059
+/cmpt816/tmp/arch/x86/kernel/io_apic.c	3317	3340
+/cmpt816/tmp/arch/x86/kernel/io_apic.c	3378	3401
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	366	386
+/cmpt816/tmp/arch/x86/kernel/i387.c	396	417
+@	2
+/cmpt816/tmp/arch/x86/kernel/io_apic.c	3030	3059
+/cmpt816/tmp/arch/x86/kernel/io_apic.c	3311	3340
+@	2
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	11	25
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	53	67
+@	2
+/cmpt816/tmp/arch/x86/mm/gup.c	108	138
+/cmpt816/tmp/arch/x86/mm/gup.c	165	195
+@	3
+/cmpt816/tmp/arch/x86/kernel/aperture_64.c	285	303
+/cmpt816/tmp/arch/x86/kernel/aperture_64.c	381	400
+@	3
+/cmpt816/tmp/arch/x86/kernel/e820.c	427	458
+/cmpt816/tmp/arch/x86/kernel/e820.c	479	509
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	110	134
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	278	298

@@ -1,0 +1,755 @@
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+scripts/mod/modpost.c:1534:12: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/mod/modpost.c:1954:10: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/kallsyms.c:74:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+init/main.c:188:6: warning: symbol 'envp_init' was not declared. Should it be static?
+init/main.c:702:5: warning: symbol 'initcall_debug' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts.c:219:29: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:219:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:219:44: warning: incorrect type in argument 3 (different address spaces)
+init/do_mounts.c:219:55: warning: incorrect type in argument 5 (different address spaces)
+init/do_mounts.c:223:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:313:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:319:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:324:31: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:417:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:417:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:418:20: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts_rd.c:79:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:125:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:170:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:174:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:243:42: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:250:33: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:251:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:269:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:288:36: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:298:44: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts_initrd.c:35:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:50:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:51:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:52:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:54:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:56:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:76:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:81:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:93:35: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:99:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:122:36: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:127:20: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:38:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:38:32: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_md.c:173:31: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:236:39: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:286:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/initramfs.c:112:28: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:274:42: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:274:47: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:283:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:283:34: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:285:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:287:36: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:308:40: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:320:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:321:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:322:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:327:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:328:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:329:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:330:34: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:339:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:341:26: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:347:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:358:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:358:52: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:359:20: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:360:18: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:528:23: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:540:36: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:546:44: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:546:59: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:550:51: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:552:52: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:560:44: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:590:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:592:40: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:573:3: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/process_64.c:64:1: warning: symbol 'per_cpu__old_rsp' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:67:15: warning: symbol 'kernel_thread_flags' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/process_64.c:85:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/process_64.c:361:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/process_64.c:471:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/process_64.c:472:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/process_64.c:474:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/traps.c:440:2: note: in expansion of macro ‘inc_irq_stat’
+arch/x86/kernel/irq.c:235:6: warning: symbol 'smp_generic_interrupt' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/irq.c:245:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/time_64.c:54:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/dumpstack.c:117:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/dumpstack.c:139:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/setup.c:422:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:431:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:445:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:450:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:471:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:475:31: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/syscall_64.c:22:22: warning: symbol 'sys_call_table' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:27:10: warning: Initializer entry defined twice
+arch/x86/kernel/vsyscall_64.c:165:19: warning: symbol 'vgettimeofday' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:176:22: warning: symbol 'vtime' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:199:1: warning: symbol 'vgetcpu' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/e820.c:667:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/e820.c:672:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/e820.c:1231:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/e820.c:1232:2: warning: format not a string literal and no format arguments [-Wformat-security]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/kdebugfs.c:51:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:60:25: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kdebugfs.c:134:30: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:150:33: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/tsc.c:595:30: warning: variable ‘ns_now’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/process.c:229:5: warning: symbol 'sys_fork' was not declared. Should it be static?
+arch/x86/kernel/process.c:244:5: warning: symbol 'sys_vfork' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/process.c:501:11: warning: variable ‘hi’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/acpi/boot.c:114:29: warning: incorrect type in return expression (different address spaces)
+arch/x86/kernel/acpi/boot.c:121:23: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/acpi/sleep.c:107:23: warning: constant 0x123456789abcdef0 is so big it is long
+arch/x86/kernel/apic/apic.c:1893:6: warning: symbol 'default_init_apic_ldr' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/apic/apic.c:761:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/apic/apic.c:1679:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:430:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:430:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:730:17: warning: incorrect type in assignment (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:430:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:2436:17: warning: symbol 'smp_irq_move_cleanup_interrupt' was not declared. Should it be static?
+arch/x86/kernel/apic/io_apic.c:404:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:417:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:3604:17: warning: symbol 'dmar_msi_type' was not declared. Should it be static?
+arch/x86/kernel/apic/io_apic.c:410:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:1301:6: warning: context imbalance in 'lock_vector_lock' - wrong count at exit
+arch/x86/kernel/apic/io_apic.c:1309:6: warning: context imbalance in 'unlock_vector_lock' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/cpu/common.c:1012:9: warning: cast truncates bits from constant value (23001000000000 becomes 0)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+arch/x86/kernel/cpu/common.c:1091:3: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/cpu/intel.c:308:15: warning: variable ‘l2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c:164:6: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mcheck/mce_64.c:166:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/cpu/mcheck/mce_intel_64.c:20:17: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/cpu/mcheck/mce_intel_64.c:33:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/cpu/mcheck/mce_amd_64.c:318:6: warning: variable ‘low’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mcheck/threshold.c:20:17: warning: symbol 'mce_threshold_interrupt' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/cpu/mcheck/threshold.c:24:2: note: in expansion of macro ‘inc_irq_stat’
+arch/x86/kernel/cpu/mtrr/main.c:104:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/cpu/mtrr/generic.c:308:15: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:426:6: warning: variable ‘cpu’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:709:24: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/cleanup.c:994:53: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/perfctr-watchdog.c:480:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/smp.c:174:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/smp.c:182:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/kernel/smp.c:191:2: note: in expansion of macro ‘inc_irq_stat’
+arch/x86/kernel/smpboot.c:542:1: warning: symbol 'wakeup_secondary_cpu_via_init' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/mpparse.c:550:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:552:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:564:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:575:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:578:23: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/crash_dump_64.c:37:15: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/crash_dump_64.c:42:34: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:43:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:49:17: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/efi.c:308:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:313:26: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:330:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:337:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:346:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:386:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:395:17: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:415:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:418:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:490:28: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:546:29: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/early_printk.c:855:13: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/microcode_intel.c:468:35: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/microcode_intel.c:476:45: warning: cast removes address space of expression
+arch/x86/kernel/microcode_amd.c:90:6: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/microcode_amd.c:150:11: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/check.c:60:13: warning: symbol 'setup_bios_corruption_check' was not declared. Should it be static?
+arch/x86/kernel/check.c:112:6: warning: symbol 'check_for_bios_corruption' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/pci-calgary_64.c:294:9: warning: context imbalance in 'iommu_range_alloc' - unexpected unlock
+arch/x86/kernel/amd_iommu_init.c:206:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:210:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:223:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:232:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:234:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:241:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:243:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:273:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:285:30: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:425:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:429:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:430:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:454:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:901:37: warning: Using plain integer as NULL pointer
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/amd_iommu.c:199:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:200:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:207:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:237:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:239:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:241:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:244:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:282:49: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:288:41: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:1046:23: warning: symbol 'device_nb' was not declared. Should it be static?
+arch/x86/kernel/amd_iommu.c:1520:24: warning: Using plain integer as NULL pointer
+arch/x86/kernel/amd_iommu.c:1498:13: warning: context imbalance in 'alloc_coherent' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/kernel/test_nx.c:111:6: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+arch/x86/mm/init.c:405:6: warning: symbol 'free_initrd_mem' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/mm/init_64.c:336:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/mm/init_64.c:347:23: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:29:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:42:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:43:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context.h:58:3: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:137:30: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/hardirq.h:36:30: note: in expansion of macro ‘percpu_add’
+arch/x86/mm/tlb.c:164:2: note: in expansion of macro ‘inc_irq_stat’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+include/linux/pagemap.h:425:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:159:2: note: in expansion of macro ‘percpu_write’
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/tlbflush.h:160:2: note: in expansion of macro ‘percpu_write’
+arch/x86/vdso/vma.c:19:28: warning: symbol 'vdso_enabled' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: incorrect type in assignment (different modifiers)
+arch/x86/vdso/vma.c:101:5: warning: symbol 'arch_setup_additional_pages' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:89:13: warning: symbol '__vdso_clock_gettime' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:103:13: warning: symbol '__vdso_gettimeofday' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/percpu.h:78:7: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/percpu.h:136:32: note: in expansion of macro ‘percpu_to_op’
+/cmpt816/linux/arch/x86/include/asm/irq_regs.h:26:2: note: in expansion of macro ‘percpu_write’
+arch/x86/vdso/vgetcpu.c:17:1: warning: symbol '__vdso_getcpu' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: symbol 'vdso_jiffies' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:15:1: warning: symbol 'vdso_vgetcpu_mode' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:16:1: warning: symbol 'vdso_vsyscall_gtod_data' was not declared. Should it be static?
+gcc: error: elf_x86_64: No such file or directory
+gcc: error: unrecognized command line option ‘-m’

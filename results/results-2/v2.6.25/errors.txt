@@ -1,0 +1,368 @@
+scripts/mod/modpost.c:1527:12: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/mod/modpost.c:1935:10: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/kallsyms.c:80:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+init/main.c:116:6: warning: symbol 'late_time_init' was not declared. Should it be static?
+init/main.c:191:6: warning: symbol 'envp_init' was not declared. Should it be static?
+init/main.c:769:21: warning: context imbalance in 'init_post' - unexpected unlock
+init/main.c:856:9: warning: context imbalance in 'kernel_init' - wrong count at exit
+include/linux/pagemap.h:262:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/main.c:535:2: warning: format not a string literal and no format arguments [-Wformat-security]
+init/version.c:19:5: warning: symbol 'Version_132633' was not declared. Should it be static?
+init/do_mounts.c:22:16: warning: symbol 'rd_doload' was not declared. Should it be static?
+init/do_mounts.c:191:29: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:191:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:191:44: warning: incorrect type in argument 3 (different address spaces)
+init/do_mounts.c:191:55: warning: incorrect type in argument 5 (different address spaces)
+init/do_mounts.c:195:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:281:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:287:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:292:31: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:378:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:378:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:379:20: warning: incorrect type in argument 1 (different address spaces)
+include/linux/pagemap.h:262:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts_rd.c:73:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:108:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:152:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:156:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:215:20: warning: Using plain integer as NULL pointer
+init/do_mounts_rd.c:231:42: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:238:33: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:239:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:257:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:352:37: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:373:36: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:35:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:50:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:51:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:52:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:54:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:56:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:76:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:81:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:93:35: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:99:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:122:36: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:127:20: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:243:42: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:243:47: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:252:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:252:34: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:254:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:256:36: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:279:40: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:288:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:289:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:290:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:294:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:295:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:296:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:305:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:311:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:322:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:322:52: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:323:20: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:561:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:563:40: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:546:3: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/process_64.c:56:15: warning: symbol 'kernel_thread_flags' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:600:20: warning: symbol '__switch_to' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:709:6: warning: symbol 'sys_execve' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:738:17: warning: symbol 'sys_fork' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:744:1: warning: symbol 'sys_clone' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:762:17: warning: symbol 'sys_vfork' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:888:6: warning: symbol 'sys_arch_prctl' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:76:2: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:675:2: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:676:2: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:678:2: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/signal_64.c:39:1: warning: symbol 'sys_sigaltstack' was not declared. Should it be static?
+arch/x86/kernel/signal_64.c:118:17: warning: symbol 'sys_rt_sigreturn' was not declared. Should it be static?
+arch/x86/kernel/signal_64.c:485:1: warning: symbol 'do_notify_resume' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:693:1: warning: symbol 'do_divide_error' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:694:1: warning: symbol 'do_overflow' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:695:1: warning: symbol 'do_bounds' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:696:1: warning: symbol 'do_invalid_op' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:697:1: warning: symbol 'do_device_not_available' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:698:1: warning: symbol 'do_coprocessor_segment_overrun' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:699:1: warning: symbol 'do_invalid_TSS' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:700:1: warning: symbol 'do_segment_not_present' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:701:1: warning: symbol 'do_alignment_check' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:702:1: warning: symbol 'do_reserved' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:705:17: warning: symbol 'do_stack_segment' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:715:17: warning: symbol 'do_double_fault' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:732:27: warning: symbol 'do_general_protection' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:859:27: warning: symbol 'do_int3' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:874:37: warning: symbol 'sync_regs' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:893:27: warning: symbol 'do_debug' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:972:17: warning: symbol 'do_coprocessor_error' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:1036:17: warning: symbol 'bad_intr' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:1041:17: warning: symbol 'do_simd_coprocessor_error' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:1095:17: warning: symbol 'do_spurious_interrupt_bug' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:1099:39: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+arch/x86/kernel/traps_64.c:1103:39: warning: symbol 'mce_threshold_interrupt' was not declared. Should it be static?
+arch/x86/kernel/irq_64.c:160:25: warning: symbol 'do_IRQ' was not declared. Should it be static?
+arch/x86/kernel/time_64.c:117:13: warning: symbol 'time_init' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/time_64.c:49:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/ioport.c:150:17: warning: symbol 'sys_iopl' was not declared. Should it be static?
+arch/x86/kernel/ldt.c:241:16: warning: symbol 'sys_modify_ldt' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/setup_64.c:90:15: warning: symbol 'saved_video_mode' was not declared. Should it be static?
+arch/x86/kernel/setup_64.c:115:17: warning: symbol 'command_line' was not declared. Should it be static?
+arch/x86/kernel/setup_64.c:117:17: warning: symbol 'standard_io_resources' was not declared. Should it be static?
+arch/x86/kernel/setup_64.c:259:35: warning: symbol 'memory_setup' was not declared. Should it be static?
+arch/x86/kernel/setup_64.c:1181:29: warning: symbol 'cpuinfo_op' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/setup_64.c:629:10: warning: variable ‘hi’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/setup_64.c:833:20: warning: variable ‘l2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/i8259_64.c:432:13: warning: symbol 'init_ISA_irqs' was not declared. Should it be static?
+arch/x86/kernel/sys_x86_64.c:24:17: warning: symbol 'sys_pipe' was not declared. Should it be static?
+arch/x86/kernel/sys_x86_64.c:37:17: warning: symbol 'sys_mmap' was not declared. Should it be static?
+arch/x86/kernel/sys_x86_64.c:244:17: warning: symbol 'sys_uname' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:22:22: warning: symbol 'sys_call_table' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:24:10: warning: Initializer entry defined twice
+arch/x86/kernel/vsyscall_64.c:152:19: warning: symbol 'vgettimeofday' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:163:22: warning: symbol 'vtime' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:186:1: warning: symbol 'vgetcpu' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:219:20: warning: symbol 'venosys_1' was not declared. Should it be static?
+arch/x86/kernel/setup64.c:41:6: warning: symbol 'boot_cpu_stack' was not declared. Should it be static?
+arch/x86/kernel/setup64.c:198:6: warning: symbol 'boot_exception_stacks' was not declared. Should it be static?
+arch/x86/kernel/setup64.c:234:15: warning: symbol 'kernel_eflags' was not declared. Should it be static?
+arch/x86/kernel/setup64.c:211:9: warning: cast truncates bits from constant value (23001000000000 becomes 0)
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/e820_64.c:786:15: warning: symbol 'pci_mem_start' was not declared. Should it be static?
+arch/x86/kernel/e820_64.c:850:12: warning: symbol 'arch_get_ram_range' was not declared. Should it be static?
+arch/x86/kernel/e820_64.c:653:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/e820_64.c:654:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/pci-nommu_64.c:83:30: warning: symbol 'nommu_dma_ops' was not declared. Should it be static?
+arch/x86/kernel/tsc_64.c:245:34: warning: constant 0x100000000 is so big it is long
+arch/x86/kernel/tsc_64.c:48:30: warning: variable ‘ns_now’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tsc_64.c:47:23: warning: variable ‘prev_scale’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/i387.c:464:5: warning: symbol 'dump_fpu' was not declared. Should it be static?
+arch/x86/kernel/ptrace.c:1236:17: warning: symbol 'sys32_ptrace' was not declared. Should it be static?
+arch/x86/kernel/ptrace.c:1561:17: warning: symbol 'syscall_trace_enter' was not declared. Should it be static?
+arch/x86/kernel/ptrace.c:1585:17: warning: symbol 'syscall_trace_leave' was not declared. Should it be static?
+arch/x86/kernel/ptrace.c:1239:18: warning: variable ‘childregs’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tls.c:92:16: warning: symbol 'sys_set_thread_area' was not declared. Should it be static?
+arch/x86/kernel/tls.c:142:16: warning: symbol 'sys_get_thread_area' was not declared. Should it be static?
+arch/x86/kernel/cpu/cpufreq/powernow-k8.c:102:10: warning: variable ‘hi’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/cpufreq/powernow-k8.c:311:14: warning: variable ‘lo’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/cpufreq/powernow-k8.c:823:14: warning: variable ‘lo’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c:154:6: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mcheck/mce_64.c:148:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/cpu/mcheck/mce_intel_64.c:16:17: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/cpu/mcheck/mce_intel_64.c:29:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/cpu/mcheck/mce_amd_64.c:179:17: warning: symbol 'mce_threshold_interrupt' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/cpu/mcheck/mce_amd_64.c:240:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/cpu/mcheck/mce_amd_64.c:318:12: warning: variable ‘low’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/main.c:103:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/main.c:664:53: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:87:15: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:486:24: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/perfctr-watchdog.c:425:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/reboot.c:33:5: warning: symbol 'reboot_force' was not declared. Should it be static?
+arch/x86/kernel/smp_64.c:129:17: warning: symbol 'smp_invalidate_interrupt' was not declared. Should it be static?
+arch/x86/kernel/smp_64.c:205:15: warning: symbol 'init_smp_flush' was not declared. Should it be static?
+arch/x86/kernel/smp_64.c:498:17: warning: symbol 'smp_reschedule_interrupt' was not declared. Should it be static?
+arch/x86/kernel/smp_64.c:504:17: warning: symbol 'smp_call_function_interrupt' was not declared. Should it be static?
+arch/x86/kernel/smp_64.c:314:6: warning: context imbalance in 'lock_ipi_call_lock' - wrong count at exit
+arch/x86/kernel/smp_64.c:319:6: warning: context imbalance in 'unlock_ipi_call_lock' - unexpected unlock
+arch/x86/kernel/smp_64.c:475:6: warning: context imbalance in 'smp_send_stop' - different lock contexts for basic block
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp_64.c:166:2: note: in expansion of macro ‘add_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp_64.c:501:2: note: in expansion of macro ‘add_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp_64.c:523:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/smpboot_64.c:79:11: warning: symbol 'cpu_callin_map' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:89:5: warning: symbol 'smp_threads_ready' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:107:1: warning: symbol 'per_cpu__cpu_state' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:163:16: warning: symbol 'smp_callin' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:329:16: warning: symbol 'start_secondary' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:715:10: warning: symbol 'cacheflush_time' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:716:15: warning: symbol 'cache_decay_ticks' was not declared. Should it be static?
+arch/x86/kernel/smpboot_64.c:754:5: warning: symbol 'additional_cpus' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:424:16: warning: symbol 'check_boot_apic_timer_broadcast' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:487:6: warning: symbol 'smp_apic_timer_interrupt' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:508:5: warning: symbol 'setup_profiling_timer' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:826:16: warning: symbol 'lapic_setup_esr' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:944:17: warning: symbol 'smp_spurious_interrupt' was not declared. Should it be static?
+arch/x86/kernel/apic_64.c:965:17: warning: symbol 'smp_error_interrupt' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/apic_64.c:474:2: note: in expansion of macro ‘add_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/apic_64.c:958:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/nmi_64.c:385:27: warning: symbol 'do_nmi' was not declared. Should it be static?
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:116:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/nmi_64.c:388:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/io_apic_64.c:62:16: warning: symbol 'irq_cfg' was not declared. Should it be static?
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:154:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:154:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:190:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:154:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:1374:17: warning: symbol 'smp_irq_move_cleanup_interrupt' was not declared. Should it be static?
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:143:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic_64.c:136:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/hpet.c:141:33: warning: dereference of noderef expression
+arch/x86/kernel/pci-gart_64.c:53:5: warning: symbol 'iommu_fullflush' was not declared. Should it be static?
+arch/x86/kernel/pci-swiotlb_64.c:14:30: warning: symbol 'swiotlb_dma_ops' was not declared. Should it be static?
+arch/x86/kernel/head64.c:81:13: warning: symbol 'x86_64_start_kernel' was not declared. Should it be static?
+arch/x86/mm/init_64.c:103:5: warning: symbol 'after_bootmem' was not declared. Should it be static?
+arch/x86/mm/init_64.c:467:6: warning: symbol 'online_page' was not declared. Should it be static?
+arch/x86/mm/init_64.c:586:6: warning: symbol 'free_initmem' was not declared. Should it be static?
+arch/x86/mm/init_64.c:642:6: warning: symbol 'free_initrd_mem' was not declared. Should it be static?
+include/linux/pagemap.h:262:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:24:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:36:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:37:3: note: in expansion of macro ‘write_pda’
+include/asm/pda.h:63:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+include/asm/pda.h:115:31: note: in expansion of macro ‘pda_to_op’
+include/asm/mmu_context_64.h:47:3: note: in expansion of macro ‘write_pda’
+arch/x86/mm/fault.c:576:16: warning: symbol 'do_page_fault' was not declared. Should it be static?
+arch/x86/mm/ioremap.c:230:18: error: incompatible types in comparison expression (different address spaces)
+arch/x86/mm/ioremap.c:244:29: error: incompatible types in comparison expression (different address spaces)
+include/linux/pagemap.h:262:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+arch/x86/mm/numa_64.c:30:16: warning: symbol 'plat_node_bdata' was not declared. Should it be static?
+arch/x86/mm/numa_64.c:50:26: warning: symbol 'nodemap_addr' was not declared. Should it be static?
+arch/x86/mm/numa_64.c:51:26: warning: symbol 'nodemap_size' was not declared. Should it be static?
+arch/x86/mm/numa_64.c:274:6: warning: symbol 'cmdline' was not declared. Should it be static?
+arch/x86/mm/k8topology_64.c:47:12: warning: symbol 'k8_scan_nodes' was not declared. Should it be static?
+arch/x86/mm/srat_64.c:157:5: warning: symbol 'update_end_of_memory' was not declared. Should it be static?
+arch/x86/mm/srat_64.c:510:5: warning: symbol 'memory_add_physaddr_to_nid' was not declared. Should it be static?
+arch/x86/vdso/vma.c:19:5: warning: symbol 'vdso_enabled' was not declared. Should it be static?
+arch/x86/vdso/vma.c:24:13: warning: symbol 'vdso_pages' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: incorrect type in assignment (different modifiers)
+arch/x86/vdso/vma.c:99:5: warning: symbol 'arch_setup_additional_pages' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:85:5: warning: symbol '__vdso_clock_gettime' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:99:5: warning: symbol '__vdso_gettimeofday' was not declared. Should it be static?
+arch/x86/vdso/vgetcpu.c:16:6: warning: symbol '__vdso_getcpu' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: symbol 'vdso_jiffies' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:15:1: warning: symbol 'vdso_vgetcpu_mode' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:16:1: warning: symbol 'vdso_vsyscall_gtod_data' was not declared. Should it be static?
+gcc: error: elf_x86_64: No such file or directory
+gcc: error: unrecognized command line option ‘-m’

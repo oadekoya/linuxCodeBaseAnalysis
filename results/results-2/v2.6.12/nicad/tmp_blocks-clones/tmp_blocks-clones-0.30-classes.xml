@@ -1,0 +1,2461 @@
+<clones>
+<systeminfo processor="nicad3" system="tmp" granularity="blocks" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="40596" npairs="826"/>
+<runinfo ncompares="38315569" cputime="17720134"/>
+<classinfo nclasses="462"/>
+
+<class classid="1" nclones="2" nlines="202" similarity="80">
+<source file="/cmpt816/tmp/net/ipv6/ip6_output.c.ifdefed" startline="820" endline="1094" pcid="38356"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_output.c.ifdefed" startline="727" endline="984" pcid="34570"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="153" similarity="72">
+<source file="/cmpt816/tmp/fs/msdos/namei.c.ifdefed" startline="454" endline="626" pcid="23557"></source>
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="888" endline="1024" pcid="26231"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="95" similarity="84">
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1192" endline="1314" pcid="25966"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="417" endline="533" pcid="32079"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="94" similarity="85">
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1703" endline="1829" pcid="38739"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1724" endline="1847" pcid="35036"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="92" similarity="72">
+<source file="/cmpt816/tmp/sound/oss/i810_audio.c.ifdefed" startline="1552" endline="1685" pcid="34067"></source>
+<source file="/cmpt816/tmp/sound/oss/i810_audio.c.ifdefed" startline="1690" endline="1820" pcid="34079"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="82" similarity="92">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="211" endline="299" pcid="34910"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="128" endline="212" pcid="38613"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="78" similarity="92">
+<source file="/cmpt816/tmp/fs/exec.c.ifdefed" startline="1131" endline="1231" pcid="25240"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1499" endline="1596" pcid="25993"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="75" similarity="73">
+<source file="/cmpt816/tmp/drivers/ide/pci/piix.c.ifdefed" startline="266" endline="332" pcid="15390"></source>
+<source file="/cmpt816/tmp/drivers/scsi/ata_piix.c.ifdefed" startline="483" endline="546" pcid="17170"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="73" similarity="93">
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="534" endline="625" pcid="38656"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="654" endline="744" pcid="34954"></source>
+</class>
+
+<class classid="10" nclones="4" nlines="70" similarity="73">
+<source file="/cmpt816/tmp/net/core/datagram.c.ifdefed" startline="289" endline="376" pcid="36868"></source>
+<source file="/cmpt816/tmp/net/core/datagram.c.ifdefed" startline="213" endline="284" pcid="36861"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="999" endline="1070" pcid="37068"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="912" endline="984" pcid="37061"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="68" similarity="88">
+<source file="/cmpt816/tmp/fs/select.c.ifdefed" startline="297" endline="389" pcid="26275"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1693" endline="1783" pcid="26005"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="65" similarity="76">
+<source file="/cmpt816/tmp/arch/x86_64/ia32/ia32_signal.c.ifdefed" startline="525" endline="620" pcid="4751"></source>
+<source file="/cmpt816/tmp/arch/x86_64/ia32/ia32_signal.c.ifdefed" startline="433" endline="521" pcid="4743"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="65" similarity="95">
+<source file="/cmpt816/tmp/fs/exec.c.ifdefed" startline="202" endline="277" pcid="25182"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1394" endline="1470" pcid="25981"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="64" similarity="70">
+<source file="/cmpt816/tmp/drivers/pci/proc.c.ifdefed" startline="50" endline="128" pcid="7131"></source>
+<source file="/cmpt816/tmp/drivers/pci/proc.c.ifdefed" startline="132" endline="198" pcid="7137"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="61" similarity="80">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/io_apic.c.ifdefed" startline="437" endline="503" pcid="3583"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/io_apic.c.ifdefed" startline="506" endline="572" pcid="3596"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="61" similarity="80">
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="124" endline="202" pcid="34620"></source>
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="67" endline="136" pcid="38434"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="61" similarity="75">
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="452" endline="516" pcid="31572"></source>
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="236" endline="299" pcid="31553"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="61" similarity="88">
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1154" endline="1230" pcid="37082"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1078" endline="1148" pcid="37075"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="56" similarity="80">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="554" endline="640" pcid="34946"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="449" endline="521" pcid="38648"></source>
+</class>
+
+<class classid="20" nclones="3" nlines="55" similarity="74">
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="725" endline="806" pcid="28056"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="651" endline="721" pcid="28050"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="585" endline="647" pcid="28045"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="54" similarity="79">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="219" endline="279" pcid="27139"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="224" endline="282" pcid="24128"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="51" similarity="74">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="156" endline="212" pcid="27134"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="159" endline="214" pcid="24123"></source>
+</class>
+
+<class classid="23" nclones="3" nlines="51" similarity="82">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="20" endline="78" pcid="27126"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="21" endline="79" pcid="24115"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="71" endline="129" pcid="30106"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="51" similarity="72">
+<source file="/cmpt816/tmp/mm/msync.c.ifdefed" startline="176" endline="236" pcid="32290"></source>
+<source file="/cmpt816/tmp/mm/madvise.c.ifdefed" startline="177" endline="242" pcid="32607"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="50" similarity="70">
+<source file="/cmpt816/tmp/net/core/scm.c.ifdefed" startline="203" endline="267" pcid="37187"></source>
+<source file="/cmpt816/tmp/net/compat.c.ifdefed" startline="257" endline="309" pcid="37738"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="47" similarity="74">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="955" endline="1027" pcid="6621"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="873" endline="944" pcid="6615"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="47" similarity="93">
+<source file="/cmpt816/tmp/drivers/pci/pci-acpi.c.ifdefed" startline="30" endline="86" pcid="6929"></source>
+<source file="/cmpt816/tmp/drivers/pci/pci-acpi.c.ifdefed" startline="95" endline="147" pcid="6934"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="45" similarity="73">
+<source file="/cmpt816/tmp/net/ipv6/route.c.ifdefed" startline="519" endline="576" pcid="39395"></source>
+<source file="/cmpt816/tmp/net/ipv6/route.c.ifdefed" startline="461" endline="516" pcid="39392"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="44" similarity="70">
+<source file="/cmpt816/tmp/fs/msdos/namei.c.ifdefed" startline="370" endline="424" pcid="23552"></source>
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="840" endline="884" pcid="26228"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="43" similarity="81">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/traps.c.ifdefed" startline="752" endline="810" pcid="3405"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/traps.c.ifdefed" startline="818" endline="869" pcid="3408"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="41" similarity="80">
+<source file="/cmpt816/tmp/drivers/acpi/battery.c.ifdefed" startline="190" endline="245" pcid="10393"></source>
+<source file="/cmpt816/tmp/drivers/acpi/battery.c.ifdefed" startline="129" endline="184" pcid="10388"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="41" similarity="87">
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="561" endline="605" pcid="349"></source>
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="473" endline="514" pcid="341"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="40" similarity="90">
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="1228" endline="1273" pcid="34718"></source>
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="884" endline="927" pcid="38516"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="38" similarity="92">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="311" endline="352" pcid="27149"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="314" endline="357" pcid="24138"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="38" similarity="78">
+<source file="/cmpt816/tmp/fs/ext2/inode.c.ifdefed" startline="195" endline="230" pcid="26876"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="298" endline="333" pcid="23690"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="37" similarity="75">
+<source file="/cmpt816/tmp/drivers/block/deadline-iosched.c.ifdefed" startline="330" endline="382" pcid="7873"></source>
+<source file="/cmpt816/tmp/drivers/block/cfq-iosched.c.ifdefed" startline="653" endline="688" pcid="7277"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="37" similarity="97">
+<source file="/cmpt816/tmp/net/ipv4/raw.c.ifdefed" startline="330" endline="372" pcid="34751"></source>
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="589" endline="631" pcid="38571"></source>
+</class>
+
+<class classid="38" nclones="4" nlines="37" similarity="78">
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1109" endline="1147" pcid="25962"></source>
+<source file="/cmpt816/tmp/fs/readdir.c.ifdefed" startline="226" endline="260" pcid="26059"></source>
+<source file="/cmpt816/tmp/fs/readdir.c.ifdefed" startline="142" endline="174" pcid="26055"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1023" endline="1055" pcid="25958"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="36" similarity="77">
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="423" endline="461" pcid="8827"></source>
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="468" endline="501" pcid="8833"></source>
+</class>
+
+<class classid="40" nclones="3" nlines="35" similarity="74">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="85" endline="125" pcid="27129"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="136" endline="176" pcid="30109"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="86" endline="126" pcid="24118"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="35" similarity="85">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="543" endline="589" pcid="21817"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="592" endline="634" pcid="21823"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="34" similarity="91">
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="717" endline="758" pcid="30576"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs2xdr.c.ifdefed" startline="549" endline="585" pcid="30882"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="34" similarity="73">
+<source file="/cmpt816/tmp/drivers/net/8139too.c.ifdefed" startline="2526" endline="2571" pcid="20537"></source>
+<source file="/cmpt816/tmp/drivers/net/8139cp.c.ifdefed" startline="907" endline="948" pcid="20353"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="34" similarity="82">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="4851" endline="4890" pcid="21335"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="4803" endline="4842" pcid="21329"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="34" similarity="94">
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="523" endline="558" pcid="33022"></source>
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="561" endline="595" pcid="33026"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="33" similarity="84">
+<source file="/cmpt816/tmp/net/ipv4/af_inet.c.ifdefed" startline="894" endline="947" pcid="34822"></source>
+<source file="/cmpt816/tmp/net/ipv6/af_inet6.c.ifdefed" startline="555" endline="605" pcid="38977"></source>
+</class>
+
+<class classid="47" nclones="4" nlines="33" similarity="81">
+<source file="/cmpt816/tmp/fs/readdir.c.ifdefed" startline="263" endline="300" pcid="26061"></source>
+<source file="/cmpt816/tmp/fs/readdir.c.ifdefed" startline="177" endline="213" pcid="26057"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1059" endline="1095" pcid="25960"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1151" endline="1186" pcid="25964"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="32" similarity="71">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5711" endline="5754" pcid="21405"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5815" endline="5850" pcid="21414"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="32" similarity="78">
+<source file="/cmpt816/tmp/net/core/ethtool.c.ifdefed" startline="256" endline="298" pcid="37578"></source>
+<source file="/cmpt816/tmp/net/core/ethtool.c.ifdefed" startline="301" endline="339" pcid="37579"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="31" similarity="83">
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="687" endline="721" pcid="37786"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="644" endline="677" pcid="37784"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="31" similarity="74">
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="51" endline="91" pcid="25662"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="94" endline="118" pcid="25665"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="31" similarity="90">
+<source file="/cmpt816/tmp/fs/jbd/transaction.c.ifdefed" startline="1954" endline="1984" pcid="25654"></source>
+<source file="/cmpt816/tmp/fs/jbd/transaction.c.ifdefed" startline="1493" endline="1522" pcid="25623"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="31" similarity="77">
+<source file="/cmpt816/tmp/drivers/char/mem.c.ifdefed" startline="170" endline="230" pcid="13075"></source>
+<source file="/cmpt816/tmp/drivers/char/mem.c.ifdefed" startline="368" endline="425" pcid="13086"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="31" similarity="87">
+<source file="/cmpt816/tmp/fs/ext2/inode.c.ifdefed" startline="266" endline="299" pcid="26883"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="366" endline="398" pcid="23697"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="31" similarity="77">
+<source file="/cmpt816/tmp/fs/ext2/inode.c.ifdefed" startline="758" endline="800" pcid="26908"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="1748" endline="1793" pcid="23786"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="31" similarity="74">
+<source file="/cmpt816/tmp/drivers/acpi/ec.c.ifdefed" startline="145" endline="189" pcid="12357"></source>
+<source file="/cmpt816/tmp/drivers/acpi/ec.c.ifdefed" startline="291" endline="333" pcid="12364"></source>
+</class>
+
+<class classid="57" nclones="3" nlines="31" similarity="74">
+<source file="/cmpt816/tmp/fs/ramfs/inode.c.ifdefed" startline="54" endline="87" pcid="32138"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/inode.c.ifdefed" startline="246" endline="273" pcid="19216"></source>
+<source file="/cmpt816/tmp/fs/debugfs/inode.c.ifdefed" startline="37" endline="64" pcid="27296"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="30" similarity="76">
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="888" endline="934" pcid="2819"></source>
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="156" endline="202" pcid="1745"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="30" similarity="86">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3720" endline="3754" pcid="15200"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3770" endline="3803" pcid="15206"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="30" similarity="80">
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="848" endline="884" pcid="39175"></source>
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="895" endline="925" pcid="39180"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="30" similarity="76">
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="588" endline="632" pcid="24433"></source>
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="639" endline="676" pcid="24436"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="30" similarity="73">
+<source file="/cmpt816/tmp/fs/hugetlbfs/inode.c.ifdefed" startline="105" endline="146" pcid="27643"></source>
+<source file="/cmpt816/tmp/mm/mmap.c.ifdefed" startline="1163" endline="1203" pcid="33821"></source>
+</class>
+
+<class classid="63" nclones="3" nlines="30" similarity="70">
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3073" endline="3103" pcid="2476"></source>
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3038" endline="3067" pcid="2472"></source>
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3009" endline="3034" pcid="2468"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="30" similarity="80">
+<source file="/cmpt816/tmp/net/ipv6/af_inet6.c.ifdefed" startline="285" endline="325" pcid="38961"></source>
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="204" endline="241" pcid="38535"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="30" similarity="70">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5541" endline="5588" pcid="21395"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5590" endline="5629" pcid="21397"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="29" similarity="82">
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="2713" endline="2746" pcid="39321"></source>
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="2676" endline="2709" pcid="39320"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="29" similarity="86">
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="335" endline="374" pcid="31809"></source>
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="377" endline="409" pcid="31811"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="29" similarity="96">
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="186" endline="221" pcid="37011"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="133" endline="168" pcid="37010"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="29" similarity="89">
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_athlon.c.ifdefed" startline="55" endline="90" pcid="5097"></source>
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_ppro.c.ifdefed" startline="52" endline="85" pcid="5206"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="28" similarity="71">
+<source file="/cmpt816/tmp/net/ipv4/ip_sockglue.c.ifdefed" startline="265" endline="298" pcid="35358"></source>
+<source file="/cmpt816/tmp/net/ipv6/datagram.c.ifdefed" startline="235" endline="268" pcid="38211"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="28" similarity="85">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1052" endline="1097" pcid="34985"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="910" endline="946" pcid="38688"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="28" similarity="96">
+<source file="/cmpt816/tmp/drivers/net/8139cp.c.ifdefed" startline="1586" endline="1622" pcid="20405"></source>
+<source file="/cmpt816/tmp/drivers/net/8139too.c.ifdefed" startline="1158" endline="1194" pcid="20448"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="27" similarity="81">
+<source file="/cmpt816/tmp/lib/rwsem-spinlock.c.ifdefed" startline="137" endline="177" pcid="49"></source>
+<source file="/cmpt816/tmp/lib/rwsem-spinlock.c.ifdefed" startline="208" endline="248" pcid="54"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="27" similarity="70">
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nseval.c.ifdefed" startline="181" endline="237" pcid="10106"></source>
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsutils.c.ifdefed" startline="900" endline="948" pcid="10336"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="27" similarity="85">
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="129" endline="164" pcid="5079"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="90" endline="125" pcid="5077"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="27" similarity="74">
+<source file="/cmpt816/tmp/lib/prio_tree.c.ifdefed" startline="318" endline="345" pcid="249"></source>
+<source file="/cmpt816/tmp/lib/prio_tree.c.ifdefed" startline="365" endline="384" pcid="256"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="27" similarity="74">
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="7351" endline="7385" pcid="17816"></source>
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="7498" endline="7525" pcid="17830"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="27" similarity="74">
+<source file="/cmpt816/tmp/net/sunrpc/rpc_pipe.c.ifdefed" startline="717" endline="744" pcid="40587"></source>
+<source file="/cmpt816/tmp/net/sunrpc/rpc_pipe.c.ifdefed" startline="656" endline="678" pcid="40584"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="27" similarity="74">
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="406" endline="435" pcid="24784"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="409" endline="438" pcid="24822"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="26" similarity="96">
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="1277" endline="1310" pcid="34723"></source>
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="931" endline="964" pcid="38521"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="26" similarity="92">
+<source file="/cmpt816/tmp/kernel/signal.c.ifdefed" startline="2319" endline="2352" pcid="1499"></source>
+<source file="/cmpt816/tmp/kernel/signal.c.ifdefed" startline="2279" endline="2312" pcid="1496"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="26" similarity="80">
+<source file="/cmpt816/tmp/kernel/softirq.c.ifdefed" startline="283" endline="313" pcid="1205"></source>
+<source file="/cmpt816/tmp/kernel/softirq.c.ifdefed" startline="250" endline="280" pcid="1201"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="26" similarity="80">
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwregs.c.ifdefed" startline="715" endline="772" pcid="8587"></source>
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwregs.c.ifdefed" startline="794" endline="850" pcid="8591"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="26" similarity="88">
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="33" endline="69" pcid="25045"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="62" endline="96" pcid="25079"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="25" similarity="92">
+<source file="/cmpt816/tmp/sound/oss/i810_audio.c.ifdefed" startline="766" endline="805" pcid="34002"></source>
+<source file="/cmpt816/tmp/sound/oss/i810_audio.c.ifdefed" startline="809" endline="846" pcid="34006"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="25" similarity="84">
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="16" endline="42" pcid="30101"></source>
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="462" endline="488" pcid="27162"></source>
+</class>
+
+<class classid="87" nclones="3" nlines="25" similarity="84">
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="261" endline="285" pcid="30121"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="234" endline="259" pcid="24129"></source>
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="231" endline="256" pcid="27140"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="25" similarity="76">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="753" endline="788" pcid="14053"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="455" endline="484" pcid="14025"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="25" similarity="80">
+<source file="/cmpt816/tmp/fs/debugfs/inode.c.ifdefed" startline="140" endline="171" pcid="27307"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/inode.c.ifdefed" startline="478" endline="510" pcid="19241"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="25" similarity="92">
+<source file="/cmpt816/tmp/lib/vsprintf.c.ifdefed" startline="35" endline="60" pcid="418"></source>
+<source file="/cmpt816/tmp/lib/vsprintf.c.ifdefed" startline="86" endline="111" pcid="425"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="25" similarity="72">
+<source file="/cmpt816/tmp/drivers/block/ll_rw_blk.c.ifdefed" startline="1296" endline="1324" pcid="8067"></source>
+<source file="/cmpt816/tmp/drivers/block/ll_rw_blk.c.ifdefed" startline="1328" endline="1356" pcid="8071"></source>
+</class>
+
+<class classid="92" nclones="2" nlines="25" similarity="76">
+<source file="/cmpt816/tmp/drivers/input/mouse/psmouse-base.c.ifdefed" startline="344" endline="372" pcid="5925"></source>
+<source file="/cmpt816/tmp/drivers/input/mouse/psmouse-base.c.ifdefed" startline="314" endline="338" pcid="5923"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="25" similarity="72">
+<source file="/cmpt816/tmp/fs/locks.c.ifdefed" startline="2175" endline="2201" pcid="25877"></source>
+<source file="/cmpt816/tmp/kernel/exit.c.ifdefed" startline="364" endline="384" pcid="1538"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="25" similarity="88">
+<source file="/cmpt816/tmp/fs/locks.c.ifdefed" startline="2092" endline="2114" pcid="25867"></source>
+<source file="/cmpt816/tmp/fs/locks.c.ifdefed" startline="2132" endline="2152" pcid="25871"></source>
+</class>
+
+<class classid="95" nclones="3" nlines="25" similarity="72">
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="527" endline="552" pcid="30760"></source>
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="401" endline="423" pcid="31004"></source>
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="218" endline="240" pcid="30993"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="25" similarity="100">
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="418" endline="454" pcid="25068"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="446" endline="480" pcid="25102"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="24" similarity="75">
+<source file="/cmpt816/tmp/drivers/acpi/tables/tbgetall.c.ifdefed" startline="70" endline="117" pcid="8377"></source>
+<source file="/cmpt816/tmp/drivers/acpi/tables/tbgetall.c.ifdefed" startline="138" endline="182" pcid="8382"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="24" similarity="70">
+<source file="/cmpt816/tmp/fs/sysfs/bin.c.ifdefed" startline="35" endline="65" pcid="23430"></source>
+<source file="/cmpt816/tmp/fs/sysfs/bin.c.ifdefed" startline="81" endline="103" pcid="23433"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="24" similarity="79">
+<source file="/cmpt816/tmp/net/sunrpc/cache.c.ifdefed" startline="1044" endline="1068" pcid="40003"></source>
+<source file="/cmpt816/tmp/fs/nfsd/export.c.ifdefed" startline="972" endline="994" pcid="22986"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="24" similarity="79">
+<source file="/cmpt816/tmp/fs/fcntl.c.ifdefed" startline="483" endline="509" pcid="26337"></source>
+<source file="/cmpt816/tmp/fs/fcntl.c.ifdefed" startline="450" endline="473" pcid="26332"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="24" similarity="91">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="3028" endline="3072" pcid="22046"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="2982" endline="3025" pcid="22042"></source>
+</class>
+
+<class classid="102" nclones="2" nlines="24" similarity="70">
+<source file="/cmpt816/tmp/fs/nfs/dir.c.ifdefed" startline="1019" endline="1047" pcid="30951"></source>
+<source file="/cmpt816/tmp/fs/nfs/dir.c.ifdefed" startline="1087" endline="1111" pcid="30953"></source>
+</class>
+
+<class classid="103" nclones="3" nlines="24" similarity="70">
+<source file="/cmpt816/tmp/drivers/input/serio/i8042.c.ifdefed" startline="1025" endline="1050" pcid="5787"></source>
+<source file="/cmpt816/tmp/drivers/input/serio/i8042.c.ifdefed" startline="1001" endline="1022" pcid="5785"></source>
+<source file="/cmpt816/tmp/drivers/input/serio/i8042.c.ifdefed" startline="977" endline="998" pcid="5783"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="24" similarity="70">
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="2521" endline="2566" pcid="31995"></source>
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="2692" endline="2728" pcid="32003"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="24" similarity="70">
+<source file="/cmpt816/tmp/net/ipv6/ndisc.c.ifdefed" startline="348" endline="369" pcid="38823"></source>
+<source file="/cmpt816/tmp/net/ipv4/arp.c.ifdefed" startline="259" endline="320" pcid="35268"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="23" similarity="91">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="670" endline="707" pcid="14046"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="560" endline="598" pcid="14035"></source>
+</class>
+
+<class classid="107" nclones="3" nlines="23" similarity="78">
+<source file="/cmpt816/tmp/mm/msync.c.ifdefed" startline="205" endline="231" pcid="32291"></source>
+<source file="/cmpt816/tmp/mm/mincore.c.ifdefed" startline="149" endline="175" pcid="33036"></source>
+<source file="/cmpt816/tmp/mm/madvise.c.ifdefed" startline="207" endline="237" pcid="32608"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="23" similarity="78">
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3507" endline="3539" pcid="2505"></source>
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3892" endline="3919" pcid="2533"></source>
+</class>
+
+<class classid="109" nclones="2" nlines="23" similarity="86">
+<source file="/cmpt816/tmp/mm/swap.c.ifdefed" startline="317" endline="341" pcid="33567"></source>
+<source file="/cmpt816/tmp/mm/swap.c.ifdefed" startline="290" endline="312" pcid="33564"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="23" similarity="86">
+<source file="/cmpt816/tmp/fs/ext3/namei.c.ifdefed" startline="1665" endline="1696" pcid="23623"></source>
+<source file="/cmpt816/tmp/fs/ext3/namei.c.ifdefed" startline="1634" endline="1661" pcid="23621"></source>
+</class>
+
+<class classid="111" nclones="4" nlines="22" similarity="72">
+<source file="/cmpt816/tmp/fs/msdos/namei.c.ifdefed" startline="337" endline="366" pcid="23551"></source>
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="787" endline="813" pcid="26226"></source>
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="816" endline="837" pcid="26227"></source>
+<source file="/cmpt816/tmp/fs/msdos/namei.c.ifdefed" startline="428" endline="448" pcid="23556"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="22" similarity="86">
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1164" endline="1195" pcid="33688"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1076" endline="1095" pcid="33680"></source>
+</class>
+
+<class classid="113" nclones="3" nlines="22" similarity="90">
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="276" endline="310" pcid="9666"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="334" endline="366" pcid="9671"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="486" endline="518" pcid="9683"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="22" similarity="86">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="632" endline="660" pcid="14042"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="525" endline="552" pcid="14031"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="22" similarity="77">
+<source file="/cmpt816/tmp/net/ipv6/reassembly.c.ifdefed" startline="521" endline="551" pcid="39026"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_fragment.c.ifdefed" startline="492" endline="522" pcid="36218"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="22" similarity="81">
+<source file="/cmpt816/tmp/lib/rbtree.c.ifdefed" startline="75" endline="100" pcid="273"></source>
+<source file="/cmpt816/tmp/lib/rbtree.c.ifdefed" startline="100" endline="125" pcid="277"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="22" similarity="86">
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="236" endline="263" pcid="23147"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfs3xdr.c.ifdefed" startline="314" endline="339" pcid="22737"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="22" similarity="72">
+<source file="/cmpt816/tmp/fs/mpage.c.ifdefed" startline="43" endline="66" pcid="26728"></source>
+<source file="/cmpt816/tmp/fs/mpage.c.ifdefed" startline="69" endline="91" pcid="26732"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="22" similarity="72">
+<source file="/cmpt816/tmp/fs/reiserfs/file.c.ifdefed" startline="1078" endline="1106" pcid="29968"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/file.c.ifdefed" startline="1046" endline="1074" pcid="29963"></source>
+</class>
+
+<class classid="120" nclones="4" nlines="22" similarity="72">
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="728" endline="757" pcid="34682"></source>
+<source file="/cmpt816/tmp/net/packet/af_packet.c.ifdefed" startline="1453" endline="1494" pcid="36662"></source>
+<source file="/cmpt816/tmp/net/ipv4/raw.c.ifdefed" startline="684" endline="709" pcid="34779"></source>
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="962" endline="985" pcid="38602"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="22" similarity="77">
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="161" endline="187" pcid="30989"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="227" endline="247" pcid="30745"></source>
+</class>
+
+<class classid="122" nclones="3" nlines="22" similarity="77">
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="31" endline="53" pcid="32038"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="89" endline="110" pcid="32047"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="58" endline="79" pcid="32042"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="22" similarity="72">
+<source file="/cmpt816/tmp/fs/nfs/write.c.ifdefed" startline="845" endline="881" pcid="30656"></source>
+<source file="/cmpt816/tmp/fs/nfs/read.c.ifdefed" startline="202" endline="233" pcid="30696"></source>
+</class>
+
+<class classid="124" nclones="6" nlines="22" similarity="71">
+<source file="/cmpt816/tmp/net/core/datagram.c.ifdefed" startline="343" endline="370" pcid="36872"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1201" endline="1226" pcid="37086"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1120" endline="1143" pcid="37079"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1042" endline="1064" pcid="37072"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="956" endline="978" pcid="37065"></source>
+<source file="/cmpt816/tmp/net/core/datagram.c.ifdefed" startline="256" endline="278" pcid="36865"></source>
+</class>
+
+<class classid="125" nclones="2" nlines="21" similarity="80">
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="164" endline="203" pcid="9658"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="386" endline="423" pcid="9676"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="21" similarity="85">
+<source file="/cmpt816/tmp/fs/super.c.ifdefed" startline="424" endline="444" pcid="27737"></source>
+<source file="/cmpt816/tmp/fs/super.c.ifdefed" startline="449" endline="468" pcid="27740"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="21" similarity="76">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="2215" endline="2252" pcid="14748"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="2265" endline="2303" pcid="14751"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="21" similarity="71">
+<source file="/cmpt816/tmp/fs/sysfs/file.c.ifdefed" startline="438" endline="461" pcid="23470"></source>
+<source file="/cmpt816/tmp/fs/sysfs/file.c.ifdefed" startline="397" endline="427" pcid="23467"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="21" similarity="90">
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="479" endline="505" pcid="25075"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="503" endline="529" pcid="25109"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="21" similarity="95">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="2041" endline="2080" pcid="35060"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="2002" endline="2041" pcid="38760"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="21" similarity="85">
+<source file="/cmpt816/tmp/kernel/ptrace.c.ifdefed" startline="269" endline="291" pcid="2360"></source>
+<source file="/cmpt816/tmp/kernel/ptrace.c.ifdefed" startline="244" endline="266" pcid="2357"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="21" similarity="80">
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="2207" endline="2230" pcid="32587"></source>
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="2235" endline="2254" pcid="32589"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="21" similarity="71">
+<source file="/cmpt816/tmp/fs/nfs/read.c.ifdefed" startline="538" endline="559" pcid="30724"></source>
+<source file="/cmpt816/tmp/fs/nfs/read.c.ifdefed" startline="160" endline="180" pcid="30693"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="21" similarity="90">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3048" endline="3078" pcid="15148"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3188" endline="3213" pcid="15167"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="21" similarity="85">
+<source file="/cmpt816/tmp/net/ipv4/ip_output.c.ifdefed" startline="325" endline="342" pcid="34551"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1924" endline="1936" pcid="35049"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="20" similarity="80">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="355" endline="374" pcid="34923"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="215" endline="235" pcid="38621"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="20" similarity="75">
+<source file="/cmpt816/tmp/kernel/signal.c.ifdefed" startline="2210" endline="2236" pcid="1490"></source>
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="786" endline="807" pcid="1786"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="20" similarity="80">
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="18" endline="43" pcid="5073"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="47" endline="72" pcid="5075"></source>
+</class>
+
+<class classid="139" nclones="2" nlines="20" similarity="85">
+<source file="/cmpt816/tmp/fs/exportfs/expfs.c.ifdefed" startline="403" endline="443" pcid="32130"></source>
+<source file="/cmpt816/tmp/fs/isofs/export.c.ifdefed" startline="23" endline="43" pcid="27551"></source>
+</class>
+
+<class classid="140" nclones="2" nlines="20" similarity="70">
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="379" endline="399" pcid="30753"></source>
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="290" endline="309" pcid="30998"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="20" similarity="80">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1603" endline="1635" pcid="35025"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1229" endline="1261" pcid="38714"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="20" similarity="70">
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="68" endline="98" pcid="9648"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="115" endline="144" pcid="9653"></source>
+</class>
+
+<class classid="143" nclones="3" nlines="20" similarity="90">
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsxfeval.c.ifdefed" startline="628" endline="659" pcid="10042"></source>
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsxfeval.c.ifdefed" startline="679" endline="709" pcid="10046"></source>
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsxfeval.c.ifdefed" startline="731" endline="762" pcid="10050"></source>
+</class>
+
+<class classid="144" nclones="4" nlines="20" similarity="70">
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="934" endline="954" pcid="14195"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="875" endline="895" pcid="14193"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="269" endline="288" pcid="14147"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="234" endline="253" pcid="14145"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="20" similarity="70">
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="124" endline="150" pcid="24804"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="124" endline="151" pcid="24766"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="20" similarity="95">
+<source file="/cmpt816/tmp/kernel/uid16.c.ifdefed" startline="130" endline="151" pcid="1310"></source>
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1276" endline="1303" pcid="2855"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="20" similarity="85">
+<source file="/cmpt816/tmp/fs/ext2/xattr.c.ifdefed" startline="875" endline="902" pcid="27065"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr.c.ifdefed" startline="1156" endline="1183" pcid="24053"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="20" similarity="75">
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="554" endline="573" pcid="31584"></source>
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="531" endline="549" pcid="31579"></source>
+</class>
+
+<class classid="149" nclones="5" nlines="20" similarity="73">
+<source file="/cmpt816/tmp/drivers/char/mem.c.ifdefed" startline="691" endline="711" pcid="13102"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/devices.c.ifdefed" startline="646" endline="667" pcid="19640"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/devio.c.ifdefed" startline="83" endline="104" pcid="19084"></source>
+<source file="/cmpt816/tmp/arch/i386/kernel/cpuid.c.ifdefed" startline="93" endline="113" pcid="5217"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/msr.c.ifdefed" startline="167" endline="182" pcid="4011"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="20" similarity="70">
+<source file="/cmpt816/tmp/mm/truncate.c.ifdefed" startline="161" endline="181" pcid="33527"></source>
+<source file="/cmpt816/tmp/fs/hugetlbfs/inode.c.ifdefed" startline="198" endline="218" pcid="27654"></source>
+</class>
+
+<class classid="151" nclones="4" nlines="19" similarity="78">
+<source file="/cmpt816/tmp/drivers/pci/search.c.ifdefed" startline="326" endline="346" pcid="6674"></source>
+<source file="/cmpt816/tmp/drivers/pci/search.c.ifdefed" startline="230" endline="253" pcid="6669"></source>
+<source file="/cmpt816/tmp/drivers/pci/search.c.ifdefed" startline="165" endline="186" pcid="6666"></source>
+<source file="/cmpt816/tmp/drivers/pci/search.c.ifdefed" startline="290" endline="309" pcid="6672"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="19" similarity="84">
+<source file="/cmpt816/tmp/mm/mprotect.c.ifdefed" startline="82" endline="100" pcid="32168"></source>
+<source file="/cmpt816/tmp/mm/msync.c.ifdefed" startline="83" endline="105" pcid="32283"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="19" similarity="78">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/msr.c.ifdefed" startline="186" endline="207" pcid="4013"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/msr.c.ifdefed" startline="211" endline="232" pcid="4015"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="19" similarity="78">
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="3379" endline="3402" pcid="20732"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="3420" endline="3442" pcid="20735"></source>
+</class>
+
+<class classid="155" nclones="3" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="976" endline="998" pcid="6085"></source>
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="954" endline="972" pcid="6083"></source>
+<source file="/cmpt816/tmp/drivers/input/mouse/psmouse-base.c.ifdefed" startline="862" endline="880" pcid="5956"></source>
+</class>
+
+<class classid="156" nclones="2" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="327" endline="350" pcid="332"></source>
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="287" endline="310" pcid="330"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="419" endline="439" pcid="37897"></source>
+<source file="/cmpt816/tmp/net/ipv4/igmp.c.ifdefed" startline="1805" endline="1825" pcid="35501"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="19" similarity="94">
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1311" endline="1333" pcid="2859"></source>
+<source file="/cmpt816/tmp/kernel/uid16.c.ifdefed" startline="154" endline="176" pcid="1314"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="2366" endline="2385" pcid="14758"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="2396" endline="2413" pcid="14761"></source>
+</class>
+
+<class classid="160" nclones="2" nlines="19" similarity="84">
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1053" endline="1072" pcid="2832"></source>
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1021" endline="1040" pcid="2828"></source>
+</class>
+
+<class classid="161" nclones="3" nlines="19" similarity="70">
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1603" endline="1625" pcid="37845"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1633" endline="1653" pcid="37848"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1661" endline="1677" pcid="37851"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="19" similarity="84">
+<source file="/cmpt816/tmp/drivers/acpi/pci_link.c.ifdefed" startline="115" endline="133" pcid="8872"></source>
+<source file="/cmpt816/tmp/drivers/acpi/pci_link.c.ifdefed" startline="135" endline="154" pcid="8876"></source>
+</class>
+
+<class classid="163" nclones="2" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1441" endline="1463" pcid="37835"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1411" endline="1433" pcid="37834"></source>
+</class>
+
+<class classid="164" nclones="2" nlines="19" similarity="94">
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="2578" endline="2598" pcid="39310"></source>
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="2602" endline="2622" pcid="39313"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="19" similarity="84">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="3883" endline="3909" pcid="22111"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="3934" endline="3956" pcid="22117"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="19" similarity="73">
+<source file="/cmpt816/tmp/fs/super.c.ifdefed" startline="773" endline="792" pcid="27772"></source>
+<source file="/cmpt816/tmp/fs/super.c.ifdefed" startline="744" endline="761" pcid="27769"></source>
+</class>
+
+<class classid="167" nclones="2" nlines="19" similarity="84">
+<source file="/cmpt816/tmp/fs/reiserfs/dir.c.ifdefed" startline="247" endline="275" pcid="30036"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/dir.c.ifdefed" startline="214" endline="242" pcid="30035"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="19" similarity="78">
+<source file="/cmpt816/tmp/drivers/scsi/scsi_error.c.ifdefed" startline="1053" endline="1077" pcid="17029"></source>
+<source file="/cmpt816/tmp/drivers/scsi/scsi_error.c.ifdefed" startline="1084" endline="1108" pcid="17031"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="18" similarity="88">
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="492" endline="510" pcid="24424"></source>
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="517" endline="535" pcid="24427"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/arch/x86_64/ia32/ia32_signal.c.ifdefed" startline="255" endline="271" pcid="4731"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/signal.c.ifdefed" startline="120" endline="135" pcid="3713"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="18" similarity="94">
+<source file="/cmpt816/tmp/arch/x86_64/ia32/sys_ia32.c.ifdefed" startline="375" endline="384" pcid="4780"></source>
+<source file="/cmpt816/tmp/arch/x86_64/ia32/sys_ia32.c.ifdefed" startline="614" endline="623" pcid="4803"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="18" similarity="88">
+<source file="/cmpt816/tmp/fs/proc/base.c.ifdefed" startline="275" endline="292" pcid="26560"></source>
+<source file="/cmpt816/tmp/fs/proc/base.c.ifdefed" startline="255" endline="272" pcid="26558"></source>
+</class>
+
+<class classid="173" nclones="2" nlines="18" similarity="100">
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="48" endline="71" pcid="24756"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="49" endline="72" pcid="24794"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="18" similarity="83">
+<source file="/cmpt816/tmp/drivers/ide/pci/piix.c.ifdefed" startline="399" endline="422" pcid="15401"></source>
+<source file="/cmpt816/tmp/drivers/ide/pci/pdc202xx_new.c.ifdefed" startline="221" endline="243" pcid="15433"></source>
+</class>
+
+<class classid="175" nclones="4" nlines="18" similarity="77">
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsirq.c.ifdefed" startline="410" endline="452" pcid="10972"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsaddr.c.ifdefed" startline="213" endline="256" pcid="10997"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsaddr.c.ifdefed" startline="602" endline="644" pcid="11011"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsaddr.c.ifdefed" startline="1012" endline="1054" pcid="11028"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="18" similarity="77">
+<source file="/cmpt816/tmp/fs/ext2/dir.c.ifdefed" startline="160" endline="179" pcid="27250"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr.c.ifdefed" startline="449" endline="471" pcid="28498"></source>
+</class>
+
+<class classid="177" nclones="5" nlines="18" similarity="70">
+<source file="/cmpt816/tmp/drivers/base/class.c.ifdefed" startline="342" endline="361" pcid="6323"></source>
+<source file="/cmpt816/tmp/drivers/base/class.c.ifdefed" startline="106" endline="123" pcid="6299"></source>
+<source file="/cmpt816/tmp/drivers/base/bus.c.ifdefed" startline="414" endline="431" pcid="6258"></source>
+<source file="/cmpt816/tmp/drivers/base/bus.c.ifdefed" startline="496" endline="513" pcid="6267"></source>
+<source file="/cmpt816/tmp/drivers/base/bus.c.ifdefed" startline="652" endline="668" pcid="6283"></source>
+</class>
+
+<class classid="178" nclones="2" nlines="18" similarity="88">
+<source file="/cmpt816/tmp/net/ipv6/reassembly.c.ifdefed" startline="620" endline="638" pcid="39031"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_fragment.c.ifdefed" startline="581" endline="599" pcid="36222"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="18" similarity="83">
+<source file="/cmpt816/tmp/drivers/ide/ide-iops.c.ifdefed" startline="242" endline="258" pcid="15781"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide-iops.c.ifdefed" startline="264" endline="280" pcid="15785"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="1680" endline="1701" pcid="23350"></source>
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="1921" endline="1941" pcid="23368"></source>
+</class>
+
+<class classid="181" nclones="5" nlines="18" similarity="70">
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="1088" endline="1110" pcid="6097"></source>
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="1059" endline="1080" pcid="6094"></source>
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="1006" endline="1026" pcid="6088"></source>
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="1034" endline="1051" pcid="6091"></source>
+<source file="/cmpt816/tmp/drivers/input/keyboard/atkbd.c.ifdefed" startline="1119" endline="1135" pcid="6100"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/fs/readdir.c.ifdefed" startline="23" endline="42" pcid="26053"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr.c.ifdefed" startline="419" endline="436" pcid="28495"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="18" similarity="83">
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="445" endline="464" pcid="6991"></source>
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="467" endline="486" pcid="6995"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="18" similarity="77">
+<source file="/cmpt816/tmp/ipc/mqueue.c.ifdefed" startline="911" endline="926" pcid="816"></source>
+<source file="/cmpt816/tmp/ipc/mqueue.c.ifdefed" startline="842" endline="857" pcid="807"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="18" similarity="88">
+<source file="/cmpt816/tmp/drivers/acpi/dispatcher/dswload.c.ifdefed" startline="563" endline="600" pcid="9384"></source>
+<source file="/cmpt816/tmp/drivers/acpi/dispatcher/dswload.c.ifdefed" startline="206" endline="245" pcid="9355"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="18" similarity="77">
+<source file="/cmpt816/tmp/kernel/ptrace.c.ifdefed" startline="343" endline="362" pcid="2367"></source>
+<source file="/cmpt816/tmp/kernel/ptrace.c.ifdefed" startline="322" endline="340" pcid="2364"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="18" similarity="88">
+<source file="/cmpt816/tmp/net/ipv4/igmp.c.ifdefed" startline="1776" endline="1798" pcid="35498"></source>
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="391" endline="412" pcid="37894"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="250" endline="271" pcid="37877"></source>
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="317" endline="338" pcid="37887"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="18" similarity="83">
+<source file="/cmpt816/tmp/drivers/cdrom/cdrom.c.ifdefed" startline="2478" endline="2498" pcid="16627"></source>
+<source file="/cmpt816/tmp/drivers/cdrom/cdrom.c.ifdefed" startline="2705" endline="2722" pcid="16644"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="1561" endline="1596" pcid="21079"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="911" endline="939" pcid="21027"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="18" similarity="77">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="2234" endline="2252" pcid="21982"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="2301" endline="2325" pcid="21991"></source>
+</class>
+
+<class classid="192" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="930" endline="954" pcid="37063"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="959" endline="977" pcid="37066"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="18" similarity="72">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1638" endline="1661" pcid="35028"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1552" endline="1570" pcid="38728"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/drivers/ide/ide-disk.c.ifdefed" startline="354" endline="380" pcid="15643"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide-disk.c.ifdefed" startline="329" endline="351" pcid="15641"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/fs/nfsd/nfs3xdr.c.ifdefed" startline="646" endline="662" pcid="22764"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="402" endline="414" pcid="23160"></source>
+</class>
+
+<class classid="196" nclones="2" nlines="17" similarity="76">
+<source file="/cmpt816/tmp/drivers/block/cfq-iosched.c.ifdefed" startline="1260" endline="1276" pcid="7332"></source>
+<source file="/cmpt816/tmp/drivers/block/deadline-iosched.c.ifdefed" startline="635" endline="651" pcid="7899"></source>
+</class>
+
+<class classid="197" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3013" endline="3029" pcid="2469"></source>
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="2989" endline="3001" pcid="2466"></source>
+</class>
+
+<class classid="198" nclones="2" nlines="17" similarity="94">
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="532" endline="551" pcid="347"></source>
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="623" endline="642" pcid="356"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="17" similarity="76">
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="756" endline="773" pcid="38507"></source>
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="728" endline="745" pcid="38582"></source>
+</class>
+
+<class classid="200" nclones="2" nlines="17" similarity="100">
+<source file="/cmpt816/tmp/net/ipv4/arp.c.ifdefed" startline="1000" endline="1010" pcid="35316"></source>
+<source file="/cmpt816/tmp/net/ipv4/arp.c.ifdefed" startline="1106" endline="1116" pcid="35327"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="17" similarity="82">
+<source file="/cmpt816/tmp/net/ipv4/ip_sockglue.c.ifdefed" startline="201" endline="218" pcid="35353"></source>
+<source file="/cmpt816/tmp/net/ipv6/ipv6_sockglue.c.ifdefed" startline="79" endline="97" pcid="38256"></source>
+</class>
+
+<class classid="202" nclones="2" nlines="17" similarity="82">
+<source file="/cmpt816/tmp/fs/ramfs/inode.c.ifdefed" startline="66" endline="84" pcid="32140"></source>
+<source file="/cmpt816/tmp/fs/hugetlbfs/inode.c.ifdefed" startline="404" endline="422" pcid="27673"></source>
+</class>
+
+<class classid="203" nclones="2" nlines="17" similarity="88">
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1380" endline="1397" pcid="2866"></source>
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1425" endline="1443" pcid="2868"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="17" similarity="82">
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="1048" endline="1073" pcid="23741"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="1077" endline="1096" pcid="23743"></source>
+</class>
+
+<class classid="205" nclones="2" nlines="17" similarity="76">
+<source file="/cmpt816/tmp/drivers/acpi/utilities/uteval.c.ifdefed" startline="343" endline="373" pcid="11976"></source>
+<source file="/cmpt816/tmp/drivers/acpi/utilities/uteval.c.ifdefed" startline="552" endline="582" pcid="11993"></source>
+</class>
+
+<class classid="206" nclones="2" nlines="17" similarity="88">
+<source file="/cmpt816/tmp/net/sunrpc/sched.c.ifdefed" startline="520" endline="537" pcid="40292"></source>
+<source file="/cmpt816/tmp/net/sunrpc/sched.c.ifdefed" startline="494" endline="510" pcid="40289"></source>
+</class>
+
+<class classid="207" nclones="4" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="245" endline="263" pcid="25898"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="175" endline="193" pcid="25672"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="157" endline="172" pcid="25671"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="177" endline="192" pcid="25893"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/fs/reiserfs/fix_node.c.ifdefed" startline="320" endline="344" pcid="28939"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/fix_node.c.ifdefed" startline="242" endline="266" pcid="28932"></source>
+</class>
+
+<class classid="209" nclones="2" nlines="17" similarity="76">
+<source file="/cmpt816/tmp/arch/x86_64/pci/mmconfig.c.ifdefed" startline="50" endline="69" pcid="3348"></source>
+<source file="/cmpt816/tmp/arch/x86_64/pci/mmconfig.c.ifdefed" startline="27" endline="46" pcid="3346"></source>
+</class>
+
+<class classid="210" nclones="2" nlines="17" similarity="82">
+<source file="/cmpt816/tmp/fs/ext3/super.c.ifdefed" startline="2518" endline="2534" pcid="24303"></source>
+<source file="/cmpt816/tmp/fs/ext2/super.c.ifdefed" startline="1133" endline="1149" pcid="27233"></source>
+</class>
+
+<class classid="211" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/net/sunrpc/auth_unix.c.ifdefed" startline="185" endline="206" pcid="40362"></source>
+<source file="/cmpt816/tmp/net/sunrpc/auth_null.c.ifdefed" startline="88" endline="105" pcid="40348"></source>
+</class>
+
+<class classid="212" nclones="3" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1471" endline="1490" pcid="37836"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1277" endline="1295" pcid="37824"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="1307" endline="1325" pcid="37828"></source>
+</class>
+
+<class classid="213" nclones="2" nlines="17" similarity="82">
+<source file="/cmpt816/tmp/drivers/scsi/libata-core.c.ifdefed" startline="1957" endline="1973" pcid="18684"></source>
+<source file="/cmpt816/tmp/drivers/scsi/libata-core.c.ifdefed" startline="1940" endline="1956" pcid="18679"></source>
+</class>
+
+<class classid="214" nclones="2" nlines="17" similarity="76">
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/cyrix.c.ifdefed" startline="60" endline="76" pcid="5443"></source>
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/cyrix.c.ifdefed" startline="44" endline="60" pcid="5441"></source>
+</class>
+
+<class classid="215" nclones="2" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/mm/page-writeback.c.ifdefed" startline="705" endline="724" pcid="32700"></source>
+<source file="/cmpt816/tmp/mm/page-writeback.c.ifdefed" startline="742" endline="754" pcid="32703"></source>
+</class>
+
+<class classid="216" nclones="12" nlines="17" similarity="70">
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="87" endline="111" pcid="25048"></source>
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="116" endline="154" pcid="25050"></source>
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="159" endline="184" pcid="25052"></source>
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="192" endline="217" pcid="25054"></source>
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="321" endline="346" pcid="25062"></source>
+<source file="/cmpt816/tmp/fs/lockd/svc4proc.c.ifdefed" startline="354" endline="379" pcid="25064"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="114" endline="139" pcid="25082"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="144" endline="182" pcid="25084"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="187" endline="212" pcid="25086"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="220" endline="245" pcid="25088"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="349" endline="374" pcid="25096"></source>
+<source file="/cmpt816/tmp/fs/lockd/svcproc.c.ifdefed" startline="382" endline="407" pcid="25098"></source>
+</class>
+
+<class classid="217" nclones="2" nlines="17" similarity="88">
+<source file="/cmpt816/tmp/fs/exec.c.ifdefed" startline="175" endline="193" pcid="25179"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1369" endline="1386" pcid="25978"></source>
+</class>
+
+<class classid="218" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/drivers/acpi/processor_throttling.c.ifdefed" startline="322" endline="344" pcid="8310"></source>
+<source file="/cmpt816/tmp/drivers/acpi/fan.c.ifdefed" startline="107" endline="129" pcid="11144"></source>
+</class>
+
+<class classid="219" nclones="3" nlines="16" similarity="73">
+<source file="/cmpt816/tmp/kernel/irq/autoprobe.c.ifdefed" startline="163" endline="180" pcid="3252"></source>
+<source file="/cmpt816/tmp/kernel/irq/autoprobe.c.ifdefed" startline="78" endline="95" pcid="3245"></source>
+<source file="/cmpt816/tmp/kernel/irq/autoprobe.c.ifdefed" startline="120" endline="135" pcid="3249"></source>
+</class>
+
+<class classid="220" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_main.c.ifdefed" startline="1989" endline="2026" pcid="21646"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_main.c.ifdefed" startline="2035" endline="2065" pcid="21648"></source>
+</class>
+
+<class classid="221" nclones="2" nlines="16" similarity="87">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="1055" endline="1072" pcid="6628"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="1087" endline="1104" pcid="6630"></source>
+</class>
+
+<class classid="222" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/fs/ext3/ioctl.c.ifdefed" startline="216" endline="237" pcid="24377"></source>
+<source file="/cmpt816/tmp/fs/ext3/ioctl.c.ifdefed" startline="195" endline="215" pcid="24376"></source>
+</class>
+
+<class classid="223" nclones="2" nlines="16" similarity="93">
+<source file="/cmpt816/tmp/fs/ext3/super.c.ifdefed" startline="647" endline="664" pcid="24190"></source>
+<source file="/cmpt816/tmp/fs/ext2/super.c.ifdefed" startline="237" endline="254" pcid="27181"></source>
+</class>
+
+<class classid="224" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/drivers/ide/ide-cd.c.ifdefed" startline="1435" endline="1457" pcid="16159"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide-cd.c.ifdefed" startline="1413" endline="1432" pcid="16156"></source>
+</class>
+
+<class classid="225" nclones="2" nlines="16" similarity="87">
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="120" endline="154" pcid="25889"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="195" endline="223" pcid="25894"></source>
+</class>
+
+<class classid="226" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="280" endline="296" pcid="32456"></source>
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="306" endline="319" pcid="32458"></source>
+</class>
+
+<class classid="227" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1318" endline="1338" pcid="25976"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="1342" endline="1361" pcid="25977"></source>
+</class>
+
+<class classid="228" nclones="2" nlines="16" similarity="100">
+<source file="/cmpt816/tmp/net/ipv4/af_inet.c.ifdefed" startline="245" endline="262" pcid="34792"></source>
+<source file="/cmpt816/tmp/net/ipv6/af_inet6.c.ifdefed" startline="130" endline="147" pcid="38949"></source>
+</class>
+
+<class classid="229" nclones="2" nlines="16" similarity="93">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/process.c.ifdefed" startline="568" endline="584" pcid="4325"></source>
+<source file="/cmpt816/tmp/arch/x86_64/ia32/sys_ia32.c.ifdefed" startline="929" endline="945" pcid="4819"></source>
+</class>
+
+<class classid="230" nclones="6" nlines="16" similarity="73">
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="584" endline="601" pcid="32092"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="563" endline="580" pcid="32090"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="313" endline="327" pcid="32068"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="331" endline="345" pcid="32070"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="349" endline="366" pcid="32072"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="370" endline="387" pcid="32074"></source>
+</class>
+
+<class classid="231" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/fs/nfs/file.c.ifdefed" startline="362" endline="378" pcid="30828"></source>
+<source file="/cmpt816/tmp/fs/lockd/clntproc.c.ifdefed" startline="514" endline="529" pcid="24896"></source>
+</class>
+
+<class classid="232" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/fs/aio.c.ifdefed" startline="1294" endline="1326" pcid="31753"></source>
+<source file="/cmpt816/tmp/fs/aio.c.ifdefed" startline="1333" endline="1353" pcid="31755"></source>
+</class>
+
+<class classid="233" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/msr.c.ifdefed" startline="65" endline="81" pcid="4008"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/msr.c.ifdefed" startline="48" endline="62" pcid="4007"></source>
+</class>
+
+<class classid="234" nclones="2" nlines="16" similarity="87">
+<source file="/cmpt816/tmp/net/core/neighbour.c.ifdefed" startline="360" endline="377" pcid="37259"></source>
+<source file="/cmpt816/tmp/net/core/neighbour.c.ifdefed" startline="380" endline="397" pcid="37262"></source>
+</class>
+
+<class classid="235" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="305" endline="320" pcid="27095"></source>
+<source file="/cmpt816/tmp/fs/ext3/ialloc.c.ifdefed" startline="285" endline="298" pcid="24083"></source>
+</class>
+
+<class classid="236" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/drivers/oprofile/oprofile_files.c.ifdefed" startline="82" endline="101" pcid="14570"></source>
+<source file="/cmpt816/tmp/drivers/oprofile/oprofile_files.c.ifdefed" startline="28" endline="44" pcid="14566"></source>
+</class>
+
+<class classid="237" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/cyrix.c.ifdefed" startline="187" endline="202" pcid="5455"></source>
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/cyrix.c.ifdefed" startline="172" endline="187" pcid="5453"></source>
+</class>
+
+<class classid="238" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/drivers/oprofile/oprofilefs.c.ifdefed" startline="225" endline="241" pcid="14558"></source>
+<source file="/cmpt816/tmp/drivers/oprofile/oprofilefs.c.ifdefed" startline="135" endline="150" pcid="14550"></source>
+</class>
+
+<class classid="239" nclones="2" nlines="16" similarity="75">
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/cpufreq/acpi-cpufreq.c.ifdefed" startline="83" endline="95" pcid="5284"></source>
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/cpufreq/acpi-cpufreq.c.ifdefed" startline="65" endline="76" pcid="5279"></source>
+</class>
+
+<class classid="240" nclones="2" nlines="16" similarity="81">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/smp.c.ifdefed" startline="219" endline="238" pcid="3794"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/smp.c.ifdefed" startline="199" endline="216" pcid="3792"></source>
+</class>
+
+<class classid="241" nclones="2" nlines="16" similarity="93">
+<source file="/cmpt816/tmp/fs/isofs/inode.c.ifdefed" startline="248" endline="265" pcid="27473"></source>
+<source file="/cmpt816/tmp/fs/isofs/inode.c.ifdefed" startline="224" endline="241" pcid="27470"></source>
+</class>
+
+<class classid="242" nclones="2" nlines="15" similarity="93">
+<source file="/cmpt816/tmp/fs/isofs/namei.c.ifdefed" startline="97" endline="111" pcid="27448"></source>
+<source file="/cmpt816/tmp/fs/isofs/dir.c.ifdefed" startline="143" endline="157" pcid="27626"></source>
+</class>
+
+<class classid="243" nclones="2" nlines="15" similarity="86">
+<source file="/cmpt816/tmp/fs/pipe.c.ifdefed" startline="71" endline="87" pcid="31218"></source>
+<source file="/cmpt816/tmp/fs/pipe.c.ifdefed" startline="51" endline="67" pcid="31216"></source>
+</class>
+
+<class classid="244" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="347" endline="361" pcid="27097"></source>
+<source file="/cmpt816/tmp/fs/ext3/ialloc.c.ifdefed" startline="318" endline="330" pcid="24084"></source>
+</class>
+
+<class classid="245" nclones="2" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/fs/ext2/xattr.c.ifdefed" startline="1006" endline="1024" pcid="27078"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr.c.ifdefed" startline="1281" endline="1299" pcid="24065"></source>
+</class>
+
+<class classid="246" nclones="2" nlines="15" similarity="93">
+<source file="/cmpt816/tmp/fs/ext2/xattr.c.ifdefed" startline="970" endline="992" pcid="27074"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr.c.ifdefed" startline="1245" endline="1267" pcid="24061"></source>
+</class>
+
+<class classid="247" nclones="2" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/centaur.c.ifdefed" startline="26" endline="41" pcid="5498"></source>
+<source file="/cmpt816/tmp/arch/i386/kernel/cpu/mtrr/generic.c.ifdefed" startline="112" endline="125" pcid="5467"></source>
+</class>
+
+<class classid="248" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="2273" endline="2290" pcid="32592"></source>
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="2157" endline="2174" pcid="32583"></source>
+</class>
+
+<class classid="249" nclones="6" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="255" endline="271" pcid="24810"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="250" endline="266" pcid="24772"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="275" endline="287" pcid="24811"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="230" endline="243" pcid="24808"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="270" endline="282" pcid="24773"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="225" endline="238" pcid="24770"></source>
+</class>
+
+<class classid="250" nclones="2" nlines="15" similarity="86">
+<source file="/cmpt816/tmp/kernel/workqueue.c.ifdefed" startline="403" endline="419" pcid="1660"></source>
+<source file="/cmpt816/tmp/kernel/workqueue.c.ifdefed" startline="126" endline="143" pcid="1634"></source>
+</class>
+
+<class classid="251" nclones="4" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="586" endline="606" pcid="31014"></source>
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="555" endline="572" pcid="31012"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="800" endline="817" pcid="30774"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="722" endline="739" pcid="30769"></source>
+</class>
+
+<class classid="252" nclones="4" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="138" endline="153" pcid="25669"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="226" endline="242" pcid="25896"></source>
+<source file="/cmpt816/tmp/fs/compat.c.ifdefed" startline="161" endline="174" pcid="25891"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="121" endline="134" pcid="25667"></source>
+</class>
+
+<class classid="253" nclones="2" nlines="15" similarity="100">
+<source file="/cmpt816/tmp/net/ipv4/tcp_output.c.ifdefed" startline="560" endline="573" pcid="36267"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="887" endline="900" pcid="37057"></source>
+</class>
+
+<class classid="254" nclones="6" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1019" endline="1046" pcid="20595"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1088" endline="1110" pcid="20601"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1148" endline="1168" pcid="20607"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1171" endline="1191" pcid="20610"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1195" endline="1216" pcid="20613"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="1219" endline="1237" pcid="20616"></source>
+</class>
+
+<class classid="255" nclones="2" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/fs/ext2/inode.c.ifdefed" startline="322" endline="347" pcid="26885"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="422" endline="447" pcid="23699"></source>
+</class>
+
+<class classid="256" nclones="3" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/arch/x86_64/boot/compressed/misc.c.ifdefed" startline="250" endline="263" pcid="4940"></source>
+<source file="/cmpt816/tmp/arch/x86_64/boot/compressed/misc.c.ifdefed" startline="232" endline="247" pcid="4938"></source>
+<source file="/cmpt816/tmp/init/initramfs.c.ifdefed" startline="400" endline="414" pcid="1071"></source>
+</class>
+
+<class classid="257" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/net/core/iovec.c.ifdefed" startline="108" endline="123" pcid="37115"></source>
+<source file="/cmpt816/tmp/net/core/iovec.c.ifdefed" startline="84" endline="99" pcid="37112"></source>
+</class>
+
+<class classid="258" nclones="2" nlines="15" similarity="93">
+<source file="/cmpt816/tmp/fs/locks.c.ifdefed" startline="967" endline="982" pcid="25786"></source>
+<source file="/cmpt816/tmp/fs/locks.c.ifdefed" startline="1444" endline="1459" pcid="25820"></source>
+</class>
+
+<class classid="259" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/kernel/itimer.c.ifdefed" startline="51" endline="63" pcid="1954"></source>
+<source file="/cmpt816/tmp/kernel/itimer.c.ifdefed" startline="74" endline="89" pcid="1958"></source>
+</class>
+
+<class classid="260" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="1853" endline="1875" pcid="31930"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/inode.c.ifdefed" startline="2344" endline="2362" pcid="28326"></source>
+</class>
+
+<class classid="261" nclones="2" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/drivers/input/serio/serio.c.ifdefed" startline="447" endline="461" pcid="5678"></source>
+<source file="/cmpt816/tmp/drivers/input/serio/serio.c.ifdefed" startline="660" endline="674" pcid="5703"></source>
+</class>
+
+<class classid="262" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="445" endline="459" pcid="23258"></source>
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="1025" endline="1036" pcid="23305"></source>
+</class>
+
+<class classid="263" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="7186" endline="7203" pcid="22291"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="7206" endline="7221" pcid="22293"></source>
+</class>
+
+<class classid="264" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="697" endline="713" pcid="32097"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="716" endline="730" pcid="32099"></source>
+</class>
+
+<class classid="265" nclones="2" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1105" endline="1119" pcid="33682"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1025" endline="1038" pcid="33674"></source>
+</class>
+
+<class classid="266" nclones="3" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1124" endline="1139" pcid="33684"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1042" endline="1055" pcid="33676"></source>
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="107" endline="120" pcid="32990"></source>
+</class>
+
+<class classid="267" nclones="3" nlines="15" similarity="80">
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1144" endline="1159" pcid="33686"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="1059" endline="1072" pcid="33678"></source>
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="124" endline="137" pcid="32992"></source>
+</class>
+
+<class classid="268" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/net/ipv4/ip_sockglue.c.ifdefed" startline="1008" endline="1024" pcid="35423"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_sockglue.c.ifdefed" startline="990" endline="1006" pcid="35420"></source>
+</class>
+
+<class classid="269" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/fs/reiserfs/file.c.ifdefed" startline="328" endline="355" pcid="29898"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/file.c.ifdefed" startline="482" endline="511" pcid="29918"></source>
+</class>
+
+<class classid="270" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/drivers/ide/ide.c.ifdefed" startline="1238" endline="1254" pcid="16042"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide.c.ifdefed" startline="1219" endline="1235" pcid="16041"></source>
+</class>
+
+<class classid="271" nclones="2" nlines="15" similarity="86">
+<source file="/cmpt816/tmp/drivers/acpi/events/evxface.c.ifdefed" startline="512" endline="531" pcid="9874"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxface.c.ifdefed" startline="533" endline="552" pcid="9877"></source>
+</class>
+
+<class classid="272" nclones="2" nlines="15" similarity="86">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="602" endline="620" pcid="14038"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="711" endline="729" pcid="14049"></source>
+</class>
+
+<class classid="273" nclones="3" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="791" endline="808" pcid="14054"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="1134" endline="1152" pcid="14212"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="811" endline="826" pcid="14057"></source>
+</class>
+
+<class classid="274" nclones="7" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="980" endline="1008" pcid="14071"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1011" endline="1037" pcid="14072"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1040" endline="1066" pcid="14073"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1069" endline="1095" pcid="14074"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1098" endline="1124" pcid="14075"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1127" endline="1153" pcid="14076"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="1156" endline="1181" pcid="14077"></source>
+</class>
+
+<class classid="275" nclones="2" nlines="15" similarity="73">
+<source file="/cmpt816/tmp/drivers/acpi/toshiba_acpi.c.ifdefed" startline="405" endline="421" pcid="11921"></source>
+<source file="/cmpt816/tmp/drivers/acpi/toshiba_acpi.c.ifdefed" startline="298" endline="313" pcid="11907"></source>
+</class>
+
+<class classid="276" nclones="2" nlines="15" similarity="100">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="273" endline="288" pcid="14618"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="923" endline="938" pcid="14977"></source>
+</class>
+
+<class classid="277" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/usb/input/hid-core.c.ifdefed" startline="1142" endline="1155" pcid="18953"></source>
+<source file="/cmpt816/tmp/drivers/usb/input/hid-core.c.ifdefed" startline="1097" endline="1107" pcid="18949"></source>
+</class>
+
+<class classid="278" nclones="4" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwgpe.c.ifdefed" startline="339" endline="361" pcid="8648"></source>
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwgpe.c.ifdefed" startline="294" endline="318" pcid="8644"></source>
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwgpe.c.ifdefed" startline="217" endline="235" pcid="8638"></source>
+<source file="/cmpt816/tmp/drivers/acpi/hardware/hwgpe.c.ifdefed" startline="255" endline="273" pcid="8641"></source>
+</class>
+
+<class classid="279" nclones="2" nlines="14" similarity="85">
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="4815" endline="4848" pcid="17654"></source>
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="4782" endline="4815" pcid="17652"></source>
+</class>
+
+<class classid="280" nclones="2" nlines="14" similarity="92">
+<source file="/cmpt816/tmp/drivers/acpi/executer/exmisc.c.ifdefed" startline="261" endline="279" pcid="11512"></source>
+<source file="/cmpt816/tmp/drivers/acpi/executer/exmisc.c.ifdefed" startline="594" endline="611" pcid="11527"></source>
+</class>
+
+<class classid="281" nclones="2" nlines="14" similarity="85">
+<source file="/cmpt816/tmp/drivers/usb/core/devices.c.ifdefed" startline="475" endline="485" pcid="19625"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/sysfs.c.ifdefed" startline="117" endline="130" pcid="19658"></source>
+</class>
+
+<class classid="282" nclones="2" nlines="14" similarity="85">
+<source file="/cmpt816/tmp/net/ipv4/ip_sockglue.c.ifdefed" startline="953" endline="966" pcid="35416"></source>
+<source file="/cmpt816/tmp/net/ipv6/ipv6_sockglue.c.ifdefed" startline="604" endline="617" pcid="38298"></source>
+</class>
+
+<class classid="283" nclones="3" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="4480" endline="4501" pcid="21306"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfsfh.c.ifdefed" startline="395" endline="424" pcid="23198"></source>
+<source file="/cmpt816/tmp/drivers/serial/8250.c.ifdefed" startline="890" endline="903" pcid="12499"></source>
+</class>
+
+<class classid="284" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/mm/mmap.c.ifdefed" startline="1181" endline="1202" pcid="33823"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/sys_x86_64.c.ifdefed" startline="120" endline="141" pcid="3700"></source>
+</class>
+
+<class classid="285" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="338" endline="351" pcid="21795"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="354" endline="367" pcid="21798"></source>
+</class>
+
+<class classid="286" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/kernel/rcupdate.c.ifdefed" startline="399" endline="412" pcid="2908"></source>
+<source file="/cmpt816/tmp/kernel/timer.c.ifdefed" startline="1372" endline="1387" pcid="1943"></source>
+</class>
+
+<class classid="287" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/block/loop.c.ifdefed" startline="1104" endline="1119" pcid="7435"></source>
+<source file="/cmpt816/tmp/drivers/block/loop.c.ifdefed" startline="1122" endline="1134" pcid="7436"></source>
+</class>
+
+<class classid="288" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="1197" endline="1211" pcid="39213"></source>
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="956" endline="968" pcid="39188"></source>
+</class>
+
+<class classid="289" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/fs/nfsd/nfs3xdr.c.ifdefed" startline="529" endline="544" pcid="22754"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="359" endline="371" pcid="23156"></source>
+</class>
+
+<class classid="290" nclones="2" nlines="14" similarity="85">
+<source file="/cmpt816/tmp/fs/nfsd/nfs3xdr.c.ifdefed" startline="670" endline="685" pcid="22768"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="419" endline="434" pcid="23162"></source>
+</class>
+
+<class classid="291" nclones="5" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/mm/swapfile.c.ifdefed" startline="482" endline="495" pcid="32338"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="606" endline="617" pcid="33642"></source>
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="54" endline="65" pcid="32984"></source>
+<source file="/cmpt816/tmp/mm/msync.c.ifdefed" startline="68" endline="79" pcid="32281"></source>
+<source file="/cmpt816/tmp/mm/mprotect.c.ifdefed" startline="67" endline="78" pcid="32166"></source>
+</class>
+
+<class classid="292" nclones="5" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/mm/swapfile.c.ifdefed" startline="464" endline="477" pcid="32336"></source>
+<source file="/cmpt816/tmp/mm/memory.c.ifdefed" startline="590" endline="601" pcid="33640"></source>
+<source file="/cmpt816/tmp/mm/vmalloc.c.ifdefed" startline="39" endline="50" pcid="32982"></source>
+<source file="/cmpt816/tmp/mm/msync.c.ifdefed" startline="53" endline="64" pcid="32279"></source>
+<source file="/cmpt816/tmp/mm/mprotect.c.ifdefed" startline="52" endline="63" pcid="32164"></source>
+</class>
+
+<class classid="293" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/net/ipv6/protocol.c.ifdefed" startline="69" endline="86" pcid="38943"></source>
+<source file="/cmpt816/tmp/net/ipv6/protocol.c.ifdefed" startline="47" endline="62" pcid="38940"></source>
+</class>
+
+<class classid="294" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="846" endline="867" pcid="7027"></source>
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="1124" endline="1143" pcid="7051"></source>
+</class>
+
+<class classid="295" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/fs/sysfs/inode.c.ifdefed" startline="30" endline="43" pcid="23411"></source>
+<source file="/cmpt816/tmp/drivers/oprofile/oprofilefs.c.ifdefed" startline="27" endline="39" pcid="14542"></source>
+</class>
+
+<class classid="296" nclones="2" nlines="14" similarity="92">
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="190" endline="205" pcid="6970"></source>
+<source file="/cmpt816/tmp/drivers/pci/msi.c.ifdefed" startline="157" endline="171" pcid="6963"></source>
+</class>
+
+<class classid="297" nclones="2" nlines="14" similarity="92">
+<source file="/cmpt816/tmp/fs/exportfs/expfs.c.ifdefed" startline="85" endline="99" pcid="32106"></source>
+<source file="/cmpt816/tmp/fs/exportfs/expfs.c.ifdefed" startline="265" endline="277" pcid="32123"></source>
+</class>
+
+<class classid="298" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/ide/ide-io.c.ifdefed" startline="323" endline="337" pcid="15493"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide-io.c.ifdefed" startline="313" endline="323" pcid="15491"></source>
+</class>
+
+<class classid="299" nclones="3" nlines="14" similarity="85">
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="444" endline="460" pcid="24150"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="47" endline="63" pcid="30105"></source>
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="423" endline="439" pcid="27159"></source>
+</class>
+
+<class classid="300" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="5384" endline="5400" pcid="15299"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3108" endline="3125" pcid="15152"></source>
+</class>
+
+<class classid="301" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/fs/nfs/nfs2xdr.c.ifdefed" startline="228" endline="245" pcid="30859"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="316" endline="331" pcid="30539"></source>
+</class>
+
+<class classid="302" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/drivers/acpi/parser/psparse.c.ifdefed" startline="261" endline="274" pcid="10655"></source>
+<source file="/cmpt816/tmp/drivers/acpi/parser/psparse.c.ifdefed" startline="240" endline="253" pcid="10651"></source>
+</class>
+
+<class classid="303" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/ptrace.c.ifdefed" startline="567" endline="581" pcid="4179"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/ptrace.c.ifdefed" startline="553" endline="565" pcid="4176"></source>
+</class>
+
+<class classid="304" nclones="2" nlines="14" similarity="78">
+<source file="/cmpt816/tmp/fs/proc/base.c.ifdefed" startline="1202" endline="1214" pcid="26618"></source>
+<source file="/cmpt816/tmp/fs/proc/base.c.ifdefed" startline="1177" endline="1187" pcid="26613"></source>
+</class>
+
+<class classid="305" nclones="2" nlines="14" similarity="71">
+<source file="/cmpt816/tmp/fs/reiserfs/stree.c.ifdefed" startline="2036" endline="2051" pcid="28783"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/stree.c.ifdefed" startline="1954" endline="1972" pcid="28774"></source>
+</class>
+
+<class classid="306" nclones="2" nlines="13" similarity="92">
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_ppro.c.ifdefed" startline="90" endline="114" pcid="5211"></source>
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_athlon.c.ifdefed" startline="95" endline="109" pcid="5103"></source>
+</class>
+
+<class classid="307" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/scsi/constants.c.ifdefed" startline="1170" endline="1183" pcid="18351"></source>
+<source file="/cmpt816/tmp/drivers/scsi/constants.c.ifdefed" startline="1238" endline="1252" pcid="18358"></source>
+</class>
+
+<class classid="308" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/fs/ext2/super.c.ifdefed" startline="537" endline="552" pcid="27194"></source>
+<source file="/cmpt816/tmp/fs/ext3/super.c.ifdefed" startline="1225" endline="1240" pcid="24219"></source>
+</class>
+
+<class classid="309" nclones="2" nlines="13" similarity="92">
+<source file="/cmpt816/tmp/fs/ext2/xattr_user.c.ifdefed" startline="54" endline="70" pcid="27124"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr_user.c.ifdefed" startline="56" endline="72" pcid="24113"></source>
+</class>
+
+<class classid="310" nclones="2" nlines="13" similarity="92">
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_user.c.ifdefed" startline="37" endline="56" pcid="28584"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_user.c.ifdefed" startline="60" endline="78" pcid="28585"></source>
+</class>
+
+<class classid="311" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/fs/mpage.c.ifdefed" startline="336" endline="351" pcid="26755"></source>
+<source file="/cmpt816/tmp/mm/readahead.c.ifdefed" startline="169" endline="180" pcid="33072"></source>
+</class>
+
+<class classid="312" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/arch/x86_64/ia32/sys_ia32.c.ifdefed" startline="437" endline="449" pcid="4787"></source>
+<source file="/cmpt816/tmp/kernel/time.c.ifdefed" startline="101" endline="113" pcid="1825"></source>
+</class>
+
+<class classid="313" nclones="5" nlines="13" similarity="100">
+<source file="/cmpt816/tmp/fs/nls/nls_base.c.ifdefed" startline="443" endline="457" pcid="26405"></source>
+<source file="/cmpt816/tmp/fs/nls/nls_iso8859-15.c.ifdefed" startline="262" endline="276" pcid="26366"></source>
+<source file="/cmpt816/tmp/fs/nls/nls_ascii.c.ifdefed" startline="121" endline="135" pcid="26362"></source>
+<source file="/cmpt816/tmp/fs/nls/nls_cp437.c.ifdefed" startline="342" endline="356" pcid="26358"></source>
+<source file="/cmpt816/tmp/fs/nls/nls_iso8859-1.c.ifdefed" startline="212" endline="226" pcid="26354"></source>
+</class>
+
+<class classid="314" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/pci-gart.c.ifdefed" startline="354" endline="366" pcid="4427"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/pci-gart.c.ifdefed" startline="369" endline="379" pcid="4429"></source>
+</class>
+
+<class classid="315" nclones="4" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="483" endline="495" pcid="8837"></source>
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="400" endline="412" pcid="8826"></source>
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="375" endline="387" pcid="8824"></source>
+<source file="/cmpt816/tmp/drivers/acpi/osl.c.ifdefed" startline="441" endline="453" pcid="8831"></source>
+</class>
+
+<class classid="316" nclones="3" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="2808" endline="2821" pcid="15125"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3157" endline="3171" pcid="15163"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptbase.c.ifdefed" startline="3132" endline="3144" pcid="15157"></source>
+</class>
+
+<class classid="317" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/fs/nfs/nfs3proc.c.ifdefed" startline="111" endline="124" pcid="30738"></source>
+<source file="/cmpt816/tmp/fs/nfs/proc.c.ifdefed" startline="106" endline="119" pcid="30986"></source>
+</class>
+
+<class classid="318" nclones="6" nlines="13" similarity="72">
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="443" endline="456" pcid="24824"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="440" endline="453" pcid="24786"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="460" endline="471" pcid="24825"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="395" endline="405" pcid="24821"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="457" endline="468" pcid="24787"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="392" endline="402" pcid="24783"></source>
+</class>
+
+<class classid="319" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/fs/nfs/nfs2xdr.c.ifdefed" startline="292" endline="307" pcid="30864"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="338" endline="352" pcid="30540"></source>
+</class>
+
+<class classid="320" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq_ondemand.c.ifdefed" startline="145" endline="160" pcid="6500"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq_ondemand.c.ifdefed" startline="164" endline="180" pcid="6502"></source>
+</class>
+
+<class classid="321" nclones="2" nlines="13" similarity="92">
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="798" endline="811" pcid="24447"></source>
+<source file="/cmpt816/tmp/fs/inode.c.ifdefed" startline="766" endline="779" pcid="24445"></source>
+</class>
+
+<class classid="322" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="305" endline="317" pcid="31558"></source>
+<source file="/cmpt816/tmp/fs/fat/dir.c.ifdefed" startline="320" endline="332" pcid="31561"></source>
+</class>
+
+<class classid="323" nclones="3" nlines="13" similarity="75">
+<source file="/cmpt816/tmp/mm/page_alloc.c.ifdefed" startline="859" endline="881" pcid="32767"></source>
+<source file="/cmpt816/tmp/mm/page_alloc.c.ifdefed" startline="839" endline="859" pcid="32765"></source>
+<source file="/cmpt816/tmp/mm/page_alloc.c.ifdefed" startline="806" endline="818" pcid="32762"></source>
+</class>
+
+<class classid="324" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/net/forcedeth.c.ifdefed" startline="960" endline="972" pcid="22554"></source>
+<source file="/cmpt816/tmp/drivers/net/forcedeth.c.ifdefed" startline="948" endline="960" pcid="22551"></source>
+</class>
+
+<class classid="325" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsxface.c.ifdefed" startline="80" endline="104" pcid="10937"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsxface.c.ifdefed" startline="135" endline="159" pcid="10940"></source>
+</class>
+
+<class classid="326" nclones="2" nlines="13" similarity="92">
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1181" endline="1196" pcid="2846"></source>
+<source file="/cmpt816/tmp/kernel/sys.c.ifdefed" startline="1161" endline="1176" pcid="2844"></source>
+</class>
+
+<class classid="327" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3845" endline="3858" pcid="2529"></source>
+<source file="/cmpt816/tmp/kernel/sched.c.ifdefed" startline="3868" endline="3880" pcid="2531"></source>
+</class>
+
+<class classid="328" nclones="2" nlines="13" similarity="100">
+<source file="/cmpt816/tmp/net/ipv4/ip_output.c.ifdefed" startline="483" endline="501" pcid="34557"></source>
+<source file="/cmpt816/tmp/net/ipv6/ip6_output.c.ifdefed" startline="548" endline="566" pcid="38339"></source>
+</class>
+
+<class classid="329" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/block/ll_rw_blk.c.ifdefed" startline="1273" endline="1292" pcid="8065"></source>
+<source file="/cmpt816/tmp/drivers/block/ll_rw_blk.c.ifdefed" startline="1252" endline="1268" pcid="8063"></source>
+</class>
+
+<class classid="330" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="897" endline="912" pcid="34975"></source>
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1264" endline="1279" pcid="38717"></source>
+</class>
+
+<class classid="331" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/acpi/executer/exregion.c.ifdefed" startline="224" endline="246" pcid="11427"></source>
+<source file="/cmpt816/tmp/drivers/acpi/executer/exregion.c.ifdefed" startline="198" endline="219" pcid="11426"></source>
+</class>
+
+<class classid="332" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/acpi/executer/exsystem.c.ifdefed" startline="210" endline="232" pcid="11164"></source>
+<source file="/cmpt816/tmp/drivers/acpi/executer/exsystem.c.ifdefed" startline="253" endline="274" pcid="11167"></source>
+</class>
+
+<class classid="333" nclones="2" nlines="13" similarity="84">
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="920" endline="935" pcid="38600"></source>
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="873" endline="888" pcid="38595"></source>
+</class>
+
+<class classid="334" nclones="2" nlines="13" similarity="76">
+<source file="/cmpt816/tmp/drivers/acpi/button.c.ifdefed" startline="251" endline="266" pcid="12329"></source>
+<source file="/cmpt816/tmp/drivers/acpi/button.c.ifdefed" startline="173" endline="188" pcid="12323"></source>
+</class>
+
+<class classid="335" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_p4.c.ifdefed" startline="674" endline="687" pcid="5154"></source>
+<source file="/cmpt816/tmp/arch/i386/oprofile/op_model_p4.c.ifdefed" startline="691" endline="702" pcid="5156"></source>
+</class>
+
+<class classid="336" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/arch/x86_64/mm/fault.c.ifdefed" startline="39" endline="57" pcid="4603"></source>
+<source file="/cmpt816/tmp/lib/bust_spinlocks.c.ifdefed" startline="19" endline="37" pcid="217"></source>
+</class>
+
+<class classid="337" nclones="3" nlines="12" similarity="70">
+<source file="/cmpt816/tmp/arch/i386/kernel/cpuid.c.ifdefed" startline="98" endline="109" pcid="5218"></source>
+<source file="/cmpt816/tmp/fs/proc/base.c.ifdefed" startline="698" endline="707" pcid="26592"></source>
+<source file="/cmpt816/tmp/sound/oss/ac97_codec.c.ifdefed" startline="1271" endline="1276" pcid="33965"></source>
+</class>
+
+<class classid="338" nclones="4" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="544" endline="557" pcid="1767"></source>
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="578" endline="591" pcid="1769"></source>
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="595" endline="608" pcid="1770"></source>
+<source file="/cmpt816/tmp/kernel/compat.c.ifdefed" startline="561" endline="574" pcid="1768"></source>
+</class>
+
+<class classid="339" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/acpi/executer/exregion.c.ifdefed" startline="298" endline="313" pcid="11429"></source>
+<source file="/cmpt816/tmp/drivers/acpi/executer/exregion.c.ifdefed" startline="374" endline="390" pcid="11431"></source>
+</class>
+
+<class classid="340" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/drivers/acpi/events/evxface.c.ifdefed" startline="348" endline="367" pcid="9855"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evxfevnt.c.ifdefed" startline="688" endline="706" pcid="9693"></source>
+</class>
+
+<class classid="341" nclones="2" nlines="12" similarity="100">
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="671" endline="685" pcid="359"></source>
+<source file="/cmpt816/tmp/lib/radix-tree.c.ifdefed" startline="381" endline="395" pcid="335"></source>
+</class>
+
+<class classid="342" nclones="4" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsutils.c.ifdefed" startline="239" endline="268" pcid="11106"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsutils.c.ifdefed" startline="129" endline="158" pcid="11104"></source>
+<source file="/cmpt816/tmp/drivers/acpi/resources/rsutils.c.ifdefed" startline="76" endline="104" pcid="11102"></source>
+<source file="/cmpt816/tmp/drivers/acpi/utilities/uteval.c.ifdefed" startline="258" endline="280" pcid="11972"></source>
+</class>
+
+<class classid="343" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/lib/idr.c.ifdefed" startline="260" endline="275" pcid="81"></source>
+<source file="/cmpt816/tmp/lib/idr.c.ifdefed" startline="226" endline="241" pcid="79"></source>
+</class>
+
+<class classid="344" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="1761" endline="1775" pcid="39250"></source>
+<source file="/cmpt816/tmp/net/ipv6/addrconf.c.ifdefed" startline="1744" endline="1758" pcid="39249"></source>
+</class>
+
+<class classid="345" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/net/ipv6/reassembly.c.ifdefed" startline="504" endline="516" pcid="39024"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_fragment.c.ifdefed" startline="478" endline="490" pcid="36216"></source>
+</class>
+
+<class classid="346" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1634" endline="1651" pcid="38734"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1685" endline="1695" pcid="35034"></source>
+</class>
+
+<class classid="347" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="695" endline="710" pcid="38500"></source>
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="510" endline="524" pcid="34663"></source>
+</class>
+
+<class classid="348" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="1799" endline="1809" pcid="38040"></source>
+<source file="/cmpt816/tmp/net/ipv4/igmp.c.ifdefed" startline="1464" endline="1474" pcid="35469"></source>
+</class>
+
+<class classid="349" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/net/core/neighbour.c.ifdefed" startline="556" endline="567" pcid="37281"></source>
+<source file="/cmpt816/tmp/net/core/neighbour.c.ifdefed" startline="533" endline="544" pcid="37277"></source>
+</class>
+
+<class classid="350" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/net/ipv4/tcp.c.ifdefed" startline="836" endline="860" pcid="35981"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp.c.ifdefed" startline="663" endline="675" pcid="35970"></source>
+</class>
+
+<class classid="351" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="654" endline="667" pcid="32486"></source>
+<source file="/cmpt816/tmp/mm/filemap.c.ifdefed" startline="635" endline="646" pcid="32485"></source>
+</class>
+
+<class classid="352" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/fs/ramfs/inode.c.ifdefed" startline="131" endline="141" pcid="32147"></source>
+<source file="/cmpt816/tmp/fs/hugetlbfs/inode.c.ifdefed" startline="481" endline="489" pcid="27681"></source>
+</class>
+
+<class classid="353" nclones="3" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/fs/pipe.c.ifdefed" startline="482" endline="499" pcid="31263"></source>
+<source file="/cmpt816/tmp/fs/pipe.c.ifdefed" startline="465" endline="477" pcid="31262"></source>
+<source file="/cmpt816/tmp/fs/pipe.c.ifdefed" startline="448" endline="460" pcid="31261"></source>
+</class>
+
+<class classid="354" nclones="3" nlines="12" similarity="70">
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="816" endline="831" pcid="30586"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="968" endline="979" pcid="30597"></source>
+<source file="/cmpt816/tmp/fs/nfs/nfs3xdr.c.ifdefed" startline="948" endline="961" pcid="30596"></source>
+</class>
+
+<class classid="355" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/fs/dcache.c.ifdefed" startline="1571" endline="1582" pcid="30385"></source>
+<source file="/cmpt816/tmp/fs/dcache.c.ifdefed" startline="524" endline="535" pcid="30307"></source>
+</class>
+
+<class classid="356" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/fs/reiserfs/dir.c.ifdefed" startline="138" endline="149" pcid="30026"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr.c.ifdefed" startline="367" endline="380" pcid="28489"></source>
+</class>
+
+<class classid="357" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/fs/reiserfs/bitmap.c.ifdefed" startline="748" endline="762" pcid="28878"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/bitmap.c.ifdefed" startline="765" endline="777" pcid="28880"></source>
+</class>
+
+<class classid="358" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/fs/debugfs/inode.c.ifdefed" startline="69" endline="82" pcid="27299"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/inode.c.ifdefed" startline="278" endline="291" pcid="19219"></source>
+</class>
+
+<class classid="359" nclones="4" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/fs/ext2/xattr_trusted.c.ifdefed" startline="20" endline="33" pcid="27292"></source>
+<source file="/cmpt816/tmp/fs/ext2/xattr_user.c.ifdefed" startline="19" endline="32" pcid="27121"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr_trusted.c.ifdefed" startline="21" endline="34" pcid="24395"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr_user.c.ifdefed" startline="21" endline="34" pcid="24110"></source>
+</class>
+
+<class classid="360" nclones="2" nlines="12" similarity="91">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="635" endline="679" pcid="27117"></source>
+<source file="/cmpt816/tmp/fs/ext2/balloc.c.ifdefed" startline="524" endline="567" pcid="26993"></source>
+</class>
+
+<class classid="361" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="224" endline="237" pcid="27091"></source>
+<source file="/cmpt816/tmp/fs/ext3/ialloc.c.ifdefed" startline="213" endline="225" pcid="24079"></source>
+</class>
+
+<class classid="362" nclones="4" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="48" endline="64" pcid="27083"></source>
+<source file="/cmpt816/tmp/fs/ext2/balloc.c.ifdefed" startline="80" endline="95" pcid="26962"></source>
+<source file="/cmpt816/tmp/fs/ext3/ialloc.c.ifdefed" startline="55" endline="71" pcid="24070"></source>
+<source file="/cmpt816/tmp/fs/ext3/balloc.c.ifdefed" startline="84" endline="99" pcid="23889"></source>
+</class>
+
+<class classid="363" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="2346" endline="2360" pcid="21997"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="2285" endline="2298" pcid="21989"></source>
+</class>
+
+<class classid="364" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5486" endline="5502" pcid="21389"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="5561" endline="5572" pcid="21396"></source>
+</class>
+
+<class classid="365" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="2767" endline="2786" pcid="21166"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="2661" endline="2680" pcid="21156"></source>
+</class>
+
+<class classid="366" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="2978" endline="2993" pcid="20703"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="2963" endline="2978" pcid="20702"></source>
+</class>
+
+<class classid="367" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="926" endline="938" pcid="20589"></source>
+<source file="/cmpt816/tmp/drivers/net/s2io.c.ifdefed" startline="889" endline="901" pcid="20586"></source>
+</class>
+
+<class classid="368" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/usb/core/hub.c.ifdefed" startline="1298" endline="1311" pcid="19758"></source>
+<source file="/cmpt816/tmp/drivers/usb/core/hub.c.ifdefed" startline="480" endline="493" pcid="19699"></source>
+</class>
+
+<class classid="369" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/scsi/scsi_sysfs.c.ifdefed" startline="731" endline="750" pcid="17237"></source>
+<source file="/cmpt816/tmp/drivers/scsi/scsi_sysfs.c.ifdefed" startline="539" endline="558" pcid="17217"></source>
+</class>
+
+<class classid="370" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/scsi/scsi_lib.c.ifdefed" startline="1950" endline="1968" pcid="16969"></source>
+<source file="/cmpt816/tmp/drivers/scsi/scsi_lib.c.ifdefed" startline="1910" endline="1929" pcid="16968"></source>
+</class>
+
+<class classid="371" nclones="2" nlines="12" similarity="83">
+<source file="/cmpt816/tmp/drivers/ide/ide-probe.c.ifdefed" startline="1191" endline="1203" pcid="15948"></source>
+<source file="/cmpt816/tmp/drivers/ide/ide.c.ifdefed" startline="642" endline="660" pcid="16001"></source>
+</class>
+
+<class classid="372" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/char/keyboard.c.ifdefed" startline="513" endline="527" pcid="14422"></source>
+<source file="/cmpt816/tmp/drivers/char/keyboard.c.ifdefed" startline="496" endline="510" pcid="14420"></source>
+</class>
+
+<class classid="373" nclones="2" nlines="12" similarity="75">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="180" endline="193" pcid="14002"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/generic.c.ifdefed" startline="1061" endline="1073" pcid="14206"></source>
+</class>
+
+<class classid="374" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/acpi/thermal.c.ifdefed" startline="241" endline="256" pcid="11804"></source>
+<source file="/cmpt816/tmp/drivers/acpi/thermal.c.ifdefed" startline="410" endline="423" pcid="11817"></source>
+</class>
+
+<class classid="375" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/acpi/power.c.ifdefed" startline="496" endline="506" pcid="10811"></source>
+<source file="/cmpt816/tmp/drivers/acpi/power.c.ifdefed" startline="618" endline="628" pcid="10820"></source>
+</class>
+
+<class classid="376" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/lib/sort.c.ifdefed" startline="68" endline="78" pcid="110"></source>
+<source file="/cmpt816/tmp/lib/sort.c.ifdefed" startline="56" endline="65" pcid="108"></source>
+</class>
+
+<class classid="377" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/net/sunrpc/svcsock.c.ifdefed" startline="745" endline="757" pcid="40136"></source>
+<source file="/cmpt816/tmp/net/sunrpc/svcsock.c.ifdefed" startline="514" endline="526" pcid="40113"></source>
+</class>
+
+<class classid="378" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/net/unix/af_unix.c.ifdefed" startline="1355" endline="1368" pcid="39666"></source>
+<source file="/cmpt816/tmp/net/unix/af_unix.c.ifdefed" startline="985" endline="997" pcid="39640"></source>
+</class>
+
+<class classid="379" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/net/ipv6/af_inet6.c.ifdefed" startline="609" endline="621" pcid="38980"></source>
+<source file="/cmpt816/tmp/net/ipv4/af_inet.c.ifdefed" startline="950" endline="962" pcid="34825"></source>
+</class>
+
+<class classid="380" nclones="3" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="435" endline="445" pcid="38561"></source>
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="301" endline="311" pcid="38464"></source>
+<source file="/cmpt816/tmp/net/ipv4/udp.c.ifdefed" startline="849" endline="859" pcid="34694"></source>
+</class>
+
+<class classid="381" nclones="2" nlines="11" similarity="100">
+<source file="/cmpt816/tmp/net/ipv6/ip6_output.c.ifdefed" startline="1117" endline="1127" pcid="38382"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_output.c.ifdefed" startline="1143" endline="1153" pcid="34604"></source>
+</class>
+
+<class classid="382" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/acpi/button.c.ifdefed" startline="430" endline="450" pcid="12344"></source>
+<source file="/cmpt816/tmp/drivers/acpi/button.c.ifdefed" startline="495" endline="508" pcid="12349"></source>
+</class>
+
+<class classid="383" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="600" endline="611" pcid="37781"></source>
+<source file="/cmpt816/tmp/net/socket.c.ifdefed" startline="548" endline="559" pcid="37778"></source>
+</class>
+
+<class classid="384" nclones="3" nlines="11" similarity="70">
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1211" endline="1223" pcid="37088"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="1160" endline="1170" pcid="37083"></source>
+<source file="/cmpt816/tmp/net/core/skbuff.c.ifdefed" startline="965" endline="975" pcid="37067"></source>
+</class>
+
+<class classid="385" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/kernel/module.c.ifdefed" startline="1221" endline="1236" pcid="2028"></source>
+<source file="/cmpt816/tmp/kernel/module.c.ifdefed" startline="1239" endline="1255" pcid="2030"></source>
+</class>
+
+<class classid="386" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/net/ipv4/raw.c.ifdefed" startline="670" endline="681" pcid="34777"></source>
+<source file="/cmpt816/tmp/net/ipv4/raw.c.ifdefed" startline="655" endline="666" pcid="34775"></source>
+</class>
+
+<class classid="387" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/net/ipv4/fib_frontend.c.ifdefed" startline="319" endline="331" pcid="34508"></source>
+<source file="/cmpt816/tmp/net/ipv4/fib_frontend.c.ifdefed" startline="304" endline="316" pcid="34507"></source>
+</class>
+
+<class classid="388" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/kernel/rcupdate.c.ifdefed" startline="88" endline="99" pcid="2887"></source>
+<source file="/cmpt816/tmp/kernel/rcupdate.c.ifdefed" startline="119" endline="130" pcid="2888"></source>
+</class>
+
+<class classid="389" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/kernel/kprobes.c.ifdefed" startline="82" endline="93" pcid="2992"></source>
+<source file="/cmpt816/tmp/kernel/kprobes.c.ifdefed" startline="97" endline="108" pcid="2995"></source>
+</class>
+
+<class classid="390" nclones="6" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/arch/x86_64/pci/mmconfig.c.ifdefed" startline="33" endline="43" pcid="3347"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="28" endline="38" pcid="5074"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="57" endline="67" pcid="5076"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="108" endline="118" pcid="5078"></source>
+<source file="/cmpt816/tmp/arch/i386/pci/direct.c.ifdefed" startline="147" endline="157" pcid="5080"></source>
+<source file="/cmpt816/tmp/arch/x86_64/pci/mmconfig.c.ifdefed" startline="56" endline="66" pcid="3349"></source>
+</class>
+
+<class classid="391" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/traps.c.ifdefed" startline="541" endline="552" pcid="3388"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/traps.c.ifdefed" startline="460" endline="468" pcid="3384"></source>
+</class>
+
+<class classid="392" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="255" endline="266" pcid="32061"></source>
+<source file="/cmpt816/tmp/fs/read_write.c.ifdefed" startline="207" endline="218" pcid="32056"></source>
+</class>
+
+<class classid="393" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/drivers/serial/8250.c.ifdefed" startline="2329" endline="2343" pcid="12595"></source>
+<source file="/cmpt816/tmp/drivers/serial/8250.c.ifdefed" startline="2346" endline="2360" pcid="12597"></source>
+</class>
+
+<class classid="394" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="944" endline="954" pcid="31853"></source>
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="759" endline="768" pcid="31836"></source>
+</class>
+
+<class classid="395" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/fat/file.c.ifdefed" startline="35" endline="46" pcid="31437"></source>
+<source file="/cmpt816/tmp/fs/fat/file.c.ifdefed" startline="17" endline="31" pcid="31435"></source>
+</class>
+
+<class classid="396" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="540" endline="551" pcid="30150"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="487" endline="498" pcid="30145"></source>
+</class>
+
+<class classid="397" nclones="3" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/reiserfs/xattr_acl.c.ifdefed" startline="25" endline="34" pcid="30102"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="493" endline="502" pcid="24154"></source>
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="471" endline="480" pcid="27163"></source>
+</class>
+
+<class classid="398" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/arch/x86_64/kernel/i8259.c.ifdefed" startline="195" endline="206" pcid="4493"></source>
+<source file="/cmpt816/tmp/arch/x86_64/kernel/i8259.c.ifdefed" startline="209" endline="220" pcid="4494"></source>
+</class>
+
+<class classid="399" nclones="4" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="784" endline="794" pcid="28061"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="1055" endline="1064" pcid="28081"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="702" endline="711" pcid="28055"></source>
+<source file="/cmpt816/tmp/fs/reiserfs/namei.c.ifdefed" startline="626" endline="635" pcid="28049"></source>
+</class>
+
+<class classid="400" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/ext2/super.c.ifdefed" startline="517" endline="532" pcid="27193"></source>
+<source file="/cmpt816/tmp/fs/ext3/super.c.ifdefed" startline="1205" endline="1220" pcid="24218"></source>
+</class>
+
+<class classid="401" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="283" endline="295" pcid="27146"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="286" endline="298" pcid="24135"></source>
+</class>
+
+<class classid="402" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/ext2/xattr_user.c.ifdefed" startline="37" endline="49" pcid="27123"></source>
+<source file="/cmpt816/tmp/fs/ext3/xattr_user.c.ifdefed" startline="39" endline="51" pcid="24112"></source>
+</class>
+
+<class classid="403" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/ext2/ialloc.c.ifdefed" startline="683" endline="694" pcid="27119"></source>
+<source file="/cmpt816/tmp/fs/ext3/ialloc.c.ifdefed" startline="741" endline="752" pcid="24108"></source>
+</class>
+
+<class classid="404" nclones="2" nlines="11" similarity="100">
+<source file="/cmpt816/tmp/fs/ext2/inode.c.ifdefed" startline="1230" endline="1241" pcid="26950"></source>
+<source file="/cmpt816/tmp/fs/ext3/inode.c.ifdefed" startline="2652" endline="2663" pcid="23864"></source>
+</class>
+
+<class classid="405" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="99" endline="111" pcid="26149"></source>
+<source file="/cmpt816/tmp/fs/vfat/namei.c.ifdefed" startline="117" endline="128" pcid="26151"></source>
+</class>
+
+<class classid="406" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/fs/jbd/journal.c.ifdefed" startline="1217" endline="1238" pcid="25414"></source>
+<source file="/cmpt816/tmp/fs/jbd/journal.c.ifdefed" startline="1186" endline="1202" pcid="25413"></source>
+</class>
+
+<class classid="407" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/lockd/xdr4.c.ifdefed" startline="301" endline="317" pcid="24813"></source>
+<source file="/cmpt816/tmp/fs/lockd/xdr.c.ifdefed" startline="296" endline="312" pcid="24775"></source>
+</class>
+
+<class classid="408" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="517" endline="527" pcid="6598"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="531" endline="541" pcid="6599"></source>
+</class>
+
+<class classid="409" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="1132" endline="1148" pcid="6633"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq.c.ifdefed" startline="1173" endline="1187" pcid="6635"></source>
+</class>
+
+<class classid="410" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/drivers/pci/quirks.c.ifdefed" startline="726" endline="739" pcid="6783"></source>
+<source file="/cmpt816/tmp/drivers/pci/quirks.c.ifdefed" startline="709" endline="719" pcid="6781"></source>
+</class>
+
+<class classid="411" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/drivers/pci/pci-driver.c.ifdefed" startline="335" endline="346" pcid="6854"></source>
+<source file="/cmpt816/tmp/drivers/pci/pci-driver.c.ifdefed" startline="351" endline="362" pcid="6856"></source>
+</class>
+
+<class classid="412" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/fs/ext3/namei.c.ifdefed" startline="1612" endline="1622" pcid="23619"></source>
+<source file="/cmpt816/tmp/fs/ext2/namei.c.ifdefed" startline="55" endline="64" pcid="26842"></source>
+</class>
+
+<class classid="413" nclones="2" nlines="11" similarity="90">
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="832" endline="843" pcid="23288"></source>
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="767" endline="778" pcid="23284"></source>
+</class>
+
+<class classid="414" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="290" endline="302" pcid="23245"></source>
+<source file="/cmpt816/tmp/fs/namei.c.ifdefed" startline="277" endline="287" pcid="23243"></source>
+</class>
+
+<class classid="415" nclones="3" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="81" endline="93" pcid="23130"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfsxdr.c.ifdefed" startline="65" endline="77" pcid="23127"></source>
+<source file="/cmpt816/tmp/fs/nfsd/nfs3xdr.c.ifdefed" startline="90" endline="102" pcid="22708"></source>
+</class>
+
+<class classid="416" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/fs/nfsd/export.c.ifdefed" startline="647" endline="659" pcid="22967"></source>
+<source file="/cmpt816/tmp/fs/nfsd/export.c.ifdefed" startline="687" endline="697" pcid="22972"></source>
+</class>
+
+<class classid="417" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_main.c.ifdefed" startline="2191" endline="2207" pcid="21662"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_main.c.ifdefed" startline="2177" endline="2189" pcid="21658"></source>
+</class>
+
+<class classid="418" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_param.c.ifdefed" startline="472" endline="485" pcid="21505"></source>
+<source file="/cmpt816/tmp/drivers/acpi/battery.c.ifdefed" startline="386" endline="396" pcid="10406"></source>
+</class>
+
+<class classid="419" nclones="4" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="6332" endline="6347" pcid="21451"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="6289" endline="6304" pcid="21450"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="1769" endline="1782" pcid="21091"></source>
+<source file="/cmpt816/tmp/drivers/net/e1000/e1000_hw.c.ifdefed" startline="1744" endline="1758" pcid="21088"></source>
+</class>
+
+<class classid="420" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/usb/input/hid-core.c.ifdefed" startline="287" endline="294" pcid="18875"></source>
+<source file="/cmpt816/tmp/drivers/usb/input/hid-core.c.ifdefed" startline="277" endline="284" pcid="18873"></source>
+</class>
+
+<class classid="421" nclones="2" nlines="11" similarity="81">
+<source file="/cmpt816/tmp/drivers/scsi/scsi.c.ifdefed" startline="1154" endline="1166" pcid="18423"></source>
+<source file="/cmpt816/tmp/drivers/scsi/scsi.c.ifdefed" startline="1213" endline="1224" pcid="18426"></source>
+</class>
+
+<class classid="422" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_osm.c.ifdefed" startline="3423" endline="3440" pcid="18210"></source>
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_osm.c.ifdefed" startline="3401" endline="3418" pcid="18209"></source>
+</class>
+
+<class classid="423" nclones="2" nlines="11" similarity="72">
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="4310" endline="4327" pcid="17622"></source>
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_core.c.ifdefed" startline="4239" endline="4256" pcid="17615"></source>
+</class>
+
+<class classid="424" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/drivers/char/vt.c.ifdefed" startline="2401" endline="2410" pcid="13003"></source>
+<source file="/cmpt816/tmp/drivers/char/vt.c.ifdefed" startline="2386" endline="2395" pcid="13002"></source>
+</class>
+
+<class classid="425" nclones="4" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/lib/bitmap.c.ifdefed" startline="42" endline="53" pcid="124"></source>
+<source file="/cmpt816/tmp/lib/bitmap.c.ifdefed" startline="57" endline="68" pcid="125"></source>
+<source file="/cmpt816/tmp/lib/bitmap.c.ifdefed" startline="73" endline="84" pcid="126"></source>
+<source file="/cmpt816/tmp/lib/bitmap.c.ifdefed" startline="243" endline="253" pcid="138"></source>
+</class>
+
+<class classid="426" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/lib/prio_tree.c.ifdefed" startline="229" endline="237" pcid="239"></source>
+<source file="/cmpt816/tmp/lib/prio_tree.c.ifdefed" startline="237" endline="245" pcid="241"></source>
+</class>
+
+<class classid="427" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/net/ipv6/route.c.ifdefed" startline="774" endline="784" pcid="39419"></source>
+<source file="/cmpt816/tmp/net/ipv6/route.c.ifdefed" startline="761" endline="771" pcid="39417"></source>
+</class>
+
+<class classid="428" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/net/ipv6/reassembly.c.ifdefed" startline="654" endline="663" pcid="39032"></source>
+<source file="/cmpt816/tmp/net/ipv4/ip_fragment.c.ifdefed" startline="605" endline="614" pcid="36223"></source>
+</class>
+
+<class classid="429" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/net/ipv6/tcp_ipv6.c.ifdefed" startline="1060" endline="1071" pcid="38700"></source>
+<source file="/cmpt816/tmp/net/ipv4/tcp_ipv4.c.ifdefed" startline="1131" endline="1143" pcid="34991"></source>
+</class>
+
+<class classid="430" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/net/ipv6/raw.c.ifdefed" startline="780" endline="789" pcid="38587"></source>
+<source file="/cmpt816/tmp/net/ipv6/udp.c.ifdefed" startline="807" endline="816" pcid="38512"></source>
+</class>
+
+<class classid="431" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/net/ipv6/mcast.c.ifdefed" startline="1960" endline="1972" pcid="38059"></source>
+<source file="/cmpt816/tmp/net/ipv4/igmp.c.ifdefed" startline="1672" endline="1686" pcid="35486"></source>
+</class>
+
+<class classid="432" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/init/calibrate.c.ifdefed" startline="42" endline="53" pcid="1109"></source>
+<source file="/cmpt816/tmp/init/calibrate.c.ifdefed" startline="61" endline="70" pcid="1110"></source>
+</class>
+
+<class classid="433" nclones="3" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/drivers/char/hpet.c.ifdefed" startline="556" endline="565" pcid="13466"></source>
+<source file="/cmpt816/tmp/fs/libfs.c.ifdefed" startline="78" endline="87" pcid="30234"></source>
+<source file="/cmpt816/tmp/fs/sysfs/dir.c.ifdefed" startline="429" endline="438" pcid="23527"></source>
+</class>
+
+<class classid="434" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/net/core/ethtool.c.ifdefed" startline="545" endline="558" pcid="37596"></source>
+<source file="/cmpt816/tmp/net/core/ethtool.c.ifdefed" startline="512" endline="528" pcid="37594"></source>
+</class>
+
+<class classid="435" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/kernel/uid16.c.ifdefed" startline="101" endline="112" pcid="1306"></source>
+<source file="/cmpt816/tmp/kernel/uid16.c.ifdefed" startline="116" endline="127" pcid="1308"></source>
+</class>
+
+<class classid="436" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/kernel/signal.c.ifdefed" startline="710" endline="735" pcid="1390"></source>
+<source file="/cmpt816/tmp/kernel/signal.c.ifdefed" startline="766" endline="783" pcid="1393"></source>
+</class>
+
+<class classid="437" nclones="3" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/net/core/filter.c.ifdefed" startline="227" endline="237" pcid="36993"></source>
+<source file="/cmpt816/tmp/net/core/filter.c.ifdefed" startline="201" endline="211" pcid="36988"></source>
+<source file="/cmpt816/tmp/net/core/filter.c.ifdefed" startline="175" endline="185" pcid="36983"></source>
+</class>
+
+<class classid="438" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/net/core/sock.c.ifdefed" startline="768" endline="777" pcid="36917"></source>
+<source file="/cmpt816/tmp/net/core/sock.c.ifdefed" startline="753" endline="762" pcid="36914"></source>
+</class>
+
+<class classid="439" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/kernel/wait.c.ifdefed" startline="61" endline="75" pcid="2290"></source>
+<source file="/cmpt816/tmp/kernel/wait.c.ifdefed" startline="80" endline="94" pcid="2291"></source>
+</class>
+
+<class classid="440" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/kernel/posix-cpu-timers.c.ifdefed" startline="346" endline="354" pcid="2609"></source>
+<source file="/cmpt816/tmp/kernel/posix-cpu-timers.c.ifdefed" startline="354" endline="362" pcid="2612"></source>
+</class>
+
+<class classid="441" nclones="3" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/kernel/posix-cpu-timers.c.ifdefed" startline="426" endline="435" pcid="2622"></source>
+<source file="/cmpt816/tmp/kernel/posix-cpu-timers.c.ifdefed" startline="438" endline="447" pcid="2625"></source>
+<source file="/cmpt816/tmp/kernel/posix-cpu-timers.c.ifdefed" startline="450" endline="458" pcid="2628"></source>
+</class>
+
+<class classid="442" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/arch/x86_64/lib/bitops.c.ifdefed" startline="50" endline="62" pcid="3306"></source>
+<source file="/cmpt816/tmp/arch/x86_64/lib/bitops.c.ifdefed" startline="116" endline="128" pcid="3310"></source>
+</class>
+
+<class classid="443" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/mm/mempolicy.c.ifdefed" startline="966" endline="975" pcid="32259"></source>
+<source file="/cmpt816/tmp/fs/ext3/balloc.c.ifdefed" startline="232" endline="242" pcid="23895"></source>
+</class>
+
+<class classid="444" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="2501" endline="2511" pcid="31993"></source>
+<source file="/cmpt816/tmp/fs/buffer.c.ifdefed" startline="2311" endline="2324" pcid="31977"></source>
+</class>
+
+<class classid="445" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/fs/attr.c.ifdefed" startline="164" endline="173" pcid="31665"></source>
+<source file="/cmpt816/tmp/fs/attr.c.ifdefed" startline="154" endline="163" pcid="31662"></source>
+</class>
+
+<class classid="446" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/fs/fat/fatent.c.ifdefed" startline="230" endline="239" pcid="31490"></source>
+<source file="/cmpt816/tmp/fs/fat/fatent.c.ifdefed" startline="218" endline="227" pcid="31488"></source>
+</class>
+
+<class classid="447" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/drivers/char/agp/frontend.c.ifdefed" startline="317" endline="329" pcid="13913"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/frontend.c.ifdefed" startline="500" endline="512" pcid="13933"></source>
+</class>
+
+<class classid="448" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/fs/isofs/joliet.c.ifdefed" startline="53" endline="62" pcid="27571"></source>
+<source file="/cmpt816/tmp/fs/nls/nls_base.c.ifdefed" startline="146" endline="155" pcid="26391"></source>
+</class>
+
+<class classid="449" nclones="4" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/fs/stat.c.ifdefed" startline="82" endline="92" pcid="27354"></source>
+<source file="/cmpt816/tmp/fs/stat.c.ifdefed" startline="67" endline="77" pcid="27352"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="713" endline="723" pcid="25696"></source>
+<source file="/cmpt816/tmp/fs/open.c.ifdefed" startline="700" endline="710" pcid="25694"></source>
+</class>
+
+<class classid="450" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="213" endline="223" pcid="14007"></source>
+<source file="/cmpt816/tmp/drivers/char/agp/intel-agp.c.ifdefed" startline="245" endline="256" pcid="14010"></source>
+</class>
+
+<class classid="451" nclones="4" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="267" endline="277" pcid="27144"></source>
+<source file="/cmpt816/tmp/fs/ext2/acl.c.ifdefed" startline="200" endline="210" pcid="27137"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="202" endline="212" pcid="24126"></source>
+<source file="/cmpt816/tmp/fs/ext3/acl.c.ifdefed" startline="270" endline="280" pcid="24133"></source>
+</class>
+
+<class classid="452" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/fs/jbd/journal.c.ifdefed" startline="1585" endline="1595" pcid="25430"></source>
+<source file="/cmpt816/tmp/fs/jbd/journal.c.ifdefed" startline="1565" endline="1575" pcid="25429"></source>
+</class>
+
+<class classid="453" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/drivers/base/bus.c.ifdefed" startline="113" endline="121" pcid="6233"></source>
+<source file="/cmpt816/tmp/drivers/base/driver.c.ifdefed" startline="28" endline="36" pcid="6382"></source>
+</class>
+
+<class classid="454" nclones="4" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="342" endline="352" pcid="25156"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="272" endline="282" pcid="25151"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="192" endline="202" pcid="25143"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="103" endline="113" pcid="25135"></source>
+</class>
+
+<class classid="455" nclones="8" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="328" endline="338" pcid="25155"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="314" endline="324" pcid="25154"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="258" endline="268" pcid="25150"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="244" endline="254" pcid="25149"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="178" endline="188" pcid="25142"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="163" endline="173" pcid="25141"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="88" endline="98" pcid="25134"></source>
+<source file="/cmpt816/tmp/fs/xattr.c.ifdefed" startline="73" endline="83" pcid="25133"></source>
+</class>
+
+<class classid="456" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/drivers/base/platform.c.ifdefed" startline="33" endline="46" pcid="6427"></source>
+<source file="/cmpt816/tmp/drivers/base/platform.c.ifdefed" startline="69" endline="81" pcid="6430"></source>
+</class>
+
+<class classid="457" nclones="2" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq_ondemand.c.ifdefed" startline="272" endline="284" pcid="6508"></source>
+<source file="/cmpt816/tmp/drivers/cpufreq/cpufreq_ondemand.c.ifdefed" startline="315" endline="328" pcid="6511"></source>
+</class>
+
+<class classid="458" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="1925" endline="1935" pcid="21959"></source>
+<source file="/cmpt816/tmp/drivers/net/tg3.c.ifdefed" startline="1873" endline="1882" pcid="21952"></source>
+</class>
+
+<class classid="459" nclones="2" nlines="10" similarity="80">
+<source file="/cmpt816/tmp/drivers/scsi/aic7xxx/aic79xx_proc.c.ifdefed" startline="85" endline="96" pcid="17250"></source>
+<source file="/cmpt816/tmp/drivers/message/fusion/mptscsih.c.ifdefed" startline="1572" endline="1583" pcid="14708"></source>
+</class>
+
+<class classid="460" nclones="2" nlines="10" similarity="90">
+<source file="/cmpt816/tmp/drivers/acpi/events/evrgnini.c.ifdefed" startline="128" endline="140" pcid="9559"></source>
+<source file="/cmpt816/tmp/drivers/acpi/events/evrgnini.c.ifdefed" startline="399" endline="411" pcid="9581"></source>
+</class>
+
+<class classid="461" nclones="3" nlines="10" similarity="70">
+<source file="/cmpt816/tmp/drivers/scsi/sd.c.ifdefed" startline="317" endline="325" pcid="16761"></source>
+<source file="/cmpt816/tmp/drivers/scsi/sd.c.ifdefed" startline="308" endline="316" pcid="16758"></source>
+<source file="/cmpt816/tmp/drivers/scsi/sd.c.ifdefed" startline="299" endline="307" pcid="16755"></source>
+</class>
+
+<class classid="462" nclones="2" nlines="10" similarity="100">
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsload.c.ifdefed" startline="214" endline="229" pcid="10254"></source>
+<source file="/cmpt816/tmp/drivers/acpi/namespace/nsload.c.ifdefed" startline="243" endline="256" pcid="10257"></source>
+</class>
+
+</clones>

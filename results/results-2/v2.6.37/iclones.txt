@@ -1,0 +1,2450 @@
+CCF-V1-L
+@	1
+/cmpt816/tmp/net/socket.c	817	834
+/cmpt816/tmp/net/socket.c	857	874
+@	3
+/cmpt816/tmp/fs/ext3/namei.c	1696	1722
+/cmpt816/tmp/fs/ext3/namei.c	1732	1759
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	458	486
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	539	567
+@	3
+/cmpt816/tmp/net/ipv4/arp.c	307	326
+/cmpt816/tmp/net/ipv6/ndisc.c	397	415
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1917	1936
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1941	1960
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1965	1984
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2036	2055
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3107	3127
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3129	3149
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3151	3171
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3296	3316
+@	2
+/cmpt816/tmp/fs/proc/vmcore.c	220	287
+/cmpt816/tmp/fs/proc/vmcore.c	301	368
+@	3
+/cmpt816/tmp/fs/proc/vmcore.c	489	531
+/cmpt816/tmp/fs/proc/vmcore.c	545	593
+@	2
+/cmpt816/tmp/fs/quota/quota_v2.c	181	190
+/cmpt816/tmp/fs/quota/quota_v2.c	232	241
+@	3
+/cmpt816/tmp/sound/pci/hda/hda_generic.c	697	715
+/cmpt816/tmp/sound/pci/hda/hda_generic.c	723	739
+@	3
+/cmpt816/tmp/lib/zlib_inflate/inflate.c	580	594
+/cmpt816/tmp/lib/zlib_inflate/inflate.c	620	634
+@	3
+/cmpt816/tmp/drivers/ata/libahci.c	1824	1847
+/cmpt816/tmp/drivers/ata/libahci.c	1857	1879
+@	3
+/cmpt816/tmp/security/lsm_audit.c	63	101
+/cmpt816/tmp/security/lsm_audit.c	138	182
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_cmedia.c	325	348
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1901	1926
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_cmedia.c	583	601
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1969	1991
+@	2
+/cmpt816/tmp/kernel/futex.c	2385	2414
+/cmpt816/tmp/kernel/futex_compat.c	137	166
+@	3
+/cmpt816/tmp/kernel/futex.c	2490	2519
+/cmpt816/tmp/kernel/futex_compat.c	50	81
+@	3
+/cmpt816/tmp/kernel/futex.c	2620	2645
+/cmpt816/tmp/kernel/futex_compat.c	180	201
+@	3
+/cmpt816/tmp/arch/x86/kernel/module.c	72	91
+/cmpt816/tmp/arch/x86/kernel/module.c	123	144
+@	3
+/cmpt816/tmp/drivers/cdrom/cdrom.c	1035	1066
+/cmpt816/tmp/drivers/cdrom/cdrom.c	1146	1173
+@	2
+/cmpt816/tmp/drivers/cdrom/cdrom.c	1799	1813
+/cmpt816/tmp/drivers/cdrom/cdrom.c	1860	1874
+@	3
+/cmpt816/tmp/drivers/cdrom/cdrom.c	1990	2003
+/cmpt816/tmp/drivers/cdrom/cdrom.c	2010	2027
+@	2
+/cmpt816/tmp/drivers/acpi/acpica/dswload.c	193	242
+/cmpt816/tmp/drivers/acpi/acpica/dswload.c	681	727
+@	1
+/cmpt816/tmp/drivers/acpi/acpica/dswload.c	496	524
+/cmpt816/tmp/drivers/acpi/acpica/dswload.c	1116	1143
+@	3
+/cmpt816/tmp/security/lsm_audit.c	120	167
+/cmpt816/tmp/security/selinux/hooks.c	3499	3549
+@	3
+/cmpt816/tmp/net/wireless/scan.c	548	565
+/cmpt816/tmp/net/wireless/scan.c	609	627
+@	3
+/cmpt816/tmp/net/sunrpc/rpcb_clnt.c	696	713
+/cmpt816/tmp/net/sunrpc/rpcb_clnt.c	787	805
+@	3
+/cmpt816/tmp/drivers/tty/vt/vt_ioctl.c	434	460
+/cmpt816/tmp/drivers/tty/vt/vt_ioctl.c	1400	1426
+@	3
+/cmpt816/tmp/drivers/tty/vt/vt_ioctl.c	498	531
+/cmpt816/tmp/drivers/tty/vt/vt_ioctl.c	1494	1527
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3568	3588
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3590	3610
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3612	3632
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5093	5116
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5121	5144
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5445	5474
+@	1
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5228	5245
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5264	5281
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5303	5320
+@	3
+/cmpt816/tmp/net/core/neighbour.c	399	425
+/cmpt816/tmp/net/core/neighbour.c	429	456
+@	3
+/cmpt816/tmp/security/lsm_audit.c	63	88
+/cmpt816/tmp/security/selinux/hooks.c	3438	3477
+/cmpt816/tmp/security/selinux/hooks.c	3518	3549
+@	2
+/cmpt816/tmp/drivers/firmware/efivars.c	405	427
+/cmpt816/tmp/drivers/firmware/efivars.c	464	486
+@	3
+/cmpt816/tmp/fs/fat/dir.c	380	392
+/cmpt816/tmp/fs/fat/dir.c	565	577
+@	3
+/cmpt816/tmp/fs/jbd/journal.c	768	797
+/cmpt816/tmp/fs/jbd/journal.c	827	862
+@	3
+/cmpt816/tmp/fs/libfs.c	303	325
+/cmpt816/tmp/mm/shmem.c	1944	1967
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	618	643
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	996	1021
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1154	1179
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	658	701
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1023	1067
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1181	1225
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	701	757
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1068	1124
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1225	1281
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	808	839
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1021	1053
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1179	1211
+@	3
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	395	420
+/cmpt816/tmp/fs/hugetlbfs/inode.c	129	155
+@	3
+/cmpt816/tmp/net/wireless/ibss.c	267	282
+/cmpt816/tmp/net/wireless/wext-sme.c	29	47
+@	3
+/cmpt816/tmp/net/wireless/ibss.c	291	315
+/cmpt816/tmp/net/wireless/wext-sme.c	60	81
+@	2
+/cmpt816/tmp/net/wireless/ibss.c	349	375
+/cmpt816/tmp/net/wireless/wext-sme.c	123	149
+@	3
+/cmpt816/tmp/net/wireless/ibss.c	502	525
+/cmpt816/tmp/net/wireless/wext-sme.c	297	317
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	559	584
+/cmpt816/tmp/sound/pci/hda/patch_sigmatel.c	1125	1149
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_cirrus.c	495	506
+/cmpt816/tmp/sound/pci/hda/patch_cirrus.c	508	520
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2246	2271
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3398	3423
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3819	3844
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2281	2310
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2890	2919
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3433	3475
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2286	2351
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2895	2960
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3439	3504
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2557	2581
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3048	3070
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3578	3600
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2828	2852
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3404	3423
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3825	3844
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2961	2985
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3925	3944
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5125	5144
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3028	3052
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3558	3582
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5838	5865
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3861	3895
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4615	4648
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5064	5104
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3875	3909
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4628	4661
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5077	5110
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3925	3956
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4663	4693
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5125	5155
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4019	4053
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5226
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5838	5875
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4019	4053
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5226
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5516	5553
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4019	4057
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4773
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5231
+@	3
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	376	404
+/cmpt816/tmp/net/packet/af_packet.c	1514	1536
+@	3
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	429	451
+/cmpt816/tmp/net/packet/af_packet.c	1538	1557
+@	1
+/cmpt816/tmp/drivers/acpi/pci_link.c	122	139
+/cmpt816/tmp/drivers/acpi/pci_link.c	148	165
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1305	1334
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1484	1507
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1305	1355
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1389	1426
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1305	1355
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1433	1477
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1389	1426
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1534	1569
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1389	1426
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1484	1526
+@	3
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1484	1526
+/cmpt816/tmp/drivers/input/keyboard/atkbd.c	1534	1569
+@	3
+/cmpt816/tmp/security/selinux/ss/services.c	898	937
+/cmpt816/tmp/security/selinux/ss/services.c	944	982
+@	3
+/cmpt816/tmp/security/selinux/ss/services.c	1954	1974
+/cmpt816/tmp/security/selinux/ss/services.c	2271	2292
+@	3
+/cmpt816/tmp/security/keys/keyctl.c	158	201
+/cmpt816/tmp/security/keys/keyctl.c	554	591
+@	2
+/cmpt816/tmp/security/keys/keyctl.c	396	421
+/cmpt816/tmp/security/keys/keyctl.c	430	455
+@	3
+/cmpt816/tmp/drivers/char/agp/amd64-agp.c	52	80
+/cmpt816/tmp/drivers/char/agp/generic.c	1108	1136
+@	2
+/cmpt816/tmp/net/mac80211/agg-tx.c	555	578
+/cmpt816/tmp/net/mac80211/agg-tx.c	708	731
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5076	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5321	5347
+/cmpt816/tmp/net/wireless/nl80211.c	5618	5652
+@	3
+/cmpt816/tmp/net/core/fib_rules.c	266	290
+/cmpt816/tmp/net/core/fib_rules.c	415	439
+@	3
+/cmpt816/tmp/net/ipv6/mcast.c	1406	1429
+/cmpt816/tmp/net/ipv6/mcast.c	1774	1794
+@	3
+/cmpt816/tmp/net/ipv6/mcast.c	1846	1867
+/cmpt816/tmp/net/ipv6/mcast.c	2010	2032
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	1489	1510
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	1563	1594
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	5027	5054
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17048	17085
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	5302	5344
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17168	17211
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	5309	5346
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	10868	10908
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	12472	12490
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19820	19839
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	12472	12503
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	13660	13691
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	12493	12516
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17197	17220
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	13506	13527
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19745	19766
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	13660	13691
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19820	19849
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	16045	16064
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19281	19300
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17021	17038
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19260	19277
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17088	17109
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19145	19164
+@	2
+/cmpt816/tmp/drivers/pci/pci-driver.c	499	517
+/cmpt816/tmp/drivers/pci/pci-driver.c	526	544
+@	1
+/cmpt816/tmp/fs/autofs4/root.c	694	711
+/cmpt816/tmp/fs/autofs4/root.c	825	842
+@	2
+/cmpt816/tmp/net/ipv6/addrconf.c	3530	3546
+/cmpt816/tmp/net/ipv6/addrconf.c	3555	3571
+@	3
+/cmpt816/tmp/net/ipv6/addrconf.c	3647	3668
+/cmpt816/tmp/net/ipv6/addrconf.c	3969	3988
+@	3
+/cmpt816/tmp/net/ipv6/addrconf.c	4009	4030
+/cmpt816/tmp/net/ipv6/addrconf.c	4080	4101
+@	2
+/cmpt816/tmp/crypto/ablkcipher.c	312	328
+/cmpt816/tmp/crypto/aead.c	31	47
+/cmpt816/tmp/crypto/cipher.c	27	44
+@	1
+/cmpt816/tmp/net/mac80211/util.c	188	215
+/cmpt816/tmp/net/mac80211/util.c	228	255
+@	3
+/cmpt816/tmp/net/mac80211/util.c	464	486
+/cmpt816/tmp/net/mac80211/util.c	492	514
+@	3
+/cmpt816/tmp/security/selinux/selinuxfs.c	740	797
+/cmpt816/tmp/security/selinux/selinuxfs.c	799	854
+/cmpt816/tmp/security/selinux/selinuxfs.c	917	974
+@	2
+/cmpt816/tmp/crypto/ablkcipher.c	387	398
+/cmpt816/tmp/crypto/ablkcipher.c	438	449
+@	2
+/cmpt816/tmp/net/sunrpc/xprtsock.c	2232	2272
+/cmpt816/tmp/net/sunrpc/xprtsock.c	2306	2347
+@	3
+/cmpt816/tmp/drivers/net/e100.c	719	729
+/cmpt816/tmp/drivers/net/e100.c	751	761
+@	3
+/cmpt816/tmp/net/wireless/sme.c	428	445
+/cmpt816/tmp/net/wireless/sme.c	583	601
+@	1
+/cmpt816/tmp/drivers/ata/libata-scsi.c	520	543
+/cmpt816/tmp/drivers/ata/libata-scsi.c	606	629
+@	3
+/cmpt816/tmp/drivers/ata/libata-scsi.c	943	962
+/cmpt816/tmp/drivers/ata/libata-scsi.c	1013	1035
+@	1
+/cmpt816/tmp/fs/statfs.c	105	119
+/cmpt816/tmp/fs/statfs.c	133	147
+@	2
+/cmpt816/tmp/net/netfilter/xt_TCPMSS.c	236	255
+/cmpt816/tmp/net/netfilter/xt_TCPMSS.c	258	277
+@	3
+/cmpt816/tmp/drivers/usb/storage/transport.c	193	213
+/cmpt816/tmp/drivers/usb/storage/transport.c	327	347
+@	1
+/cmpt816/tmp/fs/nfs/idmap.c	563	580
+/cmpt816/tmp/net/sunrpc/auth_gss/auth_gss.c	605	622
+@	2
+/cmpt816/tmp/crypto/aead.c	216	243
+/cmpt816/tmp/crypto/blkcipher.c	552	579
+@	2
+/cmpt816/tmp/crypto/aead.c	262	285
+/cmpt816/tmp/crypto/blkcipher.c	624	647
+@	2
+/cmpt816/tmp/net/mac80211/agg-tx.c	62	93
+/cmpt816/tmp/net/mac80211/ht.c	157	189
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	360	390
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	335	362
+@	2
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	525	539
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	916	929
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	874	902
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	576	602
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	991	1009
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	698	716
+@	2
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1059	1088
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	766	796
+@	2
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1108	1138
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	816	846
+@	2
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1158	1184
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	857	881
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1229	1264
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1177	1205
+@	2
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1292	1317
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1242	1267
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1565	1583
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1594	1617
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1625	1671
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1676	1720
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1678	1744
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1726	1797
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1857	1918
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1890	1951
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	418	495
+/cmpt816/tmp/net/ipv6/mcast.c	1502	1579
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	1635	1665
+/cmpt816/tmp/net/ipv6/mcast.c	1967	1997
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	1706	1719
+/cmpt816/tmp/net/ipv6/mcast.c	2035	2049
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	1940	1998
+/cmpt816/tmp/net/ipv6/mcast.c	335	394
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	2003	2031
+/cmpt816/tmp/net/ipv6/mcast.c	399	423
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	2213	2229
+/cmpt816/tmp/net/ipv6/mcast.c	568	590
+@	2
+/cmpt816/tmp/net/ipv4/igmp.c	2539	2562
+/cmpt816/tmp/net/ipv6/mcast.c	2472	2495
+@	3
+/cmpt816/tmp/drivers/tty/vt/vc_screen.c	186	219
+/cmpt816/tmp/drivers/tty/vt/vc_screen.c	363	397
+@	1
+/cmpt816/tmp/fs/nfs/nfs3xdr.c	598	613
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	6167	6182
+@	1
+/cmpt816/tmp/net/ipv4/ip_fragment.c	551	561
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	376	386
+/cmpt816/tmp/net/ipv6/reassembly.c	467	477
+@	1
+/cmpt816/tmp/net/ipv4/ip_fragment.c	565	577
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	401	413
+/cmpt816/tmp/net/ipv6/reassembly.c	491	503
+@	3
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/cleanup.c	565	583
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/cleanup.c	918	936
+@	3
+/cmpt816/tmp/net/mac80211/rx.c	277	307
+/cmpt816/tmp/net/mac80211/rx.c	2372	2400
+@	1
+/cmpt816/tmp/net/ipv4/syncookies.c	120	137
+/cmpt816/tmp/net/ipv6/syncookies.c	100	115
+@	3
+/cmpt816/tmp/net/ipv4/syncookies.c	164	181
+/cmpt816/tmp/net/ipv6/syncookies.c	119	137
+@	2
+/cmpt816/tmp/net/ipv4/syncookies.c	270	300
+/cmpt816/tmp/net/ipv6/syncookies.c	158	188
+@	3
+/cmpt816/tmp/fs/dcache.c	779	802
+/cmpt816/tmp/fs/dcache.c	831	874
+@	1
+/cmpt816/tmp/fs/dcache.c	2061	2082
+/cmpt816/tmp/fs/dcache.c	2099	2113
+@	2
+/cmpt816/tmp/net/xfrm/xfrm_state.c	806	818
+/cmpt816/tmp/net/xfrm/xfrm_state.c	822	834
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	2891	2912
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1901	1921
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	2969	2986
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1924	1938
+@	3
+/cmpt816/tmp/net/core/datagram.c	737	765
+/cmpt816/tmp/net/unix/af_unix.c	2089	2118
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_standalone.c	171	194
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_standalone.c	206	226
+@	2
+/cmpt816/tmp/sound/core/seq/seq_clientmgr.c	1430	1466
+/cmpt816/tmp/sound/core/seq/seq_clientmgr.c	1475	1510
+@	1
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	1072	1086
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	1088	1102
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	1104	1118
+@	3
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	545	571
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	606	632
+@	3
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	938	966
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	1039	1063
+@	3
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	990	1015
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	1081	1102
+@	3
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	1256	1283
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	1333	1356
+@	1
+/cmpt816/tmp/kernel/module.c	1766	1775
+/cmpt816/tmp/kernel/module.c	1784	1793
+@	2
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1371	1401
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1467	1497
+@	3
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1874	1922
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1955	1995
+@	2
+/cmpt816/tmp/drivers/gpu/drm/drm_ioc32.c	453	471
+/cmpt816/tmp/drivers/gpu/drm/drm_ioc32.c	514	532
+@	3
+/cmpt816/tmp/fs/nfs/nfs4proc.c	1320	1353
+/cmpt816/tmp/fs/nfs/nfs4proc.c	1472	1508
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2246	2265
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3398	3417
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3819	3838
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5033	5051
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2281	2311
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2890	2920
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3861	3902
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4615	4655
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2339	2363
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2948	2972
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3492	3516
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4663	4682
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2313	2363
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2922	2972
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3466	3516
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3897	3944
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2295	2363
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2904	2972
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3448	3516
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5081	5144
+@	3
+/cmpt816/tmp/kernel/compat.c	483	508
+/cmpt816/tmp/kernel/sched.c	5327	5352
+@	3
+/cmpt816/tmp/kernel/sysctl_binary.c	972	990
+/cmpt816/tmp/kernel/sysctl_binary.c	1050	1101
+@	1
+/cmpt816/tmp/kernel/sysctl_binary.c	986	1019
+/cmpt816/tmp/kernel/sysctl_binary.c	1064	1097
+@	1
+/cmpt816/tmp/kernel/sysctl_binary.c	1019	1048
+/cmpt816/tmp/kernel/sysctl_binary.c	1097	1126
+@	3
+/cmpt816/tmp/kernel/sysctl_binary.c	1128	1147
+/cmpt816/tmp/kernel/sysctl_binary.c	1176	1194
+@	3
+/cmpt816/tmp/fs/compat.c	969	993
+/cmpt816/tmp/fs/readdir.c	166	190
+/cmpt816/tmp/fs/readdir.c	247	273
+@	3
+/cmpt816/tmp/sound/pci/hda/hda_codec.c	2677	2699
+/cmpt816/tmp/sound/pci/hda/hda_codec.c	2829	2850
+@	1
+/cmpt816/tmp/sound/pci/hda/hda_codec.c	3712	3731
+/cmpt816/tmp/sound/pci/hda/hda_codec.c	3772	3792
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	229	246
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	259	276
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	259	287
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	289	317
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	305	353
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	334	376
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	356	390
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	379	413
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	411	441
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	426	454
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	445	479
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	458	498
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	479	553
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	493	566
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	607	629
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	620	642
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	656	706
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	670	720
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	724	768
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	738	782
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	771	789
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	784	802
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	793	878
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	806	891
+@	1
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	884	923
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	897	936
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	945	1017
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	958	1030
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1038	1067
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1051	1080
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1092	1148
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1105	1161
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1158	1191
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1171	1204
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1193	1264
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1206	1277
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1266	1312
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1279	1325
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1314	1400
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1327	1415
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1416	1452
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1431	1467
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1488	1573
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1503	1588
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1576	1614
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1591	1629
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1622	1649
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1637	1664
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1651	1803
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1666	1818
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1808	1859
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1823	1874
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1893	1926
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1908	1941
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	1933	1971
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	1948	1986
+@	1
+/cmpt816/tmp/net/ipv4/netfilter/ip_tables.c	2077	2111
+/cmpt816/tmp/net/ipv6/netfilter/ip6_tables.c	2092	2125
+@	1
+/cmpt816/tmp/kernel/irq/chip.c	467	486
+/cmpt816/tmp/kernel/irq/chip.c	508	531
+@	2
+/cmpt816/tmp/crypto/ablkcipher.c	312	328
+/cmpt816/tmp/crypto/aead.c	31	47
+/cmpt816/tmp/crypto/blkcipher.c	363	379
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_proto_tcp.c	51	67
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_proto_udp.c	43	59
+@	3
+/cmpt816/tmp/arch/x86/mm/srat_64.c	115	140
+/cmpt816/tmp/arch/x86/mm/srat_64.c	146	174
+@	2
+/cmpt816/tmp/crypto/blkcipher.c	359	379
+/cmpt816/tmp/crypto/cipher.c	23	44
+@	3
+/cmpt816/tmp/kernel/trace/trace.c	4076	4097
+/cmpt816/tmp/kernel/trace/trace.c	4137	4158
+@	3
+/cmpt816/tmp/security/selinux/selinuxfs.c	694	724
+/cmpt816/tmp/security/selinux/selinuxfs.c	740	771
+/cmpt816/tmp/security/selinux/selinuxfs.c	799	830
+/cmpt816/tmp/security/selinux/selinuxfs.c	917	948
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3107	3127
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3129	3149
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3151	3171
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3296	3316
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3568	3588
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3590	3610
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3612	3632
+@	3
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	3691	3739
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	3896	3950
+@	1
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	3836	3862
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	3998	4024
+@	3
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	4037	4063
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	4146	4185
+@	1
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	4052	4079
+/cmpt816/tmp/drivers/net/e1000/e1000_main.c	4161	4188
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	404	428
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	720	742
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	570	586
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	598	615
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	570	586
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	625	643
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	598	615
+/cmpt816/tmp/net/netfilter/nf_conntrack_sip.c	625	643
+@	3
+/cmpt816/tmp/sound/core/oss/rate.c	64	121
+/cmpt816/tmp/sound/core/oss/rate.c	123	181
+@	2
+/cmpt816/tmp/drivers/base/dma-mapping.c	61	84
+/cmpt816/tmp/drivers/base/dma-mapping.c	120	143
+@	2
+/cmpt816/tmp/drivers/usb/mon/mon_text.c	196	211
+/cmpt816/tmp/drivers/usb/mon/mon_text.c	265	280
+@	2
+/cmpt816/tmp/drivers/acpi/acpica/evxfevnt.c	174	210
+/cmpt816/tmp/drivers/acpi/acpica/evxfevnt.c	410	444
+@	3
+/cmpt816/tmp/sound/core/seq/seq_prioq.c	294	343
+/cmpt816/tmp/sound/core/seq/seq_prioq.c	404	451
+@	3
+/cmpt816/tmp/security/selinux/ss/avtab.c	69	84
+/cmpt816/tmp/security/selinux/ss/avtab.c	138	154
+/cmpt816/tmp/security/selinux/ss/avtab.c	173	189
+@	3
+/cmpt816/tmp/security/selinux/ss/avtab.c	101	125
+/cmpt816/tmp/security/selinux/ss/avtab.c	131	156
+/cmpt816/tmp/security/selinux/ss/avtab.c	166	190
+@	1
+/cmpt816/tmp/drivers/video/fbmon.c	1205	1220
+/cmpt816/tmp/drivers/video/fbmon.c	1323	1338
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	439	457
+/cmpt816/tmp/arch/x86/kernel/i387.c	471	490
+@	1
+/cmpt816/tmp/net/mac80211/agg-rx.c	151	169
+/cmpt816/tmp/net/mac80211/agg-tx.c	73	90
+/cmpt816/tmp/net/mac80211/ht.c	168	186
+@	3
+/cmpt816/tmp/drivers/acpi/acpica/psloop.c	727	744
+/cmpt816/tmp/drivers/acpi/acpica/psloop.c	756	788
+@	3
+/cmpt816/tmp/drivers/base/bus.c	286	302
+/cmpt816/tmp/drivers/base/driver.c	42	58
+@	2
+/cmpt816/tmp/drivers/base/bus.c	320	337
+/cmpt816/tmp/drivers/base/driver.c	76	93
+@	2
+/cmpt816/tmp/net/mac80211/agg-rx.c	140	171
+/cmpt816/tmp/net/mac80211/agg-tx.c	62	93
+@	3
+/cmpt816/tmp/sound/core/oss/pcm_oss.c	2418	2454
+/cmpt816/tmp/sound/core/pcm_native.c	2122	2157
+@	2
+/cmpt816/tmp/mm/backing-dev.c	177	192
+/cmpt816/tmp/mm/backing-dev.c	195	210
+@	3
+/cmpt816/tmp/security/selinux/selinuxfs.c	140	162
+/cmpt816/tmp/security/selinux/selinuxfs.c	602	627
+@	3
+/cmpt816/tmp/security/selinux/selinuxfs.c	267	290
+/cmpt816/tmp/security/selinux/selinuxfs.c	602	627
+@	2
+/cmpt816/tmp/security/selinux/selinuxfs.c	740	797
+/cmpt816/tmp/security/selinux/selinuxfs.c	917	974
+@	3
+/cmpt816/tmp/security/selinux/selinuxfs.c	1048	1083
+/cmpt816/tmp/security/selinux/selinuxfs.c	1105	1137
+@	2
+/cmpt816/tmp/security/selinux/selinuxfs.c	1518	1536
+/cmpt816/tmp/security/selinux/selinuxfs.c	1543	1561
+@	3
+/cmpt816/tmp/drivers/tty/vt/vt.c	541	549
+/cmpt816/tmp/drivers/tty/vt/vt.c	563	572
+@	2
+/cmpt816/tmp/drivers/tty/vt/vt.c	3251	3279
+/cmpt816/tmp/drivers/tty/vt/vt.c	3290	3318
+@	3
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	281	301
+/cmpt816/tmp/mm/mmap.c	1416	1440
+@	3
+/cmpt816/tmp/net/mac80211/wpa.c	140	161
+/cmpt816/tmp/net/mac80211/wpa.c	347	371
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1147	1175
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1218	1247
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1728	1756
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1823	1855
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1852	1882
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	1901	1931
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	2171	2206
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	2424	2471
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	4760	4787
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_display.c	4799	4830
+@	3
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1269	1293
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1371	1395
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1467	1491
+@	2
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1324	1357
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1420	1453
+/cmpt816/tmp/net/ipv4/cipso_ipv4.c	1515	1548
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	186	207
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	556	578
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1898	1921
+@	3
+/cmpt816/tmp/net/ipv4/ip_fragment.c	535	581
+/cmpt816/tmp/net/ipv6/reassembly.c	451	507
+@	2
+/cmpt816/tmp/arch/x86/mm/gup.c	108	138
+/cmpt816/tmp/arch/x86/mm/gup.c	165	195
+@	3
+/cmpt816/tmp/arch/x86/mm/gup.c	232	270
+/cmpt816/tmp/arch/x86/mm/gup.c	299	342
+@	2
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	1282	1304
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	1315	1337
+@	3
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	1311	1332
+/cmpt816/tmp/net/ipv6/ipv6_sockglue.c	1261	1281
+@	3
+/cmpt816/tmp/drivers/input/mouse/alps.c	721	733
+/cmpt816/tmp/drivers/input/mouse/lifebook.c	286	300
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	94	121
+/cmpt816/tmp/mm/mmap.c	1415	1442
+@	1
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	142	167
+/cmpt816/tmp/mm/mmap.c	1475	1500
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	167	211
+/cmpt816/tmp/mm/mmap.c	1500	1544
+@	1
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	384	403
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	545	563
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	848	865
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	1423	1439
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	848	884
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	914	950
+@	3
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	914	936
+/cmpt816/tmp/net/netfilter/nf_conntrack_netlink.c	1423	1439
+@	3
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	772	796
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	819	846
+@	2
+/cmpt816/tmp/net/core/skbuff.c	1278	1298
+/cmpt816/tmp/net/core/skbuff.c	1585	1604
+@	2
+/cmpt816/tmp/net/core/skbuff.c	1313	1347
+/cmpt816/tmp/net/core/skbuff.c	1619	1654
+@	3
+/cmpt816/tmp/net/core/skbuff.c	1659	1727
+/cmpt816/tmp/net/core/skbuff.c	1733	1806
+@	3
+/cmpt816/tmp/fs/nfs/direct.c	562	600
+/cmpt816/tmp/fs/nfs/write.c	1251	1293
+@	2
+/cmpt816/tmp/drivers/tty/vt/keyboard.c	1353	1382
+/cmpt816/tmp/net/rfkill/input.c	223	253
+@	2
+/cmpt816/tmp/net/netlabel/netlabel_mgmt.c	144	171
+/cmpt816/tmp/net/netlabel/netlabel_mgmt.c	191	218
+@	1
+/cmpt816/tmp/net/netlabel/netlabel_mgmt.c	393	407
+/cmpt816/tmp/net/netlabel/netlabel_mgmt.c	515	529
+@	3
+/cmpt816/tmp/fs/jbd/transaction.c	1589	1616
+/cmpt816/tmp/fs/jbd/transaction.c	2078	2104
+@	1
+/cmpt816/tmp/arch/x86/boot/string.c	90	113
+/cmpt816/tmp/lib/vsprintf.c	55	78
+@	3
+/cmpt816/tmp/drivers/usb/mon/mon_bin.c	883	910
+/cmpt816/tmp/drivers/usb/mon/mon_bin.c	927	947
+@	3
+/cmpt816/tmp/drivers/char/agp/compat_ioctl.c	40	55
+/cmpt816/tmp/drivers/char/agp/frontend.c	727	742
+@	2
+/cmpt816/tmp/drivers/char/agp/compat_ioctl.c	209	238
+/cmpt816/tmp/drivers/char/agp/frontend.c	973	1001
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2536	2553
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3031	3048
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3561	3578
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4022	4039
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4733	4751
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5195	5212
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5519	5539
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3028	3047
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3558	3577
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4019	4038
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4345	4364
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4750
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5211
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5516	5538
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	2944	2959
+/cmpt816/tmp/drivers/net/forcedeth.c	4509	4525
+/cmpt816/tmp/drivers/net/forcedeth.c	4998	5012
+@	2
+/cmpt816/tmp/drivers/net/forcedeth.c	3506	3522
+/cmpt816/tmp/drivers/net/forcedeth.c	3620	3636
+/cmpt816/tmp/drivers/net/forcedeth.c	3667	3683
+@	3
+/cmpt816/tmp/fs/ext3/hash.c	70	96
+/cmpt816/tmp/fs/ext3/hash.c	98	124
+@	3
+/cmpt816/tmp/net/ipv4/ip_fragment.c	545	561
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	368	386
+@	2
+/cmpt816/tmp/fs/nfs/read.c	243	280
+/cmpt816/tmp/fs/nfs/write.c	882	919
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_sip.c	175	188
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_sip.c	189	202
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_sip.c	274	289
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_sip.c	455	470
+@	3
+/cmpt816/tmp/net/ipv4/ipmr.c	349	363
+/cmpt816/tmp/net/ipv6/addrconf.c	2082	2096
+@	3
+/cmpt816/tmp/net/ipv4/ipmr.c	382	399
+/cmpt816/tmp/net/ipv6/addrconf.c	2082	2099
+@	3
+/cmpt816/tmp/fs/proc/page.c	23	62
+/cmpt816/tmp/fs/proc/page.c	163	197
+@	3
+/cmpt816/tmp/sound/core/oss/pcm_plugin.c	415	438
+/cmpt816/tmp/sound/core/oss/pcm_plugin.c	494	535
+@	3
+/cmpt816/tmp/sound/core/oss/pcm_plugin.c	450	472
+/cmpt816/tmp/sound/core/oss/pcm_plugin.c	510	535
+@	1
+/cmpt816/tmp/arch/x86/ia32/sys_ia32.c	317	324
+/cmpt816/tmp/arch/x86/ia32/sys_ia32.c	374	381
+@	3
+/cmpt816/tmp/lib/find_next_bit.c	23	55
+/cmpt816/tmp/lib/find_next_bit.c	67	99
+@	3
+/cmpt816/tmp/lib/find_next_bit.c	23	59
+/cmpt816/tmp/lib/find_next_bit.c	232	269
+@	3
+/cmpt816/tmp/lib/find_next_bit.c	67	103
+/cmpt816/tmp/lib/find_next_bit.c	188	224
+@	3
+/cmpt816/tmp/lib/find_next_bit.c	188	220
+/cmpt816/tmp/lib/find_next_bit.c	232	265
+@	3
+/cmpt816/tmp/fs/inode.c	492	521
+/cmpt816/tmp/fs/inode.c	534	562
+@	3
+/cmpt816/tmp/fs/inode.c	860	896
+/cmpt816/tmp/fs/inode.c	909	943
+@	3
+/cmpt816/tmp/fs/inode.c	1244	1274
+/cmpt816/tmp/fs/inode.c	1281	1313
+@	2
+/cmpt816/tmp/mm/madvise.c	79	100
+/cmpt816/tmp/mm/mprotect.c	165	189
+@	2
+/cmpt816/tmp/net/core/ethtool.c	388	408
+/cmpt816/tmp/net/core/ethtool.c	426	446
+@	2
+/cmpt816/tmp/net/core/ethtool.c	894	923
+/cmpt816/tmp/net/core/ethtool.c	946	975
+@	2
+/cmpt816/tmp/security/selinux/ss/policydb.c	985	1005
+/cmpt816/tmp/security/selinux/ss/policydb.c	1465	1485
+@	3
+/cmpt816/tmp/security/selinux/ss/policydb.c	985	1007
+/cmpt816/tmp/security/selinux/ss/policydb.c	1516	1539
+@	2
+/cmpt816/tmp/security/selinux/ss/policydb.c	1254	1281
+/cmpt816/tmp/security/selinux/ss/policydb.c	1406	1433
+@	3
+/cmpt816/tmp/security/selinux/ss/policydb.c	1465	1485
+/cmpt816/tmp/security/selinux/ss/policydb.c	1516	1537
+@	3
+/cmpt816/tmp/security/selinux/ss/policydb.c	2381	2400
+/cmpt816/tmp/security/selinux/ss/policydb.c	2409	2429
+@	2
+/cmpt816/tmp/security/selinux/ss/policydb.c	2685	2707
+/cmpt816/tmp/security/selinux/ss/policydb.c	2765	2785
+@	3
+/cmpt816/tmp/security/selinux/ss/policydb.c	2919	2931
+/cmpt816/tmp/security/selinux/ss/policydb.c	2935	2947
+@	2
+/cmpt816/tmp/net/sched/act_api.c	653	671
+/cmpt816/tmp/net/sched/act_api.c	919	936
+@	3
+/cmpt816/tmp/ipc/mqueue.c	852	880
+/cmpt816/tmp/ipc/mqueue.c	945	970
+@	3
+/cmpt816/tmp/drivers/scsi/scsi_trace.c	47	65
+/cmpt816/tmp/drivers/scsi/scsi_trace.c	68	88
+@	1
+/cmpt816/tmp/mm/migrate.c	229	262
+/cmpt816/tmp/mm/migrate.c	302	331
+@	3
+/cmpt816/tmp/mm/migrate.c	894	933
+/cmpt816/tmp/mm/migrate.c	943	978
+@	1
+/cmpt816/tmp/drivers/connector/cn_proc.c	51	66
+/cmpt816/tmp/drivers/connector/cn_proc.c	168	183
+@	2
+/cmpt816/tmp/drivers/connector/cn_proc.c	79	102
+/cmpt816/tmp/drivers/connector/cn_proc.c	143	166
+@	3
+/cmpt816/tmp/drivers/net/sky2.c	162	181
+/cmpt816/tmp/drivers/net/sky2.c	188	208
+@	3
+/cmpt816/tmp/fs/isofs/dir.c	106	147
+/cmpt816/tmp/fs/isofs/inode.c	1176	1213
+@	2
+/cmpt816/tmp/net/ipv6/raw.c	1004	1025
+/cmpt816/tmp/net/ipv6/raw.c	1028	1046
+@	2
+/cmpt816/tmp/net/ipv6/raw.c	1084	1105
+/cmpt816/tmp/net/ipv6/raw.c	1108	1126
+@	1
+/cmpt816/tmp/fs/proc/stat.c	67	77
+/cmpt816/tmp/fs/proc/stat.c	95	105
+@	3
+/cmpt816/tmp/drivers/pcmcia/ds.c	931	956
+/cmpt816/tmp/drivers/pcmcia/ds.c	1066	1081
+@	3
+/cmpt816/tmp/drivers/pcmcia/ds.c	1118	1140
+/cmpt816/tmp/drivers/pcmcia/ds.c	1164	1186
+@	1
+/cmpt816/tmp/net/ipv6/raw.c	778	805
+/cmpt816/tmp/net/ipv6/udp.c	1039	1066
+@	3
+/cmpt816/tmp/net/ipv6/raw.c	813	850
+/cmpt816/tmp/net/ipv6/udp.c	1080	1114
+@	1
+/cmpt816/tmp/net/ipv6/raw.c	858	890
+/cmpt816/tmp/net/ipv6/udp.c	1128	1159
+@	3
+/cmpt816/tmp/net/ipv6/raw.c	1224	1247
+/cmpt816/tmp/net/ipv6/udp.c	1388	1412
+@	3
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	200	232
+/cmpt816/tmp/net/ipv6/reassembly.c	263	297
+@	3
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	267	318
+/cmpt816/tmp/net/ipv6/reassembly.c	330	385
+@	3
+/cmpt816/tmp/net/ipv6/netfilter/nf_conntrack_reasm.c	368	424
+/cmpt816/tmp/net/ipv6/reassembly.c	461	515
+@	3
+/cmpt816/tmp/drivers/hid/hid-debug.c	947	983
+/cmpt816/tmp/drivers/hid/hidraw.c	44	79
+@	3
+/cmpt816/tmp/lib/vsprintf.c	286	313
+/cmpt816/tmp/lib/vsprintf.c	324	360
+@	3
+/cmpt816/tmp/lib/vsprintf.c	1300	1340
+/cmpt816/tmp/lib/vsprintf.c	1764	1813
+@	3
+/cmpt816/tmp/net/core/datagram.c	347	376
+/cmpt816/tmp/net/core/skbuff.c	1319	1347
+@	3
+/cmpt816/tmp/net/core/datagram.c	347	376
+/cmpt816/tmp/net/core/skbuff.c	1625	1654
+@	3
+/cmpt816/tmp/net/core/datagram.c	434	465
+/cmpt816/tmp/net/core/skbuff.c	1319	1347
+@	3
+/cmpt816/tmp/net/core/datagram.c	526	558
+/cmpt816/tmp/net/core/skbuff.c	1625	1654
+@	1
+/cmpt816/tmp/sound/core/oss/linear.c	60	80
+/cmpt816/tmp/sound/core/oss/mulaw.c	173	193
+/cmpt816/tmp/sound/core/oss/mulaw.c	219	239
+@	3
+/cmpt816/tmp/crypto/ablkcipher.c	473	553
+/cmpt816/tmp/crypto/aead.c	337	409
+@	3
+/cmpt816/tmp/arch/x86/kernel/ptrace.c	503	529
+/cmpt816/tmp/arch/x86/kernel/ptrace.c	1087	1113
+@	2
+/cmpt816/tmp/sound/core/oss/linear.c	55	80
+/cmpt816/tmp/sound/core/oss/mulaw.c	168	193
+@	3
+/cmpt816/tmp/fs/locks.c	329	370
+/cmpt816/tmp/fs/locks.c	379	416
+@	3
+/cmpt816/tmp/fs/locks.c	1713	1742
+/cmpt816/tmp/fs/locks.c	1898	1926
+@	2
+/cmpt816/tmp/fs/locks.c	1817	1889
+/cmpt816/tmp/fs/locks.c	1935	2002
+@	3
+/cmpt816/tmp/fs/ioprio.c	105	137
+/cmpt816/tmp/fs/ioprio.c	193	230
+@	3
+/cmpt816/tmp/net/sunrpc/xprt.c	197	221
+/cmpt816/tmp/net/sunrpc/xprt.c	246	271
+@	3
+/cmpt816/tmp/drivers/net/e1000/e1000_hw.c	3737	3769
+/cmpt816/tmp/drivers/net/e1000/e1000_hw.c	3899	3924
+@	3
+/cmpt816/tmp/drivers/net/e1000/e1000_hw.c	4459	4488
+/cmpt816/tmp/drivers/net/e1000/e1000_hw.c	4505	4534
+@	2
+/cmpt816/tmp/mm/vmstat.c	1105	1122
+/cmpt816/tmp/mm/vmstat.c	1165	1184
+@	2
+/cmpt816/tmp/crypto/testmgr.c	412	436
+/cmpt816/tmp/crypto/testmgr.c	503	527
+@	2
+/cmpt816/tmp/crypto/testmgr.c	449	485
+/cmpt816/tmp/crypto/testmgr.c	584	621
+@	3
+/cmpt816/tmp/crypto/testmgr.c	490	508
+/cmpt816/tmp/crypto/testmgr.c	852	869
+@	2
+/cmpt816/tmp/crypto/testmgr.c	706	722
+/cmpt816/tmp/crypto/testmgr.c	801	818
+@	2
+/cmpt816/tmp/crypto/testmgr.c	988	1019
+/cmpt816/tmp/crypto/testmgr.c	1021	1052
+@	3
+/cmpt816/tmp/crypto/testmgr.c	1096	1115
+/cmpt816/tmp/crypto/testmgr.c	1189	1208
+@	2
+/cmpt816/tmp/crypto/testmgr.c	1096	1118
+/cmpt816/tmp/crypto/testmgr.c	1177	1199
+@	2
+/cmpt816/tmp/crypto/testmgr.c	1336	1351
+/cmpt816/tmp/crypto/testmgr.c	1365	1380
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	2944	2956
+/cmpt816/tmp/drivers/net/forcedeth.c	3970	3982
+/cmpt816/tmp/drivers/net/forcedeth.c	4509	4522
+/cmpt816/tmp/drivers/net/forcedeth.c	4998	5010
+@	3
+/cmpt816/tmp/net/mac80211/sta_info.c	90	110
+/cmpt816/tmp/net/mac80211/sta_info.c	116	137
+@	3
+/cmpt816/tmp/drivers/pci/quirks.c	446	469
+/cmpt816/tmp/drivers/pci/quirks.c	472	494
+@	1
+/cmpt816/tmp/net/ipv4/udp.c	403	442
+/cmpt816/tmp/net/ipv6/udp.c	200	239
+@	3
+/cmpt816/tmp/net/ipv4/udp.c	448	513
+/cmpt816/tmp/net/ipv6/udp.c	243	307
+@	2
+/cmpt816/tmp/net/ipv4/udp.c	672	704
+/cmpt816/tmp/net/ipv6/udp.c	846	877
+@	3
+/cmpt816/tmp/net/ipv4/udp.c	1383	1422
+/cmpt816/tmp/net/ipv6/udp.c	514	535
+@	3
+/cmpt816/tmp/net/ipv4/udp.c	1483	1523
+/cmpt816/tmp/net/ipv6/udp.c	637	674
+@	1
+/cmpt816/tmp/net/ipv4/udp.c	2207	2236
+/cmpt816/tmp/net/ipv6/udp.c	1310	1339
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	95	119
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	281	301
+@	2
+/cmpt816/tmp/drivers/gpu/drm/i915/dvo_ch7xxx.c	114	147
+/cmpt816/tmp/drivers/gpu/drm/i915/dvo_sil164.c	70	103
+/cmpt816/tmp/drivers/gpu/drm/i915/dvo_tfp410.c	95	128
+@	3
+/cmpt816/tmp/net/core/datagram.c	321	339
+/cmpt816/tmp/net/core/datagram.c	583	601
+@	3
+/cmpt816/tmp/net/core/datagram.c	311	376
+/cmpt816/tmp/net/core/datagram.c	485	558
+@	3
+/cmpt816/tmp/net/core/datagram.c	311	376
+/cmpt816/tmp/net/core/datagram.c	396	465
+@	3
+/cmpt816/tmp/net/core/datagram.c	391	465
+/cmpt816/tmp/net/core/datagram.c	480	558
+@	2
+/cmpt816/tmp/kernel/groups.c	202	254
+/cmpt816/tmp/kernel/uid16.c	164	210
+@	3
+/cmpt816/tmp/crypto/cbc.c	214	250
+/cmpt816/tmp/crypto/ecb.c	118	146
+@	3
+/cmpt816/tmp/sound/core/info.c	207	223
+/cmpt816/tmp/sound/core/info.c	254	271
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	363	399
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	674	714
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	820	857
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	1221	1240
+/cmpt816/tmp/drivers/net/forcedeth.c	1440	1463
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	1206	1242
+/cmpt816/tmp/drivers/net/forcedeth.c	1432	1469
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	1272	1286
+/cmpt816/tmp/drivers/net/forcedeth.c	1463	1477
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	1832	1843
+/cmpt816/tmp/drivers/net/forcedeth.c	1956	1967
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	1865	1883
+/cmpt816/tmp/drivers/net/forcedeth.c	1928	1947
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	2104	2149
+/cmpt816/tmp/drivers/net/forcedeth.c	2223	2271
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	2138	2159
+/cmpt816/tmp/drivers/net/forcedeth.c	2165	2184
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	2152	2197
+/cmpt816/tmp/drivers/net/forcedeth.c	2275	2321
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	2260	2282
+/cmpt816/tmp/drivers/net/forcedeth.c	2288	2308
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	2674	2699
+/cmpt816/tmp/drivers/net/forcedeth.c	2804	2829
+@	3
+/cmpt816/tmp/drivers/net/forcedeth.c	2735	2765
+/cmpt816/tmp/drivers/net/forcedeth.c	2829	2854
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	2939	2956
+/cmpt816/tmp/drivers/net/forcedeth.c	3965	3982
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	2944	2966
+/cmpt816/tmp/drivers/net/forcedeth.c	4509	4532
+@	2
+/cmpt816/tmp/drivers/net/forcedeth.c	3434	3463
+/cmpt816/tmp/drivers/net/forcedeth.c	3473	3501
+@	2
+/cmpt816/tmp/drivers/net/forcedeth.c	3506	3528
+/cmpt816/tmp/drivers/net/forcedeth.c	3667	3690
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	4507	4525
+/cmpt816/tmp/drivers/net/forcedeth.c	4996	5012
+@	1
+/cmpt816/tmp/drivers/net/forcedeth.c	5590	5597
+/cmpt816/tmp/drivers/net/forcedeth.c	5598	5605
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	143	170
+/cmpt816/tmp/fs/lockd/svc4proc.c	176	203
+/cmpt816/tmp/fs/lockd/svcproc.c	173	200
+/cmpt816/tmp/fs/lockd/svcproc.c	206	233
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	624	647
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	699	722
+@	3
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1064	1088
+/cmpt816/tmp/net/ipv4/tcp_ipv4.c	1111	1138
+@	1
+/cmpt816/tmp/fs/nfs/nfs2xdr.c	272	286
+/cmpt816/tmp/fs/nfs/nfs3xdr.c	899	913
+@	1
+/cmpt816/tmp/fs/nfs/nfs2xdr.c	431	447
+/cmpt816/tmp/fs/nfs/nfs3xdr.c	573	590
+@	3
+/cmpt816/tmp/fs/nfs/nfs2xdr.c	572	606
+/cmpt816/tmp/fs/nfs/nfs3xdr.c	828	868
+@	3
+/cmpt816/tmp/kernel/irq/chip.c	462	486
+/cmpt816/tmp/kernel/irq/chip.c	502	531
+/cmpt816/tmp/kernel/irq/chip.c	551	584
+@	1
+/cmpt816/tmp/net/netlabel/netlabel_domainhash.c	266	283
+/cmpt816/tmp/net/netlabel/netlabel_unlabeled.c	1472	1489
+@	3
+/cmpt816/tmp/fs/lockd/svcproc.c	173	200
+/cmpt816/tmp/fs/lockd/svcproc.c	206	233
+/cmpt816/tmp/fs/lockd/svcproc.c	345	372
+/cmpt816/tmp/fs/lockd/svcproc.c	378	405
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	4828	4843
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_suspend.c	789	804
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	4828	4847
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_suspend.c	824	843
+@	2
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	447	471
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	738	762
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	433	526
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	868	960
+@	2
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	552	577
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	984	1009
+@	1
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	738	762
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	882	906
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	2259	2278
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_gem.c	2281	2298
+@	3
+/cmpt816/tmp/drivers/gpu/vga/vgaarb.c	861	887
+/cmpt816/tmp/drivers/gpu/vga/vgaarb.c	943	973
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	143	170
+/cmpt816/tmp/fs/lockd/svc4proc.c	176	203
+/cmpt816/tmp/fs/lockd/svc4proc.c	313	340
+/cmpt816/tmp/fs/lockd/svc4proc.c	346	373
+@	3
+/cmpt816/tmp/fs/hugetlbfs/inode.c	150	179
+/cmpt816/tmp/mm/mmap.c	1402	1431
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_fb_helper.c	113	160
+/cmpt816/tmp/drivers/video/modedb.c	521	570
+@	1
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_dp.c	1277	1290
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_dp.c	1343	1357
+@	3
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	353	371
+/cmpt816/tmp/net/ipv6/datagram.c	260	278
+@	1
+/cmpt816/tmp/net/ipv4/ip_sockglue.c	383	406
+/cmpt816/tmp/net/ipv6/datagram.c	330	353
+@	1
+/cmpt816/tmp/net/ipv4/tcp.c	831	851
+/cmpt816/tmp/net/ipv4/tcp.c	1081	1101
+@	1
+/cmpt816/tmp/sound/core/control.c	820	837
+/cmpt816/tmp/sound/core/control.c	848	865
+@	3
+/cmpt816/tmp/kernel/jump_label.c	202	221
+/cmpt816/tmp/kernel/jump_label.c	386	410
+@	3
+/cmpt816/tmp/kernel/jump_label.c	355	373
+/cmpt816/tmp/kernel/jump_label.c	386	405
+@	2
+/cmpt816/tmp/drivers/pci/pcie/portdrv_pci.c	167	190
+/cmpt816/tmp/drivers/pci/pcie/portdrv_pci.c	202	225
+@	3
+/cmpt816/tmp/net/core/rtnetlink.c	876	894
+/cmpt816/tmp/net/ipv4/devinet.c	1177	1200
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	189	233
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	2891	2938
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	2808	2826
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	5044	5066
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	2808	2826
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17069	17091
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	707	725
+/cmpt816/tmp/sound/pci/hda/patch_via.c	965	983
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	863	939
+/cmpt816/tmp/sound/pci/hda/patch_via.c	962	1036
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1346	1363
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1371	1389
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2252	2269
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2828	2878
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2281	2357
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2890	2972
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2286	2368
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3439	3521
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2536	2552
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4348	4364
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2536	2553
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5841	5861
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3028	3070
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3558	3600
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3082	3130
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3174	3221
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3398	3427
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3819	3848
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3433	3464
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4615	4655
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3433	3464
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3861	3902
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3618	3662
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3667	3712
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3861	3895
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4615	4655
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3875	3956
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5077	5155
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3958	3983
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5157	5181
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4345	4364
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5838	5860
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4625	4661
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5074	5110
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4768
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5516	5553
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4768
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5838	5875
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4773
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5231
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5465	5490
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5785	5811
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5516	5556
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5838	5878
+@	3
+/cmpt816/tmp/fs/nfs/nfs3proc.c	117	141
+/cmpt816/tmp/fs/nfs/proc.c	150	177
+@	3
+/cmpt816/tmp/fs/compat.c	1366	1433
+/cmpt816/tmp/fs/exec.c	430	497
+@	2
+/cmpt816/tmp/fs/compat.c	1460	1566
+/cmpt816/tmp/fs/exec.c	1378	1484
+@	3
+/cmpt816/tmp/kernel/perf_event.c	802	836
+/cmpt816/tmp/kernel/perf_event.c	948	981
+@	3
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1282	1301
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1313	1333
+@	3
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1340	1370
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1376	1412
+@	3
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1452	1468
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1473	1490
+@	3
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1561	1583
+/cmpt816/tmp/kernel/trace/trace_kprobe.c	1592	1614
+@	3
+/cmpt816/tmp/drivers/pnp/resource.c	165	188
+/cmpt816/tmp/drivers/pnp/resource.c	227	250
+@	2
+/cmpt816/tmp/drivers/pnp/resource.c	551	573
+/cmpt816/tmp/drivers/pnp/resource.c	575	597
+@	3
+/cmpt816/tmp/drivers/connector/cn_proc.c	56	77
+/cmpt816/tmp/drivers/connector/cn_proc.c	84	102
+/cmpt816/tmp/drivers/connector/cn_proc.c	148	166
+@	3
+/cmpt816/tmp/fs/ext3/ioctl.c	226	246
+/cmpt816/tmp/fs/ext3/ioctl.c	252	274
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	1507	1530
+/cmpt816/tmp/net/ipv4/igmp.c	1679	1703
+@	3
+/cmpt816/tmp/net/ipv4/igmp.c	2059	2085
+/cmpt816/tmp/net/ipv4/igmp.c	2142	2163
+@	3
+/cmpt816/tmp/net/ipv4/ip_output.c	409	429
+/cmpt816/tmp/net/ipv6/ip6_output.c	536	553
+@	1
+/cmpt816/tmp/net/ipv4/ip_output.c	496	524
+/cmpt816/tmp/net/ipv6/ip6_output.c	637	663
+@	3
+/cmpt816/tmp/net/ipv4/ip_output.c	736	771
+/cmpt816/tmp/net/ipv6/ip6_output.c	1026	1061
+@	3
+/cmpt816/tmp/net/ipv4/ip_output.c	906	936
+/cmpt816/tmp/net/ipv6/ip6_output.c	1243	1276
+@	1
+/cmpt816/tmp/net/ipv4/ip_output.c	998	1084
+/cmpt816/tmp/net/ipv6/ip6_output.c	1339	1423
+@	1
+/cmpt816/tmp/net/ipv4/ip_output.c	1255	1280
+/cmpt816/tmp/net/ipv6/ip6_output.c	1459	1481
+@	3
+/cmpt816/tmp/drivers/video/cfbimgblt.c	108	135
+/cmpt816/tmp/drivers/video/cfbimgblt.c	173	205
+@	2
+/cmpt816/tmp/drivers/acpi/acpica/dsfield.c	352	379
+/cmpt816/tmp/drivers/acpi/acpica/dsfield.c	523	550
+@	3
+/cmpt816/tmp/drivers/acpi/acpica/dsfield.c	546	590
+/cmpt816/tmp/drivers/acpi/acpica/dsfield.c	628	656
+@	2
+/cmpt816/tmp/fs/notify/inode_mark.c	207	228
+/cmpt816/tmp/fs/notify/vfsmount_mark.c	164	185
+@	3
+/cmpt816/tmp/net/sched/sch_api.c	962	980
+/cmpt816/tmp/net/sched/sch_api.c	1344	1381
+@	3
+/cmpt816/tmp/net/sched/sch_api.c	971	993
+/cmpt816/tmp/net/sched/sch_api.c	1037	1061
+@	2
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_bios.c	308	338
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_bios.c	498	529
+@	1
+/cmpt816/tmp/lib/proportions.c	212	238
+/cmpt816/tmp/lib/proportions.c	342	365
+@	3
+/cmpt816/tmp/fs/isofs/rock.c	206	242
+/cmpt816/tmp/fs/isofs/rock.c	702	736
+@	3
+/cmpt816/tmp/fs/isofs/rock.c	207	244
+/cmpt816/tmp/fs/isofs/rock.c	315	354
+@	3
+/cmpt816/tmp/fs/isofs/rock.c	315	349
+/cmpt816/tmp/fs/isofs/rock.c	704	726
+@	3
+/cmpt816/tmp/net/ipv6/syncookies.c	233	252
+/cmpt816/tmp/net/ipv6/tcp_ipv6.c	1385	1407
+@	3
+/cmpt816/tmp/net/netlabel/netlabel_kapi.c	115	131
+/cmpt816/tmp/net/netlabel/netlabel_kapi.c	340	357
+@	3
+/cmpt816/tmp/fs/nfs/getroot.c	89	124
+/cmpt816/tmp/fs/nfs/getroot.c	196	232
+@	3
+/cmpt816/tmp/fs/compat.c	882	912
+/cmpt816/tmp/fs/readdir.c	73	103
+@	1
+/cmpt816/tmp/fs/compat.c	959	993
+/cmpt816/tmp/fs/readdir.c	156	190
+@	2
+/cmpt816/tmp/fs/compat.c	1000	1030
+/cmpt816/tmp/fs/readdir.c	197	227
+@	3
+/cmpt816/tmp/fs/compat.c	1041	1060
+/cmpt816/tmp/fs/readdir.c	236	253
+@	1
+/cmpt816/tmp/fs/compat.c	1063	1081
+/cmpt816/tmp/fs/readdir.c	255	273
+@	2
+/cmpt816/tmp/fs/compat.c	1088	1119
+/cmpt816/tmp/fs/readdir.c	280	311
+@	3
+/cmpt816/tmp/kernel/ptrace.c	706	737
+/cmpt816/tmp/kernel/ptrace.c	848	877
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	143	170
+/cmpt816/tmp/fs/lockd/svc4proc.c	176	203
+/cmpt816/tmp/fs/lockd/svc4proc.c	346	373
+/cmpt816/tmp/fs/lockd/svcproc.c	173	200
+/cmpt816/tmp/fs/lockd/svcproc.c	206	233
+/cmpt816/tmp/fs/lockd/svcproc.c	378	405
+@	1
+/cmpt816/tmp/sound/core/oss/mulaw.c	168	194
+/cmpt816/tmp/sound/core/oss/mulaw.c	214	240
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_sigmatel.c	5492	5522
+/cmpt816/tmp/sound/pci/hda/patch_sigmatel.c	5831	5863
+@	3
+/cmpt816/tmp/kernel/kfifo.c	197	223
+/cmpt816/tmp/kernel/kfifo.c	257	283
+@	1
+/cmpt816/tmp/net/ipv4/raw.c	329	346
+/cmpt816/tmp/net/ipv6/raw.c	615	631
+@	3
+/cmpt816/tmp/net/ipv4/raw.c	404	440
+/cmpt816/tmp/net/ipv6/raw.c	664	701
+@	3
+/cmpt816/tmp/net/ipv4/raw.c	813	840
+/cmpt816/tmp/net/ipv6/raw.c	1129	1158
+@	3
+/cmpt816/tmp/fs/proc/base.c	779	803
+/cmpt816/tmp/fs/proc/base.c	921	945
+@	3
+/cmpt816/tmp/fs/proc/base.c	992	1011
+/cmpt816/tmp/fs/proc/base.c	1104	1120
+@	3
+/cmpt816/tmp/fs/proc/base.c	1016	1059
+/cmpt816/tmp/fs/proc/base.c	1124	1167
+@	3
+/cmpt816/tmp/fs/proc/base.c	2211	2241
+/cmpt816/tmp/fs/proc/base.c	2628	2656
+@	2
+/cmpt816/tmp/fs/proc/base.c	2910	2937
+/cmpt816/tmp/fs/proc/base.c	3155	3180
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_crtc.c	985	1003
+/cmpt816/tmp/drivers/gpu/drm/drm_crtc.c	1017	1035
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_crtc.c	2502	2540
+/cmpt816/tmp/drivers/gpu/drm/drm_crtc.c	2553	2591
+@	3
+/cmpt816/tmp/fs/nfs/super.c	2303	2346
+/cmpt816/tmp/fs/nfs/super.c	2673	2716
+@	3
+/cmpt816/tmp/fs/nfs/super.c	2418	2479
+/cmpt816/tmp/fs/nfs/super.c	3076	3139
+@	2
+/cmpt816/tmp/fs/nfs/super.c	2402	2480
+/cmpt816/tmp/fs/nfs/super.c	2973	3050
+@	3
+/cmpt816/tmp/fs/nfs/super.c	2673	2710
+/cmpt816/tmp/fs/nfs/super.c	3076	3112
+@	3
+/cmpt816/tmp/fs/nfs/super.c	2989	3049
+/cmpt816/tmp/fs/nfs/super.c	3076	3139
+@	3
+/cmpt816/tmp/mm/vmalloc.c	1879	1917
+/cmpt816/tmp/mm/vmalloc.c	1956	1993
+@	3
+/cmpt816/tmp/net/mac80211/aes_ccm.c	54	74
+/cmpt816/tmp/net/mac80211/aes_ccm.c	94	114
+@	2
+/cmpt816/tmp/drivers/pnp/manager.c	36	62
+/cmpt816/tmp/drivers/pnp/manager.c	88	114
+@	3
+/cmpt816/tmp/drivers/acpi/thermal.c	599	634
+/cmpt816/tmp/drivers/acpi/thermal.c	644	685
+@	3
+/cmpt816/tmp/sound/core/oss/pcm_oss.c	1164	1199
+/cmpt816/tmp/sound/core/oss/pcm_oss.c	1250	1286
+@	2
+/cmpt816/tmp/sound/core/oss/pcm_oss.c	1204	1224
+/cmpt816/tmp/sound/core/oss/pcm_oss.c	1290	1310
+@	1
+/cmpt816/tmp/net/ipv4/route.c	1894	1911
+/cmpt816/tmp/net/ipv4/route.c	2215	2232
+@	2
+/cmpt816/tmp/fs/compat.c	1744	1770
+/cmpt816/tmp/fs/select.c	567	594
+@	2
+/cmpt816/tmp/fs/compat.c	1777	1795
+/cmpt816/tmp/fs/select.c	600	618
+@	3
+/cmpt816/tmp/fs/compat.c	1824	1865
+/cmpt816/tmp/fs/select.c	626	667
+@	3
+/cmpt816/tmp/fs/compat.c	1893	1937
+/cmpt816/tmp/fs/select.c	955	999
+@	3
+/cmpt816/tmp/arch/x86/pci/amd_bus.c	151	171
+/cmpt816/tmp/arch/x86/pci/amd_bus.c	223	247
+@	3
+/cmpt816/tmp/arch/x86/mm/init_64.c	920	945
+/cmpt816/tmp/mm/sparse-vmemmap.c	149	168
+@	2
+/cmpt816/tmp/crypto/des_generic.c	642	657
+/cmpt816/tmp/crypto/des_generic.c	750	765
+@	3
+/cmpt816/tmp/crypto/des_generic.c	631	657
+/cmpt816/tmp/crypto/des_generic.c	714	740
+@	2
+/cmpt816/tmp/crypto/des_generic.c	642	657
+/cmpt816/tmp/crypto/des_generic.c	673	688
+@	1
+/cmpt816/tmp/crypto/des_generic.c	660	668
+/cmpt816/tmp/crypto/des_generic.c	740	748
+@	3
+/cmpt816/tmp/crypto/des_generic.c	673	688
+/cmpt816/tmp/crypto/des_generic.c	725	740
+@	2
+/cmpt816/tmp/crypto/des_generic.c	673	701
+/cmpt816/tmp/crypto/des_generic.c	750	778
+@	3
+/cmpt816/tmp/crypto/des_generic.c	725	740
+/cmpt816/tmp/crypto/des_generic.c	750	765
+@	1
+/cmpt816/tmp/crypto/des_generic.c	806	819
+/cmpt816/tmp/crypto/des_generic.c	887	900
+@	3
+/cmpt816/tmp/crypto/des_generic.c	803	824
+/cmpt816/tmp/crypto/des_generic.c	826	847
+@	1
+/cmpt816/tmp/crypto/des_generic.c	829	842
+/cmpt816/tmp/crypto/des_generic.c	918	931
+@	3
+/cmpt816/tmp/crypto/des_generic.c	884	902
+/cmpt816/tmp/crypto/des_generic.c	915	937
+@	2
+/cmpt816/tmp/drivers/pci/intel-iommu.c	1743	1755
+/cmpt816/tmp/drivers/pci/intel-iommu.c	3425	3438
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	5321	5344
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	17187	17211
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	19300	19325
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	89	102
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	105	117
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	505	530
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	542	568
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	596	603
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	727	736
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	607	631
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	647	672
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	712	723
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	725	736
+@	3
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	787	823
+/cmpt816/tmp/sound/core/oss/mixer_oss.c	837	872
+@	3
+/cmpt816/tmp/arch/x86/kernel/mpparse.c	321	349
+/cmpt816/tmp/arch/x86/kernel/mpparse.c	838	859
+@	3
+/cmpt816/tmp/drivers/net/tg3.c	535	558
+/cmpt816/tmp/drivers/net/tg3.c	560	585
+@	3
+/cmpt816/tmp/drivers/net/tg3.c	797	840
+/cmpt816/tmp/drivers/net/tg3.c	850	889
+@	3
+/cmpt816/tmp/drivers/net/tg3.c	4960	4991
+/cmpt816/tmp/drivers/net/tg3.c	5018	5049
+@	3
+/cmpt816/tmp/drivers/net/tg3.c	5105	5127
+/cmpt816/tmp/drivers/net/tg3.c	5149	5174
+@	1
+/cmpt816/tmp/drivers/net/tg3.c	5677	5705
+/cmpt816/tmp/drivers/net/tg3.c	5895	5923
+@	1
+/cmpt816/tmp/drivers/net/tg3.c	5767	5784
+/cmpt816/tmp/drivers/net/tg3.c	6028	6045
+@	1
+/cmpt816/tmp/drivers/net/tg3.c	5797	5841
+/cmpt816/tmp/drivers/net/tg3.c	6091	6135
+@	2
+/cmpt816/tmp/drivers/net/tg3.c	11683	11711
+/cmpt816/tmp/drivers/net/tg3.c	11756	11784
+@	3
+/cmpt816/tmp/mm/filemap.c	770	806
+/cmpt816/tmp/mm/filemap.c	876	908
+@	3
+/cmpt816/tmp/mm/filemap.c	1924	1940
+/cmpt816/tmp/mm/filemap.c	1953	1968
+@	3
+/cmpt816/tmp/fs/nfs/direct.c	313	348
+/cmpt816/tmp/fs/nfs/direct.c	742	779
+@	2
+/cmpt816/tmp/fs/nfs/direct.c	357	386
+/cmpt816/tmp/fs/nfs/direct.c	789	819
+@	3
+/cmpt816/tmp/fs/nfs/direct.c	393	419
+/cmpt816/tmp/fs/nfs/direct.c	826	853
+@	2
+/cmpt816/tmp/fs/nfs/direct.c	911	927
+/cmpt816/tmp/fs/nfs/direct.c	965	981
+@	3
+/cmpt816/tmp/kernel/trace/trace.c	4076	4097
+/cmpt816/tmp/kernel/trace/trace_events.c	562	587
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	270	292
+/cmpt816/tmp/arch/x86/kernel/signal.c	565	585
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	354	360
+/cmpt816/tmp/arch/x86/kernel/signal.c	162	169
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	427	454
+/cmpt816/tmp/arch/x86/kernel/signal.c	291	313
+@	2
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	521	534
+/cmpt816/tmp/arch/x86/kernel/signal.c	434	449
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	507	535
+/cmpt816/tmp/arch/x86/kernel/signal.c	353	383
+@	3
+/cmpt816/tmp/drivers/scsi/sr_ioctl.c	494	504
+/cmpt816/tmp/drivers/scsi/sr_ioctl.c	550	559
+@	3
+/cmpt816/tmp/net/sunrpc/auth_gss/auth_gss.c	1235	1254
+/cmpt816/tmp/net/sunrpc/auth_gss/auth_gss.c	1327	1347
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/ipt_LOG.c	98	149
+/cmpt816/tmp/net/ipv6/netfilter/ip6t_LOG.c	201	250
+@	2
+/cmpt816/tmp/net/ipv4/netfilter/ipt_LOG.c	366	394
+/cmpt816/tmp/net/ipv6/netfilter/ip6t_LOG.c	375	403
+@	3
+/cmpt816/tmp/drivers/ata/libata-sff.c	2516	2556
+/cmpt816/tmp/drivers/ata/libata-sff.c	3270	3312
+@	3
+/cmpt816/tmp/drivers/ata/libata-sff.c	2605	2628
+/cmpt816/tmp/drivers/ata/libata-sff.c	2656	2679
+@	2
+/cmpt816/tmp/crypto/cbc.c	90	112
+/cmpt816/tmp/crypto/cbc.c	169	191
+@	3
+/cmpt816/tmp/kernel/trace/trace_events_filter.c	1287	1315
+/cmpt816/tmp/kernel/trace/trace_events_filter.c	1334	1362
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	404	423
+/cmpt816/tmp/sound/pci/hda/patch_realtek.c	1041	1059
+@	2
+/cmpt816/tmp/net/sunrpc/auth_gss/gss_krb5_crypto.c	53	80
+/cmpt816/tmp/net/sunrpc/auth_gss/gss_krb5_crypto.c	87	113
+@	3
+/cmpt816/tmp/net/sunrpc/auth_gss/gss_krb5_crypto.c	151	170
+/cmpt816/tmp/net/sunrpc/auth_gss/gss_krb5_crypto.c	241	260
+@	3
+/cmpt816/tmp/fs/nfs/idmap.c	70	103
+/cmpt816/tmp/net/dns_resolver/dns_key.c	237	280
+@	2
+/cmpt816/tmp/fs/isofs/inode.c	211	230
+/cmpt816/tmp/fs/isofs/inode.c	235	254
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	189	207
+/cmpt816/tmp/sound/pci/hda/patch_cmedia.c	325	343
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	559	578
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1901	1921
+@	2
+/cmpt816/tmp/fs/lockd/svc4proc.c	143	170
+/cmpt816/tmp/fs/lockd/svc4proc.c	176	203
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	313	340
+/cmpt816/tmp/fs/lockd/svc4proc.c	346	373
+@	1
+/cmpt816/tmp/net/core/datagram.c	321	340
+/cmpt816/tmp/net/core/datagram.c	407	426
+/cmpt816/tmp/net/core/datagram.c	497	516
+@	3
+/cmpt816/tmp/net/core/datagram.c	402	425
+/cmpt816/tmp/net/core/datagram.c	492	515
+/cmpt816/tmp/net/core/datagram.c	577	601
+@	2
+/cmpt816/tmp/net/xfrm/xfrm_user.c	827	844
+/cmpt816/tmp/net/xfrm/xfrm_user.c	882	899
+@	3
+/cmpt816/tmp/net/xfrm/xfrm_user.c	1465	1500
+/cmpt816/tmp/net/xfrm/xfrm_user.c	1738	1773
+@	3
+/cmpt816/tmp/net/xfrm/xfrm_user.c	1533	1555
+/cmpt816/tmp/net/xfrm/xfrm_user.c	1696	1723
+@	1
+/cmpt816/tmp/net/mac80211/util.c	985	996
+/cmpt816/tmp/net/mac80211/work.c	173	192
+@	2
+/cmpt816/tmp/drivers/gpu/drm/drm_sysfs.c	239	275
+/cmpt816/tmp/drivers/gpu/drm/drm_sysfs.c	280	316
+@	3
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	767	781
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	784	800
+@	2
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	1070	1088
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	1126	1145
+@	2
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	1094	1123
+/cmpt816/tmp/drivers/pcmcia/rsrc_nonstatic.c	1160	1189
+@	3
+/cmpt816/tmp/sound/core/pcm_lib.c	679	701
+/cmpt816/tmp/sound/core/pcm_lib.c	745	768
+@	3
+/cmpt816/tmp/sound/core/pcm_lib.c	807	828
+/cmpt816/tmp/sound/core/pcm_lib.c	848	869
+@	1
+/cmpt816/tmp/sound/core/pcm_lib.c	857	877
+/cmpt816/tmp/sound/core/pcm_lib.c	959	979
+@	3
+/cmpt816/tmp/sound/core/pcm_lib.c	908	939
+/cmpt816/tmp/sound/core/pcm_lib.c	940	971
+@	1
+/cmpt816/tmp/sound/core/pcm_lib.c	1782	1795
+/cmpt816/tmp/sound/core/pcm_lib.c	2003	2016
+@	3
+/cmpt816/tmp/sound/core/pcm_lib.c	1821	1904
+/cmpt816/tmp/sound/core/pcm_lib.c	2045	2129
+@	2
+/cmpt816/tmp/net/netfilter/x_tables.c	1082	1102
+/cmpt816/tmp/net/netfilter/x_tables.c	1146	1166
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	658	717
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1023	1104
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	692	742
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	893	943
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	658	757
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1181	1281
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	893	943
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1216	1266
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	893	943
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1058	1109
+@	3
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	972	1042
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1130	1208
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	989	1067
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1147	1225
+@	3
+/cmpt816/tmp/fs/super.c	382	403
+/cmpt816/tmp/fs/super.c	418	438
+@	3
+/cmpt816/tmp/fs/super.c	418	441
+/cmpt816/tmp/fs/super.c	600	625
+@	2
+/cmpt816/tmp/fs/super.c	457	480
+/cmpt816/tmp/fs/super.c	517	540
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_ftp.c	72	95
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_irc.c	39	61
+@	3
+/cmpt816/tmp/net/ipv4/ipmr.c	343	363
+/cmpt816/tmp/net/ipv4/ipmr.c	373	396
+@	1
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	658	687
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	810	839
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1023	1053
+/cmpt816/tmp/drivers/gpu/drm/drm_bufs.c	1181	1211
+@	3
+/cmpt816/tmp/net/sunrpc/xdr.c	748	762
+/cmpt816/tmp/net/sunrpc/xdr.c	779	793
+@	1
+/cmpt816/tmp/net/sunrpc/xdr.c	948	977
+/cmpt816/tmp/net/sunrpc/xdr.c	988	1017
+@	1
+/cmpt816/tmp/fs/lockd/svc4proc.c	21	58
+/cmpt816/tmp/fs/lockd/svcproc.c	50	87
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	74	89
+/cmpt816/tmp/fs/lockd/svcproc.c	103	118
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	101	140
+/cmpt816/tmp/fs/lockd/svcproc.c	131	170
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	143	170
+/cmpt816/tmp/fs/lockd/svcproc.c	173	200
+@	3
+/cmpt816/tmp/fs/lockd/svc4proc.c	176	203
+/cmpt816/tmp/fs/lockd/svcproc.c	206	233
+@	1
+/cmpt816/tmp/fs/lockd/svc4proc.c	245	269
+/cmpt816/tmp/fs/lockd/svcproc.c	275	299
+@	1
+/cmpt816/tmp/net/netfilter/nf_conntrack_proto_tcp.c	1079	1088
+/cmpt816/tmp/net/netfilter/nf_conntrack_proto_tcp.c	1095	1108
+@	2
+/cmpt816/tmp/drivers/video/fbmem.c	694	719
+/cmpt816/tmp/drivers/video/fbmem.c	761	786
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1836	1851
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1897	1912
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1836	1851
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1856	1872
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1856	1872
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2036	2055
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1856	1872
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2016	2031
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1856	1872
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1965	1984
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1856	1872
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1897	1912
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1917	1936
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1941	1960
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1941	1960
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2036	2055
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	1965	1979
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2036	2052
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2016	2031
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2098	2113
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2189	2203
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2236	2250
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2189	2203
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2211	2225
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2211	2228
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2236	2250
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2305	2321
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2326	2341
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2900	2919
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	2921	2940
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3061	3082
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	3084	3105
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5093	5116
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5445	5474
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5149	5165
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5980	5996
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5149	5169
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5303	5325
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5149	5172
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5177	5197
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5228	5259
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5264	5298
+@	3
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5346	5366
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5445	5474
+@	2
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5754	5774
+/cmpt816/tmp/fs/nfs/nfs4xdr.c	5784	5804
+@	3
+/cmpt816/tmp/net/ipv4/inet_hashtables.c	182	216
+/cmpt816/tmp/net/ipv6/inet6_hashtables.c	160	193
+@	3
+/cmpt816/tmp/net/ipv4/inet_hashtables.c	232	287
+/cmpt816/tmp/net/ipv6/inet6_hashtables.c	81	124
+@	3
+/cmpt816/tmp/net/ipv4/inet_hashtables.c	301	365
+/cmpt816/tmp/net/ipv6/inet6_hashtables.c	223	285
+@	3
+/cmpt816/tmp/kernel/trace/trace_events.c	478	500
+/cmpt816/tmp/kernel/trace/trace_events.c	562	584
+@	3
+/cmpt816/tmp/kernel/trace/trace_events.c	744	764
+/cmpt816/tmp/kernel/trace/trace_events.c	767	789
+@	3
+/cmpt816/tmp/kernel/trace/trace_events.c	744	764
+/cmpt816/tmp/kernel/trace/trace_events.c	823	845
+@	2
+/cmpt816/tmp/kernel/trace/trace_events.c	767	789
+/cmpt816/tmp/kernel/trace/trace_events.c	823	845
+@	2
+/cmpt816/tmp/kernel/trace/trace_events.c	792	820
+/cmpt816/tmp/kernel/trace/trace_events.c	848	876
+@	3
+/cmpt816/tmp/drivers/usb/core/hcd.c	2328	2346
+/cmpt816/tmp/drivers/usb/core/hcd.c	2382	2409
+@	2
+/cmpt816/tmp/sound/core/oss/io.c	37	54
+/cmpt816/tmp/sound/core/oss/io.c	63	80
+@	1
+/cmpt816/tmp/fs/compat.c	222	249
+/cmpt816/tmp/fs/compat.c	297	323
+@	2
+/cmpt816/tmp/fs/compat.c	1218	1234
+/cmpt816/tmp/fs/compat.c	1275	1291
+@	1
+/cmpt816/tmp/fs/compat.c	1818	1847
+/cmpt816/tmp/fs/compat.c	1888	1916
+@	1
+/cmpt816/tmp/drivers/pnp/pnpacpi/rsparser.c	293	305
+/cmpt816/tmp/drivers/pnp/pnpacpi/rsparser.c	315	327
+@	3
+/cmpt816/tmp/drivers/ata/libata-core.c	408	429
+/cmpt816/tmp/drivers/ata/libata-core.c	462	482
+@	3
+/cmpt816/tmp/fs/nfs/idmap.c	467	496
+/cmpt816/tmp/fs/nfs/idmap.c	527	559
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_acpi.c	30	47
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_acpi.c	136	152
+@	3
+/cmpt816/tmp/lib/prio_tree.c	322	345
+/cmpt816/tmp/lib/prio_tree.c	363	387
+@	3
+/cmpt816/tmp/drivers/acpi/processor_perflib.c	645	682
+/cmpt816/tmp/drivers/acpi/processor_throttling.c	132	173
+@	2
+/cmpt816/tmp/net/wireless/nl80211.c	691	711
+/cmpt816/tmp/net/wireless/nl80211.c	713	732
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	1562	1592
+/cmpt816/tmp/net/wireless/nl80211.c	1611	1638
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	1892	1915
+/cmpt816/tmp/net/wireless/nl80211.c	2247	2274
+@	2
+/cmpt816/tmp/net/wireless/nl80211.c	2330	2352
+/cmpt816/tmp/net/wireless/nl80211.c	2355	2377
+@	1
+/cmpt816/tmp/net/wireless/nl80211.c	3311	3330
+/cmpt816/tmp/net/wireless/nl80211.c	3441	3461
+@	2
+/cmpt816/tmp/net/wireless/nl80211.c	3484	3524
+/cmpt816/tmp/net/wireless/nl80211.c	3528	3568
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5076	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5240	5271
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5071	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5452	5488
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5071	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5572	5606
+@	2
+/cmpt816/tmp/net/wireless/nl80211.c	5071	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5315	5347
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5071	5102
+/cmpt816/tmp/net/wireless/nl80211.c	5138	5170
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5143	5170
+/cmpt816/tmp/net/wireless/nl80211.c	5618	5652
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5138	5170
+/cmpt816/tmp/net/wireless/nl80211.c	5315	5347
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5138	5170
+/cmpt816/tmp/net/wireless/nl80211.c	5452	5488
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5192	5230
+/cmpt816/tmp/net/wireless/nl80211.c	5235	5271
+@	3
+/cmpt816/tmp/net/wireless/nl80211.c	5240	5271
+/cmpt816/tmp/net/wireless/nl80211.c	5321	5347
+@	1
+/cmpt816/tmp/net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.c	45	60
+/cmpt816/tmp/net/netfilter/nf_conntrack_standalone.c	66	81
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.c	114	152
+/cmpt816/tmp/net/netfilter/nf_conntrack_standalone.c	136	183
+@	1
+/cmpt816/tmp/net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.c	139	168
+/cmpt816/tmp/net/netfilter/nf_conntrack_standalone.c	159	188
+@	1
+/cmpt816/tmp/net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.c	354	387
+/cmpt816/tmp/net/netfilter/nf_conntrack_standalone.c	270	303
+@	3
+/cmpt816/tmp/net/core/datagram.c	434	465
+/cmpt816/tmp/net/core/datagram.c	526	558
+/cmpt816/tmp/net/core/skbuff.c	1319	1347
+/cmpt816/tmp/net/core/skbuff.c	1625	1654
+@	3
+/cmpt816/tmp/net/ipv4/af_inet.c	286	362
+/cmpt816/tmp/net/ipv6/af_inet6.c	121	193
+@	3
+/cmpt816/tmp/net/ipv4/af_inet.c	1023	1060
+/cmpt816/tmp/net/ipv6/af_inet6.c	586	623
+@	3
+/cmpt816/tmp/lib/radix-tree.c	891	915
+/cmpt816/tmp/lib/radix-tree.c	960	984
+@	3
+/cmpt816/tmp/lib/radix-tree.c	897	939
+/cmpt816/tmp/lib/radix-tree.c	1091	1133
+@	1
+/cmpt816/tmp/lib/radix-tree.c	966	989
+/cmpt816/tmp/lib/radix-tree.c	1161	1184
+@	3
+/cmpt816/tmp/lib/radix-tree.c	1080	1109
+/cmpt816/tmp/lib/radix-tree.c	1150	1179
+@	3
+/cmpt816/tmp/net/core/rtnetlink.c	1283	1303
+/cmpt816/tmp/net/core/rtnetlink.c	1393	1420
+@	1
+/cmpt816/tmp/net/core/rtnetlink.c	1290	1308
+/cmpt816/tmp/net/core/rtnetlink.c	1543	1561
+@	3
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_helper.c	203	222
+/cmpt816/tmp/net/ipv4/netfilter/nf_nat_helper.c	260	278
+@	3
+/cmpt816/tmp/kernel/trace/ring_buffer.c	3959	3979
+/cmpt816/tmp/kernel/trace/trace.c	4076	4096
+@	3
+/cmpt816/tmp/kernel/trace/ring_buffer.c	3959	3979
+/cmpt816/tmp/kernel/trace/trace.c	4137	4157
+@	2
+/cmpt816/tmp/arch/x86/kernel/signal.c	367	378
+/cmpt816/tmp/arch/x86/kernel/signal.c	434	444
+@	3
+/cmpt816/tmp/fs/fat/namei_msdos.c	200	224
+/cmpt816/tmp/fs/fat/namei_vfat.c	713	738
+@	3
+/cmpt816/tmp/fs/fat/namei_msdos.c	382	401
+/cmpt816/tmp/fs/fat/namei_vfat.c	873	894
+@	3
+/cmpt816/tmp/fs/fat/namei_msdos.c	513	546
+/cmpt816/tmp/fs/fat/namei_vfat.c	942	1015
+@	1
+/cmpt816/tmp/fs/fat/namei_msdos.c	534	577
+/cmpt816/tmp/fs/fat/namei_vfat.c	959	1002
+@	3
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_opregion.c	195	218
+/cmpt816/tmp/drivers/gpu/drm/i915/intel_opregion.c	228	253
+@	3
+/cmpt816/tmp/fs/mbcache.c	278	296
+/cmpt816/tmp/fs/mbcache.c	308	328
+@	3
+/cmpt816/tmp/kernel/compat.c	830	862
+/cmpt816/tmp/kernel/signal.c	2281	2316
+@	1
+/cmpt816/tmp/drivers/scsi/sd.c	743	749
+/cmpt816/tmp/drivers/scsi/sr.c	442	448
+@	2
+/cmpt816/tmp/drivers/scsi/sd.c	696	703
+/cmpt816/tmp/drivers/scsi/sd.c	721	726
+@	1
+/cmpt816/tmp/fs/select.c	623	649
+/cmpt816/tmp/fs/select.c	952	978
+@	3
+/cmpt816/tmp/fs/compat.c	1000	1030
+/cmpt816/tmp/fs/compat.c	1088	1119
+/cmpt816/tmp/fs/readdir.c	197	227
+/cmpt816/tmp/fs/readdir.c	280	311
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2180	2209
+/cmpt816/tmp/sound/core/pcm_native.c	2276	2306
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2180	2209
+/cmpt816/tmp/sound/core/pcm_native.c	2325	2355
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2180	2226
+/cmpt816/tmp/sound/core/pcm_native.c	2228	2274
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2228	2257
+/cmpt816/tmp/sound/core/pcm_native.c	2325	2355
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2228	2257
+/cmpt816/tmp/sound/core/pcm_native.c	2276	2306
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2276	2323
+/cmpt816/tmp/sound/core/pcm_native.c	2325	2372
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2567	2629
+/cmpt816/tmp/sound/core/pcm_native.c	2647	2722
+@	2
+/cmpt816/tmp/sound/core/pcm_native.c	2626	2645
+/cmpt816/tmp/sound/core/pcm_native.c	2706	2725
+@	2
+/cmpt816/tmp/sound/core/pcm_native.c	2781	2803
+/cmpt816/tmp/sound/core/pcm_native.c	2805	2827
+@	3
+/cmpt816/tmp/sound/core/pcm_native.c	2829	2863
+/cmpt816/tmp/sound/core/pcm_native.c	2865	2897
+@	2
+/cmpt816/tmp/sound/core/pcm_native.c	2899	2923
+/cmpt816/tmp/sound/core/pcm_native.c	2938	2962
+@	2
+/cmpt816/tmp/sound/core/pcm_native.c	3354	3382
+/cmpt816/tmp/sound/core/pcm_native.c	3384	3412
+@	1
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_suspend.c	46	64
+/cmpt816/tmp/drivers/gpu/drm/i915/i915_suspend.c	68	86
+@	3
+/cmpt816/tmp/kernel/sys.c	165	205
+/cmpt816/tmp/kernel/sys.c	225	273
+@	2
+/cmpt816/tmp/fs/lockd/svcproc.c	173	200
+/cmpt816/tmp/fs/lockd/svcproc.c	206	233
+@	3
+/cmpt816/tmp/fs/lockd/svcproc.c	345	372
+/cmpt816/tmp/fs/lockd/svcproc.c	378	405
+@	2
+/cmpt816/tmp/fs/read_write.c	285	307
+/cmpt816/tmp/fs/read_write.c	341	363
+@	2
+/cmpt816/tmp/fs/read_write.c	781	800
+/cmpt816/tmp/fs/read_write.c	806	825
+@	3
+/cmpt816/tmp/drivers/pcmcia/cistpl.c	136	194
+/cmpt816/tmp/drivers/pcmcia/cistpl.c	214	268
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2383	2407
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3523	3547
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3958	3983
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4695	4719
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5157	5181
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5785	5811
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_via.c	2383	2407
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3523	3547
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3958	3983
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4695	4719
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5157	5181
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5465	5490
+@	2
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3028	3052
+/cmpt816/tmp/sound/pci/hda/patch_via.c	3558	3582
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4019	4043
+/cmpt816/tmp/sound/pci/hda/patch_via.c	4730	4755
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5192	5216
+/cmpt816/tmp/sound/pci/hda/patch_via.c	5516	5543
+@	3
+/cmpt816/tmp/security/selinux/ss/avtab.c	57	84
+/cmpt816/tmp/security/selinux/ss/avtab.c	98	124
+@	3
+/cmpt816/tmp/security/selinux/ss/avtab.c	128	157
+/cmpt816/tmp/security/selinux/ss/avtab.c	163	191
+@	3
+/cmpt816/tmp/drivers/pci/proc.c	66	88
+/cmpt816/tmp/drivers/pci/proc.c	136	158
+@	3
+/cmpt816/tmp/net/ipv6/udp.c	126	159
+/cmpt816/tmp/net/ipv6/udp.c	164	194
+@	1
+/cmpt816/tmp/fs/lockd/xdr.c	44	69
+/cmpt816/tmp/fs/lockd/xdr4.c	46	71
+@	3
+/cmpt816/tmp/fs/lockd/xdr.c	120	137
+/cmpt816/tmp/fs/lockd/xdr4.c	121	138
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	190	208
+/cmpt816/tmp/fs/lockd/xdr4.c	193	211
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	247	264
+/cmpt816/tmp/fs/lockd/xdr4.c	254	271
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	267	280
+/cmpt816/tmp/fs/lockd/xdr4.c	274	287
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	293	311
+/cmpt816/tmp/fs/lockd/xdr4.c	300	318
+@	3
+/cmpt816/tmp/fs/lockd/xdr.c	402	421
+/cmpt816/tmp/fs/lockd/xdr4.c	409	429
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	437	451
+/cmpt816/tmp/fs/lockd/xdr4.c	445	459
+@	2
+/cmpt816/tmp/fs/lockd/xdr.c	454	466
+/cmpt816/tmp/fs/lockd/xdr4.c	462	474
+@	3
+/cmpt816/tmp/sound/pci/hda/hda_codec.c	4294	4319
+/cmpt816/tmp/sound/pci/hda/patch_via.c	1674	1701
+@	1
+/cmpt816/tmp/fs/compat.c	1148	1177
+/cmpt816/tmp/fs/read_write.c	676	705
+@	1
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	184	207
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	554	578
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	422	450
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	319	358
+@	3
+/cmpt816/tmp/sound/pci/hda/patch_analog.c	565	582
+/cmpt816/tmp/sound/pci/hda/patch_conexant.c	672	692
+@	2
+/cmpt816/tmp/mm/sparse.c	511	532
+/cmpt816/tmp/mm/sparse.c	552	573
+@	2
+/cmpt816/tmp/drivers/acpi/acpica/dsopcode.c	192	220
+/cmpt816/tmp/drivers/acpi/acpica/dsopcode.c	236	264
+@	2
+/cmpt816/tmp/net/mac80211/agg-rx.c	140	171
+/cmpt816/tmp/net/mac80211/ht.c	157	189
+@	2
+/cmpt816/tmp/fs/buffer.c	2246	2263
+/cmpt816/tmp/fs/buffer.c	2275	2292
+@	3
+/cmpt816/tmp/fs/buffer.c	2659	2687
+/cmpt816/tmp/fs/buffer.c	2737	2765
+@	1
+/cmpt816/tmp/net/core/skbuff.c	1251	1267
+/cmpt816/tmp/net/ipv4/tcp_output.c	1081	1097
+@	3
+/cmpt816/tmp/drivers/ata/libata-core.c	784	845
+/cmpt816/tmp/drivers/ata/libata-scsi.c	1520	1576
+@	2
+/cmpt816/tmp/fs/nfs/proc.c	261	281
+/cmpt816/tmp/fs/nfs/proc.c	482	503
+@	3
+/cmpt816/tmp/arch/x86/pci/direct.c	94	117
+/cmpt816/tmp/arch/x86/pci/direct.c	135	156
+@	3
+/cmpt816/tmp/net/ipv4/devinet.c	1177	1199
+/cmpt816/tmp/net/ipv6/addrconf.c	3969	3988
+@	3
+/cmpt816/tmp/net/ipv4/devinet.c	1177	1201
+/cmpt816/tmp/net/ipv6/addrconf.c	3647	3670
+@	2
+/cmpt816/tmp/net/ipv6/ah6.c	606	618
+/cmpt816/tmp/net/ipv6/esp6.c	356	368
+@	2
+/cmpt816/tmp/drivers/pnp/card.c	105	128
+/cmpt816/tmp/drivers/pnp/driver.c	239	262
+@	1
+/cmpt816/tmp/crypto/authenc.c	195	220
+/cmpt816/tmp/crypto/authenc.c	233	259
+@	1
+/cmpt816/tmp/crypto/authenc.c	261	274
+/cmpt816/tmp/crypto/authenc.c	300	313
+@	2
+/cmpt816/tmp/crypto/authenc.c	343	363
+/cmpt816/tmp/crypto/authenc.c	497	517
+@	3
+/cmpt816/tmp/fs/stat.c	130	147
+/cmpt816/tmp/fs/stat.c	208	229
+@	3
+/cmpt816/tmp/drivers/video/console/fbcon.c	1388	1401
+/cmpt816/tmp/drivers/video/console/fbcon.c	1407	1420
+@	3
+/cmpt816/tmp/drivers/video/console/fbcon.c	1450	1468
+/cmpt816/tmp/drivers/video/console/fbcon.c	1498	1516
+@	1
+/cmpt816/tmp/drivers/video/console/fbcon.c	1575	1597
+/cmpt816/tmp/drivers/video/console/fbcon.c	1711	1734
+@	2
+/cmpt816/tmp/drivers/video/console/fbcon.c	1819	1836
+/cmpt816/tmp/drivers/video/console/fbcon.c	1860	1877
+@	1
+/cmpt816/tmp/drivers/video/console/fbcon.c	2014	2027
+/cmpt816/tmp/drivers/video/console/fbcon.c	2030	2043
+@	3
+/cmpt816/tmp/sound/core/oss/linear.c	88	112
+/cmpt816/tmp/sound/core/oss/mulaw.c	248	271
+/cmpt816/tmp/sound/core/oss/rate.c	249	273
+@	3
+/cmpt816/tmp/sound/core/oss/mulaw.c	248	271
+/cmpt816/tmp/sound/core/oss/rate.c	249	273
+@	3
+/cmpt816/tmp/crypto/ablkcipher.c	112	138
+/cmpt816/tmp/crypto/blkcipher.c	106	132
+@	2
+/cmpt816/tmp/crypto/ablkcipher.c	278	295
+/cmpt816/tmp/crypto/blkcipher.c	325	343
+@	1
+/cmpt816/tmp/crypto/ablkcipher.c	312	328
+/cmpt816/tmp/crypto/blkcipher.c	363	379
+@	1
+/cmpt816/tmp/drivers/char/random.c	1316	1330
+/cmpt816/tmp/lib/halfmd4.c	6	20
+@	1
+/cmpt816/tmp/drivers/char/random.c	1334	1347
+/cmpt816/tmp/lib/halfmd4.c	25	40
+@	3
+/cmpt816/tmp/drivers/char/random.c	1343	1356
+/cmpt816/tmp/lib/halfmd4.c	30	47
+@	1
+/cmpt816/tmp/drivers/char/random.c	1350	1357
+/cmpt816/tmp/lib/halfmd4.c	37	44
+@	2
+/cmpt816/tmp/drivers/char/random.c	1357	1374
+/cmpt816/tmp/lib/halfmd4.c	40	57
+@	3
+/cmpt816/tmp/net/compat.c	280	313
+/cmpt816/tmp/net/core/scm.c	274	310
+@	3
+/cmpt816/tmp/fs/aio.c	1453	1483
+/cmpt816/tmp/fs/aio.c	1485	1511

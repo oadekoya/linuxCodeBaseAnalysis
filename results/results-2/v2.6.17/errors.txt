@@ -1,0 +1,3 @@
+scripts/mod/sumversion.c:384:16: error: ‘PATH_MAX’ undeclared (first use in this function)
+scripts/mod/sumversion.c:384:16: note: each undeclared identifier is reported only once for each function it appears in
+scripts/mod/sumversion.c:384:7: warning: unused variable ‘filelist’ [-Wunused-variable]

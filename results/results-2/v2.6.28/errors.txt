@@ -1,0 +1,709 @@
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+scripts/mod/modpost.c:1542:12: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/mod/modpost.c:1962:10: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+scripts/kallsyms.c:74:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+init/main.c:194:6: warning: symbol 'envp_init' was not declared. Should it be static?
+init/main.c:795:21: warning: context imbalance in 'init_post' - unexpected unlock
+init/main.c:885:24: warning: context imbalance in 'kernel_init' - wrong count at exit
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/main.c:571:2: warning: format not a string literal and no format arguments [-Wformat-security]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+init/do_mounts.c:217:29: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:217:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:217:44: warning: incorrect type in argument 3 (different address spaces)
+init/do_mounts.c:217:55: warning: incorrect type in argument 5 (different address spaces)
+init/do_mounts.c:221:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:311:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:317:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:322:31: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:409:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:409:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:410:20: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/do_mounts_rd.c:71:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:106:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:150:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:154:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:223:42: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:230:33: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:231:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:249:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:321:37: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:342:36: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+init/do_mounts_initrd.c:35:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:50:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:51:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:52:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:54:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:55:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:56:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:76:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:81:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:89:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:93:35: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:99:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:122:36: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:127:20: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:37:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:37:32: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_md.c:174:31: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:237:39: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:286:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:17:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:26: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+init/initramfs.c:111:28: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:279:42: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:279:47: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:288:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:288:34: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:290:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:292:36: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:315:40: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:325:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:326:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:327:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:332:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:333:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:334:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:335:34: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:344:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:346:26: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:352:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:363:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:363:52: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:364:20: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:365:18: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:596:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:598:40: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+init/initramfs.c:581:3: warning: format not a string literal and no format arguments [-Wformat-security]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/process_64.c:58:15: warning: symbol 'kernel_thread_flags' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:555:20: warning: symbol '__switch_to' was not declared. Should it be static?
+arch/x86/kernel/process_64.c:859:6: warning: symbol 'sys_arch_prctl' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:76:2: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:393:2: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:643:2: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:644:2: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/process_64.c:646:2: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/signal_64.c:480:1: warning: symbol 'do_notify_resume' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/traps.c:284:20: warning: symbol 'do_double_fault' was not declared. Should it be static?
+arch/x86/kernel/traps.c:530:37: warning: symbol 'sync_regs' was not declared. Should it be static?
+arch/x86/kernel/traps.c:663:6: warning: symbol 'math_error' was not declared. Should it be static?
+arch/x86/kernel/traps.c:849:39: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+arch/x86/kernel/traps.c:853:39: warning: symbol 'mce_threshold_interrupt' was not declared. Should it be static?
+arch/x86/kernel/traps.c:907:17: warning: symbol 'math_emulate' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/traps.c:487:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/dumpstack_64.c:254:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/dumpstack_64.c:276:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/time_64.c:52:13: warning: symbol 'timer_interrupt' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/time_64.c:54:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/ldt.c:247:16: warning: symbol 'sys_modify_ldt' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/setup.c:382:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:391:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:405:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:410:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:431:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:435:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:451:27: warning: symbol 'find_and_reserve_crashkernel' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/irqinit_64.c:138:13: warning: symbol 'init_ISA_irqs' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/syscall_64.c:22:22: warning: symbol 'sys_call_table' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:27:10: warning: Initializer entry defined twice
+arch/x86/kernel/vsyscall_64.c:153:19: warning: symbol 'vgettimeofday' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:164:22: warning: symbol 'vtime' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:187:1: warning: symbol 'vgetcpu' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/e820.c:626:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/e820.c:631:31: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/e820.c:1172:2: warning: format not a string literal and no format arguments [-Wformat-security]
+arch/x86/kernel/e820.c:1173:2: warning: format not a string literal and no format arguments [-Wformat-security]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/kdebugfs.c:50:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:60:25: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kdebugfs.c:140:30: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:157:33: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tsc.c:560:30: warning: variable ‘ns_now’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/process.c:252:6: warning: symbol 'c1e_remove_cpu' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/process.c:268:11: warning: variable ‘hi’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:57:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:162:5: warning: symbol 'restore_user_xstate' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tls.c:93:16: warning: symbol 'sys_set_thread_area' was not declared. Should it be static?
+arch/x86/kernel/tls.c:143:16: warning: symbol 'sys_get_thread_area' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/acpi/sleep.c:106:23: warning: constant 0x123456789abcdef0 is so big it is long
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/acpi/realmode/../../../boot/video-vga.c:37:13: warning: symbol 'video_vga' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/capflags.c:54:10: warning: Initializer entry defined twice
+arch/x86/kernel/cpu/common.c:865:6: warning: symbol 'boot_cpu_stack' was not declared. Should it be static?
+arch/x86/kernel/cpu/common.c:906:6: warning: symbol 'boot_exception_stacks' was not declared. Should it be static?
+arch/x86/kernel/cpu/common.c:932:15: warning: symbol 'kernel_eflags' was not declared. Should it be static?
+arch/x86/kernel/cpu/common.c:919:9: warning: cast truncates bits from constant value (23001000000000 becomes 0)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/intel.c:239:15: warning: variable ‘l2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c:154:6: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/main.c:104:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/main.c:1563:53: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:212:15: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/mtrr/generic.c:650:24: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/cpu/perfctr-watchdog.c:480:28: warning: variable ‘dummy’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp.c:184:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp.c:196:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/smp.c:209:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:155:21: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:159:25: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:173:26: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:181:23: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:185:25: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:188:23: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/tlb_64.c:157:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/apic.c:101:5: warning: symbol 'disable_x2apic' was not declared. Should it be static?
+arch/x86/kernel/apic.c:128:5: warning: symbol 'pic_mode' was not declared. Should it be static?
+arch/x86/kernel/apic.c:270:5: warning: symbol 'x2apic_icr_read' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/apic.c:787:2: note: in expansion of macro ‘add_pda’
+arch/x86/kernel/apic.c:1296:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/apic.c:1309:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:119:29: note: in expansion of macro ‘pda_to_op’
+arch/x86/kernel/apic.c:1699:2: note: in expansion of macro ‘add_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:233:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:233:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:491:17: warning: incorrect type in assignment (different modifiers)
+arch/x86/kernel/io_apic.c:484:6: warning: symbol 'io_apic_sync' was not declared. Should it be static?
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:233:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:2216:17: warning: symbol 'smp_irq_move_cleanup_interrupt' was not declared. Should it be static?
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:220:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:3343:17: warning: symbol 'dmar_msi_type' was not declared. Should it be static?
+arch/x86/kernel/io_apic.c:3404:17: warning: symbol 'hpet_msi_type' was not declared. Should it be static?
+arch/x86/kernel/io_apic.c:213:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/io_apic.c:1024:6: warning: context imbalance in 'lock_vector_lock' - wrong count at exit
+arch/x86/kernel/io_apic.c:1032:6: warning: context imbalance in 'unlock_vector_lock' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/crash_dump_64.c:37:15: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/crash_dump_64.c:42:34: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:43:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:49:17: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/efi.c:67:5: warning: symbol 'add_efi_memmap' was not declared. Should it be static?
+arch/x86/kernel/efi.c:308:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:313:26: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:330:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:337:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:346:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:384:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:393:17: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:413:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:416:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:485:28: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:541:29: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/hpet.c:36:41: warning: symbol 'hpet_num_timers' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/microcode_core.c:102:22: warning: symbol 'microcode_ops' was not declared. Should it be static?
+arch/x86/kernel/microcode_core.c:206:24: warning: symbol 'microcode_pdev' was not declared. Should it be static?
+arch/x86/kernel/microcode_core.c:331:6: warning: symbol 'microcode_update_cpu' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/microcode_intel.c:455:35: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/microcode_intel.c:463:45: warning: cast removes address space of expression
+arch/x86/kernel/microcode_intel.c:474:22: warning: symbol 'microcode_intel_ops' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/genx2apic_uv_x.c:73:15: warning: symbol 'sn_rtc_cycles_per_second' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:155:21: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:159:25: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:173:26: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:181:23: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:185:25: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/uv/uv_bau.h:188:23: error: dubious one-bit signed bitfield
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+arch/x86/kernel/tlb_uv.c:372:16: warning: variable ‘local_pnode’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tlb_uv.c:418:16: warning: variable ‘apicid’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tlb_uv.c:416:6: warning: variable ‘pnode’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/tlb_uv.c:727:34: warning: variable ‘pqp’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/bios_uv.c:28:18: warning: symbol 'uv_systab' was not declared. Should it be static?
+arch/x86/kernel/bios_uv.c:124:16: warning: cast removes address space of expression
+arch/x86/kernel/bios_uv.c:133:17: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/genx2apic_cluster.c:13:1: warning: symbol 'per_cpu__x86_cpu_to_logical_apicid' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/genx2apic_phys.c:126:6: warning: symbol 'x2apic_send_IPI_self' was not declared. Should it be static?
+arch/x86/kernel/genx2apic_phys.c:131:6: warning: symbol 'init_x2apic_ldr' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/pci-gart_64.c:55:5: warning: symbol 'iommu_fullflush' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/pci-calgary_64.c:294:9: warning: context imbalance in 'iommu_range_alloc' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/amd_iommu_init.c:204:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:208:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:221:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:230:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:232:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:239:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:241:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:245:13: warning: symbol 'iommu_enable' was not declared. Should it be static?
+arch/x86/kernel/amd_iommu_init.c:258:13: warning: symbol 'iommu_enable_event_logging' was not declared. Should it be static?
+arch/x86/kernel/amd_iommu_init.c:275:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:287:30: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:427:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:431:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:432:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:456:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:903:37: warning: Using plain integer as NULL pointer
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/amd_iommu.c:129:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:130:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:137:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:167:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:169:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:171:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:174:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:230:49: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:236:41: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:1205:24: warning: Using plain integer as NULL pointer
+arch/x86/kernel/amd_iommu.c:1298:6: warning: symbol 'prealloc_protection_domains' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/pci-swiotlb_64.c:33:24: warning: symbol 'swiotlb_dma_ops' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/kernel/test_nx.c:111:6: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+arch/x86/mm/init_64.c:313:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/mm/init_64.c:324:23: warning: incorrect type in argument 1 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:10:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:22:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:23:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/pda.h:64:15: warning: variable ‘tmp__’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/pda.h:118:31: note: in expansion of macro ‘pda_to_op’
+/cmpt816/linux/arch/x86/include/asm/mmu_context_64.h:33:3: note: in expansion of macro ‘write_pda’
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+include/linux/pagemap.h:415:16: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/vdso/vma.c:19:28: warning: symbol 'vdso_enabled' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: incorrect type in assignment (different modifiers)
+arch/x86/vdso/vma.c:101:5: warning: symbol 'arch_setup_additional_pages' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/vdso/vclock_gettime.c:86:13: warning: symbol '__vdso_clock_gettime' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:100:13: warning: symbol '__vdso_gettimeofday' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/apic.h:86:11: warning: variable ‘high’ set but not used [-Wunused-but-set-variable]
+/cmpt816/linux/arch/x86/include/asm/apic.h:103:11: warning: variable ‘msr2’ set but not used [-Wunused-but-set-variable]
+arch/x86/vdso/vgetcpu.c:17:1: warning: symbol '__vdso_getcpu' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:14:1: warning: symbol 'vdso_jiffies' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:15:1: warning: symbol 'vdso_vgetcpu_mode' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:16:1: warning: symbol 'vdso_vsyscall_gtod_data' was not declared. Should it be static?
+gcc: error: elf_x86_64: No such file or directory
+gcc: error: unrecognized command line option ‘-m’

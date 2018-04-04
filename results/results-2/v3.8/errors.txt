@@ -1,0 +1,1901 @@
+init/main.c:153:12: warning: symbol 'envp_init' was not declared. Should it be static?
+init/do_mounts.c:8:2: warning: "Sparse checking disabled for this file"
+init/do_mounts_initrd.c:8:2: warning: "Sparse checking disabled for this file"
+init/do_mounts_md.c:8:2: warning: "Sparse checking disabled for this file"
+init/initramfs.c:8:2: warning: "Sparse checking disabled for this file"
+init/calibrate.c:257:47: warning: symbol 'calibrate_delay_is_known' was not declared. Should it be static?
+init/init_task.c:12:44: warning: implicit cast to nocast type
+init/init_task.c:12:44: warning: implicit cast to nocast type
+arch/x86/ia32/sys_ia32.c:231:62: warning: invalid access past the end of 'old_ka' (32 32)
+arch/x86/ia32/sys_ia32.c:228:62: warning: invalid access past the end of 'old_ka' (40 32)
+arch/x86/ia32/sys_ia32.c:225:62: warning: invalid access past the end of 'old_ka' (48 32)
+arch/x86/ia32/sys_ia32.c:210:52: warning: invalid access past the end of 'set32' (12 8)
+arch/x86/ia32/sys_ia32.c:209:61: warning: invalid access past the end of 'set32' (8 8)
+arch/x86/ia32/sys_ia32.c:208:52: warning: invalid access past the end of 'set32' (20 8)
+arch/x86/ia32/sys_ia32.c:207:61: warning: invalid access past the end of 'set32' (16 8)
+arch/x86/ia32/sys_ia32.c:206:52: warning: invalid access past the end of 'set32' (28 8)
+arch/x86/ia32/sys_ia32.c:205:61: warning: invalid access past the end of 'set32' (24 8)
+arch/x86/ia32/sys_ia32.c:328:44: warning: invalid access past the end of 's' (8 8)
+arch/x86/ia32/sys_ia32.c:327:44: warning: invalid access past the end of 's' (16 8)
+arch/x86/ia32/sys_ia32.c:326:44: warning: invalid access past the end of 's' (24 8)
+arch/x86/ia32/nosyscall.c:4:6: warning: symbol 'compat_ni_syscall' was not declared. Should it be static?
+arch/x86/ia32/syscall_ia32.c:18:22: warning: symbol 'ia32_sys_call_table' was not declared. Should it be static?
+arch/x86/ia32/syscall_ia32.c:23:10: warning: Initializer entry defined twice
+arch/x86/ia32/audit.c:3:10: warning: symbol 'ia32_dir_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:8:10: warning: symbol 'ia32_chattr_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:13:10: warning: symbol 'ia32_write_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:18:10: warning: symbol 'ia32_read_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:23:10: warning: symbol 'ia32_signal_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:28:5: warning: symbol 'ia32_classify_syscall' was not declared. Should it be static?
+arch/x86/kernel/traps.c:591:39: warning: symbol 'smp_threshold_interrupt' was not declared. Should it be static?
+arch/x86/kernel/time.c:69:13: warning: symbol 'setup_default_timer_irq' was not declared. Should it be static?
+arch/x86/kernel/nmi.c:283:17: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:283:17: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:283:17: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:283:17: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:283:17: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:299:25: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:299:25: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:299:25: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:299:25: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:299:25: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:355:20: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:355:20: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:355:20: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:355:20: warning: expression using sizeof bool
+arch/x86/kernel/nmi.c:355:20: warning: expression using sizeof bool
+arch/x86/kernel/setup.c:356:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:358:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:430:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:433:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:434:30: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:449:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:463:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:468:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:488:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:491:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/x86_init.c:29:12: warning: symbol 'iommu_init_noop' was not declared. Should it be static?
+arch/x86/kernel/x86_init.c:30:6: warning: symbol 'iommu_shutdown_noop' was not declared. Should it be static?
+arch/x86/kernel/i8259.c:379:19: warning: symbol 'default_legacy_pic' was not declared. Should it be static?
+arch/x86/kernel/irqinit.c:85:13: warning: symbol 'init_IRQ' was not declared. Should it be static?
+arch/x86/kernel/irq_work.c:12:6: warning: symbol 'smp_irq_work_interrupt' was not declared. Should it be static?
+arch/x86/kernel/irq_work.c:21:6: warning: symbol 'arch_irq_work_raise' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:26:22: warning: symbol 'sys_call_table' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:31:10: warning: Initializer entry defined twice
+arch/x86/kernel/kdebugfs.c:52:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:61:25: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kdebugfs.c:131:30: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:147:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/tsc.c:1018:25: warning: symbol 'calibrate_delay_is_known' was not declared. Should it be static?
+arch/x86/kernel/rtc.c:222:42: warning: duplicate const 
+arch/x86/kernel/pci-iommu_table.c:62:37: warning: Using plain integer as NULL pointer
+arch/x86/kernel/process.c:221:6: warning: symbol '__switch_to_xtra' was not declared. Should it be static?
+arch/x86/kernel/process.c:428:21: warning: cast removes address space of expression
+arch/x86/kernel/process.c:428:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/process.c:428:21: warning: cast removes address space of expression
+arch/x86/kernel/process.c:428:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:172:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:178:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:193:16: warning: cast removes address space of expression
+arch/x86/kernel/acpi/boot.c:161:29: warning: incorrect type in return expression (different address spaces)
+arch/x86/kernel/acpi/boot.c:168:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/acpi/boot.c:584:13: warning: symbol 'acpi_set_irq_model_pic' was not declared. Should it be static?
+arch/x86/kernel/acpi/boot.c:591:13: warning: symbol 'acpi_set_irq_model_ioapic' was not declared. Should it be static?
+arch/x86/kernel/acpi/cstate.c:166:21: warning: cast removes address space of expression
+arch/x86/kernel/acpi/cstate.c:166:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/acpi/cstate.c:166:21: warning: cast removes address space of expression
+arch/x86/kernel/acpi/cstate.c:166:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/acpi/cstate.c:163:6: warning: symbol 'mwait_idle_with_hints' was not declared. Should it be static?
+arch/x86/kernel/apic/apic.c:550:13: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:550:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:550:13: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:550:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/apic/apic.c:559:13: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:559:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:559:13: warning: cast removes address space of expression
+arch/x86/kernel/apic/apic.c:559:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/apic/apic.c:1553:12: warning: symbol 'enable_IR' was not declared. Should it be static?
+arch/x86/kernel/apic/apic.c:2149:6: warning: symbol 'default_init_apic_ldr' was not declared. Should it be static?
+arch/x86/kernel/apic/io_apic.c:337:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:344:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:358:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:523:17: warning: incorrect type in assignment (different modifiers)
+arch/x86/kernel/apic/io_apic.c:331:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:331:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:1087:6: warning: context imbalance in 'lock_vector_lock' - wrong count at exit
+arch/x86/kernel/apic/io_apic.c:1095:6: warning: context imbalance in 'unlock_vector_lock' - unexpected unlock
+arch/x86/kernel/apic/apic_flat_64.c:46:6: warning: symbol 'flat_init_apic_ldr' was not declared. Should it be static?
+arch/x86/kernel/cpu/intel_cacheinfo.c:167:33: warning: symbol 'num_cache_leaves' was not declared. Should it be static?
+arch/x86/kernel/cpu/intel_cacheinfo.c:349:5: warning: symbol 'amd_get_l3_disable_slot' was not declared. Should it be static?
+arch/x86/kernel/cpu/intel_cacheinfo.c:427:5: warning: symbol 'amd_set_l3_disable_slot' was not declared. Should it be static?
+arch/x86/kernel/cpu/common.c:485:16: warning: symbol 'cpu_detect_tlb' was not declared. Should it be static?
+arch/x86/kernel/cpu/common.c:1269:33: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/cpu/common.c:1120:9: warning: cast truncates bits from constant value (23001000000000 becomes 0)
+arch/x86/kernel/cpu/perf_event.c:1807:6: warning: symbol 'arch_perf_update_userpage' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event.c:1973:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/cpu/perf_event_p4.c:593:3: warning: symbol 'p4_event_aliases' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1164:6: warning: symbol 'uncore_nhmex' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1242:5: warning: symbol 'nhmex_mbox_alter_er' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1557:6: warning: symbol 'nhmex_rbox_alter_er' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1937:25: warning: symbol 'uncore_alloc_box' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1964:16: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1972:26: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1978:17: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2288:5: warning: symbol 'uncore_pmu_event_init' was not declared. Should it be static?
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2414:42: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2448:29: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2564:22: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2565:26: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2636:32: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2637:26: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2657:32: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2665:42: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2668:42: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2704:26: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:740:9: warning: cast truncates bits from constant value (1000000ff becomes ff)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1085:17: warning: cast truncates bits from constant value (8000000000000000 becomes 0)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:1471:25: warning: cast truncates bits from constant value (8000000000000000 becomes 0)
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2414:39: warning: dereference of noderef expression
+arch/x86/kernel/cpu/perf_event_intel_uncore.c:2449:26: warning: dereference of noderef expression
+arch/x86/kernel/cpu/mcheck/mce.c:105:1: warning: symbol 'x86_mce_decoder_chain' was not declared. Should it be static?
+arch/x86/kernel/cpu/mcheck/mce.c:522:1: warning: symbol 'mce_irq_work' was not declared. Should it be static?
+arch/x86/kernel/cpu/mcheck/mce.c:960:3: warning: symbol 'mce_info' was not declared. Should it be static?
+arch/x86/kernel/cpu/mcheck/mce.c:1873:13: error: cannot dereference this type
+arch/x86/kernel/cpu/mcheck/mce.c:1873:13: error: incompatible types for operation (==)
+arch/x86/kernel/cpu/mcheck/threshold.c:20:17: warning: symbol 'smp_threshold_interrupt' was not declared. Should it be static?
+arch/x86/kernel/cpu/mcheck/therm_throt.c:355:13: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:355:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:355:13: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:355:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/mcheck/therm_throt.c:360:13: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:360:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:360:13: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:360:13: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/mcheck/therm_throt.c:365:21: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:365:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:365:21: warning: cast removes address space of expression
+arch/x86/kernel/cpu/mcheck/therm_throt.c:365:21: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/cpu/mcheck/therm_throt.c:381:17: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+arch/x86/kernel/smp.c:170:17: warning: symbol 'smp_reboot_interrupt' was not declared. Should it be static?
+arch/x86/kernel/smpboot.c:1152:6: warning: symbol 'arch_enable_nonboot_cpus_begin' was not declared. Should it be static?
+arch/x86/kernel/smpboot.c:1157:6: warning: symbol 'arch_enable_nonboot_cpus_end' was not declared. Should it be static?
+arch/x86/kernel/smpboot.c:1372:15: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1372:15: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1372:15: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1372:15: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/smpboot.c:1374:14: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1374:14: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1374:14: warning: cast removes address space of expression
+arch/x86/kernel/smpboot.c:1374:14: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+arch/x86/kernel/mpparse.c:442:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:444:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:456:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:467:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:470:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:34:15: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/crash_dump_64.c:39:34: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:40:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:47:17: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kprobes-opt.c:443:13: warning: function 'arch_unoptimize_kprobes' with external linkage has definition
+arch/x86/kernel/microcode_intel.c:434:35: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/microcode_intel.c:440:45: warning: cast removes address space of expression
+arch/x86/kernel/check.c:71:13: warning: symbol 'setup_bios_corruption_check' was not declared. Should it be static?
+arch/x86/kernel/check.c:118:6: warning: symbol 'check_for_bios_corruption' was not declared. Should it be static?
+include/linux/spinlock.h:340:9: warning: context imbalance in 'iommu_range_alloc' - unexpected unlock
+arch/x86/mm/init_64.c:332:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/mm/init_64.c:348:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/mm/init_64.c:359:24: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:437:37: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:474:26: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:505:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:515:26: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:536:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:570:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:627:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:641:17: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:661:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:669:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:711:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/platform/efi/efi.c:718:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/platform/efi/efi.c:908:28: warning: incorrect type in assignment (different address spaces)
+arch/x86/vdso/vma.c:67:41: warning: Using plain integer as NULL pointer
+arch/x86/vdso/vclock_gettime.c:236:13: warning: symbol '__vdso_clock_gettime' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:260:13: warning: symbol '__vdso_gettimeofday' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:288:16: warning: symbol '__vdso_time' was not declared. Should it be static?
+arch/x86/vdso/vgetcpu.c:16:1: warning: symbol '__vdso_getcpu' was not declared. Should it be static?
+kernel/fork.c:92:5: warning: symbol 'max_threads' was not declared. Should it be static?
+kernel/fork.c:135:13: warning: symbol 'arch_release_thread_info' was not declared. Should it be static?
+kernel/fork.c:251:13: warning: symbol 'fork_init' was not declared. Should it be static?
+kernel/fork.c:1115:41: warning: implicit cast to nocast type
+kernel/fork.c:1116:41: warning: implicit cast to nocast type
+kernel/fork.c:1231:42: warning: implicit cast to nocast type
+kernel/fork.c:1232:43: warning: implicit cast to nocast type
+kernel/fork.c:1234:57: warning: implicit cast to nocast type
+kernel/panic.c:55:13: warning: symbol 'panic_smp_self_stop' was not declared. Should it be static?
+kernel/panic.c:69:6: error: symbol 'panic' redeclared with different type (originally declared at include/linux/kernel.h:208) - different modifiers
+kernel/printk.c:65:1: warning: symbol 'log_wait' was not declared. Should it be static?
+kernel/printk.c:736:15: warning: memcpy with byte count of 262144
+kernel/cpu.c:493:13: warning: symbol 'arch_enable_nonboot_cpus_begin' was not declared. Should it be static?
+kernel/cpu.c:497:13: warning: symbol 'arch_enable_nonboot_cpus_end' was not declared. Should it be static?
+kernel/cpu.c:550:6: warning: symbol 'cpu_hotplug_disable_before_freeze' was not declared. Should it be static?
+kernel/cpu.c:562:6: warning: symbol 'cpu_hotplug_enable_after_thaw' was not declared. Should it be static?
+kernel/cpu.c:208:9: warning: context imbalance in 'clear_tasks_mm_cpumask' - different lock contexts for basic block
+kernel/exit.c:706:6: error: symbol 'do_exit' redeclared with different type (originally declared at include/linux/kernel.h:214) - different modifiers
+kernel/exit.c:887:6: error: symbol 'complete_and_exit' redeclared with different type (originally declared at include/linux/kernel.h:216) - different modifiers
+kernel/itimer.c:126:59: warning: implicit cast to nocast type
+kernel/itimer.c:167:55: warning: incorrect type in argument 3 (different modifiers)
+kernel/itimer.c:167:55: warning: implicit cast to nocast type
+kernel/itimer.c:167:62: warning: incorrect type in argument 4 (different modifiers)
+kernel/itimer.c:167:62: warning: implicit cast to nocast type
+kernel/itimer.c:226:56: warning: implicit cast to nocast type
+kernel/softirq.c:843:36: warning: incorrect type in initializer (different address spaces)
+kernel/resource.c:365:12: warning: symbol 'page_is_ram' was not declared. Should it be static?
+kernel/resource.c:475:5: warning: symbol 'reallocate_resource' was not declared. Should it be static?
+kernel/ptrace.c:884:9: warning: context imbalance in 'ptrace_request' - different lock contexts for basic block
+include/trace/events/timer.h:11:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:44:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:44:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:75:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:75:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:130:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:160:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:160:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:196:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:196:1: error: incompatible types for operation (<)
+include/trace/events/timer.h:218:1: error: incompatible types for operation (<)
+kernel/user.c:71:19: warning: symbol 'uidhash_table' was not declared. Should it be static?
+kernel/signal.c:3241:1: warning: symbol 'sys_rt_sigaction' was not declared. Should it be static?
+kernel/signal.c:3342:1: warning: symbol 'sys_rt_sigsuspend' was not declared. Should it be static?
+kernel/signal.c:1278:23: warning: context imbalance in '__lock_task_sighand' - different lock contexts for basic block
+kernel/signal.c:1999:13: warning: context imbalance in 'do_signal_stop' - different lock contexts for basic block
+kernel/signal.c:2249:25: warning: context imbalance in 'get_signal_to_deliver' - unexpected unlock
+kernel/sys.c:1049:49: warning: incorrect type in argument 2 (different modifiers)
+kernel/sys.c:1049:49: warning: implicit cast to nocast type
+kernel/sys.c:1049:59: warning: incorrect type in argument 3 (different modifiers)
+kernel/sys.c:1049:59: warning: implicit cast to nocast type
+kernel/sys.c:1704:25: warning: implicit cast to nocast type
+kernel/sys.c:1707:49: warning: incorrect type in argument 2 (different modifiers)
+kernel/sys.c:1707:49: warning: implicit cast to nocast type
+kernel/sys.c:1707:57: warning: incorrect type in argument 3 (different modifiers)
+kernel/sys.c:1707:57: warning: implicit cast to nocast type
+kernel/sys.c:1733:59: warning: incorrect type in argument 2 (different modifiers)
+kernel/sys.c:1733:59: warning: implicit cast to nocast type
+kernel/sys.c:1733:69: warning: incorrect type in argument 3 (different modifiers)
+kernel/sys.c:1733:69: warning: implicit cast to nocast type
+kernel/workqueue.c:271:25: warning: symbol 'system_highpri_wq' was not declared. Should it be static?
+include/trace/events/workqueue.h:10:1: error: incompatible types for operation (<)
+include/trace/events/workqueue.h:37:1: error: incompatible types for operation (<)
+include/trace/events/workqueue.h:37:1: error: incompatible types for operation (<)
+include/trace/events/workqueue.h:37:1: error: incompatible types for operation (<)
+include/trace/events/workqueue.h:86:1: error: incompatible types for operation (<)
+include/trace/events/workqueue.h:86:1: error: incompatible types for operation (<)
+kernel/pid.c:47:5: warning: symbol 'pid_max' was not declared. Should it be static?
+kernel/pid.c:51:5: warning: symbol 'pid_max_min' was not declared. Should it be static?
+kernel/pid.c:52:5: warning: symbol 'pid_max_max' was not declared. Should it be static?
+include/trace/events/rcu.h:20:1: error: incompatible types for operation (<)
+kernel/extable.c:39:16: warning: symbol 'main_extable_sort_needed' was not declared. Should it be static?
+kernel/posix-timers.c:335:9: warning: context imbalance in 'do_schedule_next_timer' - different lock contexts for basic block
+kernel/posix-timers.c:638:24: warning: context imbalance in '__lock_timer' - wrong count at exit
+kernel/posix-cpu-timers.c:25:53: warning: incorrect type in argument 3 (different modifiers)
+kernel/posix-cpu-timers.c:25:53: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:440:46: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:450:46: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:881:41: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:896:41: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:984:39: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:1037:24: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:1052:24: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:1083:57: warning: incorrect type in argument 3 (different modifiers)
+kernel/posix-cpu-timers.c:1083:57: warning: implicit cast to nocast type
+kernel/posix-cpu-timers.c:1085:57: warning: incorrect type in argument 3 (different modifiers)
+kernel/posix-cpu-timers.c:1085:57: warning: implicit cast to nocast type
+kernel/hrtimer.c:61:1: warning: symbol 'hrtimer_bases' was not declared. Should it be static?
+kernel/hrtimer.c:137:27: warning: context imbalance in 'lock_hrtimer_base' - wrong count at exit
+kernel/hrtimer.c:815:9: warning: context imbalance in '__hrtimer_start_range_ns' - unexpected unlock
+kernel/hrtimer.c:815:9: warning: context imbalance in 'hrtimer_try_to_cancel' - unexpected unlock
+kernel/hrtimer.c:1094:9: warning: context imbalance in 'hrtimer_get_remaining' - unexpected unlock
+kernel/hrtimer.c:1218:36: warning: context imbalance in '__run_hrtimer' - unexpected unlock
+kernel/ksysfs.c:143:5: warning: symbol 'rcu_expedited' was not declared. Should it be static?
+kernel/smpboot.c:168:36: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:168:35: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:188:10: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:188:38: warning: incorrect type in assignment (different address spaces)
+kernel/smpboot.c:209:36: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:209:35: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:226:36: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:226:35: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:248:44: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:248:43: warning: incorrect type in initializer (different address spaces)
+kernel/smpboot.c:253:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:202:26: warning: function 'perf_pmu_name' with external linkage has definition
+kernel/events/core.c:604:1: warning: symbol 'perf_cgroup_switch' was not declared. Should it be static?
+kernel/events/core.c:632:22: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:639:22: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:653:43: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:2261:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:215:16: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:2799:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:3370:13: warning: symbol 'arch_perf_update_userpage' was not declared. Should it be static?
+kernel/events/internal.h:125:1: warning: incorrect type in argument 2 (different address spaces)
+kernel/events/core.c:4426:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:4572:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:4768:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:5868:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:5890:24: warning: incorrect type in argument 1 (different address spaces)
+kernel/events/core.c:5958:32: warning: incorrect type in assignment (different address spaces)
+kernel/events/core.c:5991:30: warning: incorrect type in assignment (different address spaces)
+kernel/events/core.c:5998:26: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:6051:24: warning: incorrect type in argument 1 (different address spaces)
+kernel/events/core.c:6068:24: warning: incorrect type in argument 1 (different address spaces)
+kernel/events/core.c:6076:12: warning: symbol 'perf_init_event' was not declared. Should it be static?
+kernel/events/core.c:6753:20: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:6754:20: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:7158:5: warning: symbol 'perf_event_init_context' was not declared. Should it be static?
+kernel/events/core.c:7300:43: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:7328:24: warning: incorrect type in initializer (different address spaces)
+kernel/events/core.c:222:9: warning: context imbalance in 'perf_ctx_lock' - wrong count at exit
+kernel/events/core.c:230:17: warning: context imbalance in 'perf_ctx_unlock' - unexpected unlock
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'perf_lock_task_context' - different lock contexts for basic block
+kernel/events/core.c:774:17: warning: context imbalance in 'perf_pin_task_context' - unexpected unlock
+kernel/events/core.c:1607:25: warning: context imbalance in '__perf_install_in_context' - unexpected unlock
+kernel/events/core.c:2815:17: warning: context imbalance in 'find_get_context' - unexpected unlock
+kernel/events/core.c:4441:17: warning: dereference of noderef expression
+kernel/events/core.c:4585:17: warning: dereference of noderef expression
+kernel/events/core.c:4784:17: warning: dereference of noderef expression
+kernel/events/core.c:5855:32: warning: dereference of noderef expression
+kernel/events/core.c:5884:21: warning: dereference of noderef expression
+kernel/events/core.c:5884:43: warning: dereference of noderef expression
+kernel/events/core.c:5890:21: warning: dereference of noderef expression
+kernel/events/core.c:5959:14: warning: dereference of noderef expression
+kernel/events/core.c:5987:9: warning: dereference of noderef expression
+kernel/events/core.c:5988:13: warning: dereference of noderef expression
+kernel/events/core.c:5992:14: warning: dereference of noderef expression
+kernel/events/core.c:6051:21: warning: dereference of noderef expression
+kernel/events/core.c:6068:21: warning: dereference of noderef expression
+kernel/events/ring_buffer.c:100:5: warning: context imbalance in 'perf_output_begin' - different lock contexts for basic block
+kernel/events/ring_buffer.c:197:6: warning: context imbalance in 'perf_output_end' - unexpected unlock
+kernel/events/callchain.c:137:39: warning: incorrect type in argument 1 (different modifiers)
+kernel/events/callchain.c:153:31: warning: incorrect type in argument 1 (different modifiers)
+kernel/events/hw_breakpoint.c:80:12: warning: symbol 'hw_breakpoint_weight' was not declared. Should it be static?
+kernel/events/hw_breakpoint.c:249:13: warning: symbol 'arch_unregister_hw_breakpoint' was not declared. Should it be static?
+kernel/irq/irqdesc.c:427:17: warning: context imbalance in '__irq_get_desc_lock' - wrong count at exit
+kernel/irq/irqdesc.c:451:6: warning: context imbalance in '__irq_put_desc_unlock' - unexpected unlock
+kernel/irq/spurious.c:47:17: warning: context imbalance in 'irq_wait_for_poll' - unexpected unlock
+kernel/power/main.c:49:5: warning: symbol 'pm_async_enabled' was not declared. Should it be static?
+kernel/power/snapshot.c:73:12: warning: symbol 'restore_pblist' was not declared. Should it be static?
+kernel/power/snapshot.c:1066:14: warning: symbol 'alloc_normal' was not declared. Should it be static?
+kernel/power/snapshot.c:1066:28: warning: symbol 'alloc_highmem' was not declared. Should it be static?
+kernel/power/snapshot.c:1579:16: warning: symbol 'swsusp_save' was not declared. Should it be static?
+kernel/sched/core.c:812:6: warning: symbol 'sched_set_stop_task' was not declared. Should it be static?
+kernel/sched/core.c:5694:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5729:26: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5750:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5789:36: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5796:24: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5797:31: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5890:12: warning: symbol 'arch_sd_sibling_asym_packing' was not declared. Should it be static?
+kernel/sched/core.c:5917:1: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5919:2: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5922:2: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6398:39: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6401:40: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6405:40: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6407:40: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6409:32: warning: incorrect type in argument 1 (different address spaces)
+kernel/sched/core.c:6411:32: warning: incorrect type in argument 1 (different address spaces)
+kernel/sched/core.c:6413:32: warning: incorrect type in argument 1 (different address spaces)
+kernel/sched/core.c:6341:25: warning: incorrect type in assignment (different address spaces)
+kernel/sched/core.c:6345:25: warning: incorrect type in assignment (different address spaces)
+kernel/sched/core.c:6349:26: warning: incorrect type in assignment (different address spaces)
+kernel/sched/core.c:6363:26: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6372:26: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6379:26: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:5972:30: warning: incorrect type in argument 1 (different address spaces)
+kernel/sched/core.c:5987:15: warning: incorrect type in assignment (different address spaces)
+kernel/sched/core.c:6005:9: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6006:10: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6008:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6009:18: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6011:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6012:18: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6059:36: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6418:21: warning: symbol 'build_sched_domain' was not declared. Should it be static?
+kernel/sched/core.c:6471:18: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6476:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6493:28: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6502:23: warning: incorrect type in initializer (different address spaces)
+kernel/sched/core.c:6803:26: warning: symbol 'sysctl_timer_migration' was not declared. Should it be static?
+kernel/sched/core.c:4243:1: warning: context imbalance in 'sys_sched_yield' - unexpected unlock
+kernel/sched/core.c:5972:29: warning: dereference of noderef expression
+kernel/sched/core.c:5988:14: warning: dereference of noderef expression
+kernel/sched/core.c:6342:22: warning: dereference of noderef expression
+kernel/sched/core.c:6346:22: warning: dereference of noderef expression
+kernel/sched/core.c:6350:22: warning: dereference of noderef expression
+kernel/sched/core.c:6397:29: warning: dereference of noderef expression
+kernel/sched/core.c:6404:29: warning: dereference of noderef expression
+kernel/sched/core.c:6406:29: warning: dereference of noderef expression
+kernel/sched/core.c:6409:29: warning: dereference of noderef expression
+kernel/sched/core.c:6410:17: warning: dereference of noderef expression
+kernel/sched/core.c:6411:29: warning: dereference of noderef expression
+kernel/sched/core.c:6412:17: warning: dereference of noderef expression
+kernel/sched/core.c:6413:29: warning: dereference of noderef expression
+kernel/sched/core.c:6414:17: warning: dereference of noderef expression
+kernel/sched/clock.c:82:19: warning: symbol 'sched_clock_running' was not declared. Should it be static?
+kernel/sched/fair.c:50:14: warning: symbol 'normalized_sysctl_sched_latency' was not declared. Should it be static?
+kernel/sched/fair.c:69:14: warning: symbol 'normalized_sysctl_sched_min_granularity' was not declared. Should it be static?
+kernel/sched/fair.c:91:14: warning: symbol 'normalized_sysctl_sched_wakeup_granularity' was not declared. Should it be static?
+kernel/sched/fair.c:100:28: warning: symbol 'sysctl_sched_shares_window' was not declared. Should it be static?
+kernel/sched/fair.c:2692:35: error: marked inline, but without a definition
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'find_lock_lowest_rq' - unexpected unlock
+kernel/sched/rt.c:1689:9: warning: context imbalance in 'push_rt_task' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'pull_rt_task' - unexpected unlock
+kernel/time/timekeeping.c:1348:6: warning: symbol 'do_timer' was not declared. Should it be static?
+kernel/time/ntp.c:25:1: warning: symbol 'ntp_lock' was not declared. Should it be static?
+kernel/time/jiffies.c:101:20: warning: symbol 'refined_jiffies' was not declared. Should it be static?
+kernel/time/tick-sched.c:151:5: warning: symbol 'tick_nohz_enabled' was not declared. Should it be static?
+kernel/trace/ring_buffer.c:3627:9: warning: context imbalance in 'ring_buffer_peek' - different lock contexts for basic block
+kernel/trace/ring_buffer.c:3703:9: warning: context imbalance in 'ring_buffer_consume' - different lock contexts for basic block
+kernel/trace/ring_buffer.c:3998:17: warning: context imbalance in 'ring_buffer_empty' - different lock contexts for basic block
+kernel/trace/ring_buffer.c:4032:9: warning: context imbalance in 'ring_buffer_empty_cpu' - different lock contexts for basic block
+kernel/trace/trace.c:1154:14: warning: expression using sizeof bool
+kernel/trace/trace.c:1154:14: warning: expression using sizeof bool
+kernel/trace/trace.c:1154:14: warning: expression using sizeof bool
+kernel/trace/trace.c:1154:14: warning: expression using sizeof bool
+kernel/trace/trace.c:1154:14: warning: expression using sizeof bool
+kernel/trace/trace.c:1157:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1157:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1157:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1157:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1157:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1205:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1205:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1205:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1205:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1205:9: warning: expression using sizeof bool
+kernel/trace/trace.c:1538:18: warning: incorrect type in initializer (different address spaces)
+kernel/trace/trace.c:1550:17: warning: incorrect type in assignment (different address spaces)
+kernel/trace/trace.c:1554:22: warning: incorrect type in assignment (different address spaces)
+kernel/trace/trace.c:1558:21: warning: incorrect type in assignment (different address spaces)
+kernel/trace/trace.c:1562:21: warning: incorrect type in assignment (different address spaces)
+kernel/trace/trace.c:1574:21: warning: incorrect type in argument 1 (different address spaces)
+kernel/trace/trace.c:1576:21: warning: incorrect type in argument 1 (different address spaces)
+kernel/trace/trace.c:1578:21: warning: incorrect type in argument 1 (different address spaces)
+kernel/trace/trace.c:4493:15: warning: symbol 'tracing_dentry_percpu' was not declared. Should it be static?
+kernel/trace/trace.c:975:15: warning: memset with byte count of 131076
+kernel/trace/trace_events.c:124:6: warning: symbol 'trace_destroy_fields' was not declared. Should it be static?
+kernel/trace/trace_entries.h:58:1: warning: symbol 'ftrace_define_fields_function' was not declared. Should it be static?
+kernel/trace/trace_entries.h:75:1: warning: symbol 'ftrace_define_fields_funcgraph_entry' was not declared. Should it be static?
+kernel/trace/trace_entries.h:91:1: warning: symbol 'ftrace_define_fields_funcgraph_exit' was not declared. Should it be static?
+kernel/trace/trace_entries.h:127:1: warning: symbol 'ftrace_define_fields_context_switch' was not declared. Should it be static?
+kernel/trace/trace_entries.h:147:1: warning: symbol 'ftrace_define_fields_wakeup' was not declared. Should it be static?
+kernel/trace/trace_entries.h:175:1: warning: symbol 'ftrace_define_fields_kernel_stack' was not declared. Should it be static?
+kernel/trace/trace_entries.h:194:1: warning: symbol 'ftrace_define_fields_user_stack' was not declared. Should it be static?
+kernel/trace/trace_entries.h:216:1: error: incompatible types for operation (<)
+kernel/trace/trace_kprobe.c:793:1: warning: symbol 'print_kprobe_event' was not declared. Should it be static?
+kernel/trace/trace_kprobe.c:829:1: warning: symbol 'print_kretprobe_event' was not declared. Should it be static?
+kernel/trace/trace_probe.c:27:12: warning: symbol 'reserved_field_names' was not declared. Should it be static?
+kernel/trace/trace_probe.c:183:59: warning: incorrect type in argument 2 (different address spaces)
+kernel/trace/trace_probe.c:212:64: warning: incorrect type in argument 2 (different address spaces)
+kernel/futex.c:1052:33: warning: context imbalance in 'futex_wake_op' - different lock contexts for basic block
+kernel/futex.c:1323:41: warning: context imbalance in 'futex_requeue' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/current.h:14:16: warning: context imbalance in 'futex_wait_queue_me' - unexpected unlock
+kernel/futex.c:1884:9: warning: context imbalance in 'futex_wait_setup' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:62:9: warning: context imbalance in '_raw_spin_lock' - wrong count at exit
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:62:9: warning: context imbalance in '_raw_spin_lock_irqsave' - wrong count at exit
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:62:9: warning: context imbalance in '_raw_spin_lock_irq' - wrong count at exit
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:62:9: warning: context imbalance in '_raw_spin_lock_bh' - wrong count at exit
+kernel/spinlock.c:175:17: warning: context imbalance in '_raw_spin_unlock_irqrestore' - unexpected unlock
+kernel/spinlock.c:191:17: warning: context imbalance in '_raw_spin_unlock_bh' - unexpected unlock
+kernel/spinlock.c:207:17: warning: context imbalance in '_raw_read_lock' - wrong count at exit
+kernel/spinlock.c:215:26: warning: context imbalance in '_raw_read_lock_irqsave' - wrong count at exit
+kernel/spinlock.c:223:17: warning: context imbalance in '_raw_read_lock_irq' - wrong count at exit
+kernel/spinlock.c:231:17: warning: context imbalance in '_raw_read_lock_bh' - wrong count at exit
+kernel/spinlock.c:247:17: warning: context imbalance in '_raw_read_unlock_irqrestore' - unexpected unlock
+kernel/spinlock.c:263:17: warning: context imbalance in '_raw_read_unlock_bh' - unexpected unlock
+kernel/spinlock.c:279:17: warning: context imbalance in '_raw_write_lock' - wrong count at exit
+kernel/spinlock.c:287:26: warning: context imbalance in '_raw_write_lock_irqsave' - wrong count at exit
+kernel/spinlock.c:295:17: warning: context imbalance in '_raw_write_lock_irq' - wrong count at exit
+kernel/spinlock.c:303:17: warning: context imbalance in '_raw_write_lock_bh' - wrong count at exit
+kernel/spinlock.c:319:17: warning: context imbalance in '_raw_write_unlock_irqrestore' - unexpected unlock
+kernel/spinlock.c:335:17: warning: context imbalance in '_raw_write_unlock_bh' - unexpected unlock
+include/trace/events/module.h:104:1: warning: expression using sizeof bool
+kernel/module.c:210:6: error: symbol '__module_put_and_exit' redeclared with different type (originally declared at include/linux/module.h:449) - different modifiers
+kernel/acct.c:553:34: warning: incorrect type in argument 2 (different address spaces)
+kernel/compat.c:357:17: warning: symbol 'compat_sys_sigpending' was not declared. Should it be static?
+kernel/compat.c:384:17: warning: symbol 'compat_sys_sigprocmask' was not declared. Should it be static?
+kernel/compat.c:454:44: warning: incorrect type in argument 2 (different address spaces)
+kernel/compat.c:446:17: warning: symbol 'compat_sys_old_getrlimit' was not declared. Should it be static?
+kernel/compat.c:821:58: warning: incorrect type in initializer (different address spaces)
+kernel/compat.c:830:38: warning: incorrect type in argument 2 (different address spaces)
+kernel/compat.c:835:48: warning: incorrect type in assignment (different address spaces)
+kernel/cgroup.c:2787:13: warning: context imbalance in 'cgroup_cfts_prepare' - wrong count at exit
+kernel/cgroup.c:2836:9: warning: context imbalance in 'cgroup_cfts_commit' - wrong count at exit
+kernel/cgroup_freezer.c:115:12: warning: context imbalance in 'freezer_css_online' - different lock contexts for basic block
+kernel/cpuset.c:2420:6: warning: symbol 'cpuset_unlock' was not declared. Should it be static?
+kernel/audit_tree.c:216:13: warning: context imbalance in 'untag_chunk' - unexpected unlock
+kernel/seccomp.c:294:6: warning: symbol 'seccomp_attach_user_filter' was not declared. Should it be static?
+kernel/rcutree.c:207:1: warning: symbol 'rcu_dynticks' was not declared. Should it be static?
+kernel/rcutree.c:220:5: warning: symbol 'rcu_cpu_stall_suppress' was not declared. Should it be static?
+kernel/rcutree.c:221:5: warning: symbol 'rcu_cpu_stall_timeout' was not declared. Should it be static?
+kernel/rcutree.c:730:5: warning: symbol 'rcu_is_cpu_rrupt_from_idle' was not declared. Should it be static?
+kernel/rcutree.c:1222:5: warning: symbol 'rcu_gp_fqs' was not declared. Should it be static?
+kernel/rcutree.c:2864:21: warning: incorrect type in argument 1 (different modifiers)
+kernel/rcutree.c:1747:17: warning: context imbalance in 'rcu_cleanup_dead_cpu' - unexpected unlock
+kernel/rcutree.c:1925:9: warning: context imbalance in 'force_qs_rnp' - different lock contexts for basic block
+kernel/rcutree.c:1976:25: warning: context imbalance in 'force_quiescent_state' - unexpected unlock
+kernel/rcutree_plugin.h:977:13: warning: context imbalance in 'rcu_report_unblock_qs_rnp' - unexpected unlock
+kernel/rcutree_plugin.h:1486:13: warning: context imbalance in 'rcu_initiate_boost' - unexpected unlock
+kernel/tsacct.c:153:29: warning: implicit cast to nocast type
+kernel/tracepoint.c:323:6: warning: symbol 'module_update_tracepoints' was not declared. Should it be static?
+kernel/tracepoint.c:699:5: warning: symbol 'tracepoint_module_notify' was not declared. Should it be static?
+kernel/tracepoint.c:718:23: warning: symbol 'tracepoint_module_nb' was not declared. Should it be static?
+kernel/tracepoint.c:735:6: warning: symbol 'syscall_regfunc' was not declared. Should it be static?
+kernel/tracepoint.c:752:6: warning: symbol 'syscall_unregfunc' was not declared. Should it be static?
+kernel/elfcore.c:8:17: warning: symbol 'elf_core_extra_phdrs' was not declared. Should it be static?
+kernel/elfcore.c:13:12: warning: symbol 'elf_core_write_extra_phdrs' was not declared. Should it be static?
+kernel/elfcore.c:19:12: warning: symbol 'elf_core_write_extra_data' was not declared. Should it be static?
+kernel/elfcore.c:25:15: warning: symbol 'elf_core_extra_data_size' was not declared. Should it be static?
+kernel/irq_work.c:52:13: warning: symbol 'arch_irq_work_raise' was not declared. Should it be static?
+mm/filemap.c:1737:35: warning: symbol 'generic_file_vm_ops' was not declared. Should it be static?
+mm/oom_kill.c:98:20: warning: context imbalance in 'find_lock_task_mm' - wrong count at exit
+mm/oom_kill.c:156:28: warning: context imbalance in 'oom_badness' - unexpected unlock
+mm/oom_kill.c:353:9: warning: context imbalance in 'dump_tasks' - different lock contexts for basic block
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'oom_kill_process' - unexpected unlock
+mm/page_alloc.c:111:5: warning: symbol 'percpu_pagelist_fraction' was not declared. Should it be static?
+mm/page_alloc.c:197:5: warning: symbol 'min_free_kbytes' was not declared. Should it be static?
+mm/page_alloc.c:4126:15: warning: symbol '__early_pfn_to_nid' was not declared. Should it be static?
+mm/page_alloc.c:5729:6: warning: symbol 'is_pageblock_removable_nolock' was not declared. Should it be static?
+mm/swap.c:306:55: warning: context imbalance in 'pagevec_lru_move_fn' - unexpected unlock
+mm/swap.c:683:55: warning: context imbalance in 'release_pages' - unexpected unlock
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: incorrect type in argument 3 (different base types)
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: cast from restricted gfp_t
+include/trace/events/vmscan.h:182:1: warning: incorrect type in argument 3 (different base types)
+include/trace/events/vmscan.h:99:1: warning: cast to restricted gfp_t
+include/trace/events/vmscan.h:99:1: warning: restricted gfp_t degrades to integer
+include/trace/events/vmscan.h:182:1: error: incompatible types for operation (<)
+include/trace/events/vmscan.h:182:1: error: incompatible types for operation (<)
+include/trace/events/vmscan.h:227:1: error: incompatible types for operation (<)
+include/trace/events/vmscan.h:227:1: error: incompatible types for operation (<)
+include/trace/events/vmscan.h:324:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:11:1: warning: incorrect type in argument 3 (different base types)
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:61:1: warning: incorrect type in argument 3 (different base types)
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: cast from restricted gfp_t
+include/trace/events/kmem.h:194:1: warning: incorrect type in argument 3 (different base types)
+include/trace/events/kmem.h:11:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:61:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:117:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:150:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:172:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:194:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:223:1: error: incompatible types for operation (<)
+include/trace/events/kmem.h:267:1: error: incompatible types for operation (<)
+mm/backing-dev.c:44:9: warning: context imbalance in 'bdi_lock_two' - wrong count at exit
+mm/backing-dev.c:679:28: warning: context imbalance in 'bdi_destroy' - unexpected unlock
+mm/compaction.c:1052:37: warning: incorrect type in initializer (different base types)
+mm/compaction.c:1053:39: warning: incorrect type in initializer (different base types)
+mm/compaction.c:1180:9: warning: symbol 'sysfs_compact_node' was not declared. Should it be static?
+mm/compaction.c:188:47: warning: context imbalance in 'compact_checklock_irqsave' - unexpected unlock
+mm/compaction.c:315:39: warning: context imbalance in 'isolate_freepages_block' - unexpected unlock
+mm/compaction.c:478:55: warning: context imbalance in 'isolate_migratepages_range' - unexpected unlock
+mm/memory.c:114:15: warning: symbol 'zero_pfn' was not declared. Should it be static?
+mm/memory.c:910:5: warning: symbol 'copy_pte_range' was not declared. Should it be static?
+mm/memory.c:3439:5: warning: symbol 'numa_migrate_prep' was not declared. Should it be static?
+mm/memory.c:3451:5: warning: symbol 'do_numa_page' was not declared. Should it be static?
+mm/memory.c:3616:5: warning: symbol 'handle_pte_fault' was not declared. Should it be static?
+mm/memory.c:926:17: warning: context imbalance in 'copy_pte_range' - different lock contexts for basic block
+mm/memory.c:2036:32: warning: context imbalance in '__get_locked_pte' - different lock contexts for basic block
+mm/memory.c:2239:17: warning: context imbalance in 'remap_pte_range' - different lock contexts for basic block
+mm/memory.c:2390:17: warning: context imbalance in 'apply_to_pte_range' - unexpected unlock
+mm/memory.c:3886:12: warning: context imbalance in '__follow_pte' - different lock contexts for basic block
+mm/mlock.c:396:37: warning: implicit cast to nocast type
+mm/mlock.c:533:37: warning: implicit cast to nocast type
+mm/mmap.c:1241:47: warning: implicit cast to nocast type
+mm/mmap.c:1243:45: warning: implicit cast to nocast type
+mm/mmap.c:1252:45: warning: implicit cast to nocast type
+mm/mmap.c:1269:47: warning: implicit cast to nocast type
+mm/mmap.c:1308:33: warning: implicit cast to nocast type
+mm/mmap.c:1428:37: warning: implicit cast to nocast type
+mm/mmap.c:1432:37: warning: implicit cast to nocast type
+mm/mmap.c:1442:29: warning: implicit cast to nocast type
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'move_ptes' - different lock contexts for basic block
+mm/rmap.c:1446:6: warning: symbol 'is_vma_temporary_stack' was not declared. Should it be static?
+mm/rmap.c:595:7: warning: context imbalance in '__page_check_address' - wrong count at exit
+mm/process_vm_access.c:416:1: warning: symbol 'compat_process_vm_rw' was not declared. Should it be static?
+mm/init-mm.c:16:18: warning: symbol 'init_mm' was not declared. Should it be static?
+mm/nobootmem.c:341:6: warning: symbol '___alloc_bootmem_node' was not declared. Should it be static?
+mm/page_io.c:208:41: warning: incorrect type in initializer (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'scan_swap_map' - unexpected unlock
+mm/swapfile.c:478:32: warning: context imbalance in 'swap_info_get' - different lock contexts for basic block
+mm/swapfile.c:583:17: warning: context imbalance in 'swap_free' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'swapcache_free' - unexpected unlock
+mm/swapfile.c:619:35: warning: context imbalance in 'page_swapcount' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'free_swap_and_cache' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'add_swap_count_continuation' - unexpected unlock
+mm/hugetlb.c:1723:20: warning: symbol 'node_hstates' was not declared. Should it be static?
+mm/hugetlb.c:1766:6: warning: symbol 'hugetlb_unregister_node' was not declared. Should it be static?
+mm/hugetlb.c:1810:6: warning: symbol 'hugetlb_register_node' was not declared. Should it be static?
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'gather_surplus_pages' - unexpected unlock
+mm/hugetlb.c:2558:9: warning: context imbalance in 'hugetlb_cow' - unexpected unlock
+mm/slub.c:1067:40: warning: context imbalance in 'free_debug_processing' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'deactivate_slab' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'unfreeze_partials' - unexpected unlock
+mm/slub.c:2480:47: warning: context imbalance in '__slab_free' - unexpected unlock
+fs/open.c:846:18: warning: restricted fmode_t degrades to integer
+fs/read_write.c:35:29: warning: incorrect type in return expression (different base types)
+fs/read_write.c:35:29: warning: incorrect type in return expression (different base types)
+fs/read_write.c:35:29: warning: incorrect type in return expression (different base types)
+fs/read_write.c:35:29: warning: incorrect type in return expression (different base types)
+fs/exec.c:408:39: warning: incorrect type in return expression (different address spaces)
+fs/exec.c:415:31: warning: incorrect type in return expression (different address spaces)
+fs/exec.c:434:36: warning: incorrect type in argument 1 (different address spaces)
+fs/exec.c:469:28: warning: incorrect type in argument 1 (different address spaces)
+fs/namei.c:560:28: warning: context imbalance in 'unlazy_walk' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'complete_walk' - unexpected unlock
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'follow_dotdot_rcu' - unexpected unlock
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'terminate_walk' - unexpected unlock
+fs/namei.c:1842:12: warning: context imbalance in 'path_init' - different lock contexts for basic block
+fs/dcache.c:268:9: warning: context imbalance in 'dentry_iput' - different lock contexts for basic block
+fs/dcache.c:395:9: warning: context imbalance in 'd_kill' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'dput' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'try_prune_one_dentry' - different lock contexts for basic block
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'try_to_ascend' - unexpected unlock
+fs/dcache.c:1109:32: warning: context imbalance in 'have_submounts' - unexpected unlock
+fs/dcache.c:1211:32: warning: context imbalance in 'select_parent' - unexpected unlock
+fs/dcache.c:1416:9: warning: context imbalance in 'd_instantiate' - different lock contexts for basic block
+fs/dcache.c:1484:9: warning: context imbalance in 'd_instantiate_unique' - different lock contexts for basic block
+fs/dcache.c:2220:9: warning: context imbalance in 'dentry_lock_for_move' - wrong count at exit
+fs/dcache.c:2233:28: warning: context imbalance in 'dentry_unlock_parents_for_move' - unexpected unlock
+fs/dcache.c:2303:17: warning: context imbalance in '__d_move' - unexpected unlock
+fs/dcache.c:2382:20: warning: context imbalance in '__d_unalias' - unexpected unlock
+fs/dcache.c:2424:27: warning: context imbalance in '__d_materialise_dentry' - unexpected unlock
+fs/dcache.c:2507:9: warning: context imbalance in 'd_materialise_unique' - unexpected unlock
+fs/dcache.c:2823:6: warning: context imbalance in 'dentry_path' - wrong count at exit
+fs/dcache.c:2963:9: warning: context imbalance in 'd_genocide' - different lock contexts for basic block
+fs/inode.c:805:9: warning: context imbalance in 'find_inode' - different lock contexts for basic block
+fs/inode.c:837:9: warning: context imbalance in 'find_inode_fast' - different lock contexts for basic block
+fs/inode.c:1287:5: warning: context imbalance in 'insert_inode_locked' - wrong count at exit
+fs/inode.c:1330:5: warning: context imbalance in 'insert_inode_locked4' - wrong count at exit
+fs/inode.c:1423:20: warning: context imbalance in 'iput_final' - unexpected unlock
+fs/inode.c:1439:9: warning: context imbalance in 'iput' - wrong count at exit
+fs/inode.c:1719:13: warning: context imbalance in '__wait_on_freeing_inode' - unexpected unlock
+fs/file.c:33:5: warning: symbol 'sysctl_nr_open_min' was not declared. Should it be static?
+fs/file.c:34:5: warning: symbol 'sysctl_nr_open_max' was not declared. Should it be static?
+fs/file.c:510:21: warning: symbol 'init_files' was not declared. Should it be static?
+fs/file.c:875:20: warning: context imbalance in 'do_dup2' - unexpected unlock
+fs/file.c:887:5: warning: context imbalance in 'replace_fd' - different lock contexts for basic block
+fs/fs-writeback.c:1099:9: warning: context imbalance in 'block_dump___mark_inode_dirty' - different lock contexts for basic block
+fs/drop_caches.c:14:5: warning: symbol 'sysctl_drop_caches' was not declared. Should it be static?
+fs/fs_struct.c:161:18: warning: symbol 'init_fs' was not declared. Should it be static?
+fs/bio.c:1217:33: warning: incorrect type in initializer (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'bdev_inode_switch_bdi' - unexpected unlock
+fs/direct-io.c:1063:36: warning: Using plain integer as NULL pointer
+fs/autofs4/root.c:409:5: warning: symbol 'autofs4_d_manage' was not declared. Should it be static?
+fs/autofs4/root.c:402:9: warning: context imbalance in 'autofs4_d_automount' - different lock contexts for basic block
+fs/autofs4/waitq.c:75:45: warning: incorrect type in argument 2 (different address spaces)
+fs/ext4/dir.c:336:8: warning: symbol 'ext4_dir_llseek' was not declared. Should it be static?
+fs/ext4/mballoc.c:4883:9: warning: context imbalance in 'ext4_trim_extent' - unexpected unlock
+fs/isofs/compress.c:61:44: warning: Variable length array is used.
+fs/isofs/compress.c:307:28: warning: Variable length array is used.
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in '__jbd2_log_wait_for_space' - unexpected unlock
+fs/jbd2/checkpoint.c:208:36: warning: context imbalance in '__wait_cp_io' - unexpected unlock
+fs/jbd2/checkpoint.c:265:23: warning: context imbalance in '__process_buffer' - unexpected unlock
+fs/jbd2/checkpoint.c:369:9: warning: context imbalance in 'jbd2_log_do_checkpoint' - different lock contexts for basic block
+fs/jbd2/journal.c:100:5: warning: symbol 'jbd2_verify_csum_type' was not declared. Should it be static?
+fs/jbd2/journal.c:120:5: warning: symbol 'jbd2_superblock_csum_verify' was not declared. Should it be static?
+fs/jbd2/journal.c:128:6: warning: symbol 'jbd2_superblock_csum_set' was not declared. Should it be static?
+include/net/netns/generic.h:34:20: warning: context imbalance in 'nfs_server_list_start' - wrong count at exit
+include/net/netns/generic.h:34:20: warning: context imbalance in 'nfs_server_list_stop' - unexpected unlock
+include/net/netns/generic.h:34:20: warning: context imbalance in 'nfs_volume_list_start' - wrong count at exit
+include/net/netns/generic.h:34:20: warning: context imbalance in 'nfs_volume_list_stop' - unexpected unlock
+fs/nfs/unlink.c:482:34: warning: Variable length array is used.
+fs/nfs/nfs4proc.c:6703:31: warning: symbol 'nfs4_dir_inode_operations' was not declared. Should it be static?
+fs/notify/fdinfo.c:103:5: warning: symbol 'inotify_show_fdinfo' was not declared. Should it be static?
+fs/proc/task_mmu.c:540:18: error: bad integer constant expression
+fs/proc/task_mmu.c:541:18: error: bad integer constant expression
+fs/proc/task_mmu.c:542:18: error: bad integer constant expression
+fs/proc/task_mmu.c:543:18: error: bad integer constant expression
+fs/proc/task_mmu.c:544:18: error: bad integer constant expression
+fs/proc/task_mmu.c:545:18: error: bad integer constant expression
+fs/proc/task_mmu.c:546:18: error: bad integer constant expression
+fs/proc/task_mmu.c:547:18: error: bad integer constant expression
+fs/proc/task_mmu.c:548:18: error: bad integer constant expression
+fs/proc/task_mmu.c:549:18: error: bad integer constant expression
+fs/proc/task_mmu.c:550:18: error: bad integer constant expression
+fs/proc/task_mmu.c:551:18: error: bad integer constant expression
+fs/proc/task_mmu.c:552:18: error: bad integer constant expression
+fs/proc/task_mmu.c:553:18: error: bad integer constant expression
+fs/proc/task_mmu.c:554:18: error: bad integer constant expression
+fs/proc/task_mmu.c:555:18: error: bad integer constant expression
+fs/proc/task_mmu.c:556:18: error: bad integer constant expression
+fs/proc/task_mmu.c:557:18: error: bad integer constant expression
+fs/proc/task_mmu.c:558:18: error: bad integer constant expression
+fs/proc/task_mmu.c:559:18: error: bad integer constant expression
+fs/proc/task_mmu.c:560:18: error: bad integer constant expression
+fs/proc/task_mmu.c:561:18: error: bad integer constant expression
+fs/proc/task_mmu.c:562:18: error: bad integer constant expression
+fs/proc/task_mmu.c:563:18: error: bad integer constant expression
+fs/proc/task_mmu.c:564:18: error: bad integer constant expression
+fs/proc/task_mmu.c:565:18: error: bad integer constant expression
+fs/proc/task_mmu.c:566:18: error: bad integer constant expression
+fs/proc/array.c:423:43: warning: implicit cast to nocast type
+fs/proc/array.c:424:26: warning: implicit cast to nocast type
+fs/proc/array.c:458:62: warning: incorrect type in argument 2 (different modifiers)
+fs/proc/array.c:458:62: warning: implicit cast to nocast type
+fs/proc/array.c:458:70: warning: incorrect type in argument 3 (different modifiers)
+fs/proc/array.c:458:70: warning: implicit cast to nocast type
+fs/proc/array.c:474:46: warning: incorrect type in argument 2 (different modifiers)
+fs/proc/array.c:474:46: warning: implicit cast to nocast type
+fs/proc/array.c:474:54: warning: incorrect type in argument 3 (different modifiers)
+fs/proc/array.c:474:54: warning: implicit cast to nocast type
+fs/proc/fd.c:96:55: warning: incorrect type in initializer (different base types)
+fs/proc/fd.c:114:54: warning: restricted fmode_t degrades to integer
+fs/proc/fd.c:116:54: warning: restricted fmode_t degrades to integer
+fs/proc/namespaces.c:60:32: warning: symbol 'ns_dentry_operations' was not declared. Should it be static?
+fs/proc/self.c:51:13: warning: symbol 'proc_self_init' was not declared. Should it be static?
+fs/proc/kcore.c:605:19: warning: symbol 'kcore_modules' was not declared. Should it be static?
+fs/proc/vmcore.c:187:40: warning: incorrect type in argument 1 (different address spaces)
+fs/proc/vmcore.c:705:6: warning: symbol 'vmcore_cleanup' was not declared. Should it be static?
+fs/quota/compat.c:43:17: warning: symbol 'sys32_quotactl' was not declared. Should it be static?
+fs/signalfd.c:106:25: warning: cast removes address space of expression
+fs/signalfd.c:106:25: warning: cast removes address space of expression
+fs/signalfd.c:106:25: warning: cast removes address space of expression
+fs/signalfd.c:106:25: warning: cast removes address space of expression
+fs/signalfd.c:114:24: warning: cast removes address space of expression
+fs/signalfd.c:114:24: warning: cast removes address space of expression
+fs/signalfd.c:114:24: warning: cast removes address space of expression
+fs/signalfd.c:114:24: warning: cast removes address space of expression
+fs/signalfd.c:140:24: warning: cast removes address space of expression
+fs/signalfd.c:140:24: warning: cast removes address space of expression
+fs/signalfd.c:140:24: warning: cast removes address space of expression
+fs/signalfd.c:140:24: warning: cast removes address space of expression
+fs/signalfd.c:149:24: warning: cast removes address space of expression
+fs/signalfd.c:149:24: warning: cast removes address space of expression
+fs/signalfd.c:149:24: warning: cast removes address space of expression
+fs/signalfd.c:149:24: warning: cast removes address space of expression
+fs/aio.c:687:9: warning: context imbalance in 'aio_run_iocb' - unexpected unlock
+fs/locks.c:1341:5: warning: symbol 'generic_add_lease' was not declared. Should it be static?
+fs/locks.c:1406:5: warning: symbol 'generic_delete_lease' was not declared. Should it be static?
+fs/locks.c:163:6: warning: context imbalance in 'lock_flocks' - wrong count at exit
+fs/locks.c:169:6: warning: context imbalance in 'unlock_flocks' - unexpected unlock
+fs/compat.c:57:5: warning: symbol 'compat_log' was not declared. Should it be static?
+fs/compat.c:1165:1: warning: symbol 'compat_sys_preadv64' was not declared. Should it be static?
+fs/compat.c:1231:1: warning: symbol 'compat_sys_pwritev64' was not declared. Should it be static?
+fs/compat.c:1427:5: warning: symbol 'compat_core_sys_select' was not declared. Should it be static?
+fs/compat_ioctl.c:626:31: warning: incorrect type in assignment (different address spaces)
+fs/compat_ioctl.c:708:21: warning: incorrect type in assignment (different address spaces)
+fs/compat_ioctl.c:611:38: warning: typedef ‘SS’ locally defined but not used [-Wunused-local-typedefs]
+fs/coredump.c:47:5: warning: symbol 'core_uses_pid' was not declared. Should it be static?
+fs/coredump.c:48:6: warning: symbol 'core_pattern' was not declared. Should it be static?
+fs/coredump.c:49:14: warning: symbol 'core_pipe_limit' was not declared. Should it be static?
+fs/coredump.c:662:16: warning: incorrect type in argument 1 (different address spaces)
+fs/coredump.c:662:76: warning: incorrect type in argument 2 (different address spaces)
+include/linux/sched.h:2456:37: warning: context imbalance in 'coredump_wait' - different lock contexts for basic block
+ipc/compat.c:309:6: warning: symbol 'compat_do_msg_fill' was not declared. Should it be static?
+ipc/util.c:182:29: warning: context imbalance in 'ipc_findkey' - wrong count at exit
+ipc/util.c:251:5: warning: context imbalance in 'ipc_addid' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'ipcget_public' - unexpected unlock
+ipc/util.c:692:22: warning: context imbalance in 'ipc_lock' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'ipc_lock_check' - unexpected unlock
+ipc/util.c:815:9: warning: context imbalance in 'ipcctl_pre_down' - unexpected unlock
+ipc/util.c:855:29: warning: context imbalance in 'sysvipc_find_ipc' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'sysvipc_proc_next' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'sysvipc_proc_stop' - unexpected unlock
+ipc/msg.c:211:9: warning: context imbalance in 'newque' - unexpected unlock
+ipc/msg.c:279:13: warning: context imbalance in 'freeque' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'msgctl_down' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'sys_msgctl' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'do_msgsnd' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'do_msgrcv' - unexpected unlock
+ipc/sem.c:330:9: warning: context imbalance in 'newary' - unexpected unlock
+ipc/sem.c:768:17: warning: context imbalance in 'freeary' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'semctl_nolock' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'semctl_main' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'semctl_down' - unexpected unlock
+ipc/sem.c:1233:24: warning: context imbalance in 'find_alloc_undo' - wrong count at exit
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'sys_semtimedop' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'exit_sem' - unexpected unlock
+ipc/shm.c:469:31: warning: implicit cast to nocast type
+ipc/shm.c:496:36: warning: implicit cast to nocast type
+ipc/shm.c:507:36: warning: implicit cast to nocast type
+ipc/shm.c:92:17: warning: context imbalance in 'do_shm_rmid' - unexpected unlock
+ipc/shm.c:173:9: warning: context imbalance in 'shm_open' - unexpected unlock
+ipc/shm.c:188:13: warning: context imbalance in 'shm_destroy' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'shm_close' - unexpected unlock
+ipc/shm.c:248:12: warning: context imbalance in 'shm_try_destroy_current' - different lock contexts for basic block
+ipc/shm.c:279:12: warning: context imbalance in 'shm_try_destroy_orphaned' - different lock contexts for basic block
+/cmpt816/linux/arch/x86/include/asm/current.h:14:16: warning: context imbalance in 'newseg' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'shmctl_down' - unexpected unlock
+ipc/shm.c:947:9: warning: context imbalance in 'sys_shmctl' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'do_shmat' - unexpected unlock
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'wq_sleep' - unexpected unlock
+ipc/mqueue.c:1055:9: warning: context imbalance in 'sys_mq_timedsend' - different lock contexts for basic block
+ipc/mqueue.c:1161:14: warning: context imbalance in 'sys_mq_timedreceive' - different lock contexts for basic block
+ipc/namespace.c:88:61: warning: context imbalance in 'free_ipcs' - different lock contexts for basic block
+security/keys/key.c:1035:15: warning: memset with byte count of 0
+security/keys/keyring.c:749:5: warning: context imbalance in '__key_link_begin' - wrong count at exit
+security/keys/keyring.c:978:9: warning: context imbalance in '__key_link_end' - wrong count at exit
+security/keys/keyring.c:1017:9: warning: context imbalance in 'key_link' - different lock contexts for basic block
+crypto/cipher.c:70:24: warning: Variable length array is used.
+crypto/shash.c:81:40: warning: Variable length array is used.
+crypto/shash.c:117:40: warning: Variable length array is used.
+crypto/hmac.c:57:47: warning: Variable length array is used.
+crypto/cbc.c:149:20: warning: Variable length array is used.
+block/blk-core.c:2861:5: warning: symbol 'kblockd_schedule_delayed_work' was not declared. Should it be static?
+block/blk-core.c:983:24: warning: context imbalance in '__get_request' - unexpected unlock
+block/blk-core.c:1121:16: warning: context imbalance in 'blk_get_request' - wrong count at exit
+block/blk-core.c:1462:6: warning: context imbalance in 'blk_queue_bio' - different lock contexts for basic block
+block/blk-core.c:3044:17: warning: context imbalance in 'blk_flush_plug_list' - unexpected unlock
+block/blk-lib.c:223:5: warning: symbol '__blkdev_issue_zeroout' was not declared. Should it be static?
+block/genhd.c:1394:10: error: bad integer constant expression
+block/genhd.c:1395:10: error: bad integer constant expression
+block/genhd.c:1399:10: error: bad integer constant expression
+block/genhd.c:1400:10: error: bad integer constant expression
+block/cfq-iosched.c:3215:17: warning: context imbalance in 'cfq_find_alloc_queue' - different lock contexts for basic block
+block/compat_ioctl.c:343:25: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/tables.c:263:37: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/tables.c:266:37: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/tables.c:306:44: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/tables.c:331:44: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/osl.c:373:40: warning: incorrect type in return expression (different address spaces)
+drivers/acpi/osl.c:432:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/osl.c:453:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/osl.c:1729:20: warning: symbol 'acpi_os_initialize1' was not declared. Should it be static?
+drivers/acpi/osl.c:910:1: warning: context imbalance in 'acpi_os_read_memory' - wrong count at exit
+drivers/acpi/osl.c:969:1: warning: context imbalance in 'acpi_os_write_memory' - wrong count at exit
+drivers/acpi/osl.c:1618:16: warning: context imbalance in 'acpi_os_acquire_lock' - wrong count at exit
+drivers/acpi/osl.c:1629:6: warning: context imbalance in 'acpi_os_release_lock' - unexpected unlock
+drivers/acpi/nvs.c:139:54: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/nvs.c:142:67: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/nvs.c:129:6: warning: symbol 'suspend_nvs_free' was not declared. Should it be static?
+drivers/acpi/nvs.c:153:5: warning: symbol 'suspend_nvs_alloc' was not declared. Should it be static?
+drivers/acpi/nvs.c:181:38: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/nvs.c:183:46: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/nvs.c:170:5: warning: symbol 'suspend_nvs_save' was not declared. Should it be static?
+drivers/acpi/nvs.c:202:6: warning: symbol 'suspend_nvs_restore' was not declared. Should it be static?
+drivers/acpi/device_pm.c:490:5: warning: symbol 'acpi_dev_suspend_late' was not declared. Should it be static?
+drivers/acpi/device_pm.c:522:5: warning: symbol 'acpi_dev_resume_early' was not declared. Should it be static?
+drivers/acpi/device_pm.c:540:5: warning: symbol 'acpi_subsys_prepare' was not declared. Should it be static?
+drivers/acpi/device_pm.c:558:5: warning: symbol 'acpi_subsys_suspend_late' was not declared. Should it be static?
+drivers/acpi/device_pm.c:573:5: warning: symbol 'acpi_subsys_resume_early' was not declared. Should it be static?
+drivers/acpi/device_pm.c:614:5: warning: symbol 'acpi_dev_pm_attach' was not declared. Should it be static?
+drivers/acpi/device_pm.c:646:6: warning: symbol 'acpi_dev_pm_detach' was not declared. Should it be static?
+drivers/acpi/proc.c:430:12: warning: symbol 'acpi_sleep_proc_init' was not declared. Should it be static?
+drivers/acpi/bus.c:51:20: warning: symbol 'acpi_root' was not declared. Should it be static?
+drivers/acpi/bus.c:627:1: warning: symbol 'acpi_bus_event_list' was not declared. Should it be static?
+drivers/acpi/bus.c:628:1: warning: symbol 'acpi_bus_event_queue' was not declared. Should it be static?
+drivers/acpi/scan.c:55:1: warning: symbol 'acpi_device_lock' was not declared. Should it be static?
+drivers/acpi/scan.c:56:1: warning: symbol 'acpi_wakeup_device_list' was not declared. Should it be static?
+drivers/acpi/ec.c:120:16: warning: symbol 'boot_ec' was not declared. Should it be static?
+drivers/acpi/ec.c:396:5: warning: symbol 'ec_burst_enable' was not declared. Should it be static?
+drivers/acpi/ec.c:405:5: warning: symbol 'ec_burst_disable' was not declared. Should it be static?
+drivers/acpi/ec.c:534:5: warning: symbol 'acpi_ec_add_query_handler' was not declared. Should it be static?
+drivers/acpi/ec.c:555:6: warning: symbol 'acpi_ec_remove_query_handler' was not declared. Should it be static?
+drivers/acpi/event.c:27:5: warning: symbol 'event_is_open' was not declared. Should it be static?
+drivers/acpi/sysfs.c:719:12: warning: symbol 'acpi_sysfs_init' was not declared. Should it be static?
+drivers/acpi/debugfs.c:13:15: warning: symbol 'acpi_debugfs_dir' was not declared. Should it be static?
+drivers/acpi/debugfs.c:16:13: warning: symbol 'acpi_debugfs_init' was not declared. Should it be static?
+drivers/acpi/processor_throttling.c:720:18: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:720:18: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:720:18: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:720:18: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+drivers/acpi/processor_throttling.c:741:18: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:741:18: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:519:34: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:741:18: warning: cast removes address space of expression
+drivers/acpi/processor_throttling.c:741:18: warning: incorrect type in argument 2 (different address spaces)
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:38: warning: cast removes address space of expression
+/cmpt816/linux/arch/x86/include/asm/percpu.h:502:59: warning: incorrect type in initializer (different address spaces)
+drivers/acpi/acpica/evrgnini.c:89:74: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/exregion.c:140:54: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/exregion.c:172:50: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbfadt.c:247:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbfadt.c:266:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbinstal.c:74:45: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbinstal.c:299:27: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbinstal.c:474:48: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:86:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:91:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:95:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:113:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:474:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:546:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:641:14: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:674:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:687:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:697:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:706:15: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbutils.c:715:38: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbutils.c:767:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbxface.c:233:40: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbxface.c:243:54: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:131:19: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:147:30: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:156:27: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:170:38: warning: incorrect type in argument 1 (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:187:19: warning: incorrect type in assignment (different address spaces)
+drivers/acpi/acpica/tbxfroot.c:202:30: warning: incorrect type in argument 1 (different address spaces)
+include/acpi/acexcep.h:191:12: warning: symbol 'acpi_gbl_exception_names_env' was not declared. Should it be static?
+include/acpi/acexcep.h:223:12: warning: symbol 'acpi_gbl_exception_names_pgm' was not declared. Should it be static?
+include/acpi/acexcep.h:236:12: warning: symbol 'acpi_gbl_exception_names_tbl' was not declared. Should it be static?
+include/acpi/acexcep.h:245:12: warning: symbol 'acpi_gbl_exception_names_aml' was not declared. Should it be static?
+include/acpi/acexcep.h:282:12: warning: symbol 'acpi_gbl_exception_names_ctrl' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:154:16: warning: symbol 'acpi_gbl_no_resource_disassembly' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:166:36: warning: symbol 'acpi_gbl_root_table_list' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:169:36: warning: symbol 'acpi_gbl_FACS' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:175:41: warning: symbol 'acpi_gbl_xpm1a_status' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:176:41: warning: symbol 'acpi_gbl_xpm1a_enable' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:178:41: warning: symbol 'acpi_gbl_xpm1b_status' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:179:41: warning: symbol 'acpi_gbl_xpm1b_enable' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:183:38: warning: symbol 'acpi_gbl_DSDT' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:184:38: warning: symbol 'acpi_gbl_original_dsdt_header' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:191:16: warning: symbol 'acpi_gbl_integer_bit_width' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:192:16: warning: symbol 'acpi_gbl_integer_byte_width' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:193:16: warning: symbol 'acpi_gbl_integer_nybble_width' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:197:13: warning: symbol 'acpi_gbl_osi_mutex' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:201:33: warning: symbol 'acpi_gbl_namespace_rw_lock' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:214:36: warning: symbol 'acpi_gbl_mutex_info' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:221:39: warning: symbol 'acpi_gbl_global_lock_mutex' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:222:13: warning: symbol 'acpi_gbl_global_lock_semaphore' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:223:13: warning: symbol 'acpi_gbl_global_lock_pending_lock' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:224:17: warning: symbol 'acpi_gbl_global_lock_handle' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:225:16: warning: symbol 'acpi_gbl_global_lock_acquired' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:226:16: warning: symbol 'acpi_gbl_global_lock_present' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:227:16: warning: symbol 'acpi_gbl_global_lock_pending' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:233:13: warning: symbol 'acpi_gbl_gpe_lock' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:234:13: warning: symbol 'acpi_gbl_hardware_lock' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:244:26: warning: symbol 'acpi_gbl_namespace_cache' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:245:26: warning: symbol 'acpi_gbl_state_cache' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:246:26: warning: symbol 'acpi_gbl_ps_node_cache' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:247:26: warning: symbol 'acpi_gbl_ps_node_ext_cache' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:248:26: warning: symbol 'acpi_gbl_operand_cache' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:252:47: warning: symbol 'acpi_gbl_global_notify' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:253:36: warning: symbol 'acpi_gbl_exception_handler' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:254:31: warning: symbol 'acpi_gbl_init_handler' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:255:30: warning: symbol 'acpi_gbl_table_handler' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:256:18: warning: symbol 'acpi_gbl_table_handler_context' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:257:36: warning: symbol 'acpi_gbl_breakpoint_walk' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:258:36: warning: symbol 'acpi_gbl_interface_handler' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:262:17: warning: symbol 'acpi_gbl_owner_id_mask' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:263:16: warning: symbol 'acpi_gbl_last_owner_id_index' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:264:16: warning: symbol 'acpi_gbl_next_owner_id_offset' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:268:16: warning: symbol 'acpi_gbl_reg_methods_executed' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:272:17: warning: symbol 'acpi_gbl_original_mode' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:273:17: warning: symbol 'acpi_gbl_rsdp_original_location' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:274:17: warning: symbol 'acpi_gbl_ns_lookup_count' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:275:17: warning: symbol 'acpi_gbl_ps_find_count' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:276:17: warning: symbol 'acpi_gbl_pm1_enable_register_save' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:277:16: warning: symbol 'acpi_gbl_debugger_configuration' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:278:16: warning: symbol 'acpi_gbl_step_to_next_call' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:279:16: warning: symbol 'acpi_gbl_acpi_hardware_present' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:280:16: warning: symbol 'acpi_gbl_events_initialized' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:281:16: warning: symbol 'acpi_gbl_osi_data' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:282:40: warning: symbol 'acpi_gbl_supported_interfaces' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:284:5: warning: symbol 'acpi_gbl_address_range_list' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:321:40: warning: symbol 'acpi_gbl_root_node_struct' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:322:40: warning: symbol 'acpi_gbl_root_node' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:323:40: warning: symbol 'acpi_gbl_fadt_gpe_device' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:324:39: warning: symbol 'acpi_gbl_module_code_list' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:345:38: warning: symbol 'acpi_gbl_current_walk_list' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:349:16: warning: symbol 'acpi_gbl_cm_single_step' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:359:16: warning: symbol 'acpi_gbl_sleep_type_a' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:360:16: warning: symbol 'acpi_gbl_sleep_type_b' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:371:5: warning: symbol 'acpi_gbl_fixed_event_handlers' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:372:40: warning: symbol 'acpi_gbl_gpe_xrupt_list_head' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:374:1: warning: symbol 'acpi_gbl_gpe_fadt_blocks' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:378:16: warning: symbol 'acpi_gbl_all_gpes_initialized' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:379:36: warning: symbol 'acpi_gbl_global_event_handler' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:380:18: warning: symbol 'acpi_gbl_global_event_handler_context' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:396:17: warning: symbol 'acpi_gpe_count' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:397:17: warning: symbol 'acpi_fixed_event_count' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:401:17: warning: symbol 'acpi_gbl_original_dbg_level' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:402:17: warning: symbol 'acpi_gbl_original_dbg_layer' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:403:17: warning: symbol 'acpi_gbl_trace_dbg_level' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:404:17: warning: symbol 'acpi_gbl_trace_dbg_layer' was not declared. Should it be static?
+drivers/acpi/acpica/acglobal.h:412:16: warning: symbol 'acpi_gbl_db_output_flags' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:72:4: warning: symbol 'acpi_gbl_db_terminate_threads' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:73:4: warning: symbol 'acpi_gbl_abort_method' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:74:4: warning: symbol 'acpi_gbl_method_executing' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:78:5: warning: symbol 'acpi_gbl_startup_flags' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:82:4: warning: symbol 'acpi_gbl_shutdown' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:84:12: warning: symbol 'acpi_gbl_sleep_state_names' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:93:12: warning: symbol 'acpi_gbl_lowest_dstate_names' was not declared. Should it be static?
+drivers/acpi/acpica/utglobal.c:101:12: warning: symbol 'acpi_gbl_highest_dstate_names' was not declared. Should it be static?
+drivers/acpi/acpica/utstate.c:64:1: warning: symbol 'acpi_ut_create_pkg_state_and_push' was not declared. Should it be static?
+drivers/acpi/button.c:220:5: warning: symbol 'acpi_lid_notifier_register' was not declared. Should it be static?
+drivers/acpi/button.c:226:5: warning: symbol 'acpi_lid_notifier_unregister' was not declared. Should it be static?
+drivers/acpi/button.c:232:5: warning: symbol 'acpi_lid_open' was not declared. Should it be static?
+drivers/ata/libata-scsi.c:1880:9: warning: context imbalance in 'ata_scsi_rbuf_get' - wrong count at exit
+drivers/ata/libata-scsi.c:1901:31: warning: context imbalance in 'ata_scsi_rbuf_fill' - unexpected unlock
+drivers/ata/libata-scsi.c:1899:48: warning: context imbalance in 'atapi_qc_complete' - unexpected unlock
+drivers/ata/libata-sff.c:1302:9: warning: context imbalance in 'ata_sff_hsm_move' - different lock contexts for basic block
+drivers/ata/ahci.c:94:9: warning: Initializer entry defined twice
+drivers/ata/libahci.c:191:5: warning: symbol 'ahci_em_messages' was not declared. Should it be static?
+drivers/ata/libahci.c:198:5: warning: symbol 'devslp_idle_timeout' was not declared. Should it be static?
+drivers/ata/libahci.c:1365:5: warning: symbol 'ahci_pmp_retry_softreset' was not declared. Should it be static?
+drivers/base/firmware_class.c:239:13: warning: context imbalance in '__fw_free_buf' - unexpected unlock
+drivers/base/firmware_class.c:267:9: warning: context imbalance in 'fw_free_buf' - wrong count at exit
+drivers/block/loop.c:229:38: warning: incorrect type in argument 2 (different address spaces)
+drivers/char/mem.c:381:44: warning: incorrect type in argument 2 (different address spaces)
+include/trace/events/random.h:10:1: error: incompatible types for operation (<)
+include/trace/events/random.h:43:1: error: incompatible types for operation (<)
+include/trace/events/random.h:89:1: error: incompatible types for operation (<)
+drivers/char/agp/frontend.c:46:23: warning: symbol 'agp_fe' was not declared. Should it be static?
+drivers/char/agp/frontend.c:48:19: warning: symbol 'agp_find_mem_by_key' was not declared. Should it be static?
+drivers/char/agp/frontend.c:164:5: warning: symbol 'agp_create_segment' was not declared. Should it be static?
+drivers/char/agp/frontend.c:216:25: warning: symbol 'agp_find_private' was not declared. Should it be static?
+drivers/char/agp/frontend.c:271:6: warning: symbol 'agp_free_memory_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:277:19: warning: symbol 'agp_allocate_memory_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:489:19: warning: symbol 'agp_find_client_by_pid' was not declared. Should it be static?
+drivers/char/agp/frontend.c:514:19: warning: symbol 'agp_create_client' was not declared. Should it be static?
+drivers/char/agp/frontend.c:527:5: warning: symbol 'agp_remove_client' was not declared. Should it be static?
+drivers/char/agp/frontend.c:748:5: warning: symbol 'agpioc_acquire_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:791:5: warning: symbol 'agpioc_release_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:798:5: warning: symbol 'agpioc_setup_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:878:5: warning: symbol 'agpioc_protect_wrap' was not declared. Should it be static?
+drivers/char/agp/frontend.c:912:5: warning: symbol 'agpioc_deallocate_wrap' was not declared. Should it be static?
+drivers/char/agp/generic.c:47:7: warning: symbol 'agp_gatt_table' was not declared. Should it be static?
+drivers/char/agp/generic.c:48:5: warning: symbol 'agp_memory_reserved' was not declared. Should it be static?
+drivers/char/agp/intel-agp.c:17:5: warning: symbol 'intel_agp_enabled' was not declared. Should it be static?
+drivers/cpufreq/acpi-cpufreq.c:123:42: warning: incorrect type in argument 3 (different address spaces)
+drivers/cpufreq/acpi-cpufreq.c:133:42: warning: incorrect type in argument 3 (different address spaces)
+drivers/cpufreq/acpi-cpufreq.c:931:22: warning: incorrect type in assignment (different address spaces)
+drivers/cpufreq/acpi-cpufreq.c:966:27: warning: incorrect type in argument 1 (different address spaces)
+drivers/firmware/dmi_scan.c:110:13: warning: incorrect type in assignment (different address spaces)
+drivers/firmware/dmi_scan.c:118:21: warning: incorrect type in argument 1 (different address spaces)
+drivers/firmware/dmi_scan.c:466:32: warning: incorrect type in argument 1 (different address spaces)
+drivers/firmware/dmi_scan.c:504:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/firmware/dmi_scan.c:506:41: warning: incorrect type in argument 1 (different address spaces)
+drivers/firmware/dmi_scan.c:769:13: warning: incorrect type in assignment (different address spaces)
+drivers/firmware/dmi_scan.c:775:17: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_bufs.c:218:37: warning: incorrect type in assignment (different address spaces)
+drivers/gpu/drm/drm_bufs.c:336:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_bufs.c:353:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_bufs.c:451:28: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_drv.c:64:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:65:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:66:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:67:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:68:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:69:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:70:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:71:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:72:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:74:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:75:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:76:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:77:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:79:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:80:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:82:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:83:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:88:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:89:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:90:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:91:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:92:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:93:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:94:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:96:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:97:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:99:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:100:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:102:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:104:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:105:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:106:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:107:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:108:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:110:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:112:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:117:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:118:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:119:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:120:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:121:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:122:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:125:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:126:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:128:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:130:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:132:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:134:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:135:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:136:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:138:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:140:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:141:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:143:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:144:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:145:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:146:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:147:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:148:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:149:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:150:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:151:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:152:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:153:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:154:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:155:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:156:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:157:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:158:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:159:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:160:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:161:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:162:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:163:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:164:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:165:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:166:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:167:9: error: bad integer constant expression
+drivers/gpu/drm/drm_drv.c:168:9: error: bad integer constant expression
+drivers/gpu/drm/drm_memory.c:119:29: warning: incorrect type in assignment (different address spaces)
+drivers/gpu/drm/drm_memory.c:129:29: warning: incorrect type in assignment (different address spaces)
+drivers/gpu/drm/drm_memory.c:142:28: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_vm.c:260:44: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/drm_pci.c:155:5: warning: symbol 'drm_pci_set_busid' was not declared. Should it be static?
+drivers/gpu/drm/drm_pci.c:197:5: warning: symbol 'drm_pci_set_unique' was not declared. Should it be static?
+drivers/gpu/drm/drm_pci.c:269:5: warning: symbol 'drm_pci_agp_init' was not declared. Should it be static?
+drivers/gpu/drm/drm_crtc.c:133:1: warning: symbol 'drm_get_dirty_info_name' was not declared. Should it be static?
+drivers/gpu/drm/drm_crtc.c:1012:5: warning: symbol 'drm_mode_group_init' was not declared. Should it be static?
+drivers/gpu/drm/drm_modes.c:848:6: warning: symbol 'drm_mode_validate_clocks' was not declared. Should it be static?
+drivers/gpu/drm/drm_ioc32.c:1020:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1021:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1022:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1023:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1024:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1025:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1026:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1027:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1028:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1029:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1030:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1031:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1032:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1033:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1034:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1035:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1036:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1038:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1039:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1040:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1041:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1042:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1043:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1045:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1046:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1048:10: error: bad integer constant expression
+drivers/gpu/drm/drm_ioc32.c:1050:10: error: bad integer constant expression
+drivers/gpu/drm/drm_fb_helper.c:275:5: warning: symbol 'drm_fb_helper_panic' was not declared. Should it be static?
+drivers/gpu/drm/drm_fb_helper.c:1262:27: warning: expression using sizeof bool
+drivers/gpu/drm/i915/i915_debugfs.c:559:31: warning: dereference of noderef expression
+drivers/gpu/drm/i915/i915_debugfs.c:559:39: warning: dereference of noderef expression
+drivers/gpu/drm/i915/i915_debugfs.c:559:51: warning: dereference of noderef expression
+drivers/gpu/drm/i915/i915_debugfs.c:559:63: warning: dereference of noderef expression
+drivers/gpu/drm/i915/i915_gem.c:3720:14: warning: incorrect type in assignment (different base types)
+drivers/gpu/drm/i915/i915_gem.c:3723:22: warning: invalid assignment: &=
+drivers/gpu/drm/i915/i915_gem.c:3724:22: warning: invalid assignment: |=
+drivers/gpu/drm/i915/i915_gem.c:3728:39: warning: incorrect type in argument 2 (different base types)
+drivers/gpu/drm/i915/intel_display.c:1731:9: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_display.c:1826:34: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_display.c:1838:61: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_display.c:1839:61: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_display.c:3626:48: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_bios.c:699:60: warning: incorrect type in initializer (different address spaces)
+drivers/gpu/drm/i915/intel_bios.c:719:42: warning: incorrect type in argument 1 (different address spaces)
+drivers/gpu/drm/i915/intel_bios.c:720:40: warning: cast removes address space of expression
+drivers/gpu/drm/i915/intel_bios.c:731:24: warning: cast removes address space of expression
+drivers/gpu/drm/i915/intel_ddi.c:87:6: warning: symbol 'intel_prepare_ddi_buffers' was not declared. Should it be static?
+drivers/gpu/drm/i915/intel_ddi.c:1072:34: warning: mixing different enum types
+drivers/gpu/drm/i915/intel_pm.c:2296:1: warning: symbol 'mchdev_lock' was not declared. Should it be static?
+drivers/i2c/i2c-core.c:1722:36: warning: dubious: x | !y
+drivers/i2c/i2c-core.c:1877:5: warning: symbol 'i2c_smbus_process_call' was not declared. Should it be static?
+drivers/input/mouse/sentelic.h:126:12: warning: symbol 'fsp_detect' was not declared. Should it be static?
+drivers/iommu/dmar.c:484:12: warning: symbol 'check_zero_address' was not declared. Should it be static?
+drivers/iommu/dmar.c:561:36: warning: incorrect type in argument 1 (different address spaces)
+drivers/iommu/dmar.c:1037:29: warning: Using plain integer as NULL pointer
+drivers/iommu/dmar.c:1047:29: warning: Using plain integer as NULL pointer
+drivers/iommu/dmar.c:1099:12: warning: symbol 'dmar_get_fault_reason' was not declared. Should it be static?
+drivers/iommu/intel-iommu.c:406:1: warning: symbol 'unmap_timer' was not declared. Should it be static?
+drivers/iommu/intel-iommu.c:442:5: warning: symbol 'intel_iommu_gfx_mapped' was not declared. Should it be static?
+drivers/iommu/intel-iommu.c:3180:20: warning: symbol 'intel_dma_ops' was not declared. Should it be static?
+drivers/md/dm-raid1.c:255:34: warning: Variable length array is used.
+drivers/md/dm-raid1.c:625:34: warning: Variable length array is used.
+drivers/md/dm-raid1.c:1356:36: warning: Variable length array is used.
+drivers/md/dm.c:1674:17: warning: context imbalance in 'dm_request_fn' - unexpected unlock
+drivers/md/dm-stripe.c:319:33: warning: Variable length array is used.
+drivers/md/dm-stripe.c:443:12: warning: symbol 'dm_stripe_init' was not declared. Should it be static?
+drivers/md/dm-stripe.c:456:6: warning: symbol 'dm_stripe_exit' was not declared. Should it be static?
+include/linux/blkdev.h:1439:16: warning: Using plain integer as NULL pointer
+include/linux/blkdev.h:1439:16: warning: Using plain integer as NULL pointer
+include/linux/blkdev.h:1439:16: warning: Using plain integer as NULL pointer
+drivers/net/ethernet/broadcom/tg3.c:5682:55: warning: constant 0x7fffffffffffffff is so big it is long
+drivers/net/ethernet/nvidia/forcedeth.c:4638:9: warning: context imbalance in 'nv_set_ringparam' - different lock contexts for basic block
+drivers/pci/pci.c:34:5: warning: symbol 'isa_dma_bridge_buggy' was not declared. Should it be static?
+drivers/pci/pci.c:2639:5: warning: symbol '__pci_request_selected_regions' was not declared. Should it be static?
+drivers/pci/pci.c:3719:17: warning: symbol 'pci_specified_resource_alignment' was not declared. Should it be static?
+drivers/pci/pci.c:3776:5: warning: symbol 'pci_is_reassigndev' was not declared. Should it be static?
+drivers/pci/pci.c:3843:9: warning: symbol 'pci_set_resource_alignment_param' was not declared. Should it be static?
+drivers/pci/pci.c:3854:9: warning: symbol 'pci_get_resource_alignment_param' was not declared. Should it be static?
+drivers/pci/pci.c:3874:1: warning: symbol 'bus_attr_resource_alignment' was not declared. Should it be static?
+drivers/pci/pci-driver.c:1080:25: warning: symbol 'pci_dev_pm_ops' was not declared. Should it be static?
+drivers/pci/pci-sysfs.c:535:25: warning: symbol 'vga_attr' was not declared. Should it be static?
+drivers/pci/rom.c:125:36: warning: incorrect type in return expression (different address spaces)
+drivers/pci/setup-bus.c:1047:12: warning: symbol '__pci_bus_size_bridges' was not declared. Should it be static?
+drivers/pci/pcie/portdrv_core.c:22:6: warning: symbol 'pciehp_msi_disabled' was not declared. Should it be static?
+drivers/pci/pcie/portdrv_acpi.c:34:5: warning: symbol 'pcie_port_acpi_setup' was not declared. Should it be static?
+drivers/pci/msi.c:487:18: warning: symbol 'msi_irq_default_attrs' was not declared. Should it be static?
+drivers/pci/msi.c:492:6: warning: symbol 'msi_kobj_release' was not declared. Should it be static?
+drivers/pcmcia/cistpl.c:1288:5: warning: symbol 'pcmcia_parse_tuple' was not declared. Should it be static?
+drivers/pcmcia/cardbus.c:67:11: warning: symbol 'cb_alloc' was not declared. Should it be static?
+drivers/pcmcia/cardbus.c:106:6: warning: symbol 'cb_free' was not declared. Should it be static?
+drivers/pnp/resource.c:34:19: warning: symbol 'pnp_build_option' was not declared. Should it be static?
+drivers/scsi/scsi_lib.c:468:6: warning: symbol 'scsi_requeue_run_queue' was not declared. Should it be static?
+drivers/scsi/scsi_lib.c:2231:6: warning: symbol 'scsi_evt_thread' was not declared. Should it be static?
+drivers/scsi/scsi_lib.c:1565:17: warning: context imbalance in 'scsi_request_fn' - unexpected unlock
+drivers/scsi/scsi_sysfs.c:201:25: warning: symbol 'dev_attr_hstate' was not declared. Should it be static?
+drivers/scsi/scsi_sysfs.c:314:24: warning: symbol 'scsi_shost_attr_group' was not declared. Should it be static?
+drivers/scsi/sg.c:1104:41: warning: incorrect type in argument 5 (different address spaces)
+drivers/tty/tty_io.c:119:17: warning: too long initializer-string for array of char
+drivers/tty/tty_io.c:985:6: warning: context imbalance in 'tty_write_unlock' - wrong count at exit
+drivers/tty/tty_io.c:992:5: warning: context imbalance in 'tty_write_lock' - wrong count at exit
+drivers/tty/tty_io.c:1114:17: warning: context imbalance in 'tty_write_message' - unexpected unlock
+drivers/tty/tty_io.c:1136:16: warning: context imbalance in 'tty_write' - different lock contexts for basic block
+drivers/tty/tty_io.c:2507:12: warning: context imbalance in 'send_break' - different lock contexts for basic block
+drivers/tty/serial/serial_core.c:617:22: warning: invalid assignment: |=
+drivers/tty/serial/serial_core.c:619:22: warning: invalid assignment: |=
+drivers/tty/serial/serial_core.c:621:17: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:623:22: warning: invalid assignment: &=
+drivers/tty/serial/serial_core.c:626:20: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:629:20: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:640:22: warning: invalid assignment: |=
+drivers/tty/serial/serial_core.c:642:22: warning: invalid assignment: |=
+drivers/tty/serial/serial_core.c:644:17: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:646:22: warning: invalid assignment: &=
+drivers/tty/serial/serial_core.c:649:20: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:656:20: warning: restricted upf_t degrades to integer
+drivers/tty/serial/serial_core.c:674:29: warning: incorrect type in assignment (different base types)
+drivers/tty/serial/serial_core.c:748:19: warning: incorrect type in assignment (different base types)
+drivers/tty/serial/8250/8250.c:2812:32: warning: incorrect type in assignment (different base types)
+drivers/tty/serial/8250/8250.c:2814:32: warning: incorrect type in assignment (different address spaces)
+drivers/tty/serial/8250/8250.c:286:10: warning: Initializer entry defined twice
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'serial8250_console_write' - unexpected unlock
+drivers/tty/vt/consolemap_deftbl.c:10:4: warning: symbol 'dfont_unicount' was not declared. Should it be static?
+drivers/tty/vt/consolemap_deftbl.c:46:5: warning: symbol 'dfont_unitable' was not declared. Should it be static?
+drivers/tty/vt/vt.c:223:5: warning: symbol 'console_blank_hook' was not declared. Should it be static?
+drivers/tty/vt/vt.c:2391:19: warning: symbol 'console_driver' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:27:9: warning: symbol 'shift_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:46:9: warning: symbol 'altgr_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:65:9: warning: symbol 'ctrl_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:84:9: warning: symbol 'shift_ctrl_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:103:9: warning: symbol 'alt_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:122:9: warning: symbol 'ctrl_alt_map' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:148:14: warning: symbol 'keymap_count' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:156:6: warning: symbol 'func_buf' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:187:6: warning: symbol 'funcbufptr' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:188:5: warning: symbol 'funcbufsize' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:189:5: warning: symbol 'funcbufleft' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:191:6: warning: symbol 'func_table' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:225:18: warning: symbol 'accent_table' was not declared. Should it be static?
+drivers/tty/vt/defkeymap.c:262:14: warning: symbol 'accent_table_size' was not declared. Should it be static?
+drivers/usb/host/pci-quirks.c:728:6: warning: symbol 'usb_is_intel_ppt_switchable_xhci' was not declared. Should it be static?
+drivers/usb/host/pci-quirks.c:736:6: warning: symbol 'usb_is_intel_lpt_switchable_xhci' was not declared. Should it be static?
+drivers/usb/host/ohci-hub.c:247:9: warning: context imbalance in 'ohci_rh_resume' - different lock contexts for basic block
+drivers/video/backlight/generic_bl.c:61:6: warning: symbol 'genericbl_limit_intensity' was not declared. Should it be static?
+sound/core/pcm_native.c:172:37: warning: Variable length array is used.
+sound/core/pcm_compat.c:34:41: warning: incorrect type in argument 2 (different address spaces)
+sound/core/pcm_native.c:752:17: warning: context imbalance in 'snd_pcm_action_group' - different lock contexts for basic block
+sound/core/oss/pcm_oss.c:1670:61: warning: Variable length array is used.
+sound/core/oss/pcm_plugin.c:283:36: warning: cast truncates bits from constant value (f00003fff becomes 3fff)
+sound/core/oss/pcm_plugin.c:284:41: warning: cast truncates bits from constant value (f00003fff becomes 3fff)
+sound/core/seq/seq_compat.c:62:45: warning: incorrect type in argument 3 (different address spaces)
+sound/core/seq/seq_clientmgr.c:698:9: warning: context imbalance in 'deliver_to_subscribers' - different lock contexts for basic block
+sound/pci/hda/hda_codec.c:2429:57: warning: incorrect type in argument 4 (different address spaces)
+sound/pci/hda/hda_codec.c:4569:27: warning: context imbalance in '__snd_hda_power_up' - unexpected unlock
+sound/pci/hda/hda_proc.c:448:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:449:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:450:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:451:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:452:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:453:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:454:18: error: bad integer constant expression
+sound/pci/hda/hda_proc.c:455:18: error: bad integer constant expression
+sound/pci/hda/hda_intel.c:90:1: warning: expression using sizeof bool
+sound/pci/hda/hda_intel.c:90:1: warning: expression using sizeof bool
+sound/pci/hda/hda_intel.c:2530:33: warning: incorrect type in assignment (different address spaces)
+arch/x86/pci/legacy.c:59:12: warning: symbol 'pci_subsys_init' was not declared. Should it be static?
+arch/x86/pci/common.c:25:14: warning: symbol 'pci_early_dump_regs' was not declared. Should it be static?
+arch/x86/power/cpu.c:35:22: warning: symbol 'saved_context' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:30:15: warning: symbol 'restore_jump_address' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:36:15: warning: symbol 'restore_cr3' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:38:7: warning: symbol 'temp_level4_pgt' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:40:6: warning: symbol 'relocated_restore_code' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:105:5: warning: symbol 'swsusp_arch_resume' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:127:5: warning: symbol 'pfn_is_nosave' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:147:5: warning: symbol 'arch_hibernation_header_save' was not declared. Should it be static?
+arch/x86/power/hibernate_64.c:164:5: warning: symbol 'arch_hibernation_header_restore' was not declared. Should it be static?
+arch/x86/video/fbdev.c:14:5: warning: symbol 'fb_is_primary_device' was not declared. Should it be static?
+net/socket.c:2841:18: warning: cast removes address space of expression
+net/socket.c:2841:15: warning: incorrect type in assignment (different address spaces)
+net/socket.c:2865:35: warning: cast removes address space of expression
+net/socket.c:2866:35: warning: cast removes address space of expression
+net/socket.c:2869:35: warning: cast removes address space of expression
+net/socket.c:2870:35: warning: cast removes address space of expression
+net/socket.c:2882:35: warning: cast removes address space of expression
+net/socket.c:2883:35: warning: cast removes address space of expression
+net/socket.c:2886:35: warning: cast removes address space of expression
+net/socket.c:2887:35: warning: cast removes address space of expression
+net/core/sock.c:189:19: warning: symbol 'memcg_socket_limit_enabled' was not declared. Should it be static?
+net/core/sock.c:1502:9: warning: context imbalance in 'sk_clone_lock' - different lock contexts for basic block
+net/core/sock.c:2330:6: warning: context imbalance in 'lock_sock_fast' - different lock contexts for basic block
+net/core/sock.c:2713:13: warning: context imbalance in 'proto_seq_start' - wrong count at exit
+net/core/sock.c:2725:13: warning: context imbalance in 'proto_seq_stop' - wrong count at exit
+net/core/skbuff.c:158:6: warning: symbol '__kmalloc_reserve' was not declared. Should it be static?
+include/net/sock.h:1471:31: warning: context imbalance in 'skb_free_datagram_locked' - unexpected unlock
+net/core/scm.c:250:26: warning: cast removes address space of expression
+net/core/scm.c:250:26: warning: incorrect type in argument 1 (different address spaces)
+net/core/scm.c:286:48: warning: cast removes address space of expression
+net/core/gen_stats.c:58:1: warning: context imbalance in 'gnet_stats_start_copy_compat' - wrong count at exit
+net/core/gen_stats.c:35:23: warning: context imbalance in 'gnet_stats_copy_basic' - unexpected unlock
+net/core/gen_stats.c:35:23: warning: context imbalance in 'gnet_stats_copy_rate_est' - unexpected unlock
+net/core/gen_stats.c:35:23: warning: context imbalance in 'gnet_stats_copy_queue' - unexpected unlock
+net/core/gen_stats.c:35:23: warning: context imbalance in 'gnet_stats_copy_app' - unexpected unlock
+net/core/gen_stats.c:35:23: warning: context imbalance in 'gnet_stats_finish_copy' - unexpected unlock
+net/core/dev.c:2595:9: warning: context imbalance in 'dev_queue_xmit' - different lock contexts for basic block
+net/core/dev.c:3159:17: warning: context imbalance in 'net_tx_action' - different lock contexts for basic block
+net/core/dev.c:4116:36: warning: context imbalance in 'net_rx_action' - different lock contexts for basic block
+net/core/rtnetlink.c:1770:41: warning: Variable length array is used.
+net/core/filter.c:48:6: warning: symbol 'bpf_internal_load_pointer_neg_helper' was not declared. Should it be static?
+net/core/filter.c:678:32: warning: incorrect type in argument 2 (different address spaces)
+net/core/netpoll.c:363:17: warning: context imbalance in 'netpoll_send_skb_on_dev' - different lock contexts for basic block
+include/trace/events/skb.h:14:1: error: incompatible types for operation (<)
+include/trace/events/skb.h:14:1: error: incompatible types for operation (<)
+include/trace/events/skb.h:36:1: error: incompatible types for operation (<)
+include/trace/events/skb.h:53:1: error: incompatible types for operation (<)
+include/trace/events/net.h:12:1: error: incompatible types for operation (<)
+include/trace/events/net.h:39:1: error: incompatible types for operation (<)
+include/trace/events/napi.h:13:1: error: incompatible types for operation (<)
+include/trace/events/sock.h:32:1: error: incompatible types for operation (<)
+net/ipv4/ip_input.c:367:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:367:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:367:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:370:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:370:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:370:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:395:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:395:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_input.c:395:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:246:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:246:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:246:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:302:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:302:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:302:9: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:176:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_output.c:178:17: warning: incorrect type in initializer (different address spaces)
+net/ipv4/ip_sockglue.c:1286:33: warning: incorrect type in assignment (different address spaces)
+include/net/inet_timewait_sock.h:165:20: warning: context imbalance in 'inet_twdr_do_twkill_work' - unexpected unlock
+net/ipv4/inet_connection_sock.c:206:9: warning: context imbalance in 'inet_csk_get_port' - different lock contexts for basic block
+net/ipv4/inet_connection_sock.c:716:6: warning: context imbalance in 'inet_csk_prepare_forced_close' - unexpected unlock
+include/net/sock.h:1471:31: warning: context imbalance in 'tcp_ioctl' - unexpected unlock
+net/ipv4/tcp_ipv4.c:604:13: warning: context imbalance in 'tcp_v4_send_reset' - different lock contexts for basic block
+net/ipv4/tcp_ipv4.c:1459:9: warning: context imbalance in 'tcp_v4_conn_req_fastopen' - unexpected unlock
+net/ipv4/tcp_ipv4.c:1779:20: warning: context imbalance in 'tcp_v4_hnd_req' - different lock contexts for basic block
+include/net/sock.h:472:54: warning: context imbalance in 'listening_get_next' - unexpected unlock
+net/ipv4/tcp_ipv4.c:2381:9: warning: context imbalance in 'established_get_first' - wrong count at exit
+net/ipv4/tcp_ipv4.c:2406:48: warning: context imbalance in 'established_get_next' - unexpected unlock
+net/ipv4/tcp_ipv4.c:2563:69: warning: context imbalance in 'tcp_seq_stop' - unexpected unlock
+net/ipv4/tcp_minisocks.c:790:9: warning: context imbalance in 'tcp_child_process' - unexpected unlock
+net/ipv4/raw.c:960:21: warning: context imbalance in 'raw_seq_start' - wrong count at exit
+net/ipv4/raw.c:977:6: warning: context imbalance in 'raw_seq_stop' - unexpected unlock
+include/net/sock.h:1471:31: warning: context imbalance in 'first_packet_length' - unexpected unlock
+include/net/sock.h:1471:31: warning: context imbalance in 'udp_recvmsg' - unexpected unlock
+include/net/sock.h:1471:31: warning: context imbalance in 'udp_destroy_sock' - unexpected unlock
+net/ipv4/udp.c:2003:9: warning: context imbalance in 'udp_get_first' - wrong count at exit
+net/ipv4/udp.c:2017:39: warning: context imbalance in 'udp_get_next' - unexpected unlock
+net/ipv4/udp.c:2059:31: warning: context imbalance in 'udp_seq_stop' - unexpected unlock
+net/ipv4/icmp.c:331:13: warning: context imbalance in 'icmp_reply' - different lock contexts for basic block
+net/ipv4/icmp.c:481:6: warning: context imbalance in 'icmp_send' - different lock contexts for basic block
+net/ipv4/igmp.c:2538:31: warning: context imbalance in 'igmp_mcf_get_next' - unexpected unlock
+net/ipv4/igmp.c:2566:9: warning: context imbalance in 'igmp_mcf_get_idx' - wrong count at exit
+net/ipv4/igmp.c:2583:9: warning: context imbalance in 'igmp_mcf_seq_next' - wrong count at exit
+net/ipv4/igmp.c:2595:9: warning: context imbalance in 'igmp_mcf_seq_stop' - unexpected unlock
+net/ipv4/ping.c:808:21: warning: context imbalance in 'ping_seq_start' - wrong count at exit
+net/ipv4/ping.c:824:13: warning: context imbalance in 'ping_seq_stop' - unexpected unlock
+net/ipv4/sysctl_net_ipv4.c:235:5: warning: symbol 'proc_tcp_fastopen_key' was not declared. Should it be static?
+net/ipv4/ipmr.c:2337:13: warning: context imbalance in 'ipmr_vif_seq_start' - wrong count at exit
+net/ipv4/ipmr.c:2430:25: warning: context imbalance in 'ipmr_mfc_seq_idx' - wrong count at exit
+net/ipv4/ipmr.c:2511:23: warning: context imbalance in 'ipmr_mfc_seq_next' - unexpected unlock
+net/ipv4/ipmr.c:2523:31: warning: context imbalance in 'ipmr_mfc_seq_stop' - unexpected unlock
+net/ipv4/ipconfig.c:139:8: warning: symbol 'ic_addrservaddr' was not declared. Should it be static?
+net/ipv4/ipconfig.c:146:8: warning: symbol 'ic_dev_xid' was not declared. Should it be static?
+net/ipv4/netfilter/ip_tables.c:67:16: warning: Variable length array is used.
+net/ipv4/netfilter/ip_tables.c:348:27: warning: incorrect type in assignment (different modifiers)
+net/ipv4/netfilter/ip_tables.c:391:43: warning: incorrect type in assignment (different modifiers)
+net/ipv4/netfilter/ip_tables.c:417:27: warning: incorrect type in assignment (different modifiers)
+net/ipv6/anycast.c:426:25: warning: context imbalance in 'ac6_get_next' - unexpected unlock
+net/ipv6/anycast.c:448:9: warning: context imbalance in 'ac6_get_idx' - wrong count at exit
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'ac6_seq_stop' - unexpected unlock
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:122:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:233:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_output.c:1563:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:81:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ip6_input.c:261:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ipv6_sockglue.c:994:33: warning: incorrect type in assignment (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:461:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/ndisc.c:1500:9: warning: incorrect type in initializer (different address spaces)
+include/net/sock.h:1471:31: warning: context imbalance in 'udpv6_recvmsg' - unexpected unlock
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/raw.c:649:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/icmp.c:384:6: warning: context imbalance in 'icmpv6_send' - different lock contexts for basic block
+net/ipv6/icmp.c:534:13: warning: context imbalance in 'icmpv6_echo_reply' - wrong count at exit
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1407:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1440:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1745:9: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:1802:17: warning: incorrect type in initializer (different address spaces)
+net/ipv6/mcast.c:251:25: warning: context imbalance in 'ip6_mc_find_dev_rcu' - different lock contexts for basic block
+net/ipv6/mcast.c:446:9: warning: context imbalance in 'ip6_mc_source' - unexpected unlock
+net/ipv6/mcast.c:535:9: warning: context imbalance in 'ip6_mc_msfilter' - unexpected unlock
+net/ipv6/mcast.c:583:21: warning: context imbalance in 'ip6_mc_msfget' - unexpected unlock
+net/ipv6/mcast.c:2346:25: warning: context imbalance in 'igmp6_mc_get_next' - unexpected unlock
+net/ipv6/mcast.c:2368:9: warning: context imbalance in 'igmp6_mc_get_idx' - wrong count at exit
+net/ipv6/mcast.c:2395:9: warning: context imbalance in 'igmp6_mc_seq_stop' - unexpected unlock
+net/ipv6/mcast.c:2481:31: warning: context imbalance in 'igmp6_mcf_get_next' - unexpected unlock
+net/ipv6/mcast.c:2513:9: warning: context imbalance in 'igmp6_mcf_get_idx' - wrong count at exit
+net/ipv6/mcast.c:2530:9: warning: context imbalance in 'igmp6_mcf_seq_next' - wrong count at exit
+net/ipv6/mcast.c:2543:17: warning: context imbalance in 'igmp6_mcf_seq_stop' - unexpected unlock
+net/ipv6/tcp_ipv6.c:808:13: warning: context imbalance in 'tcp_v6_send_reset' - different lock contexts for basic block
+net/ipv6/tcp_ipv6.c:900:20: warning: context imbalance in 'tcp_v6_hnd_req' - different lock contexts for basic block
+net/ipv6/xfrm6_state.c:64:19: warning: Variable length array is used.
+net/ipv6/xfrm6_state.c:66:26: error: cannot size expression
+net/ipv6/netfilter/ip6_tables.c:68:16: warning: Variable length array is used.
+net/ipv6/netfilter/ip6_tables.c:367:27: warning: incorrect type in assignment (different modifiers)
+net/ipv6/netfilter/ip6_tables.c:404:43: warning: incorrect type in assignment (different modifiers)
+net/ipv6/netfilter/ip6_tables.c:425:27: warning: incorrect type in assignment (different modifiers)
+net/netfilter/nf_conntrack_core.c:58:5: warning: symbol 'nf_nat_seq_adjust_hook' was not declared. Should it be static?
+net/netfilter/nf_conntrack_core.c:1632:17: error: cannot dereference this type
+net/netfilter/nf_conntrack_core.c:1633:17: error: cannot dereference this type
+net/netfilter/nfnetlink.c:175:61: warning: Variable length array is used.
+include/linux/rcupdate.h:786:9: warning: context imbalance in 'ctnetlink_parse_nat_setup' - unexpected unlock
+net/netfilter/nf_conntrack_netlink.c:1331:31: warning: context imbalance in 'ctnetlink_change_conntrack' - unexpected unlock
+net/netfilter/nf_nat_core.c:816:9: error: cannot dereference this type
+net/netfilter/nf_nat_core.c:818:9: error: cannot dereference this type
+net/netfilter/nf_nat_core.c:821:9: error: cannot dereference this type
+net/netfilter/nf_nat_core.c:825:9: error: cannot dereference this type
+net/netfilter/nf_nat_ftp.c:129:9: error: cannot dereference this type
+net/netfilter/nf_nat_irc.c:79:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:600:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:601:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:602:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:603:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:604:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:605:9: error: cannot dereference this type
+net/netfilter/nf_nat_sip.c:606:9: error: cannot dereference this type
+net/packet/af_packet.c:285:39: warning: incorrect type in return expression (different modifiers)
+net/packet/af_packet.c:286:16: warning: incorrect type in return expression (different modifiers)
+net/packet/af_packet.c:1956:22: warning: incorrect type in assignment (different modifiers)
+net/packet/af_packet.c:285:39: warning: incorrect type in return expression (different modifiers)
+net/packet/af_packet.c:286:16: warning: incorrect type in return expression (different modifiers)
+net/packet/af_packet.c:3685:38: warning: incorrect type in assignment (different modifiers)
+net/sched/sch_generic.c:112:5: warning: context imbalance in 'sch_direct_xmit' - unexpected unlock
+include/trace/events/sunrpc.h:11:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:11:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:44:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:44:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:64:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:64:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:64:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:122:1: error: incompatible types for operation (<)
+include/trace/events/sunrpc.h:122:1: error: incompatible types for operation (<)
+net/sunrpc/svc.c:1050:8: warning: unused variable ‘buf’ [-Wunused-variable]
+net/sunrpc/svc_xprt.c:573:5: warning: symbol 'svc_alloc_arg' was not declared. Should it be static?
+net/sunrpc/svc_xprt.c:614:17: warning: symbol 'svc_get_next_xprt' was not declared. Should it be static?
+net/sunrpc/svc_xprt.c:687:6: warning: symbol 'svc_add_new_temp_xprt' was not declared. Should it be static?
+net/sunrpc/sysctl.c:28:17: warning: symbol 'rpc_debug' was not declared. Should it be static?
+net/sunrpc/sysctl.c:31:17: warning: symbol 'nfs_debug' was not declared. Should it be static?
+net/sunrpc/sysctl.c:34:17: warning: symbol 'nfsd_debug' was not declared. Should it be static?
+net/sunrpc/sysctl.c:37:17: warning: symbol 'nlm_debug' was not declared. Should it be static?
+net/sunrpc/auth_gss/gss_mech_switch.c:143:21: warning: symbol '_gss_mech_get_by_name' was not declared. Should it be static?
+net/sunrpc/auth_gss/gss_mech_switch.c:208:21: warning: symbol '_gss_mech_get_by_pseudoflavor' was not declared. Should it be static?
+net/unix/af_unix.c:935:13: warning: context imbalance in 'unix_state_double_lock' - wrong count at exit
+/cmpt816/linux/arch/x86/include/asm/spinlock.h:81:9: warning: context imbalance in 'unix_state_double_unlock' - unexpected unlock
+net/unix/af_unix.c:1043:54: warning: context imbalance in 'unix_wait_for_peer' - unexpected unlock
+net/unix/af_unix.c:1222:9: warning: context imbalance in 'unix_stream_connect' - different lock contexts for basic block
+net/unix/af_unix.c:1594:9: warning: context imbalance in 'unix_dgram_sendmsg' - different lock contexts for basic block
+net/xfrm/xfrm_policy.c:107:9: warning: context imbalance in 'xfrm_policy_get_afinfo' - different lock contexts for basic block
+net/xfrm/xfrm_policy.c:110:13: warning: context imbalance in 'xfrm_policy_put_afinfo' - unexpected unlock
+net/xfrm/xfrm_state.c:180:9: warning: context imbalance in 'xfrm_state_lock_afinfo' - different lock contexts for basic block
+net/xfrm/xfrm_state.c:203:9: warning: context imbalance in 'xfrm_register_type' - unexpected unlock
+net/xfrm/xfrm_state.c:222:9: warning: context imbalance in 'xfrm_unregister_type' - unexpected unlock
+net/xfrm/xfrm_state.c:286:9: warning: context imbalance in 'xfrm_register_mode' - unexpected unlock
+net/xfrm/xfrm_state.c:312:9: warning: context imbalance in 'xfrm_unregister_mode' - unexpected unlock
+net/xfrm/xfrm_state.c:1889:9: warning: context imbalance in 'xfrm_state_get_afinfo' - different lock contexts for basic block
+net/xfrm/xfrm_state.c:1943:9: warning: context imbalance in '__xfrm_init_state' - unexpected unlock
+net/compat.c:74:24: warning: incorrect type in assignment (different address spaces)
+net/compat.c:75:23: warning: incorrect type in assignment (different address spaces)
+net/compat.c:76:27: warning: incorrect type in assignment (different address spaces)
+net/compat.c:88:63: warning: incorrect type in argument 1 (different address spaces)
+net/compat.c:159:22: warning: cast removes address space of expression
+net/compat.c:187:22: warning: cast removes address space of expression
+net/compat.c:366:54: warning: incorrect type in argument 4 (different address spaces)
+net/compat.c:427:54: warning: incorrect type in argument 4 (different address spaces)
+net/compat.c:427:71: warning: incorrect type in argument 5 (different address spaces)
+net/compat.c:570:57: warning: cast removes address space of expression
+net/compat.c:570:57: warning: incorrect type in initializer (different address spaces)
+net/compat.c:591:65: warning: cast removes address space of expression
+net/compat.c:591:65: warning: incorrect type in initializer (different address spaces)
+net/compat.c:612:60: warning: cast removes address space of expression
+net/compat.c:612:60: warning: incorrect type in initializer (different address spaces)
+net/compat.c:650:52: warning: cast removes address space of expression
+net/compat.c:650:52: warning: incorrect type in initializer (different address spaces)
+net/compat.c:774:40: warning: cast removes address space of expression
+lib/bcd.c:4:10: error: symbol '_bcd2bin' redeclared with different type (originally declared at include/linux/bcd.h:19) - different modifiers
+lib/bcd.c:10:15: error: symbol '_bin2bcd' redeclared with different type (originally declared at include/linux/bcd.h:20) - different modifiers
+lib/gcd.c:6:15: error: symbol 'gcd' redeclared with different type (originally declared at include/linux/gcd.h:6) - different modifiers
+lib/lcm.c:7:15: error: symbol 'lcm' redeclared with different type (originally declared at include/linux/lcm.h:6) - different modifiers
+lib/devres.c:82:9: warning: cast removes address space of expression
+lib/devres.c:194:9: warning: cast removes address space of expression
+lib/crc32.c:189:12: error: symbol 'crc32_le' redeclared with different type (originally declared at include/linux/crc32.h:11) - different modifiers
+lib/crc32.c:194:12: error: symbol '__crc32c_le' redeclared with different type (originally declared at include/linux/crc32.h:14) - different modifiers
+lib/crc32.c:256:12: error: symbol 'crc32_be' redeclared with different type (originally declared at include/linux/crc32.h:12) - different modifiers
+lib/xz/xz_dec_stream.c:734:23: warning: function 'xz_dec_run' with external linkage has definition
+lib/xz/xz_dec_stream.c:770:25: warning: function 'xz_dec_init' with external linkage has definition
+lib/xz/xz_dec_stream.c:800:16: warning: function 'xz_dec_reset' with external linkage has definition
+lib/xz/xz_dec_stream.c:812:16: warning: function 'xz_dec_end' with external linkage has definition
+lib/xz/xz_dec_lzma2.c:931:23: warning: function 'xz_dec_lzma2_run' with external linkage has definition
+lib/xz/xz_dec_lzma2.c:1104:31: warning: function 'xz_dec_lzma2_create' with external linkage has definition
+lib/xz/xz_dec_lzma2.c:1128:23: warning: function 'xz_dec_lzma2_reset' with external linkage has definition
+lib/xz/xz_dec_lzma2.c:1165:16: warning: function 'xz_dec_lzma2_end' with external linkage has definition
+lib/xz/xz_dec_bcj.c:417:23: warning: function 'xz_dec_bcj_run' with external linkage has definition
+lib/xz/xz_dec_bcj.c:527:29: warning: function 'xz_dec_bcj_create' with external linkage has definition
+lib/xz/xz_dec_bcj.c:536:23: warning: function 'xz_dec_bcj_reset' with external linkage has definition
+lib/xz/xz_dec_bcj.c:91:21: warning: Initializer entry defined twice
+lib/swiotlb.c:213:1: warning: symbol 'swiotlb_late_init_with_default_size' was not declared. Should it be static?
+lib/swiotlb.c:505:13: warning: symbol 'map_single' was not declared. Should it be static?
+lib/iommu-helper.c:9:5: warning: symbol 'iommu_is_span_boundary' was not declared. Should it be static?
+lib/iommu-helper.c:19:15: warning: symbol 'iommu_area_alloc' was not declared. Should it be static?
+lib/dec_and_lock.c:20:5: warning: context imbalance in '_atomic_dec_and_lock' - different lock contexts for basic block
+lib/decompress_inflate.c:35:17: warning: symbol 'gunzip' was not declared. Should it be static?
+lib/decompress_unxz.c:251:17: warning: symbol 'unxz' was not declared. Should it be static?
+lib/radix-tree.c:1227:9: warning: context imbalance in 'radix_tree_locate_item' - wrong count at exit
+lib/string.c:793:20: warning: constant 0x0101010101010101 is so big it is long
+lib/vsprintf.c:610:18: warning: Variable length array is used.
+lib/vsprintf.c:613:38: error: cannot size expression
+arch/x86/lib/msr-smp.c:13:23: warning: incorrect type in initializer (different address spaces)
+arch/x86/lib/msr-smp.c:27:23: warning: incorrect type in initializer (different address spaces)
+arch/x86/lib/msr.c:9:14: warning: incorrect type in assignment (different address spaces)
+arch/x86/lib/msr.c:21:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/lib/inat-tables.c:5:19: warning: symbol 'inat_primary_table' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:205:19: warning: symbol 'inat_escape_table_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:416:19: warning: symbol 'inat_escape_table_1_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:524:19: warning: symbol 'inat_escape_table_1_2' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:554:19: warning: symbol 'inat_escape_table_1_3' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:582:19: warning: symbol 'inat_escape_table_2' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:703:19: warning: symbol 'inat_escape_table_2_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:820:19: warning: symbol 'inat_escape_table_2_2' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:824:19: warning: symbol 'inat_escape_table_2_3' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:833:19: warning: symbol 'inat_escape_table_3' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:875:19: warning: symbol 'inat_escape_table_3_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:916:19: warning: symbol 'inat_escape_table_3_3' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:927:19: warning: symbol 'inat_group_table_5' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:938:19: warning: symbol 'inat_group_table_6' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:949:19: warning: symbol 'inat_group_table_7' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:955:19: warning: symbol 'inat_group_table_8' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:966:19: warning: symbol 'inat_group_table_9' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:976:19: warning: symbol 'inat_group_table_10' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:989:19: warning: symbol 'inat_group_table_21' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:994:19: warning: symbol 'inat_group_table_21_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:997:19: warning: symbol 'inat_group_table_21_2' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1007:19: warning: symbol 'inat_group_table_13' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1012:19: warning: symbol 'inat_group_table_13_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1019:19: warning: symbol 'inat_group_table_14' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1024:19: warning: symbol 'inat_group_table_14_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1031:19: warning: symbol 'inat_group_table_15' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1037:19: warning: symbol 'inat_group_table_15_1' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1045:19: warning: symbol 'inat_group_table_18' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1051:19: warning: symbol 'inat_group_table_18_2' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1059:19: warning: symbol 'inat_group_table_12' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1067:19: warning: symbol 'inat_group_table_22' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1080:19: warning: symbol 'inat_escape_tables' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1095:19: warning: symbol 'inat_group_tables' was not declared. Should it be static?
+arch/x86/lib/inat-tables.c:1118:19: warning: symbol 'inat_avx_tables' was not declared. Should it be static?
+arch/x86/lib/usercopy_64.c:78:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/lib/usercopy_64.c:80:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/lib/usercopy_64.c:85:21: warning: incorrect type in argument 1 (different address spaces)
+init/main.c:153:12: warning: symbol 'envp_init' was not declared. Should it be static?
+init/do_mounts.c:8:2: warning: "Sparse checking disabled for this file"
+init/do_mounts_initrd.c:8:2: warning: "Sparse checking disabled for this file"
+init/do_mounts_md.c:8:2: warning: "Sparse checking disabled for this file"
+init/initramfs.c:8:2: warning: "Sparse checking disabled for this file"
+init/calibrate.c:257:47: warning: symbol 'calibrate_delay_is_known' was not declared. Should it be static?
+init/init_task.c:12:44: warning: implicit cast to nocast type
+init/init_task.c:12:44: warning: implicit cast to nocast type
+arch/x86/boot/compressed/misc.c:321:17: warning: symbol 'decompress_kernel' was not declared. Should it be static?
+arch/x86/boot/compressed/../string.c:60:14: warning: symbol 'atou' was not declared. Should it be static?
+arch/x86/boot/compressed/../cmdline.c:30:5: warning: symbol '__cmdline_find_option' was not declared. Should it be static?
+arch/x86/boot/compressed/../cmdline.c:102:5: warning: symbol '__cmdline_find_option_bool' was not declared. Should it be static?
+arch/x86/boot/main.c:38:9: error: cannot size expression
+arch/x86/boot/pm.c:104:6: error: symbol 'go_to_protected_mode' redeclared with different type (originally declared at arch/x86/boot/boot.h:328) - different modifiers
+arch/x86/boot/string.c:119:8: warning: symbol 'strlen' was not declared. Should it be static?
+arch/x86/boot/string.c:133:6: warning: symbol 'strstr' was not declared. Should it be static?
+arch/x86/boot/version.c:19:12: warning: symbol 'kernel_version' was not declared. Should it be static?

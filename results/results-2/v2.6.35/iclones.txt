@@ -1,0 +1,61 @@
+CCF-V1-L
+@	2
+/cmpt816/tmp/arch/x86/kernel/signal.c	367	378
+/cmpt816/tmp/arch/x86/kernel/signal.c	434	444
+@	3
+/cmpt816/tmp/arch/x86/kernel/mpparse.c	304	332
+/cmpt816/tmp/arch/x86/kernel/mpparse.c	821	842
+@	1
+/cmpt816/tmp/arch/x86/ia32/sys_ia32.c	318	325
+/cmpt816/tmp/arch/x86/ia32/sys_ia32.c	375	382
+@	3
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/cleanup.c	565	583
+/cmpt816/tmp/arch/x86/kernel/cpu/mtrr/cleanup.c	918	936
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	197	216
+/cmpt816/tmp/arch/x86/kernel/i387.c	257	277
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	429	449
+/cmpt816/tmp/arch/x86/kernel/i387.c	459	478
+@	3
+/cmpt816/tmp/arch/x86/kernel/ptrace.c	503	529
+/cmpt816/tmp/arch/x86/kernel/ptrace.c	1088	1114
+@	3
+/cmpt816/tmp/arch/x86/kernel/module.c	72	91
+/cmpt816/tmp/arch/x86/kernel/module.c	123	144
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	270	292
+/cmpt816/tmp/arch/x86/kernel/signal.c	565	585
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	354	360
+/cmpt816/tmp/arch/x86/kernel/signal.c	162	169
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	427	454
+/cmpt816/tmp/arch/x86/kernel/signal.c	291	313
+@	2
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	521	534
+/cmpt816/tmp/arch/x86/kernel/signal.c	434	449
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	507	535
+/cmpt816/tmp/arch/x86/kernel/signal.c	353	383
+@	2
+/cmpt816/tmp/arch/x86/mm/gup.c	108	138
+/cmpt816/tmp/arch/x86/mm/gup.c	165	195
+@	3
+/cmpt816/tmp/arch/x86/mm/gup.c	232	270
+/cmpt816/tmp/arch/x86/mm/gup.c	299	342
+@	3
+/cmpt816/tmp/arch/x86/kernel/cpu/mcheck/mce_amd.c	137	160
+/cmpt816/tmp/arch/x86/kernel/cpu/mcheck/mce_amd.c	207	231
+@	3
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	458	486
+/cmpt816/tmp/arch/x86/ia32/ia32_signal.c	539	567
+@	3
+/cmpt816/tmp/arch/x86/mm/srat_64.c	114	139
+/cmpt816/tmp/arch/x86/mm/srat_64.c	145	173
+@	3
+/cmpt816/tmp/arch/x86/kernel/e820.c	743	764
+/cmpt816/tmp/arch/x86/kernel/e820.c	782	804
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	95	119
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	281	301

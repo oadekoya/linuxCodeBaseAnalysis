@@ -1,0 +1,1803 @@
+scripts/kconfig/conf --silentoldconfig arch/x86/Kconfig
+  CHK     include/linux/version.h
+  UPD     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+  UPD     include/generated/utsrelease.h
+  CC      kernel/bounds.s
+  GEN     include/generated/bounds.h
+  CC      arch/x86/kernel/asm-offsets.s
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/asm-offsets_64.c:12,
+                 from arch/x86/kernel/asm-offsets.c:4:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  GEN     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHECK   scripts/mod/empty.c
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/mod/modpost
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  HOSTCC  scripts/selinux/mdp/mdp
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+  HOSTCC  scripts/conmakehash
+  CHECK   init/main.c
+init/main.c:201:12: warning: symbol 'envp_init' was not declared. Should it be static?
+init/main.c:426:35: warning: context imbalance in 'rest_init' - wrong count at exit
+init/main.c:677:9: warning: context imbalance in 'start_kernel' - unexpected unlock
+init/main.c:851:9: warning: context imbalance in 'init_post' - wrong count at exit
+init/main.c:920:9: warning: context imbalance in 'kernel_init' - unexpected unlock
+  CC      init/main.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from init/main.c:16:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CHECK   init/version.c
+  CC      init/version.o
+  CHECK   init/do_mounts.c
+init/do_mounts.c:220:29: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:220:29:    expected char [noderef] <asn:1>*dev_name
+init/do_mounts.c:220:29:    got char *name
+init/do_mounts.c:220:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:220:35:    expected char [noderef] <asn:1>*dir_name
+init/do_mounts.c:220:35:    got char static *<noident>
+init/do_mounts.c:220:44: warning: incorrect type in argument 3 (different address spaces)
+init/do_mounts.c:220:44:    expected char [noderef] <asn:1>*type
+init/do_mounts.c:220:44:    got char *fs
+init/do_mounts.c:220:55: warning: incorrect type in argument 5 (different address spaces)
+init/do_mounts.c:220:55:    expected void [noderef] <asn:1>*data
+init/do_mounts.c:220:55:    got void *data
+init/do_mounts.c:224:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:224:19:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.c:224:19:    got char static *<noident>
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts.c:315:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:315:23:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.c:315:23:    got char static *<noident>
+init/do_mounts.c:321:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:321:23:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.c:321:23:    got char static *<noident>
+init/do_mounts.c:326:31: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:326:31:    expected char [noderef] <asn:1>*buf
+init/do_mounts.c:326:31:    got char *<noident>
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts.c:420:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:420:19:    expected char [noderef] <asn:1>*dev_name
+init/do_mounts.c:420:19:    got char static *<noident>
+init/do_mounts.c:420:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.c:420:24:    expected char [noderef] <asn:1>*dir_name
+init/do_mounts.c:420:24:    got char static *<noident>
+init/do_mounts.c:421:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.c:421:20:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.c:421:20:    got char static *<noident>
+  CC      init/do_mounts.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from include/linux/nfs_fs.h:41,
+                 from init/do_mounts.c:20:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   init/do_mounts_rd.c
+init/do_mounts_rd.c:80:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:80:22:    expected char [noderef] <asn:1>*buf
+init/do_mounts_rd.c:80:22:    got unsigned char *[assigned] buf
+init/do_mounts_rd.c:126:22: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:126:22:    expected char [noderef] <asn:1>*buf
+init/do_mounts_rd.c:126:22:    got unsigned char *[assigned] buf
+init/do_mounts_rd.c:171:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:171:27:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_rd.c:171:27:    got char static *<noident>
+init/do_mounts_rd.c:175:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:175:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_rd.c:175:26:    got char *from
+init/do_mounts_rd.c:244:42: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:244:42:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_rd.c:244:42:    got char *from
+init/do_mounts_rd.c:251:33: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:251:33:    expected char [noderef] <asn:1>*buf
+init/do_mounts_rd.c:251:33:    got char *[assigned] buf
+init/do_mounts_rd.c:252:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:252:35:    expected char const [noderef] <asn:1>*buf
+init/do_mounts_rd.c:252:35:    got char *[assigned] buf
+init/do_mounts_rd.c:270:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_rd.c:270:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts_rd.c:270:20:    got char static *<noident>
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts_rd.c:289:36: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:289:36:    expected char [noderef] <asn:1>*buf
+init/do_mounts_rd.c:289:36:    got void *buf
+init/do_mounts_rd.c:299:44: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_rd.c:299:44:    expected char const [noderef] <asn:1>*buf
+init/do_mounts_rd.c:299:44:    got void *window
+  CC      init/do_mounts_rd.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from include/linux/blkdev.h:12,
+                 from init/do_mounts.h:2,
+                 from init/do_mounts_rd.c:12:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   init/do_mounts_initrd.c
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts_initrd.c:47:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:47:19:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts_initrd.c:47:19:    got char static *<noident>
+init/do_mounts_initrd.c:48:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:48:28:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:48:28:    got char static *<noident>
+init/do_mounts_initrd.c:49:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:49:27:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:49:27:    got char static *<noident>
+init/do_mounts_initrd.c:51:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:51:19:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:51:19:    got char static *<noident>
+init/do_mounts_initrd.c:52:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:52:19:    expected char [noderef] <asn:1>*dev_name
+init/do_mounts_initrd.c:52:19:    got char static *<noident>
+init/do_mounts_initrd.c:52:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:52:24:    expected char [noderef] <asn:1>*dir_name
+init/do_mounts_initrd.c:52:24:    got char static *<noident>
+init/do_mounts_initrd.c:53:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:53:20:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:53:20:    got char static *<noident>
+init/do_mounts_initrd.c:70:19: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:70:19:    expected char [noderef] <asn:1>*dev_name
+init/do_mounts_initrd.c:70:19:    got char static *<noident>
+init/do_mounts_initrd.c:70:24: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:70:24:    expected char [noderef] <asn:1>*dir_name
+init/do_mounts_initrd.c:70:24:    got char static *<noident>
+init/do_mounts_initrd.c:73:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:73:20:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:73:20:    got char static *<noident>
+init/do_mounts_initrd.c:78:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:78:27:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:78:27:    got char static *<noident>
+init/do_mounts_initrd.c:86:27: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:86:27:    expected char [noderef] <asn:1>*dev_name
+init/do_mounts_initrd.c:86:27:    got char static *<noident>
+init/do_mounts_initrd.c:86:35: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts_initrd.c:86:35:    expected char [noderef] <asn:1>*dir_name
+init/do_mounts_initrd.c:86:35:    got char static *<noident>
+init/do_mounts_initrd.c:90:35: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:90:35:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_initrd.c:90:35:    got char static *<noident>
+init/do_mounts_initrd.c:96:28: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:96:28:    expected char [noderef] <asn:1>*name
+init/do_mounts_initrd.c:96:28:    got char static *<noident>
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts_initrd.c:119:36: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:119:36:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts_initrd.c:119:36:    got char static *<noident>
+init/do_mounts_initrd.c:124:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_initrd.c:124:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts_initrd.c:124:20:    got char static *<noident>
+  CC      init/do_mounts_initrd.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from include/linux/blkdev.h:12,
+                 from init/do_mounts.h:2,
+                 from init/do_mounts_initrd.c:11:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   init/do_mounts_md.c
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+init/do_mounts.h:38:25: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:38:25:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:38:25:    got char *name
+init/do_mounts.h:38:32: warning: incorrect type in argument 2 (different address spaces)
+init/do_mounts.h:38:32:    expected struct stat [noderef] <asn:1>*statbuf
+init/do_mounts.h:38:32:    got struct stat *<noident>
+init/do_mounts_md.c:173:31: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:173:31:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_md.c:173:31:    got char *<noident>
+init/do_mounts_md.c:236:39: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:236:39:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_md.c:236:39:    got char *<noident>
+init/do_mounts_md.c:286:23: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts_md.c:286:23:    expected char const [noderef] <asn:1>*filename
+init/do_mounts_md.c:286:23:    got char static *<noident>
+init/do_mounts.h:18:20: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:18:20:    expected char const [noderef] <asn:1>*pathname
+init/do_mounts.h:18:20:    got char *name
+init/do_mounts.h:19:26: warning: incorrect type in argument 1 (different address spaces)
+init/do_mounts.h:19:26:    expected char const [noderef] <asn:1>*filename
+init/do_mounts.h:19:26:    got char *name
+  CC      init/do_mounts_md.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from include/linux/blkdev.h:12,
+                 from init/do_mounts.h:2,
+                 from init/do_mounts_md.c:5:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  LD      init/mounts.o
+  CHECK   init/initramfs.c
+init/initramfs.c:112:28: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:112:28:    expected char [noderef] <asn:1>*filename
+init/initramfs.c:112:28:    got char *name
+init/initramfs.c:274:42: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:274:42:    expected char const [noderef] <asn:1>*oldname
+init/initramfs.c:274:42:    got char *old
+init/initramfs.c:274:47: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:274:47:    expected char const [noderef] <asn:1>*newname
+init/initramfs.c:274:47:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:283:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:283:27:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:283:27:    got char *path
+init/initramfs.c:283:34: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:283:34:    expected struct stat [noderef] <asn:1>*statbuf
+init/initramfs.c:283:34:    got struct stat *<noident>
+init/initramfs.c:285:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:285:35:    expected char const [noderef] <asn:1>*pathname
+init/initramfs.c:285:35:    got char *path
+init/initramfs.c:287:36: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:287:36:    expected char const [noderef] <asn:1>*pathname
+init/initramfs.c:287:36:    got char *path
+init/initramfs.c:308:40: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:308:40:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:308:40:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:320:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:320:27:    expected char const [noderef] <asn:1>*pathname
+init/initramfs.c:320:27:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:321:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:321:27:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:321:27:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:322:27: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:322:27:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:322:27:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:327:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:327:35:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:327:35:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:328:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:328:35:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:328:35:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:329:35: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:329:35:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:329:35:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:330:34: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:330:34:    expected char [noderef] <asn:1>*filename
+init/initramfs.c:330:34:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:339:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:339:32:    expected char const [noderef] <asn:1>*buf
+init/initramfs.c:339:32:    got char *static [toplevel] [assigned] victim
+init/initramfs.c:341:26: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:341:26:    expected char [noderef] <asn:1>*filename
+init/initramfs.c:341:26:    got char *static [toplevel] [assigned] vcollected
+init/initramfs.c:347:32: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:347:32:    expected char const [noderef] <asn:1>*buf
+init/initramfs.c:347:32:    got char *static [toplevel] [assigned] victim
+init/initramfs.c:358:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:358:31:    expected char const [noderef] <asn:1>*old
+init/initramfs.c:358:31:    got char *
+init/initramfs.c:358:52: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:358:52:    expected char const [noderef] <asn:1>*new
+init/initramfs.c:358:52:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:359:20: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:359:20:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:359:20:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:360:18: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:360:18:    expected char [noderef] <asn:1>*filename
+init/initramfs.c:360:18:    got char *static [toplevel] [assigned] collected
+init/initramfs.c:531:23: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:531:23:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:531:23:    got char static *<noident>
+init/initramfs.c:543:34: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:543:34:    expected struct linux_dirent64 [noderef] <asn:1>*dirent
+init/initramfs.c:543:34:    got struct linux_dirent64 *[assigned] dirp
+init/initramfs.c:549:44: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:549:44:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:549:44:    got char *<noident>
+init/initramfs.c:549:59: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:549:59:    expected struct stat [noderef] <asn:1>*statbuf
+init/initramfs.c:549:59:    got struct stat *<noident>
+init/initramfs.c:553:51: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:553:51:    expected char const [noderef] <asn:1>*pathname
+init/initramfs.c:553:51:    got char *<noident>
+init/initramfs.c:555:52: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:555:52:    expected char const [noderef] <asn:1>*pathname
+init/initramfs.c:555:52:    got char *<noident>
+init/initramfs.c:563:42: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:563:42:    expected struct linux_dirent64 [noderef] <asn:1>*dirent
+init/initramfs.c:563:42:    got struct linux_dirent64 *[assigned] dirp
+init/initramfs.c:593:31: warning: incorrect type in argument 1 (different address spaces)
+init/initramfs.c:593:31:    expected char const [noderef] <asn:1>*filename
+init/initramfs.c:593:31:    got char static *<noident>
+init/initramfs.c:595:40: warning: incorrect type in argument 2 (different address spaces)
+init/initramfs.c:595:40:    expected char const [noderef] <asn:1>*buf
+init/initramfs.c:595:40:    got char *<noident>
+  CC      init/initramfs.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from init/initramfs.c:9:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   init/calibrate.c
+  CC      init/calibrate.o
+  LD      init/built-in.o
+  HOSTCC  usr/gen_init_cpio
+  GEN     usr/initramfs_data.cpio
+  AS      usr/initramfs_data.o
+  LD      usr/built-in.o
+  LD      arch/x86/crypto/built-in.o
+  AS      arch/x86/ia32/ia32entry.o
+  CHECK   arch/x86/ia32/sys_ia32.c
+arch/x86/ia32/sys_ia32.c:339:38: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/ia32/sys_ia32.c:339:38:    expected unsigned int [noderef] [usertype] <asn:1>*stat_addr
+arch/x86/ia32/sys_ia32.c:339:38:    got unsigned int *stat_addr
+arch/x86/ia32/sys_ia32.c:232:62: warning: invalid access past the end of 'old_ka' (32 32)
+arch/x86/ia32/sys_ia32.c:229:62: warning: invalid access past the end of 'old_ka' (40 32)
+arch/x86/ia32/sys_ia32.c:226:62: warning: invalid access past the end of 'old_ka' (48 32)
+arch/x86/ia32/sys_ia32.c:211:52: warning: invalid access past the end of 'set32' (12 8)
+arch/x86/ia32/sys_ia32.c:210:61: warning: invalid access past the end of 'set32' (8 8)
+arch/x86/ia32/sys_ia32.c:209:52: warning: invalid access past the end of 'set32' (20 8)
+arch/x86/ia32/sys_ia32.c:208:61: warning: invalid access past the end of 'set32' (16 8)
+arch/x86/ia32/sys_ia32.c:207:52: warning: invalid access past the end of 'set32' (28 8)
+arch/x86/ia32/sys_ia32.c:206:61: warning: invalid access past the end of 'set32' (24 8)
+arch/x86/ia32/sys_ia32.c:322:44: warning: invalid access past the end of 's' (8 8)
+arch/x86/ia32/sys_ia32.c:321:44: warning: invalid access past the end of 's' (16 8)
+arch/x86/ia32/sys_ia32.c:320:44: warning: invalid access past the end of 's' (24 8)
+arch/x86/ia32/sys_ia32.c:306:64: warning: invalid access past the end of 's32' (12 8)
+arch/x86/ia32/sys_ia32.c:306:43: warning: invalid access past the end of 's32' (8 8)
+arch/x86/ia32/sys_ia32.c:305:64: warning: invalid access past the end of 's32' (20 8)
+arch/x86/ia32/sys_ia32.c:305:43: warning: invalid access past the end of 's32' (16 8)
+arch/x86/ia32/sys_ia32.c:304:64: warning: invalid access past the end of 's32' (28 8)
+arch/x86/ia32/sys_ia32.c:304:43: warning: invalid access past the end of 's32' (24 8)
+arch/x86/ia32/sys_ia32.c:379:44: warning: invalid access past the end of 's' (8 8)
+arch/x86/ia32/sys_ia32.c:378:44: warning: invalid access past the end of 's' (16 8)
+arch/x86/ia32/sys_ia32.c:377:44: warning: invalid access past the end of 's' (24 8)
+  CC      arch/x86/ia32/sys_ia32.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from arch/x86/ia32/sys_ia32.c:28:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/ia32/ia32_signal.c
+arch/x86/ia32/ia32_signal.c:170:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/ia32/ia32_signal.c:170:38:    expected struct sigaltstack const [noderef] [usertype] <asn:1>*<noident>
+arch/x86/ia32/ia32_signal.c:170:38:    got struct sigaltstack *
+arch/x86/ia32/ia32_signal.c:170:54: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/ia32/ia32_signal.c:170:54:    expected struct sigaltstack [noderef] [usertype] <asn:1>*<noident>
+arch/x86/ia32/ia32_signal.c:170:54:    got struct sigaltstack *<noident>
+arch/x86/ia32/ia32_signal.c:399:43: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/ia32/ia32_signal.c:399:43:    expected void [noderef] <asn:1>*buf
+arch/x86/ia32/ia32_signal.c:399:43:    got void *<noident>
+arch/x86/ia32/ia32_signal.c:429:57: warning: incorrect type in argument 4 (different address spaces)
+arch/x86/ia32/ia32_signal.c:429:57:    expected void **fpstate
+arch/x86/ia32/ia32_signal.c:429:57:    got void [noderef] <asn:1>**<noident>
+arch/x86/ia32/ia32_signal.c:451:34: warning: incorrect type in assignment (different address spaces)
+arch/x86/ia32/ia32_signal.c:451:34:    expected void [noderef] <asn:1>*[assigned] restorer
+arch/x86/ia32/ia32_signal.c:451:34:    got void *<noident>
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/ia32/ia32_signal.c:464:17:    expected void const volatile [noderef] <asn:1>*<noident>
+arch/x86/ia32/ia32_signal.c:464:17:    got unsigned long long [usertype] *<noident>
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:464:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:410:5: warning: symbol 'ia32_setup_frame' was not declared. Should it be static?
+arch/x86/ia32/ia32_signal.c:509:57: warning: incorrect type in argument 4 (different address spaces)
+arch/x86/ia32/ia32_signal.c:509:57:    expected void **fpstate
+arch/x86/ia32/ia32_signal.c:509:57:    got void [noderef] <asn:1>**<noident>
+arch/x86/ia32/ia32_signal.c:537:34: warning: incorrect type in assignment (different address spaces)
+arch/x86/ia32/ia32_signal.c:537:34:    expected void [noderef] <asn:1>*[assigned] restorer
+arch/x86/ia32/ia32_signal.c:537:34:    got void *<noident>
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/ia32/ia32_signal.c:545:17:    expected void const volatile [noderef] <asn:1>*<noident>
+arch/x86/ia32/ia32_signal.c:545:17:    got unsigned long long [usertype] *<noident>
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:545:17: warning: cast removes address space of expression
+arch/x86/ia32/ia32_signal.c:488:5: warning: symbol 'ia32_setup_rt_frame' was not declared. Should it be static?
+  CC      arch/x86/ia32/ia32_signal.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/ia32/ia32_signal.c:26:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/ia32/ipc32.c
+  CC      arch/x86/ia32/ipc32.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from arch/x86/ia32/ipc32.c:4:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/ia32/audit.c
+arch/x86/ia32/audit.c:3:10: warning: symbol 'ia32_dir_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:8:10: warning: symbol 'ia32_chattr_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:13:10: warning: symbol 'ia32_write_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:18:10: warning: symbol 'ia32_read_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:23:10: warning: symbol 'ia32_signal_class' was not declared. Should it be static?
+arch/x86/ia32/audit.c:28:5: warning: symbol 'ia32_classify_syscall' was not declared. Should it be static?
+  CC      arch/x86/ia32/audit.o
+  LD      arch/x86/ia32/built-in.o
+  CHECK   arch/x86/kernel/process_64.c
+arch/x86/kernel/process_64.c:58:1: warning: symbol 'old_rsp' was not declared. Should it be static?
+  CC      arch/x86/kernel/process_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/process_64.c:28:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/signal.c
+  CC      arch/x86/kernel/signal.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/kernel/signal.c:26:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  AS      arch/x86/kernel/entry_64.o
+  CHECK   arch/x86/kernel/traps.c
+arch/x86/kernel/traps.c:717:39: warning: symbol 'smp_threshold_interrupt' was not declared. Should it be static?
+  CC      arch/x86/kernel/traps.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/traps.c:12:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/irq.c
+  CC      arch/x86/kernel/irq.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/irq.c:5:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/irq_64.c
+  CC      arch/x86/kernel/irq_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from arch/x86/kernel/irq_64.c:11:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/dumpstack_64.c
+  CC      arch/x86/kernel/dumpstack_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/dumpstack_64.c:8:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/time.c
+arch/x86/kernel/time.c:95:13: warning: symbol 'setup_default_timer_irq' was not declared. Should it be static?
+  CC      arch/x86/kernel/time.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/time.c:13:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/ioport.c
+  CC      arch/x86/kernel/ioport.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from arch/x86/kernel/ioport.c:16:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/ldt.c
+  CC      arch/x86/kernel/ldt.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from /cmpt816/linux/arch/x86/include/asm/mmu_context.h:6,
+                 from arch/x86/kernel/ldt.c:21:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/dumpstack.c
+  CC      arch/x86/kernel/dumpstack.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/dumpstack.c:9:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/setup.c
+arch/x86/kernel/setup.c:362:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:362:19:    expected char *[assigned] p
+arch/x86/kernel/setup.c:362:19:    got void [noderef] <asn:2>*
+arch/x86/kernel/setup.c:364:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:364:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/setup.c:364:31:    got char *[assigned] p
+arch/x86/kernel/setup.c:433:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:433:22:    expected struct setup_data *data
+arch/x86/kernel/setup.c:433:22:    got void [noderef] <asn:2>*
+arch/x86/kernel/setup.c:442:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:442:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/setup.c:442:31:    got struct setup_data *data
+arch/x86/kernel/setup.c:456:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:456:22:    expected struct setup_data *data
+arch/x86/kernel/setup.c:456:22:    got void [noderef] <asn:2>*
+arch/x86/kernel/setup.c:461:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:461:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/setup.c:461:31:    got struct setup_data *data
+arch/x86/kernel/setup.c:482:22: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/setup.c:482:22:    expected struct setup_data *data
+arch/x86/kernel/setup.c:482:22:    got void [noderef] <asn:2>*
+arch/x86/kernel/setup.c:486:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/setup.c:486:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/setup.c:486:31:    got struct setup_data *data
+  CC      arch/x86/kernel/setup.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/efi.h:19,
+                 from arch/x86/kernel/setup.c:40:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/x86_init.c
+arch/x86/kernel/x86_init.c:25:13: warning: symbol 'x86_init_pgd_noop' was not declared. Should it be static?
+arch/x86/kernel/x86_init.c:26:12: warning: symbol 'iommu_init_noop' was not declared. Should it be static?
+arch/x86/kernel/x86_init.c:27:6: warning: symbol 'iommu_shutdown_noop' was not declared. Should it be static?
+  CC      arch/x86/kernel/x86_init.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/mc146818rtc.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/mc146818rtc.h:10,
+                 from /cmpt816/linux/arch/x86/include/asm/time.h:6,
+                 from arch/x86/kernel/x86_init.c:17:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/i8259.c
+arch/x86/kernel/i8259.c:389:19: warning: symbol 'default_legacy_pic' was not declared. Should it be static?
+  CC      arch/x86/kernel/i8259.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/i8259.c:6:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/irqinit.c
+arch/x86/kernel/irqinit.c:125:13: warning: symbol 'init_IRQ' was not declared. Should it be static?
+  CC      arch/x86/kernel/irqinit.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/irqinit.c:6:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/sys_x86_64.c
+  CC      arch/x86/kernel/sys_x86_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/ftrace_event.h:7,
+                 from include/trace/syscall.h:6,
+                 from include/linux/syscalls.h:76,
+                 from arch/x86/kernel/sys_x86_64.c:3:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/x8664_ksyms_64.c
+  CC      arch/x86/kernel/x8664_ksyms_64.o
+  CHECK   arch/x86/kernel/syscall_64.c
+arch/x86/kernel/syscall_64.c:22:22: warning: symbol 'sys_call_table' was not declared. Should it be static?
+arch/x86/kernel/syscall_64.c:27:10: warning: Initializer entry defined twice
+/cmpt816/linux/arch/x86/include/asm/unistd_64.h:16:1:   also defined here
+  CC      arch/x86/kernel/syscall_64.o
+  CHECK   arch/x86/kernel/vsyscall_64.c
+arch/x86/kernel/vsyscall_64.c:159:19: warning: symbol 'vgettimeofday' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:170:22: warning: symbol 'vtime' was not declared. Should it be static?
+arch/x86/kernel/vsyscall_64.c:198:1: warning: symbol 'vgetcpu' was not declared. Should it be static?
+  CC      arch/x86/kernel/vsyscall_64.o
+  CHECK   arch/x86/kernel/bootflag.c
+  CC      arch/x86/kernel/bootflag.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/mc146818rtc.h:15,
+                 from arch/x86/kernel/bootflag.c:12:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/e820.c
+arch/x86/kernel/e820.c:677:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/e820.c:677:23:    expected struct setup_data *sdata
+arch/x86/kernel/e820.c:677:23:    got void [noderef] <asn:2>*
+arch/x86/kernel/e820.c:682:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/e820.c:682:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/e820.c:682:31:    got struct setup_data *sdata
+  CC      arch/x86/kernel/e820.o
+  CHECK   arch/x86/kernel/pci-dma.c
+  CC      arch/x86/kernel/pci-dma.o
+  CHECK   arch/x86/kernel/quirks.c
+  CC      arch/x86/kernel/quirks.o
+In file included from arch/x86/kernel/quirks.c:5:0:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/i8237.c
+  CC      arch/x86/kernel/i8237.o
+  CHECK   arch/x86/kernel/topology.c
+  CC      arch/x86/kernel/topology.o
+  CHECK   arch/x86/kernel/kdebugfs.c
+arch/x86/kernel/kdebugfs.c:52:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:52:19:    expected void *p
+arch/x86/kernel/kdebugfs.c:52:19:    got void [noderef] <asn:2>*
+arch/x86/kernel/kdebugfs.c:61:25: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kdebugfs.c:61:25:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/kdebugfs.c:61:25:    got void *[assigned] p
+arch/x86/kernel/kdebugfs.c:135:30: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/kdebugfs.c:135:30:    expected struct setup_data *data
+arch/x86/kernel/kdebugfs.c:135:30:    got void [noderef] <asn:2>*
+arch/x86/kernel/kdebugfs.c:151:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/kdebugfs.c:151:33:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/kdebugfs.c:151:33:    got struct setup_data *[assigned] data
+  CC      arch/x86/kernel/kdebugfs.o
+  CHECK   arch/x86/kernel/alternative.c
+  CC      arch/x86/kernel/alternative.o
+  CHECK   arch/x86/kernel/i8253.c
+  CC      arch/x86/kernel/i8253.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/i8253.c:6:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/pci-nommu.c
+  CC      arch/x86/kernel/pci-nommu.o
+  CHECK   arch/x86/kernel/hw_breakpoint.c
+  CC      arch/x86/kernel/hw_breakpoint.o
+  CHECK   arch/x86/kernel/tsc.c
+  CC      arch/x86/kernel/tsc.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from /cmpt816/linux/arch/x86/include/asm/hpet.h:93,
+                 from arch/x86/kernel/tsc.c:14:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/io_delay.c
+  CC      arch/x86/kernel/io_delay.o
+  CHECK   arch/x86/kernel/rtc.c
+  CC      arch/x86/kernel/rtc.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/mc146818rtc.h:15,
+                 from arch/x86/kernel/rtc.c:5:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/trampoline.c
+  CC      arch/x86/kernel/trampoline.o
+  CHECK   arch/x86/kernel/process.c
+  CC      arch/x86/kernel/process.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/kernel/process.c:22:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/i387.c
+  CC      arch/x86/kernel/i387.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/kernel/i387.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/xsave.c
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/xsave.c:133:15:    expected void const volatile [noderef] <asn:1>*<noident>
+arch/x86/kernel/xsave.c:133:15:    got unsigned int [usertype] *<noident>
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+arch/x86/kernel/xsave.c:133:15: warning: cast removes address space of expression
+  CC      arch/x86/kernel/xsave.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/kernel/xsave.c:8:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/ptrace.c
+include/trace/events/syscalls.h:19:1: warning: incorrect type in initializer (different address spaces)
+include/trace/events/syscalls.h:19:1:    expected void const [noderef] <asn:3>*__vpp_verify
+include/trace/events/syscalls.h:19:1:    got struct hlist_head *<noident>
+include/trace/events/syscalls.h:43:1: warning: incorrect type in initializer (different address spaces)
+include/trace/events/syscalls.h:43:1:    expected void const [noderef] <asn:3>*__vpp_verify
+include/trace/events/syscalls.h:43:1:    got struct hlist_head *<noident>
+arch/x86/kernel/ptrace.c:735:5: warning: symbol 'ptrace_set_debugreg' was not declared. Should it be static?
+  CC      arch/x86/kernel/ptrace.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from /cmpt816/linux/arch/x86/include/asm/i387.h:16,
+                 from arch/x86/kernel/ptrace.c:29:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/tls.c
+  CC      arch/x86/kernel/tls.o
+  CHECK   arch/x86/kernel/step.c
+  CC      arch/x86/kernel/step.o
+  CHECK   arch/x86/kernel/stacktrace.c
+  CC      arch/x86/kernel/stacktrace.o
+  CHECK   arch/x86/kernel/acpi/boot.c
+arch/x86/kernel/acpi/boot.c:160:29: warning: incorrect type in return expression (different address spaces)
+arch/x86/kernel/acpi/boot.c:160:29:    expected char *
+arch/x86/kernel/acpi/boot.c:160:29:    got void [noderef] <asn:2>*
+arch/x86/kernel/acpi/boot.c:167:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/acpi/boot.c:167:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/acpi/boot.c:167:23:    got char *map
+  CC      arch/x86/kernel/acpi/boot.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/efi.h:19,
+                 from arch/x86/kernel/acpi/boot.c:29:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/acpi/sleep.c
+  CC      arch/x86/kernel/acpi/sleep.o
+  LDS     arch/x86/kernel/acpi/realmode/wakeup.lds
+  AS      arch/x86/kernel/acpi/realmode/wakeup.o
+  CHECK   arch/x86/kernel/acpi/realmode/wakemain.c
+  CC      arch/x86/kernel/acpi/realmode/wakemain.o
+  CHECK   arch/x86/kernel/acpi/realmode/video-mode.c
+  CC      arch/x86/kernel/acpi/realmode/video-mode.o
+  AS      arch/x86/kernel/acpi/realmode/copy.o
+  AS      arch/x86/kernel/acpi/realmode/bioscall.o
+  CHECK   arch/x86/kernel/acpi/realmode/regs.c
+  CC      arch/x86/kernel/acpi/realmode/regs.o
+  CHECK   arch/x86/kernel/acpi/realmode/video-vga.c
+  CC      arch/x86/kernel/acpi/realmode/video-vga.o
+  CHECK   arch/x86/kernel/acpi/realmode/video-vesa.c
+  CC      arch/x86/kernel/acpi/realmode/video-vesa.o
+  CHECK   arch/x86/kernel/acpi/realmode/video-bios.c
+  CC      arch/x86/kernel/acpi/realmode/video-bios.o
+  LD      arch/x86/kernel/acpi/realmode/wakeup.elf
+  OBJCOPY arch/x86/kernel/acpi/realmode/wakeup.bin
+  AS      arch/x86/kernel/acpi/wakeup_rm.o
+  AS      arch/x86/kernel/acpi/wakeup_64.o
+  CHECK   arch/x86/kernel/acpi/cstate.c
+  CC      arch/x86/kernel/acpi/cstate.o
+  LD      arch/x86/kernel/acpi/built-in.o
+  CHECK   arch/x86/kernel/apic/apic.c
+arch/x86/kernel/apic/apic.c:1369:12: warning: symbol 'enable_IR' was not declared. Should it be static?
+arch/x86/kernel/apic/apic.c:1933:6: warning: symbol 'default_init_apic_ldr' was not declared. Should it be static?
+  CC      arch/x86/kernel/apic/apic.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from arch/x86/kernel/apic/apic.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+In file included from arch/x86/kernel/apic/apic.c:30:0:
+arch/x86/kernel/apic/apic.c: In function ‘lapic_suspend’:
+include/linux/dmar.h:182:34: warning: statement with no effect [-Wunused-value]
+ #define disable_intr_remapping() (0)
+                                  ^
+arch/x86/kernel/apic/apic.c:2014:3: note: in expansion of macro ‘disable_intr_remapping’
+   disable_intr_remapping();
+   ^
+arch/x86/kernel/apic/apic.c: In function ‘lapic_resume’:
+include/linux/dmar.h:183:39: warning: statement with no effect [-Wunused-value]
+ #define reenable_intr_remapping(mode) (0)
+                                       ^
+arch/x86/kernel/apic/apic.c:2091:3: note: in expansion of macro ‘reenable_intr_remapping’
+   reenable_intr_remapping(x2apic_mode);
+   ^
+  CHECK   arch/x86/kernel/apic/apic_noop.c
+arch/x86/kernel/apic/apic_noop.c:116:5: warning: symbol 'noop_apicid_to_node' was not declared. Should it be static?
+  CC      arch/x86/kernel/apic/apic_noop.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/apic/apic_noop.c:29:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/apic/probe_64.c
+  CC      arch/x86/kernel/apic/probe_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/apic/probe_64.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/apic/ipi.c
+  CC      arch/x86/kernel/apic/ipi.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/apic/ipi.c:2:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/apic/nmi.c
+  CC      arch/x86/kernel/apic/nmi.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/apic/nmi.c:19:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/apic/io_apic.c
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:392:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:392:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:392:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:586:17: warning: incorrect type in assignment (different modifiers)
+arch/x86/kernel/apic/io_apic.c:586:17:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:586:17:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:699:24: warning: Using plain integer as NULL pointer
+arch/x86/kernel/apic/io_apic.c:716:16: warning: Using plain integer as NULL pointer
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:392:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:392:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:392:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:366:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:366:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:366:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:366:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:366:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:366:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:379:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:379:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:379:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:372:55: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/apic/io_apic.c:372:55:    expected struct io_apic [noderef] <asn:2>*io_apic
+arch/x86/kernel/apic/io_apic.c:372:55:    got struct io_apic [noderef] [pure] <asn:2>*
+arch/x86/kernel/apic/io_apic.c:1126:6: warning: context imbalance in 'lock_vector_lock' - wrong count at exit
+arch/x86/kernel/apic/io_apic.c:1134:6: warning: context imbalance in 'unlock_vector_lock' - unexpected unlock
+  CC      arch/x86/kernel/apic/io_apic.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/apic/io_apic.c:24:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/apic/apic_flat_64.c
+  CC      arch/x86/kernel/apic/apic_flat_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/apic/apic_flat_64.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  LD      arch/x86/kernel/apic/built-in.o
+  CHECK   arch/x86/kernel/cpu/intel_cacheinfo.c
+arch/x86/kernel/cpu/intel_cacheinfo.c:406:5: warning: symbol 'amd_get_l3_disable_slot' was not declared. Should it be static?
+arch/x86/kernel/cpu/intel_cacheinfo.c:483:5: warning: symbol 'amd_set_l3_disable_slot' was not declared. Should it be static?
+  CC      arch/x86/kernel/cpu/intel_cacheinfo.o
+  CHECK   arch/x86/kernel/cpu/scattered.c
+  CC      arch/x86/kernel/cpu/scattered.o
+  CHECK   arch/x86/kernel/cpu/topology.c
+  CC      arch/x86/kernel/cpu/topology.o
+  CHECK   arch/x86/kernel/cpu/proc.c
+  CC      arch/x86/kernel/cpu/proc.o
+  MKCAP   arch/x86/kernel/cpu/capflags.c
+  CHECK   arch/x86/kernel/cpu/capflags.c
+  CC      arch/x86/kernel/cpu/capflags.o
+  CHECK   arch/x86/kernel/cpu/powerflags.c
+  CC      arch/x86/kernel/cpu/powerflags.o
+  CHECK   arch/x86/kernel/cpu/common.c
+arch/x86/kernel/cpu/common.c:1181:33: warning: incorrect type in initializer (different modifiers)
+arch/x86/kernel/cpu/common.c:1181:33:    expected char *estacks
+arch/x86/kernel/cpu/common.c:1181:33:    got char [noderef] *<noident>
+arch/x86/kernel/cpu/common.c:1048:9: warning: cast truncates bits from constant value (23001000000000 becomes 0)
+  CC      arch/x86/kernel/cpu/common.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/serial_core.h:202,
+                 from include/linux/serial_8250.h:14,
+                 from include/linux/kgdb.h:16,
+                 from arch/x86/kernel/cpu/common.c:11:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/cpu/vmware.c
+  CC      arch/x86/kernel/cpu/vmware.o
+  CHECK   arch/x86/kernel/cpu/hypervisor.c
+  CC      arch/x86/kernel/cpu/hypervisor.o
+  CHECK   arch/x86/kernel/cpu/sched.c
+arch/x86/kernel/cpu/sched.c:28:15: warning: symbol 'arch_scale_freq_power' was not declared. Should it be static?
+arch/x86/kernel/cpu/sched.c:44:15: warning: symbol 'arch_scale_smt_power' was not declared. Should it be static?
+  CC      arch/x86/kernel/cpu/sched.o
+  CHECK   arch/x86/kernel/cpu/mshyperv.c
+  CC      arch/x86/kernel/cpu/mshyperv.o
+  CHECK   arch/x86/kernel/cpu/bugs_64.c
+  CC      arch/x86/kernel/cpu/bugs_64.o
+  CHECK   arch/x86/kernel/cpu/intel.c
+  CC      arch/x86/kernel/cpu/intel.o
+  CHECK   arch/x86/kernel/cpu/amd.c
+  CC      arch/x86/kernel/cpu/amd.o
+  CHECK   arch/x86/kernel/cpu/centaur.c
+  CC      arch/x86/kernel/cpu/centaur.o
+  CHECK   arch/x86/kernel/cpu/perf_event.c
+arch/x86/kernel/cpu/perf_event_p6.c:32:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:33:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:34:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:35:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:36:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:37:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_p6.c:38:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:179:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:280:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:281:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:282:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:283:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:284:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:285:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:286:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:287:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:288:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:289:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:293:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:294:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:295:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:296:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:297:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:298:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:299:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:300:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:301:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel_ds.c:302:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:19:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:20:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:21:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:22:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:23:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:24:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:25:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:30:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:31:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:38:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:39:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:40:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:41:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:42:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:43:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:44:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:45:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:46:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:47:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:48:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:53:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:54:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:56:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:57:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:58:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:59:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:60:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:61:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:62:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:63:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:64:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:69:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:70:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:72:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:73:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:74:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:75:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:76:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:81:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:82:9: error: bad integer constant expression
+arch/x86/kernel/cpu/perf_event_intel.c:84:9: error: bad integer constant expression
+  CC      arch/x86/kernel/cpu/perf_event.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/cpu/perf_event.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+arch/x86/kernel/cpu/perf_event.c: In function ‘x86_pmu_enable’:
+arch/x86/kernel/cpu/perf_event.c:967:24: warning: variable ‘hwc’ set but not used [-Wunused-but-set-variable]
+  struct hw_perf_event *hwc;
+                        ^
+arch/x86/kernel/cpu/perf_event.c: In function ‘x86_pmu_handle_irq’:
+arch/x86/kernel/cpu/perf_event.c:1137:24: warning: variable ‘hwc’ set but not used [-Wunused-but-set-variable]
+  struct hw_perf_event *hwc;
+                        ^
+  CHECK   arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c
+  CC      arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.o
+  CHECK   arch/x86/kernel/cpu/cpufreq/mperf.c
+  CC      arch/x86/kernel/cpu/cpufreq/mperf.o
+  LD      arch/x86/kernel/cpu/cpufreq/built-in.o
+  CHECK   arch/x86/kernel/cpu/mcheck/mce.c
+include/trace/events/mce.h:11:1: warning: incorrect type in initializer (different address spaces)
+include/trace/events/mce.h:11:1:    expected void const [noderef] <asn:3>*__vpp_verify
+include/trace/events/mce.h:11:1:    got struct hlist_head *<noident>
+arch/x86/kernel/cpu/mcheck/mce.c:477:17: warning: symbol 'smp_mce_self_interrupt' was not declared. Should it be static?
+  CC      arch/x86/kernel/cpu/mcheck/mce.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/cpu/mcheck/mce.c:13:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/cpu/mcheck/mce-severity.c
+  CC      arch/x86/kernel/cpu/mcheck/mce-severity.o
+  CHECK   arch/x86/kernel/cpu/mcheck/mce_intel.c
+  CC      arch/x86/kernel/cpu/mcheck/mce_intel.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/cpu/mcheck/mce_intel.c:10:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/cpu/mcheck/mce_amd.c
+  CC      arch/x86/kernel/cpu/mcheck/mce_amd.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/cpu/mcheck/mce_amd.c:16:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/cpu/mcheck/threshold.c
+arch/x86/kernel/cpu/mcheck/threshold.c:20:17: warning: symbol 'smp_threshold_interrupt' was not declared. Should it be static?
+  CC      arch/x86/kernel/cpu/mcheck/threshold.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/cpu/mcheck/threshold.c:4:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/cpu/mcheck/therm_throt.c
+arch/x86/kernel/cpu/mcheck/therm_throt.c:360:17: warning: symbol 'smp_thermal_interrupt' was not declared. Should it be static?
+  CC      arch/x86/kernel/cpu/mcheck/therm_throt.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/cpu/mcheck/therm_throt.c:16:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  LD      arch/x86/kernel/cpu/mcheck/built-in.o
+  CHECK   arch/x86/kernel/cpu/mtrr/main.c
+  CC      arch/x86/kernel/cpu/mtrr/main.o
+  CHECK   arch/x86/kernel/cpu/mtrr/if.c
+  CC      arch/x86/kernel/cpu/mtrr/if.o
+  CHECK   arch/x86/kernel/cpu/mtrr/generic.c
+  CC      arch/x86/kernel/cpu/mtrr/generic.o
+  CHECK   arch/x86/kernel/cpu/mtrr/cleanup.c
+  CC      arch/x86/kernel/cpu/mtrr/cleanup.o
+  LD      arch/x86/kernel/cpu/mtrr/built-in.o
+  CHECK   arch/x86/kernel/cpu/perfctr-watchdog.c
+  CC      arch/x86/kernel/cpu/perfctr-watchdog.o
+  LD      arch/x86/kernel/cpu/built-in.o
+  CHECK   arch/x86/kernel/reboot.c
+  CC      arch/x86/kernel/reboot.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/efi.h:19,
+                 from arch/x86/kernel/reboot.c:5:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/msr.c
+  CC      arch/x86/kernel/msr.o
+  CHECK   arch/x86/kernel/cpuid.c
+  CC      arch/x86/kernel/cpuid.o
+  CHECK   arch/x86/kernel/early-quirks.c
+  CC      arch/x86/kernel/early-quirks.o
+  CHECK   arch/x86/kernel/smp.c
+arch/x86/kernel/smp.c:154:17: warning: symbol 'smp_reboot_interrupt' was not declared. Should it be static?
+  CC      arch/x86/kernel/smp.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from arch/x86/kernel/smp.c:19:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/smpboot.c
+arch/x86/kernel/smpboot.c:100:30: warning: non-ANSI function declaration of function 'cpu_hotplug_driver_lock'
+arch/x86/kernel/smpboot.c:105:32: warning: non-ANSI function declaration of function 'cpu_hotplug_driver_unlock'
+arch/x86/kernel/smpboot.c:1166:6: warning: symbol 'arch_enable_nonboot_cpus_begin' was not declared. Should it be static?
+arch/x86/kernel/smpboot.c:1171:6: warning: symbol 'arch_enable_nonboot_cpus_end' was not declared. Should it be static?
+  CC      arch/x86/kernel/smpboot.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/mc146818rtc.h:15,
+                 from arch/x86/kernel/smpboot.c:69:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/tsc_sync.c
+  CC      arch/x86/kernel/tsc_sync.o
+  CHECK   arch/x86/kernel/setup_percpu.c
+  CC      arch/x86/kernel/setup_percpu.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from /cmpt816/linux/arch/x86/include/asm/highmem.h:23,
+                 from arch/x86/kernel/setup_percpu.c:18:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  AS      arch/x86/kernel/trampoline_64.o
+  CHECK   arch/x86/kernel/mpparse.c
+arch/x86/kernel/mpparse.c:539:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:539:13:    expected struct mpc_table *mpc
+arch/x86/kernel/mpparse.c:539:13:    got void [noderef] <asn:2>*
+arch/x86/kernel/mpparse.c:541:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:541:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/mpparse.c:541:23:    got struct mpc_table *mpc
+arch/x86/kernel/mpparse.c:553:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/mpparse.c:553:13:    expected struct mpc_table *mpc
+arch/x86/kernel/mpparse.c:553:13:    got void [noderef] <asn:2>*
+arch/x86/kernel/mpparse.c:564:31: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:564:31:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/mpparse.c:564:31:    got struct mpc_table *mpc
+arch/x86/kernel/mpparse.c:567:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/mpparse.c:567:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/mpparse.c:567:23:    got struct mpc_table *mpc
+  CC      arch/x86/kernel/mpparse.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/kernel_stat.h:8,
+                 from arch/x86/kernel/mpparse.c:14:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/machine_kexec_64.c
+  CC      arch/x86/kernel/machine_kexec_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from /cmpt816/linux/arch/x86/include/asm/mmu_context.h:6,
+                 from arch/x86/kernel/machine_kexec_64.c:21:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  AS      arch/x86/kernel/relocate_kernel_64.o
+  CHECK   arch/x86/kernel/crash.c
+  CC      arch/x86/kernel/crash.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from arch/x86/kernel/crash.c:21:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/crash_dump_64.c
+arch/x86/kernel/crash_dump_64.c:37:15: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/crash_dump_64.c:37:15:    expected void *vaddr
+arch/x86/kernel/crash_dump_64.c:37:15:    got void [noderef] <asn:2>*
+arch/x86/kernel/crash_dump_64.c:42:34: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:42:34:    expected void [noderef] <asn:1>*dst
+arch/x86/kernel/crash_dump_64.c:42:34:    got char *buf
+arch/x86/kernel/crash_dump_64.c:43:33: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:43:33:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/crash_dump_64.c:43:33:    got void *vaddr
+arch/x86/kernel/crash_dump_64.c:49:17: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/crash_dump_64.c:49:17:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/crash_dump_64.c:49:17:    got void *vaddr
+  CC      arch/x86/kernel/crash_dump_64.o
+  CHECK   arch/x86/kernel/kprobes.c
+arch/x86/kernel/kprobes.c:1132:16: warning: symbol 'kprobes_optinsn_template_holder' was not declared. Should it be static?
+  CC      arch/x86/kernel/kprobes.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from arch/x86/kernel/kprobes.c:47:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/module.c
+  CC      arch/x86/kernel/module.o
+  CHECK   arch/x86/kernel/efi.c
+arch/x86/kernel/efi.c:334:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:334:20:    expected struct efi_system_table_t [usertype] *extern [addressable] [toplevel] systab
+arch/x86/kernel/efi.c:334:20:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:339:26: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:339:26:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/efi.c:339:26:    got struct efi_system_table_t [usertype] *extern [addressable] [toplevel] systab
+arch/x86/kernel/efi.c:356:19: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:356:19:    expected void *tmp
+arch/x86/kernel/efi.c:356:19:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:363:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:363:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/efi.c:363:23:    got void *tmp
+arch/x86/kernel/efi.c:372:23: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:372:23:    expected struct efi_config_table_t [usertype] *config_tables
+arch/x86/kernel/efi.c:372:23:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:412:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:412:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/efi.c:412:23:    got struct efi_config_table_t [usertype] *config_tables
+arch/x86/kernel/efi.c:421:17: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:421:17:    expected struct efi_runtime_services_t [usertype] *runtime
+arch/x86/kernel/efi.c:421:17:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:441:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:441:23:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/efi.c:441:23:    got struct efi_runtime_services_t [usertype] *runtime
+arch/x86/kernel/efi.c:444:20: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:444:20:    expected void *[addressable] [toplevel] [assigned] map
+arch/x86/kernel/efi.c:444:20:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:521:28: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/efi.c:521:28:    expected void *[assigned] va
+arch/x86/kernel/efi.c:521:28:    got void [noderef] <asn:2>*
+arch/x86/kernel/efi.c:577:29: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/efi.c:577:29:    expected void [noderef] <asn:2>*addr
+arch/x86/kernel/efi.c:577:29:    got void *[addressable] [toplevel] [assigned] map
+  CC      arch/x86/kernel/efi.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/efi.h:19,
+                 from arch/x86/kernel/efi.c:31:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/efi_64.c
+  CC      arch/x86/kernel/efi_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/rtc.h:103,
+                 from include/linux/efi.h:19,
+                 from arch/x86/kernel/efi_64.c:26:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  AS      arch/x86/kernel/efi_stub_64.o
+  CHECK   arch/x86/kernel/early_printk.c
+  CC      arch/x86/kernel/early_printk.o
+  CHECK   arch/x86/kernel/hpet.c
+  CC      arch/x86/kernel/hpet.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/hpet.c:3:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/k8.c
+  CC      arch/x86/kernel/k8.o
+  CHECK   arch/x86/kernel/pcspeaker.c
+  CC      arch/x86/kernel/pcspeaker.o
+  CHECK   arch/x86/kernel/microcode_core.c
+  CC      arch/x86/kernel/microcode_core.o
+  CHECK   arch/x86/kernel/microcode_intel.c
+arch/x86/kernel/microcode_intel.c:449:35: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/microcode_intel.c:449:35:    expected void const [noderef] <asn:1>*from
+arch/x86/kernel/microcode_intel.c:449:35:    got void const *from
+arch/x86/kernel/microcode_intel.c:455:45: warning: cast removes address space of expression
+  CC      arch/x86/kernel/microcode_intel.o
+  CHECK   arch/x86/kernel/microcode_amd.c
+  CC      arch/x86/kernel/microcode_amd.o
+  LD      arch/x86/kernel/microcode.o
+  CHECK   arch/x86/kernel/check.c
+arch/x86/kernel/check.c:60:13: warning: symbol 'setup_bios_corruption_check' was not declared. Should it be static?
+arch/x86/kernel/check.c:112:6: warning: symbol 'check_for_bios_corruption' was not declared. Should it be static?
+  CC      arch/x86/kernel/check.o
+  CHECK   arch/x86/kernel/pci-swiotlb.c
+  CC      arch/x86/kernel/pci-swiotlb.o
+  CHECK   arch/x86/kernel/pmtimer_64.c
+  CC      arch/x86/kernel/pmtimer_64.o
+  CHECK   arch/x86/kernel/audit_64.c
+  CC      arch/x86/kernel/audit_64.o
+  CHECK   arch/x86/kernel/pci-gart_64.c
+  CC      arch/x86/kernel/pci-gart_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/pci-gart_64.c:25:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/aperture_64.c
+  CC      arch/x86/kernel/aperture_64.o
+  CHECK   arch/x86/kernel/pci-calgary_64.c
+include/linux/spinlock.h:339:9: warning: context imbalance in 'iommu_range_alloc' - unexpected unlock
+  CC      arch/x86/kernel/pci-calgary_64.o
+  CHECK   arch/x86/kernel/tce_64.c
+  CC      arch/x86/kernel/tce_64.o
+  CHECK   arch/x86/kernel/amd_iommu_init.c
+arch/x86/kernel/amd_iommu_init.c:220:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:220:38:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu_init.c:220:38:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:224:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:224:38:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu_init.c:224:38:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:237:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:237:38:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu_init.c:237:38:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:246:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:246:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:246:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:248:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:248:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:248:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:255:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:255:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:255:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:257:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:257:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:257:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:297:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:297:13:    expected unsigned char [usertype] *ret
+arch/x86/kernel/amd_iommu_init.c:297:13:    got void [noderef] <asn:2>*
+arch/x86/kernel/amd_iommu_init.c:309:30: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:309:30:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:309:30:    got unsigned char [usertype] *mmio_base
+arch/x86/kernel/amd_iommu_init.c:459:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:459:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:459:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:460:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:460:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:460:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:478:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:478:38:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu_init.c:478:38:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:513:38: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:513:38:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu_init.c:513:38:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:517:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:517:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:517:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:518:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu_init.c:518:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu_init.c:518:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu_init.c:1028:37: warning: Using plain integer as NULL pointer
+  CC      arch/x86/kernel/amd_iommu_init.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/kernel/amd_iommu_init.c:25:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/kernel/amd_iommu.c
+arch/x86/kernel/amd_iommu.c:357:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:357:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:357:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:358:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:358:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:358:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:365:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:365:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:365:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:396:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:396:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:396:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:398:21: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:398:21:    expected void volatile [noderef] <asn:2>*dst
+arch/x86/kernel/amd_iommu.c:398:21:    got unsigned char [usertype] *[assigned] target
+arch/x86/kernel/amd_iommu.c:400:39: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:400:39:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:400:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:403:39: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:403:39:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:403:39:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:441:49: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/kernel/amd_iommu.c:441:49:    expected void const volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:441:49:    got unsigned char [usertype] *
+arch/x86/kernel/amd_iommu.c:447:41: warning: incorrect type in argument 2 (different address spaces)
+arch/x86/kernel/amd_iommu.c:447:41:    expected void volatile [noderef] <asn:2>*addr
+arch/x86/kernel/amd_iommu.c:447:41:    got unsigned char [usertype] *
+  CC      arch/x86/kernel/amd_iommu.o
+arch/x86/kernel/amd_iommu.c: In function ‘domain_for_device’:
+arch/x86/kernel/amd_iommu.c:1618:13: warning: variable ‘alias’ set but not used [-Wunused-but-set-variable]
+  u16 devid, alias;
+             ^
+  CHECK   arch/x86/kernel/mmconf-fam10h_64.c
+  CC      arch/x86/kernel/mmconf-fam10h_64.o
+  CHECK   arch/x86/kernel/vsmp_64.c
+  CC      arch/x86/kernel/vsmp_64.o
+  LD      arch/x86/kernel/built-in.o
+  AS      arch/x86/kernel/head_64.o
+  CHECK   arch/x86/kernel/head64.c
+  CC      arch/x86/kernel/head64.o
+  CHECK   arch/x86/kernel/head.c
+  CC      arch/x86/kernel/head.o
+  CHECK   arch/x86/kernel/init_task.c
+  CC      arch/x86/kernel/init_task.o
+  LDS     arch/x86/kernel/vmlinux.lds
+  CHECK   arch/x86/kernel/test_nx.c
+  CC [M]  arch/x86/kernel/test_nx.o
+arch/x86/kernel/test_nx.c: In function ‘test_NX’:
+arch/x86/kernel/test_nx.c:111:6: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+  int ret = 0;
+      ^
+  CHECK   arch/x86/mm/init.c
+  CC      arch/x86/mm/init.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from include/asm-generic/tlb.h:17,
+                 from /cmpt816/linux/arch/x86/include/asm/tlb.h:9,
+                 from arch/x86/mm/init.c:15:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/init_64.c
+arch/x86/mm/init_64.c:295:13: warning: incorrect type in assignment (different address spaces)
+arch/x86/mm/init_64.c:295:13:    expected void *[assigned] adr
+arch/x86/mm/init_64.c:295:13:    got void [noderef] <asn:2>*
+arch/x86/mm/init_64.c:306:23: warning: incorrect type in argument 1 (different address spaces)
+arch/x86/mm/init_64.c:306:23:    expected void [noderef] <asn:2>*addr
+arch/x86/mm/init_64.c:306:23:    got void *adr
+  CC      arch/x86/mm/init_64.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from arch/x86/mm/init_64.c:22:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/fault.c
+  CC      arch/x86/mm/fault.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from arch/x86/mm/fault.c:16:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/ioremap.c
+  CC      arch/x86/mm/ioremap.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from arch/x86/mm/ioremap.c:22:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/extable.c
+  CC      arch/x86/mm/extable.o
+  CHECK   arch/x86/mm/pageattr.c
+arch/x86/mm/pageattr.c:1000:5: warning: symbol '_set_memory_array' was not declared. Should it be static?
+  CC      arch/x86/mm/pageattr.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/mm/pageattr.c:10:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/mmap.c
+  CC      arch/x86/mm/mmap.o
+  CHECK   arch/x86/mm/pat.c
+  CC      arch/x86/mm/pat.o
+  CHECK   arch/x86/mm/pgtable.c
+  CC      arch/x86/mm/pgtable.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from /cmpt816/linux/arch/x86/include/asm/pgalloc.h:6,
+                 from arch/x86/mm/pgtable.c:3:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/physaddr.c
+  CC      arch/x86/mm/physaddr.o
+  CHECK   arch/x86/mm/gup.c
+  CC      arch/x86/mm/gup.o
+  CHECK   arch/x86/mm/setup_nx.c
+  CC      arch/x86/mm/setup_nx.o
+  CHECK   arch/x86/mm/pat_rbtree.c
+  CC      arch/x86/mm/pat_rbtree.o
+  CHECK   arch/x86/mm/tlb.c
+  CC      arch/x86/mm/tlb.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from arch/x86/mm/tlb.c:6:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/hugetlbpage.c
+  CC      arch/x86/mm/hugetlbpage.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/pagemap.h:15,
+                 from include/linux/mempolicy.h:70,
+                 from include/linux/hugetlb.h:12,
+                 from arch/x86/mm/hugetlbpage.c:10:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/mm/numa.c
+  CC      arch/x86/mm/numa.o
+  CHECK   arch/x86/mm/numa_64.c
+  CC      arch/x86/mm/numa_64.o
+  CHECK   arch/x86/mm/k8topology_64.c
+  CC      arch/x86/mm/k8topology_64.o
+  CHECK   arch/x86/mm/srat_64.c
+  CC      arch/x86/mm/srat_64.o
+  LD      arch/x86/mm/built-in.o
+  CHECK   arch/x86/vdso/vma.c
+arch/x86/vdso/vextern.h:14:1: warning: incorrect type in assignment (different modifiers)
+arch/x86/vdso/vextern.h:14:1:    expected unsigned long *<noident>
+arch/x86/vdso/vextern.h:14:1:    got unsigned long extern volatile [toplevel] *<noident>
+  CC      arch/x86/vdso/vma.o
+  LDS     arch/x86/vdso/vdso.lds
+  AS      arch/x86/vdso/vdso-note.o
+  CHECK   arch/x86/vdso/vclock_gettime.c
+arch/x86/vdso/vclock_gettime.c:114:13: warning: symbol '__vdso_clock_gettime' was not declared. Should it be static?
+arch/x86/vdso/vclock_gettime.c:136:13: warning: symbol '__vdso_gettimeofday' was not declared. Should it be static?
+  CC      arch/x86/vdso/vclock_gettime.o
+In file included from /cmpt816/linux/arch/x86/include/asm/hardirq.h:5:0,
+                 from include/linux/hardirq.h:10,
+                 from include/linux/interrupt.h:12,
+                 from /cmpt816/linux/arch/x86/include/asm/hpet.h:93,
+                 from arch/x86/vdso/vclock_gettime.c:22:
+include/linux/irq.h: In function ‘alloc_desc_masks’:
+include/linux/irq.h:442:8: warning: variable ‘gfp’ set but not used [-Wunused-but-set-variable]
+  gfp_t gfp = GFP_ATOMIC;
+        ^
+  CHECK   arch/x86/vdso/vgetcpu.c
+arch/x86/vdso/vgetcpu.c:17:1: warning: symbol '__vdso_getcpu' was not declared. Should it be static?
+  CC      arch/x86/vdso/vgetcpu.o
+  CHECK   arch/x86/vdso/vvar.c
+arch/x86/vdso/vextern.h:14:1: warning: symbol 'vdso_jiffies' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:15:1: warning: symbol 'vdso_vgetcpu_mode' was not declared. Should it be static?
+arch/x86/vdso/vextern.h:16:1: warning: symbol 'vdso_vsyscall_gtod_data' was not declared. Should it be static?
+  CC      arch/x86/vdso/vvar.o
+  VDSO    arch/x86/vdso/vdso.so.dbg
+gcc: error: elf_x86_64: No such file or directory
+gcc: error: unrecognized command line option ‘-m’
+  OBJCOPY arch/x86/vdso/vdso.so
+objcopy: 'arch/x86/vdso/vdso.so.dbg': No such file
+make[2]: *** [arch/x86/vdso/vdso.so] Error 1
+make[1]: *** [arch/x86/vdso] Error 2
+make: *** [arch/x86] Error 2

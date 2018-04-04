@@ -1,0 +1,31 @@
+CCF-V1-L
+@	3
+/cmpt816/tmp/arch/x86/kernel/early_printk.c	329	353
+/cmpt816/tmp/arch/x86/kernel/early_printk.c	358	381
+@	3
+/cmpt816/tmp/arch/x86/kernel/signal.c	292	324
+/cmpt816/tmp/arch/x86/kernel/signal.c	363	393
+@	2
+/cmpt816/tmp/arch/x86/kernel/signal.c	347	359
+/cmpt816/tmp/arch/x86/kernel/signal.c	440	455
+@	2
+/cmpt816/tmp/arch/x86/kernel/ds.c	640	667
+/cmpt816/tmp/arch/x86/kernel/ds.c	700	726
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	366	386
+/cmpt816/tmp/arch/x86/kernel/i387.c	396	417
+@	2
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	11	25
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	53	67
+@	2
+/cmpt816/tmp/arch/x86/mm/gup.c	108	138
+/cmpt816/tmp/arch/x86/mm/gup.c	165	195
+@	3
+/cmpt816/tmp/arch/x86/kernel/aperture_64.c	286	304
+/cmpt816/tmp/arch/x86/kernel/aperture_64.c	382	401
+@	3
+/cmpt816/tmp/arch/x86/kernel/e820.c	427	458
+/cmpt816/tmp/arch/x86/kernel/e820.c	479	509
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	110	134
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	278	298

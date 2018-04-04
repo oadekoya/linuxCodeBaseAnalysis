@@ -1,0 +1,25 @@
+CCF-V1-L
+@	1
+/cmpt816/tmp/arch/x86/mm/pat.c	287	331
+/cmpt816/tmp/arch/x86/mm/pat.c	339	383
+@	3
+/cmpt816/tmp/arch/x86/kernel/traps_64.c	999	1044
+/cmpt816/tmp/arch/x86/kernel/traps_64.c	1068	1103
+@	2
+/cmpt816/tmp/arch/x86/kernel/io_apic_64.c	1975	1997
+/cmpt816/tmp/arch/x86/kernel/io_apic_64.c	2048	2070
+@	3
+/cmpt816/tmp/arch/x86/kernel/i387.c	340	360
+/cmpt816/tmp/arch/x86/kernel/i387.c	370	391
+@	2
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	11	25
+/cmpt816/tmp/arch/x86/kernel/cpu/proc.c	53	67
+@	1
+/cmpt816/tmp/arch/x86/kernel/cpu/mcheck/mce_amd_64.c	125	149
+/cmpt816/tmp/arch/x86/kernel/cpu/mcheck/mce_amd_64.c	197	221
+@	1
+/cmpt816/tmp/arch/x86/kernel/e820_64.c	240	256
+/cmpt816/tmp/arch/x86/kernel/e820_64.c	273	290
+@	3
+/cmpt816/tmp/arch/x86/kernel/sys_x86_64.c	108	132
+/cmpt816/tmp/arch/x86/mm/hugetlbpage.c	245	265
